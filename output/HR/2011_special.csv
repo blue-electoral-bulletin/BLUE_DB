@@ -1,0 +1,54 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+HR,2011.csv,560,HR_HRZZAF,Afghanistan,Afghanistan,special_foreign_hr
+HR,2011.csv,561,HR_HRZZAL,Albania,Albania,special_foreign_hr
+HR,2011.csv,562,HR_HRZZAR,Argentina,Argentina,special_foreign_hr
+HR,2011.csv,563,HR_HRZZAT,Austria,Austria,special_foreign_hr
+HR,2011.csv,564,HR_HRZZAU,Australia,Australia,special_foreign_hr
+HR,2011.csv,565,HR_HRZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,special_foreign_hr
+HR,2011.csv,566,HR_HRZZBE,Belgium,Belgium,special_foreign_hr
+HR,2011.csv,567,HR_HRZZBG,Bulgaria,Bulgaria,special_foreign_hr
+HR,2011.csv,568,HR_HRZZCA,Canada,Canada,special_foreign_hr
+HR,2011.csv,569,HR_HRZZCH,Switzerland,Switzerland,special_foreign_hr
+HR,2011.csv,570,HR_HRZZCL,Chile,Chile,special_foreign_hr
+HR,2011.csv,571,HR_HRZZCN,China,China,special_foreign_hr
+HR,2011.csv,572,HR_HRZZCZ,Czech Republic,Czech Republic,special_foreign_hr
+HR,2011.csv,573,HR_HRZZDE,Germany,Germany,special_foreign_hr
+HR,2011.csv,574,HR_HRZZDK,Denmark,Denmark,special_foreign_hr
+HR,2011.csv,575,HR_HRZZDZ,ALŽIR,ALŽIR,special_foreign_hr
+HR,2011.csv,576,HR_HRZZEG,Egypt,Egypt,special_foreign_hr
+HR,2011.csv,577,HR_HRZZES,Spain,Spain,special_foreign_hr
+HR,2011.csv,578,HR_HRZZFI,Finland,Finland,special_foreign_hr
+HR,2011.csv,579,HR_HRZZFR,France,France,special_foreign_hr
+HR,2011.csv,580,HR_HRZZGB,United Kingdom,United Kingdom,special_foreign_hr
+HR,2011.csv,581,HR_HRZZGR,Greece,Greece,special_foreign_hr
+HR,2011.csv,582,HR_HRZZHR,DIJASPORA U RH,DIJASPORA U RH,special_foreign_hr
+HR,2011.csv,583,HR_HRZZHU,Hungary,Hungary,special_foreign_hr
+HR,2011.csv,584,HR_HRZZID,Indonesia,Indonesia,special_foreign_hr
+HR,2011.csv,585,HR_HRZZIE,Ireland,Ireland,special_foreign_hr
+HR,2011.csv,586,HR_HRZZIL,Israel,Israel,special_foreign_hr
+HR,2011.csv,587,HR_HRZZIN,India,India,special_foreign_hr
+HR,2011.csv,588,HR_HRZZIR,IRAN,IRAN,special_foreign_hr
+HR,2011.csv,589,HR_HRZZIT,Italy,Italy,special_foreign_hr
+HR,2011.csv,590,HR_HRZZJP,Japan,Japan,special_foreign_hr
+HR,2011.csv,591,HR_HRZZMA,MAROKO,MAROKO,special_foreign_hr
+HR,2011.csv,592,HR_HRZZMK,MAKEDONIJA,MAKEDONIJA,special_foreign_hr
+HR,2011.csv,593,HR_HRZZME,Montenegro,Montenegro,special_foreign_hr
+HR,2011.csv,594,HR_HRZZMY,MALEZIJA,MALEZIJA,special_foreign_hr
+HR,2011.csv,595,HR_HRZZNL,Netherlands,Netherlands,special_foreign_hr
+HR,2011.csv,596,HR_HRZZNO,Norway,Norway,special_foreign_hr
+HR,2011.csv,597,HR_HRZZNZ,NOVI ZELAND,NOVI ZELAND,special_foreign_hr
+HR,2011.csv,598,HR_HRZZPL,Poland,Poland,special_foreign_hr
+HR,2011.csv,599,HR_HRZZPT,Portugal,Portugal,special_foreign_hr
+HR,2011.csv,600,HR_HRZZRO,Romania,Romania,special_foreign_hr
+HR,2011.csv,601,HR_HRZZRS,Serbia,Serbia,special_foreign_hr
+HR,2011.csv,602,HR_HRZZRU,Russia,Russia,special_foreign_hr
+HR,2011.csv,603,HR_HRZZSE,Sweden,Sweden,special_foreign_hr
+HR,2011.csv,604,HR_HRZZSI,Slovenia,Slovenia,special_foreign_hr
+HR,2011.csv,605,HR_HRZZSK,Slovakia,Slovakia,special_foreign_hr
+HR,2011.csv,606,HR_HRZZSY,SIRIJA,SIRIJA,special_foreign_hr
+HR,2011.csv,607,HR_HRZZTR,Turkey,Turkey,special_foreign_hr
+HR,2011.csv,608,HR_HRZZUA,Ukraine,Ukraine,special_foreign_hr
+HR,2011.csv,609,HR_HRZZUS,United States,United States,special_foreign_hr
+HR,2011.csv,610,HR_HRZZVE,VENECUELA,VENECUELA,special_foreign_hr
+HR,2011.csv,611,HR_HRZZXK,Kosovo,Kosovo,special_foreign_hr
+HR,2011.csv,612,HR_HRZZZA,South Africa,South Africa,special_foreign_hr

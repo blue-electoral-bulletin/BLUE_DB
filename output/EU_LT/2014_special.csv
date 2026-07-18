@@ -1,0 +1,42 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+LT,2014.csv,1911,LT_LTZZIE,Ireland,Ireland,special_foreign_voter_lt
+LT,2014.csv,1912,LT_LTZZAM,Armenia,Armenia,special_foreign_voter_lt
+LT,2014.csv,1913,LT_LTZZAT,Austria,Austria,special_foreign_voter_lt
+LT,2014.csv,1914,LT_LTZZAZ,Azerbaijan,Azerbaijan,special_foreign_voter_lt
+LT,2014.csv,1915,LT_LTZZBE,Belgium,Belgium,special_foreign_voter_lt
+LT,2014.csv,1916,LT_LTZZBG,Bulgaria,Bulgaria,special_foreign_voter_lt
+LT,2014.csv,1917,LT_LTZZCZ,Czech Republic,Czech Republic,special_foreign_voter_lt
+LT,2014.csv,1918,LT_LTZZDK,Denmark,Denmark,special_foreign_voter_lt
+LT,2014.csv,1919,LT_LTZZEG,Egypt,Egypt,special_foreign_voter_lt
+LT,2014.csv,1920,LT_LTZZEE,Estonia,Estonia,special_foreign_voter_lt
+LT,2014.csv,1921,LT_LTZZGR,Greece,Greece,special_foreign_voter_lt
+LT,2014.csv,1922,LT_LTZZGE,Georgia,Georgia,special_foreign_voter_lt
+LT,2014.csv,1923,LT_LTZZIT,Italy,Italy,special_foreign_voter_lt
+LT,2014.csv,1924,LT_LTZZIL,Israel,Israel,special_foreign_voter_lt
+LT,2014.csv,1925,LT_LTZZJP,Japan,Japan,special_foreign_voter_lt
+LT,2014.csv,1926,LT_LTZZKZ,Kazakhstan,Kazakhstan,special_foreign_voter_lt
+LT,2014.csv,1928,LT_LTZZCN,China,China,special_foreign_voter_lt
+LT,2014.csv,1929,LT_LTZZLV,Latvia,Latvia,special_foreign_voter_lt
+LT,2014.csv,1930,LT_LTZZMD,Moldova,Moldova,special_foreign_voter_lt
+LT,2014.csv,1931,LT_LTZZNL,Netherlands,Netherlands,special_foreign_voter_lt
+LT,2014.csv,1932,LT_LTZZNO,Norway,Norway,special_foreign_voter_lt
+LT,2014.csv,1933,LT_LTZZPT,Portugal,Portugal,special_foreign_voter_lt
+LT,2014.csv,1934,LT_LTZZFR,France,France,special_foreign_voter_lt
+LT,2014.csv,1935,LT_LTZZRO,Romania,Romania,special_foreign_voter_lt
+LT,2014.csv,1936,LT_LTZZSI,Slovenia,Slovenia,special_foreign_voter_lt
+LT,2014.csv,1937,LT_LTZZFI,Finland,Finland,special_foreign_voter_lt
+LT,2014.csv,1938,LT_LTZZSE,Sweden,Sweden,special_foreign_voter_lt
+LT,2014.csv,1939,LT_LTZZCH,Switzerland,Switzerland,special_foreign_voter_lt
+LT,2014.csv,1940,LT_LTZZTR,Turkey,Turkey,special_foreign_voter_lt
+LT,2014.csv,1941,LT_LTZZUA,Ukraine,Ukraine,special_foreign_voter_lt
+LT,2014.csv,1942,LT_LTZZHU,Hungary,Hungary,special_foreign_voter_lt
+LT,2014.csv,1943,LT_LTZZIN,India,India,special_foreign_voter_lt
+LT,2014.csv,1944,LT_LTZZBR,Brazil,Brazil,special_foreign_voter_lt
+LT,2014.csv,1945,LT_LTZZBY,Belarus,Belarus,special_foreign_voter_lt
+LT,2014.csv,1947,LT_LTZZES,Spain,Spain,special_foreign_voter_lt
+LT,2014.csv,1949,LT_LTZZUS,United States,United States,special_foreign_voter_lt
+LT,2014.csv,1952,LT_LTZZGB,United Kingdom,United Kingdom,special_foreign_voter_lt
+LT,2014.csv,1953,LT_LTZZCA,Canada,Canada,special_foreign_voter_lt
+LT,2014.csv,1954,LT_LTZZPL,Poland,Poland,special_foreign_voter_lt
+LT,2014.csv,1956,LT_LTZZRU,Russia,Russia,special_foreign_voter_lt
+LT,2014.csv,1960,LT_LTZZDE,Germany,Germany,special_foreign_voter_lt

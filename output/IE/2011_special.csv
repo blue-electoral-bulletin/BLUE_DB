@@ -1,0 +1,44 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+IE,2011.csv,0,IE_001,Carlow Kilkenny,Carlow Kilkenny,matched_ie_constituency
+IE,2011.csv,1,IE_002,Cavan Monaghan,Cavan Monaghan,matched_ie_constituency
+IE,2011.csv,2,IE_003,Clare,Clare,matched_ie_constituency
+IE,2011.csv,3,IE_004,Cork East,Cork East,matched_ie_constituency
+IE,2011.csv,4,IE_005,Cork North Central,Cork North Central,matched_ie_constituency
+IE,2011.csv,5,IE_006,Cork North West,Cork North West,matched_ie_constituency
+IE,2011.csv,6,IE_007,Cork South Central,Cork South Central,matched_ie_constituency
+IE,2011.csv,7,IE_008,Cork South West,Cork South West,matched_ie_constituency
+IE,2011.csv,8,IE_010,Donegal North East,Donegal North East,matched_ie_constituency
+IE,2011.csv,9,IE_011,Donegal South West,Donegal South West,matched_ie_constituency
+IE,2011.csv,10,IE_014,Dublin Central,Dublin Central,matched_ie_constituency
+IE,2011.csv,11,IE_018,Dublin Mid West,Dublin Mid West,matched_ie_constituency
+IE,2011.csv,12,IE_019,Dublin North,Dublin North,matched_ie_constituency
+IE,2011.csv,13,IE_020,Dublin North Central,Dublin North Central,matched_ie_constituency
+IE,2011.csv,14,IE_021,Dublin North East,Dublin North East,matched_ie_constituency
+IE,2011.csv,15,IE_022,Dublin North West,Dublin North West,matched_ie_constituency
+IE,2011.csv,16,IE_024,Dublin South,Dublin South,matched_ie_constituency
+IE,2011.csv,17,IE_025,Dublin South Central,Dublin South Central,matched_ie_constituency
+IE,2011.csv,18,IE_026,Dublin South East,Dublin South East,matched_ie_constituency
+IE,2011.csv,19,IE_027,Dublin South West,Dublin South West,matched_ie_constituency
+IE,2011.csv,20,IE_028,Dublin West,Dublin West,matched_ie_constituency
+IE,2011.csv,21,IE_029,Dún Laoghaire,Dún Laoghaire,matched_ie_constituency
+IE,2011.csv,22,IE_030,Galway East,Galway East,matched_ie_constituency
+IE,2011.csv,23,IE_031,Galway West,Galway West,matched_ie_constituency
+IE,2011.csv,24,IE_034,Kerry North Limerick West,Kerry North Limerick West,matched_ie_constituency
+IE,2011.csv,25,IE_035,Kerry South,Kerry South,matched_ie_constituency
+IE,2011.csv,26,IE_036,Kildare North,Kildare North,matched_ie_constituency
+IE,2011.csv,27,IE_037,Kildare South,Kildare South,matched_ie_constituency
+IE,2011.csv,28,IE_038,Laoighis Offaly,Laoighis Offaly,matched_ie_constituency
+IE,2011.csv,29,IE_041,Limerick,Limerick,matched_ie_constituency
+IE,2011.csv,30,IE_042,Limerick City,Limerick City,matched_ie_constituency
+IE,2011.csv,31,IE_047,Longford Westmeath,Longford Westmeath,matched_ie_constituency
+IE,2011.csv,32,IE_048,Louth,Louth,matched_ie_constituency
+IE,2011.csv,33,IE_049,Mayo,Mayo,matched_ie_constituency
+IE,2011.csv,34,IE_051,Meath East,Meath East,matched_ie_constituency
+IE,2011.csv,35,IE_052,Meath West,Meath West,matched_ie_constituency
+IE,2011.csv,36,IE_055,Roscommon Leitrim South,Roscommon Leitrim South,matched_ie_constituency
+IE,2011.csv,37,IE_057,Sligo Leitrim North,Sligo Leitrim North,matched_ie_constituency
+IE,2011.csv,38,IE_059,Tipperary North,Tipperary North,matched_ie_constituency
+IE,2011.csv,39,IE_060,Tipperary South,Tipperary South,matched_ie_constituency
+IE,2011.csv,40,IE_061,Waterford,Waterford,matched_ie_constituency
+IE,2011.csv,41,IE_063,Wexford,Wexford,matched_ie_constituency
+IE,2011.csv,42,IE_064,Wicklow,Wicklow,matched_ie_constituency

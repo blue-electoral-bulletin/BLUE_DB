@@ -1,0 +1,97 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RO,2019.csv,13,ROZZAF,AFGANISTAN,AFGANISTAN,special_foreign_ro
+RO,2019.csv,14,ROZZZA,AFRICA DE SUD,AFRICA DE SUD,special_foreign_ro
+RO,2019.csv,26,ROZZAL,ALBANIA,ALBANIA,special_foreign_ro
+RO,2019.csv,42,ROZZDZ,ALGERIA,ALGERIA,special_foreign_ro
+RO,2019.csv,64,ROZZAO,ANGOLA,ANGOLA,special_foreign_ro
+RO,2019.csv,76,ROZZSA,ARABIA SAUDITĂ,ARABIA SAUDITĂ,special_foreign_ro
+RO,2019.csv,84,ROZZAR,ARGENTINA,ARGENTINA,special_foreign_ro
+RO,2019.csv,90,ROZZAM,ARMENIA,ARMENIA,special_foreign_ro
+RO,2019.csv,100,ROZZAU,Australia,Australia,matched_foreign_country_name
+RO,2019.csv,101,ROZZAT,AUSTRIA,AUSTRIA,special_foreign_ro
+RO,2019.csv,109,ROZZAZ,AZERBAIDJAN,AZERBAIDJAN,special_foreign_ro
+RO,2019.csv,154,ROZZBY,BELARUS,BELARUS,special_foreign_ro
+RO,2019.csv,158,ROZZBE,BELGIA,BELGIA,special_foreign_ro
+RO,2019.csv,271,ROZZBA,BOSNIA ȘI HERȚEGOVINA,BOSNIA ȘI HERȚEGOVINA,special_foreign_ro
+RO,2019.csv,301,ROZZBR,BRAZILIA,BRAZILIA,special_foreign_ro
+RO,2019.csv,375,ROZZBG,BULGARIA,BULGARIA,special_foreign_ro
+RO,2019.csv,477,ROZZCA,Canada,Canada,matched_foreign_country_name
+RO,2019.csv,542,ROZZCL,CHILE,CHILE,special_foreign_ro
+RO,2019.csv,545,ROZZCN,CHINA,CHINA,special_foreign_ro
+RO,2019.csv,588,ROZZCY,CIPRU,CIPRU,special_foreign_ro
+RO,2019.csv,632,ROZZCO,COLUMBIA,COLUMBIA,special_foreign_ro
+RO,2019.csv,745,ROZZHR,CROAȚIA,CROAȚIA,special_foreign_ro
+RO,2019.csv,758,ROZZCU,CUBA,CUBA,special_foreign_ro
+RO,2019.csv,847,ROZZDK,DANEMARCA,DANEMARCA,special_foreign_ro
+RO,2019.csv,997,ROZZEG,EGIPT,EGIPT,special_foreign_ro
+RO,2019.csv,998,ROZZCH,ELVEȚIA,ELVEȚIA,special_foreign_ro
+RO,2019.csv,999,ROZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+RO,2019.csv,1005,ROZZEE,ESTONIA,ESTONIA,special_foreign_ro
+RO,2019.csv,1006,ROZZET,ETIOPIA,ETIOPIA,special_foreign_ro
+RO,2019.csv,1011,ROZZRU,FEDERAŢIA RUSĂ,FEDERAŢIA RUSĂ,special_foreign_ro
+RO,2019.csv,1024,ROZZPH,FILIPINE,FILIPINE,special_foreign_ro
+RO,2019.csv,1026,ROZZFI,FINLANDA,FINLANDA,special_foreign_ro
+RO,2019.csv,1041,ROZZFR,FRANȚA,FRANȚA,special_foreign_ro
+RO,2019.csv,1101,ROZZGE,GEORGIA,GEORGIA,special_foreign_ro
+RO,2019.csv,1103,ROZZDE,GERMANIA,GERMANIA,special_foreign_ro
+RO,2019.csv,1186,ROZZGR,GRECIA,GRECIA,special_foreign_ro
+RO,2019.csv,1358,ROZZIN,INDIA,INDIA,special_foreign_ro
+RO,2019.csv,1366,ROZZJO,IORDANIA,IORDANIA,special_foreign_ro
+RO,2019.csv,1372,ROZZIQ,IRAK,IRAK,special_foreign_ro
+RO,2019.csv,1373,ROZZIR,IRAN,IRAN,special_foreign_ro
+RO,2019.csv,1375,ROZZIE,IRLANDA,IRLANDA,special_foreign_ro
+RO,2019.csv,1376,ROZZIS,ISLANDA,ISLANDA,special_foreign_ro
+RO,2019.csv,1378,ROZZIL,ISRAEL,ISRAEL,special_foreign_ro
+RO,2019.csv,1382,ROZZIT,ITALIA,ITALIA,special_foreign_ro
+RO,2019.csv,1401,ROZZJP,JAPONIA,JAPONIA,special_foreign_ro
+RO,2019.csv,1423,ROZZKZ,KAZAHSTAN,KAZAHSTAN,special_foreign_ro
+RO,2019.csv,1424,ROZZKE,KENYA,KENYA,special_foreign_ro
+RO,2019.csv,1425,ROZZKW,KUWEIT,KUWEIT,special_foreign_ro
+RO,2019.csv,1452,ROZZLB,LIBAN,LIBAN,special_foreign_ro
+RO,2019.csv,1464,ROZZLT,LITUANIA,LITUANIA,special_foreign_ro
+RO,2019.csv,1513,ROZZLU,LUXEMBURG,LUXEMBURG,special_foreign_ro
+RO,2019.csv,1524,ROZZ99,MACEDONIA DE NORD,MACEDONIA DE NORD,special_foreign_ro
+RO,2019.csv,1529,ROZZMY,MALAEZIA,MALAEZIA,special_foreign_ro
+RO,2019.csv,1534,ROZZMT,MALTA,MALTA,special_foreign_ro
+RO,2019.csv,1544,ROZZMA,MAROC,MAROC,special_foreign_ro
+RO,2019.csv,1565,ROZZMX,MEXIC,MEXIC,special_foreign_ro
+RO,2019.csv,1764,ROZZME,MUNTENEGRU,MUNTENEGRU,special_foreign_ro
+RO,2019.csv,1859,ROZZNG,NIGERIA,NIGERIA,special_foreign_ro
+RO,2019.csv,1865,ROZZNO,NORVEGIA,NORVEGIA,special_foreign_ro
+RO,2019.csv,1866,ROZZNZ,NOUA ZEELANDĂ,NOUA ZEELANDĂ,special_foreign_ro
+RO,2019.csv,1907,ROZZNL,OLANDA,OLANDA,special_foreign_ro
+RO,2019.csv,1915,ROZZOM,Oman,Oman,matched_foreign_country_name
+RO,2019.csv,2162,ROZZPK,PAKISTAN,PAKISTAN,special_foreign_ro
+RO,2019.csv,2164,ROZZPS,PALESTINA,PALESTINA,special_foreign_ro
+RO,2019.csv,2192,ROZZPE,PERU,PERU,special_foreign_ro
+RO,2019.csv,2283,ROZZPL,POLONIA,POLONIA,special_foreign_ro
+RO,2019.csv,2299,ROZZPT,PORTUGALIA,PORTUGALIA,special_foreign_ro
+RO,2019.csv,2374,ROZZQA,QATAR,QATAR,special_foreign_ro
+RO,2019.csv,2405,ROZZTH,REGATUL THAILANDEI,REGATUL THAILANDEI,special_foreign_ro
+RO,2019.csv,2406,ROZZGB,REGATUL UNIT AL MARII BRITANII ŞI IRLANDEI DE NORD,REGATUL UNIT AL MARII BRITANII ŞI IRLANDEI DE NORD,special_foreign_ro
+RO,2019.csv,2414,ROZZCZ,REPUBLICA CEHĂ,REPUBLICA CEHĂ,special_foreign_ro
+RO,2019.csv,2415,ROZZKR,REPUBLICA COREEA,REPUBLICA COREEA,special_foreign_ro
+RO,2019.csv,2416,ROZZID,REPUBLICA INDONEZIA,REPUBLICA INDONEZIA,special_foreign_ro
+RO,2019.csv,2417,ROZZMD,REPUBLICA MOLDOVA,REPUBLICA MOLDOVA,special_foreign_ro
+RO,2019.csv,2418,ROZZ99,REPUBLICA POPULARĂ DEMOCRATĂ COREEANĂ,REPUBLICA POPULARĂ DEMOCRATĂ COREEANĂ,special_foreign_ro
+RO,2019.csv,2419,ROZZSG,REPUBLICA SINGAPORE,REPUBLICA SINGAPORE,special_foreign_ro
+RO,2019.csv,2574,ROZZSN,SENEGAL,SENEGAL,special_foreign_ro
+RO,2019.csv,2575,ROZZRS,SERBIA,SERBIA,special_foreign_ro
+RO,2019.csv,2596,ROZZSY,Syria,Syria,matched_foreign_country_name
+RO,2019.csv,2611,ROZZSK,SLOVACIA,SLOVACIA,special_foreign_ro
+RO,2019.csv,2612,ROZZSI,SLOVENIA,SLOVENIA,special_foreign_ro
+RO,2019.csv,2633,ROZZES,SPANIA,SPANIA,special_foreign_ro
+RO,2019.csv,2640,ROZZLK,SRI LANKA,SRI LANKA,special_foreign_ro
+RO,2019.csv,2678,ROZZUS,SUA,SUA,special_foreign_ro
+RO,2019.csv,2684,ROZZSD,SUDAN,SUDAN,special_foreign_ro
+RO,2019.csv,2686,ROZZSE,SUEDIA,SUEDIA,special_foreign_ro
+RO,2019.csv,2875,ROZZTN,TUNISIA,TUNISIA,special_foreign_ro
+RO,2019.csv,2878,ROZZTR,TURCIA,TURCIA,special_foreign_ro
+RO,2019.csv,2884,ROZZTM,TURKMENISTAN,TURKMENISTAN,special_foreign_ro
+RO,2019.csv,2923,ROZZUA,UCRAINA,UCRAINA,special_foreign_ro
+RO,2019.csv,2939,ROZZHU,UNGARIA,UNGARIA,special_foreign_ro
+RO,2019.csv,2958,ROZZUY,URUGUAY,URUGUAY,special_foreign_ro
+RO,2019.csv,2963,ROZZUZ,UZBEKISTAN,UZBEKISTAN,special_foreign_ro
+RO,2019.csv,3018,ROZZVE,VENEZUELA,VENEZUELA,special_foreign_ro
+RO,2019.csv,3035,ROZZVN,VIETNAM,VIETNAM,special_foreign_ro
+RO,2019.csv,3164,ROZZZW,ZIMBABWE,ZIMBABWE,special_foreign_ro

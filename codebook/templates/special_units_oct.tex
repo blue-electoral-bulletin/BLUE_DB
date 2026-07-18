@@ -1,0 +1,28 @@
+France and the Netherlands include electoral units located outside mainland
+Europe.  These are represented under their respective country codes
+(\texttt{FR}, \texttt{NL}) using dedicated NUTS-like parent codes that extend
+the standard GISCO hierarchy.
+
+\paragraph{France.}
+French overseas units are grouped under two extended NUTS~1 branches.
+The \texttt{FRY} branch covers the five French overseas departments and regions
+(\textit{DOM-ROM}), which are full NUTS~2 and NUTS~3 regions in the standard
+Eurostat classification; their municipalities are stored as ordinary LAU entries
+in \bluepath{geo/communes.csv}.
+The \texttt{FRZ} branch covers the French overseas collectivities
+(\textit{collectivités d'outre-mer}), which have no official NUTS codes.
+BLUE\_DB introduces a parallel NUTS-like hierarchy (\texttt{FRZ1}--\texttt{FRZ5})
+to allow territory-level aggregation; the municipalities in this branch are
+treated as \texttt{Overseas Country or Territory} entries in
+\bluepath{geo/special.csv}, with their \bluevar{parent} fields pointing into
+the extended hierarchy.
+
+\paragraph{Netherlands.}
+The three Caribbean special municipalities (Bonaire, Sint Eustatius, Saba ---
+the \textit{BES islands}) are assigned the parent codes \texttt{NL901},
+\texttt{NL902}, and \texttt{NL903} respectively, with the  NUTS~2
+pseudo-region \texttt{NL90} representing Caribbean Netherlands (\emph{Caribisch Nederland}).
+
+The following table lists the non-standard NUTS-like parent codes introduced
+by BLUE\_DB for the \texttt{FRZ} collectivités and the Dutch BES islands,
+with the number of municipalities referenced under each.

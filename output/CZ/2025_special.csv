@@ -1,0 +1,93 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CZ,2025.csv,1,CZ_CZZZDZ,Alžírsko,Alžírsko,special_foreign_cz
+CZ,2025.csv,2,CZ_CZZZAM,Arménie,Arménie,special_foreign_cz
+CZ,2025.csv,3,CZ_CZZZAU,Austrálie,Austrálie,special_foreign_cz
+CZ,2025.csv,4,CZ_CZZZAZ,Ázerbájdžán,Ázerbájdžán,special_foreign_cz
+CZ,2025.csv,5,CZ_CZZZCN,Čína,Čína,special_foreign_cz
+CZ,2025.csv,6,CZ_CZZZEG,Egypt,Egypt,special_foreign_cz
+CZ,2025.csv,7,CZ_CZZZET,Etiopie,Etiopie,special_foreign_cz
+CZ,2025.csv,8,CZ_CZZZPH,Filipíny,Filipíny,special_foreign_cz
+CZ,2025.csv,9,CZ_CZZZGH,Ghana,Ghana,special_foreign_cz
+CZ,2025.csv,10,CZ_CZZZGE,Gruzie,Gruzie,special_foreign_cz
+CZ,2025.csv,11,CZ_CZZZIN,Indie,Indie,special_foreign_cz
+CZ,2025.csv,12,CZ_CZZZID,Indonésie,Indonésie,special_foreign_cz
+CZ,2025.csv,13,CZ_CZZZIQ,Irák,Irák,special_foreign_cz
+CZ,2025.csv,14,CZ_CZZZIR,Írán,Írán,special_foreign_cz
+CZ,2025.csv,15,CZ_CZZZIL,Izrael,Izrael,special_foreign_cz
+CZ,2025.csv,16,CZ_CZZZJP,Japonsko,Japonsko,special_foreign_cz
+CZ,2025.csv,17,CZ_CZZZZA,Jižní Afrika,Jižní Afrika,special_foreign_cz
+CZ,2025.csv,18,CZ_CZZZJO,Jordánsko,Jordánsko,special_foreign_cz
+CZ,2025.csv,19,CZ_CZZZKH,Kambodža,Kambodža,special_foreign_cz
+CZ,2025.csv,20,CZ_CZZZQA,Katar,Katar,special_foreign_cz
+CZ,2025.csv,21,CZ_CZZZKZ,Kazachstán,Kazachstán,special_foreign_cz
+CZ,2025.csv,22,CZ_CZZZKE,Keňa,Keňa,special_foreign_cz
+CZ,2025.csv,23,CZ_CZZZCD,Konžská demokratická republika,Konžská demokratická republika,special_foreign_cz
+CZ,2025.csv,24,CZ_CZZZKR,Korea,Korea,special_foreign_cz
+CZ,2025.csv,25,CZ_CZZZKW,Kuvajt,Kuvajt,special_foreign_cz
+CZ,2025.csv,26,CZ_CZZZLB,Libanon,Libanon,special_foreign_cz
+CZ,2025.csv,27,CZ_CZZZMY,Malajsie,Malajsie,special_foreign_cz
+CZ,2025.csv,28,CZ_CZZZMA,Maroko,Maroko,special_foreign_cz
+CZ,2025.csv,29,CZ_CZZZMN,Mongolsko,Mongolsko,special_foreign_cz
+CZ,2025.csv,30,CZ_CZZZMM,Myanmar,Myanmar,special_foreign_cz
+CZ,2025.csv,31,CZ_CZZZNG,Nigérie,Nigérie,special_foreign_cz
+CZ,2025.csv,32,CZ_CZZZPK,Pákistán,Pákistán,special_foreign_cz
+CZ,2025.csv,33,CZ_CZZZSA,Saúdská Arábie,Saúdská Arábie,special_foreign_cz
+CZ,2025.csv,34,CZ_CZZZSN,Senegal,Senegal,special_foreign_cz
+CZ,2025.csv,35,CZ_CZZZSG,Singapur,Singapur,special_foreign_cz
+CZ,2025.csv,36,CZ_CZZZAE,Spojené arabské emiráty,Spojené arabské emiráty,special_foreign_cz
+CZ,2025.csv,37,CZ_CZZZSY,Sýrie,Sýrie,special_foreign_cz
+CZ,2025.csv,38,CZ_CZZZTH,Thajsko,Thajsko,special_foreign_cz
+CZ,2025.csv,39,CZ_CZZZTW,Tchaj-wan,Tchaj-wan,special_foreign_cz
+CZ,2025.csv,40,CZ_CZZZTN,Tunisko,Tunisko,special_foreign_cz
+CZ,2025.csv,41,CZ_CZZZUZ,Uzbekistán,Uzbekistán,special_foreign_cz
+CZ,2025.csv,42,CZ_CZZZVN,Vietnam,Vietnam,special_foreign_cz
+CZ,2025.csv,43,CZ_CZZZZM,Zambie,Zambie,special_foreign_cz
+CZ,2025.csv,1339,CZ_CZZZAL,Albánie,Albánie,special_foreign_cz
+CZ,2025.csv,1340,CZ_CZZZBY,Bělorusko,Bělorusko,special_foreign_cz
+CZ,2025.csv,1341,CZ_CZZZBA,Bosna a Hercegovina,Bosna a Hercegovina,special_foreign_cz
+CZ,2025.csv,1342,CZ_CZZZBG,Bulharsko,Bulharsko,special_foreign_cz
+CZ,2025.csv,1343,CZ_CZZZME,Černá Hora,Černá Hora,special_foreign_cz
+CZ,2025.csv,1344,CZ_CZZZDK,Dánsko,Dánsko,special_foreign_cz
+CZ,2025.csv,1345,CZ_CZZZEE,Estonsko,Estonsko,special_foreign_cz
+CZ,2025.csv,1346,CZ_CZZZFI,Finsko,Finsko,special_foreign_cz
+CZ,2025.csv,1347,CZ_CZZZHR,Chorvatsko,Chorvatsko,special_foreign_cz
+CZ,2025.csv,1348,CZ_CZZZIT,Itálie,Itálie,special_foreign_cz
+CZ,2025.csv,1349,CZ_CZZZXK,Kosovo,Kosovo,special_foreign_cz
+CZ,2025.csv,1350,CZ_CZZZCY,Kypr,Kypr,special_foreign_cz
+CZ,2025.csv,1351,CZ_CZZZLT,Litva,Litva,special_foreign_cz
+CZ,2025.csv,1352,CZ_CZZZLV,Lotyšsko,Lotyšsko,special_foreign_cz
+CZ,2025.csv,1353,CZ_CZZZHU,Maďarsko,Maďarsko,special_foreign_cz
+CZ,2025.csv,1354,CZ_CZZZMD,Moldavsko,Moldavsko,special_foreign_cz
+CZ,2025.csv,1355,CZ_CZZZDE,Německo,Německo,special_foreign_cz
+CZ,2025.csv,1356,CZ_CZZZNO,Norsko,Norsko,special_foreign_cz
+CZ,2025.csv,1357,CZ_CZZZPL,Polsko,Polsko,special_foreign_cz
+CZ,2025.csv,1358,CZ_CZZZAT,Rakousko,Rakousko,special_foreign_cz
+CZ,2025.csv,1359,CZ_CZZZRO,Rumunsko,Rumunsko,special_foreign_cz
+CZ,2025.csv,1360,CZ_CZZZRU,Rusko,Rusko,special_foreign_cz
+CZ,2025.csv,1361,CZ_CZZZGR,Řecko,Řecko,special_foreign_cz
+CZ,2025.csv,1362,CZ_CZZZMK,Severní Makedonie,Severní Makedonie,special_foreign_cz
+CZ,2025.csv,1363,CZ_CZZZSK,Slovensko,Slovensko,special_foreign_cz
+CZ,2025.csv,1364,CZ_CZZZSI,Slovinsko,Slovinsko,special_foreign_cz
+CZ,2025.csv,1365,CZ_CZZZRS,Srbsko,Srbsko,special_foreign_cz
+CZ,2025.csv,1366,CZ_CZZZSE,Švédsko,Švédsko,special_foreign_cz
+CZ,2025.csv,1367,CZ_CZZZCH,Švýcarsko,Švýcarsko,special_foreign_cz
+CZ,2025.csv,1368,CZ_CZZZTR,Turecko,Turecko,special_foreign_cz
+CZ,2025.csv,1369,CZ_CZZZUA,Ukrajina,Ukrajina,special_foreign_cz
+CZ,2025.csv,1370,CZ_CZZZVA,Vatikán,Vatikán,special_foreign_cz
+CZ,2025.csv,3171,CZ_CZZZBE,Belgie,Belgie,special_foreign_cz
+CZ,2025.csv,3172,CZ_CZZZFR,Francie,Francie,special_foreign_cz
+CZ,2025.csv,3173,CZ_CZZZIE,Irsko,Irsko,special_foreign_cz
+CZ,2025.csv,3174,CZ_CZZZLU,Lucembursko,Lucembursko,special_foreign_cz
+CZ,2025.csv,3175,CZ_CZZZNL,Nizozemsko,Nizozemsko,special_foreign_cz
+CZ,2025.csv,3176,CZ_CZZZPT,Portugalsko,Portugalsko,special_foreign_cz
+CZ,2025.csv,3177,CZ_CZZZES,Španělsko,Španělsko,special_foreign_cz
+CZ,2025.csv,3178,CZ_CZZZGB,Velká Británie a Severní Irsko,Velká Británie a Severní Irsko,special_foreign_cz
+CZ,2025.csv,5676,CZ_CZZZAR,Argentina,Argentina,special_foreign_cz
+CZ,2025.csv,5677,CZ_CZZZBR,Brazílie,Brazílie,special_foreign_cz
+CZ,2025.csv,5678,CZ_CZZZCL,Chile,Chile,special_foreign_cz
+CZ,2025.csv,5679,CZ_CZZZCA,Kanada,Kanada,special_foreign_cz
+CZ,2025.csv,5680,CZ_CZZZCO,Kolumbie,Kolumbie,special_foreign_cz
+CZ,2025.csv,5681,CZ_CZZZCU,Kuba,Kuba,special_foreign_cz
+CZ,2025.csv,5682,CZ_CZZZMX,Mexiko,Mexiko,special_foreign_cz
+CZ,2025.csv,5683,CZ_CZZZPE,Peru,Peru,special_foreign_cz
+CZ,2025.csv,5684,CZ_CZZZUS,Spojené státy,Spojené státy,special_foreign_cz

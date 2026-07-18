@@ -1,0 +1,17 @@
+Two aggregate types share the feature that votes cannot be attributed to a
+specific commune and are grouped into a dedicated row using identifiers in the
+\texttt{CC\_CCYYxx} range.
+
+\paragraph{Postal votes.}
+Votes cast by post are recorded at district or national level and are assigned
+special identifiers.
+Postal-vote rows are present for Austria, Germany, Hungary, Lithuania, Latvia,
+and the Netherlands.
+Where a country uses official postal-vote district codes (as is the case in
+Austria and Germany), those codes are retained, and
+each postal-vote row is linked to its proper NUTS~3 parent unit wherever
+possible. Otherwise, special identifiers of the form \texttt{CC\_CCYYxx} are used.
+
+\paragraph{E-Voting.}
+Electronic votes cast in some Estonian elections are aggregated into a single
+national row (\texttt{EE\_EEYY99}).

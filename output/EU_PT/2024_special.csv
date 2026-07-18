@@ -1,0 +1,68 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+PT,2024.csv,0,PT_PTZZTR,Turkey,Turkey,matched_foreign_country_name
+PT,2024.csv,1,PT_PTZZCH,Switzerland,Switzerland,matched_foreign_country_name
+PT,2024.csv,2,PT_PTZZSE,Sweden,Sweden,matched_foreign_country_name
+PT,2024.csv,3,PT_PTZZRS,Serbia,Serbia,matched_foreign_country_name
+PT,2024.csv,4,PT_PTZZRO,Romania,Romania,matched_foreign_country_name
+PT,2024.csv,5,PT_PTZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+PT,2024.csv,6,PT_PTZZPL,Poland,Poland,matched_foreign_country_name
+PT,2024.csv,7,PT_PTZZNL,Netherlands,Netherlands,matched_foreign_country_name
+PT,2024.csv,8,PT_PTZZNO,Norway,Norway,matched_foreign_country_name
+PT,2024.csv,9,PT_PTZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+PT,2024.csv,10,PT_PTZZIT,Italy,Italy,matched_foreign_country_name
+PT,2024.csv,11,PT_PTZZIE,Ireland,Ireland,matched_foreign_country_name
+PT,2024.csv,12,PT_PTZZHU,Hungary,Hungary,matched_foreign_country_name
+PT,2024.csv,13,PT_PTZZGR,Greece,Greece,matched_foreign_country_name
+PT,2024.csv,14,PT_PTZZFR,France,France,matched_foreign_country_name
+PT,2024.csv,15,PT_PTZZFI,Finland,Finland,matched_foreign_country_name
+PT,2024.csv,16,PT_PTZZRU,Russia,Russia,matched_foreign_country_name
+PT,2024.csv,17,PT_PTZZES,Spain,Spain,matched_foreign_country_name
+PT,2024.csv,18,PT_PTZZSK,Slovakia,Slovakia,matched_foreign_country_name
+PT,2024.csv,19,PT_PTZZDK,Denmark,Denmark,matched_foreign_country_name
+PT,2024.csv,20,PT_PTZZHR,Croatia,Croatia,matched_foreign_country_name
+PT,2024.csv,21,PT_PTZZCY,Cyprus,Cyprus,matched_foreign_country_name
+PT,2024.csv,22,PT_PTZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+PT,2024.csv,23,PT_PTZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+PT,2024.csv,24,PT_PTZZBE,Belgium,Belgium,matched_foreign_country_name
+PT,2024.csv,25,PT_PTZZAT,Austria,Austria,matched_foreign_country_name
+PT,2024.csv,26,PT_PTZZAD,AD,AD,matched_foreign_country_name
+PT,2024.csv,27,PT_PTZZDE,Germany,Germany,matched_foreign_country_name
+PT,2024.csv,28,PT_PTZZTL,TL,TL,matched_foreign_country_name
+PT,2024.csv,29,PT_PTZZTH,Thailand,Thailand,matched_foreign_country_name
+PT,2024.csv,30,PT_PTZZSG,Singapore,Singapore,matched_foreign_country_name
+PT,2024.csv,31,PT_PTZZJP,Japan,Japan,matched_foreign_country_name
+PT,2024.csv,32,PT_PTZZIL,Israel,Israel,matched_foreign_country_name
+PT,2024.csv,33,PT_PTZZID,Indonesia,Indonesia,matched_foreign_country_name
+PT,2024.csv,34,PT_PTZZIN,India,India,matched_foreign_country_name
+PT,2024.csv,35,PT_PTZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+PT,2024.csv,36,PT_PTZZKR,South Korea,South Korea,matched_foreign_country_name
+PT,2024.csv,37,PT_PTZZCN,China,China,matched_foreign_country_name
+PT,2024.csv,38,PT_PTZZQA,Qatar,Qatar,matched_foreign_country_name
+PT,2024.csv,39,PT_PTZZAU,Australia,Australia,matched_foreign_country_name
+PT,2024.csv,40,PT_PTZZSA,Saudi Arabia,Saudi Arabia,matched_foreign_country_name
+PT,2024.csv,41,PT_PTZZVE,VE,VE,matched_foreign_country_name
+PT,2024.csv,42,PT_PTZZUY,UY,UY,matched_foreign_country_name
+PT,2024.csv,43,PT_PTZZPE,PE,PE,matched_foreign_country_name
+PT,2024.csv,44,PT_PTZZPA,Panama,Panama,matched_foreign_country_name
+PT,2024.csv,45,PT_PTZZMX,Mexico,Mexico,matched_foreign_country_name
+PT,2024.csv,46,PT_PTZZUS,United States,United States,matched_foreign_country_name
+PT,2024.csv,47,PT_PTZZCO,CO,CO,matched_foreign_country_name
+PT,2024.csv,48,PT_PTZZCL,Chile,Chile,matched_foreign_country_name
+PT,2024.csv,49,PT_PTZZCA,Canada,Canada,matched_foreign_country_name
+PT,2024.csv,50,PT_PTZZBR,Brazil,Brazil,matched_foreign_country_name
+PT,2024.csv,51,PT_PTZZAR,Argentina,Argentina,matched_foreign_country_name
+PT,2024.csv,52,PT_PTZZZW,ZW,ZW,matched_foreign_country_name
+PT,2024.csv,53,PT_PTZZTN,Tunisia,Tunisia,matched_foreign_country_name
+PT,2024.csv,54,PT_PTZZSN,Senegal,Senegal,matched_foreign_country_name
+PT,2024.csv,55,PT_PTZZST,ST,ST,matched_foreign_country_name
+PT,2024.csv,56,PT_PTZZKE,KE,KE,matched_foreign_country_name
+PT,2024.csv,57,PT_PTZZNA,NA,NA,matched_foreign_country_name
+PT,2024.csv,58,PT_PTZZMZ,MZ,MZ,matched_foreign_country_name
+PT,2024.csv,59,PT_PTZZMA,Morocco,Morocco,matched_foreign_country_name
+PT,2024.csv,60,PT_PTZZGW,GW,GW,matched_foreign_country_name
+PT,2024.csv,61,PT_PTZZET,Ethiopia,Ethiopia,matched_foreign_country_name
+PT,2024.csv,62,PT_PTZZCI,CI,CI,matched_foreign_country_name
+PT,2024.csv,63,PT_PTZZCD,CD,CD,matched_foreign_country_name
+PT,2024.csv,64,PT_PTZZCV,CV,CV,matched_foreign_country_name
+PT,2024.csv,65,PT_PTZZAO,AO,AO,matched_foreign_country_name
+PT,2024.csv,66,PT_PTZZZA,South Africa,South Africa,matched_foreign_country_name

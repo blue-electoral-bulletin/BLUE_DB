@@ -1,0 +1,89 @@
+\subsubsection{\texttt{parties/parties.csv}}
+
+\begin{longtable}{p{4.5cm}p{10.5cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{party\_id}          & Primary key. Unique party key used in election files for
+                               party-vote columns. Consists of either (1) the party's abbreviation;
+                               (2) if the former is not unique within a country, the party's abbreviation
+                               with foundation year in brackets;
+                               (3) if the former is not unique within a country, the party's abbreviation with its full
+                               name in square brackets. \\
+\texttt{name\_native}       & Party name in the local language. \\
+\texttt{name\_english}      & English translation of the party name. \\
+\texttt{abbreviation}       & Canonical party abbreviation. \\
+\texttt{coalition\_members} & If the entry represents an electoral coalition, JSON array of abbreviations of parties that
+                               form this electoral coalition, else empty. \\
+\texttt{other\_names}       & JSON array of \texttt{\{name\_native, abbreviation\}} 
+                              listing alternative (historical) names, or empty. \\
+\texttt{individual\_candidate} & \texttt{Y} if this entry represents an
+                               independent / individual candidate rather
+                               than an organised party. \\
+\texttt{region}             & Country code of the region where the party operates. \\
+\texttt{founded\_year}      & Year the party was founded (integer). \\
+\texttt{dissolved\_year}    & Year the party dissolved (integer, empty if
+                               still active). \\
+\texttt{eu\_party}    & JSON array of
+                               \texttt{\{year\_start, year\_end, status, party\_id\}}
+                               objects recording the party's European-party
+                               affiliations over time, or empty. The \texttt{party\_id}
+                               field links to \texttt{parties/eu\_parties.csv}. \\
+\texttt{ep\_group}          & JSON array of
+                               \texttt{\{year\_start, year\_end, party\_id\}}
+                               objects recording EP group membership over time, or empty.
+                               The \texttt{party\_id} field links to
+                               \texttt{parties/ep\_groups.csv}. \\
+\texttt{colors}             & JSON array of hex color codes associated with
+                               the party, or empty. \\
+\texttt{wikipedia\_page}    & URL to the party's Wikipedia article, if any, or empty. \\
+\texttt{wikidata\_id}       & Wikidata entity identifier (\texttt{Q\ldots}), or empty. \\
+\texttt{party\_facts\_id}   & PartyFacts database identifier, if any, or empty. \\
+\texttt{ideology}           & Broad ideological family label. Allowed values: 
+                            \texttt{center, center-right or moderate right},
+                            \texttt{left or center-left, including non-radical greens},
+                            \texttt{radical right},
+                            \texttt{radical left}, 
+                            \texttt{other},
+                            \texttt{unknown} \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{\texttt{parties/eu\_parties.csv}}
+
+Lists all European-level party federations referenced in the dataset.
+Shares all columns of \texttt{parties.csv} except \texttt{coalition\_members},
+\texttt{individual\_candidate}, \texttt{eu\_party}, and \texttt{party\_facts\_id}.
+The following columns have different semantics:
+
+\begin{longtable}{p{3cm}p{12cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{region}    & Always \texttt{EU}. \\
+\texttt{ep\_group} & JSON array of \texttt{\{year\_start, year\_end, party\_id\}}
+                     objects recording EP group membership over time.
+                     The \texttt{party\_id} field links to
+                     \texttt{parties/ep\_groups.csv}. \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{\texttt{parties/ep\_groups.csv}}
+
+Lists all European Parliament political groups referenced in the dataset.
+Shares all columns of \texttt{parties.csv} except \texttt{coalition\_members},
+\texttt{individual\_candidate}, \texttt{eu\_party}, \texttt{ep\_group},
+and \texttt{party\_facts\_id}.
+The following column has different semantics:
+
+\begin{longtable}{p{3cm}p{12cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{region} & Always \texttt{EU}, or empty for groups without a formal
+                  European-party affiliation. \\
+\bottomrule
+\end{longtable}

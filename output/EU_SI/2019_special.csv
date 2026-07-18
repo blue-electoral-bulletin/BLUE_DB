@@ -1,0 +1,90 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+SI,2019.csv,0,SI_9999,Votes outside of a municipality,Votes outside of a municipality,special_all_muni
+SI,2019.csv,1,SI_1001,Jesenice,Jesenice,special_all_muni
+SI,2019.csv,2,SI_1002,Radovljica I,Radovljica I,special_all_muni
+SI,2019.csv,3,SI_1003,Radovljica II,Radovljica II,special_all_muni
+SI,2019.csv,4,SI_1004,Kranj I,Kranj I,special_all_muni
+SI,2019.csv,5,SI_1005,Kranj II,Kranj II,special_all_muni
+SI,2019.csv,6,SI_1006,Kranj III,Kranj III,special_all_muni
+SI,2019.csv,7,SI_1007,Tržič,Tržič,special_all_muni
+SI,2019.csv,8,SI_1008,Škofja Loka I,Škofja Loka I,special_all_muni
+SI,2019.csv,9,SI_1009,Škofja Loka II,Škofja Loka II,special_all_muni
+SI,2019.csv,10,SI_1010,Kamnik,Kamnik,special_all_muni
+SI,2019.csv,11,SI_1011,Idrija,Idrija,special_all_muni
+SI,2019.csv,12,SI_2001,Tolmin,Tolmin,special_all_muni
+SI,2019.csv,13,SI_2002,Piran,Piran,special_all_muni
+SI,2019.csv,14,SI_2003,Izola,Izola,special_all_muni
+SI,2019.csv,15,SI_2004,Koper I,Koper I,special_all_muni
+SI,2019.csv,16,SI_2005,Koper II,Koper II,special_all_muni
+SI,2019.csv,17,SI_2006,Sežana,Sežana,special_all_muni
+SI,2019.csv,18,SI_2007,Ilirska Bistrica,Ilirska Bistrica,special_all_muni
+SI,2019.csv,19,SI_2008,Postojna,Postojna,special_all_muni
+SI,2019.csv,20,SI_2009,Nova Gorica I,Nova Gorica I,special_all_muni
+SI,2019.csv,21,SI_2010,Nova Gorica II,Nova Gorica II,special_all_muni
+SI,2019.csv,22,SI_2011,Ajdovščina,Ajdovščina,special_all_muni
+SI,2019.csv,23,SI_3001,Logatec,Logatec,special_all_muni
+SI,2019.csv,24,SI_3002,Vrhnika,Vrhnika,special_all_muni
+SI,2019.csv,25,SI_3003,Ljubljana Vič - Rudnik I,Ljubljana Vič - Rudnik I,special_all_muni
+SI,2019.csv,26,SI_3004,Ljubljana Vič - Rudnik II,Ljubljana Vič - Rudnik II,special_all_muni
+SI,2019.csv,27,SI_3005,Ljubljana Vič - Rudnik III,Ljubljana Vič - Rudnik III,special_all_muni
+SI,2019.csv,28,SI_3006,Ljubljana Vič - Rudnik IV,Ljubljana Vič - Rudnik IV,special_all_muni
+SI,2019.csv,29,SI_3007,Ljubljana Center,Ljubljana Center,special_all_muni
+SI,2019.csv,30,SI_3008,Ljubljana Šiška I,Ljubljana Šiška I,special_all_muni
+SI,2019.csv,31,SI_3009,Ljubljana Šiška II,Ljubljana Šiška II,special_all_muni
+SI,2019.csv,32,SI_3010,Ljubljana Šiška III,Ljubljana Šiška III,special_all_muni
+SI,2019.csv,33,SI_3011,Ljubljana Šiška IV,Ljubljana Šiška IV,special_all_muni
+SI,2019.csv,34,SI_4001,Kočevje,Kočevje,special_all_muni
+SI,2019.csv,35,SI_4002,Ribnica,Ribnica,special_all_muni
+SI,2019.csv,36,SI_4003,Grosuplje,Grosuplje,special_all_muni
+SI,2019.csv,37,SI_4004,Litija,Litija,special_all_muni
+SI,2019.csv,38,SI_4005,Ljubljana Moste - Polje I,Ljubljana Moste - Polje I,special_all_muni
+SI,2019.csv,39,SI_4006,Ljubljana Moste - Polje II,Ljubljana Moste - Polje II,special_all_muni
+SI,2019.csv,40,SI_4007,Ljubljana Moste - Polje III,Ljubljana Moste - Polje III,special_all_muni
+SI,2019.csv,41,SI_4008,Ljubljana Bežigrad I,Ljubljana Bežigrad I,special_all_muni
+SI,2019.csv,42,SI_4009,Ljubljana Bežigrad II,Ljubljana Bežigrad II,special_all_muni
+SI,2019.csv,43,SI_4010,Domžale I,Domžale I,special_all_muni
+SI,2019.csv,44,SI_4011,Domžale II,Domžale II,special_all_muni
+SI,2019.csv,45,SI_5001,Šentjur pri Celju,Šentjur pri Celju,special_all_muni
+SI,2019.csv,46,SI_5002,Celje I,Celje I,special_all_muni
+SI,2019.csv,47,SI_5003,Celje II,Celje II,special_all_muni
+SI,2019.csv,48,SI_5004,Žalec I,Žalec I,special_all_muni
+SI,2019.csv,49,SI_5005,Žalec II,Žalec II,special_all_muni
+SI,2019.csv,50,SI_5006,Mozirje,Mozirje,special_all_muni
+SI,2019.csv,51,SI_5007,Velenje I,Velenje I,special_all_muni
+SI,2019.csv,52,SI_5008,Velenje II,Velenje II,special_all_muni
+SI,2019.csv,53,SI_5009,Slovenj Gradec,Slovenj Gradec,special_all_muni
+SI,2019.csv,54,SI_5010,Ravne na Koroškem,Ravne na Koroškem,special_all_muni
+SI,2019.csv,55,SI_5011,Radlje ob Dravi,Radlje ob Dravi,special_all_muni
+SI,2019.csv,56,SI_6001,Črnomelj,Črnomelj,special_all_muni
+SI,2019.csv,57,SI_6002,Novo mesto I,Novo mesto I,special_all_muni
+SI,2019.csv,58,SI_6003,Novo mesto II,Novo mesto II,special_all_muni
+SI,2019.csv,59,SI_6004,Trebnje,Trebnje,special_all_muni
+SI,2019.csv,60,SI_6005,Brežice,Brežice,special_all_muni
+SI,2019.csv,61,SI_6006,Krško,Krško,special_all_muni
+SI,2019.csv,62,SI_6007,Sevnica,Sevnica,special_all_muni
+SI,2019.csv,63,SI_6008,Laško,Laško,special_all_muni
+SI,2019.csv,64,SI_6009,Hrastnik,Hrastnik,special_all_muni
+SI,2019.csv,65,SI_6010,Trbovlje,Trbovlje,special_all_muni
+SI,2019.csv,66,SI_6011,Zagorje ob Savi,Zagorje ob Savi,special_all_muni
+SI,2019.csv,67,SI_7001,Šmarje pri Jelšah,Šmarje pri Jelšah,special_all_muni
+SI,2019.csv,68,SI_7002,Slovenska Bistrica,Slovenska Bistrica,special_all_muni
+SI,2019.csv,69,SI_7003,Slovenske Konjice,Slovenske Konjice,special_all_muni
+SI,2019.csv,70,SI_7004,Ruše,Ruše,special_all_muni
+SI,2019.csv,71,SI_7005,Maribor I,Maribor I,special_all_muni
+SI,2019.csv,72,SI_7006,Maribor II,Maribor II,special_all_muni
+SI,2019.csv,73,SI_7007,Maribor III,Maribor III,special_all_muni
+SI,2019.csv,74,SI_7008,Maribor IV,Maribor IV,special_all_muni
+SI,2019.csv,75,SI_7009,Maribor V,Maribor V,special_all_muni
+SI,2019.csv,76,SI_7010,Maribor VI,Maribor VI,special_all_muni
+SI,2019.csv,77,SI_7011,Maribor VII,Maribor VII,special_all_muni
+SI,2019.csv,78,SI_8001,Lendava,Lendava,special_all_muni
+SI,2019.csv,79,SI_8002,Ormož,Ormož,special_all_muni
+SI,2019.csv,80,SI_8003,Ljutomer,Ljutomer,special_all_muni
+SI,2019.csv,81,SI_8004,Murska Sobota I,Murska Sobota I,special_all_muni
+SI,2019.csv,82,SI_8005,Murska Sobota II,Murska Sobota II,special_all_muni
+SI,2019.csv,83,SI_8006,Gornja Radgona,Gornja Radgona,special_all_muni
+SI,2019.csv,84,SI_8007,Lenart,Lenart,special_all_muni
+SI,2019.csv,85,SI_8008,Pesnica,Pesnica,special_all_muni
+SI,2019.csv,86,SI_8009,Ptuj I,Ptuj I,special_all_muni
+SI,2019.csv,87,SI_8010,Ptuj II,Ptuj II,special_all_muni
+SI,2019.csv,88,SI_8011,Ptuj III,Ptuj III,special_all_muni

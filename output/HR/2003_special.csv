@@ -1,0 +1,54 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+HR,2003.csv,548,HR_HRYY05,Prognanici (V. izborna jedinica),Prognanici (V. izborna jedinica),special_electoral_district
+HR,2003.csv,549,HR_HRYYDI,Dijaspora i mješovita biračka mjesta,Dijaspora i mješovita biračka mjesta,special_electoral_district
+HR,2003.csv,550,HR_HRYY11,Hrvatska (XI. izborna jedinica),Hrvatska (XI. izborna jedinica),special_electoral_district
+HR,2003.csv,551,HR_HRZZAL,Albania,Albania,special_foreign_hr
+HR,2003.csv,552,HR_HRZZAR,Argentina,Argentina,special_foreign_hr
+HR,2003.csv,553,HR_HRZZAT,Austria,Austria,special_foreign_hr
+HR,2003.csv,554,HR_HRZZAU,Australia,Australia,special_foreign_hr
+HR,2003.csv,555,HR_HRZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,special_foreign_hr
+HR,2003.csv,556,HR_HRZZBE,Belgium,Belgium,special_foreign_hr
+HR,2003.csv,557,HR_HRZZBG,Bulgaria,Bulgaria,special_foreign_hr
+HR,2003.csv,558,HR_HRZZBR,Brazil,Brazil,special_foreign_hr
+HR,2003.csv,559,HR_HRZZCA,Canada,Canada,special_foreign_hr
+HR,2003.csv,560,HR_HRZZCH,Switzerland,Switzerland,special_foreign_hr
+HR,2003.csv,561,HR_HRZZCL,Chile,Chile,special_foreign_hr
+HR,2003.csv,562,HR_HRZZCN,China,China,special_foreign_hr
+HR,2003.csv,563,HR_HRZZCZ,Czech Republic,Czech Republic,special_foreign_hr
+HR,2003.csv,564,HR_HRZZDE,Germany,Germany,special_foreign_hr
+HR,2003.csv,565,HR_HRZZDK,Denmark,Denmark,special_foreign_hr
+HR,2003.csv,566,HR_HRZZEG,Egypt,Egypt,special_foreign_hr
+HR,2003.csv,567,HR_HRZZES,Spain,Spain,special_foreign_hr
+HR,2003.csv,568,HR_HRZZFI,Finland,Finland,special_foreign_hr
+HR,2003.csv,569,HR_HRZZFR,France,France,special_foreign_hr
+HR,2003.csv,570,HR_HRZZGB,United Kingdom,United Kingdom,special_foreign_hr
+HR,2003.csv,571,HR_HRZZGR,Greece,Greece,special_foreign_hr
+HR,2003.csv,572,HR_HRZZHU,Hungary,Hungary,special_foreign_hr
+HR,2003.csv,573,HR_HRZZID,Indonesia,Indonesia,special_foreign_hr
+HR,2003.csv,574,HR_HRZZIE,Ireland,Ireland,special_foreign_hr
+HR,2003.csv,575,HR_HRZZIL,Israel,Israel,special_foreign_hr
+HR,2003.csv,576,HR_HRZZIN,India,India,special_foreign_hr
+HR,2003.csv,577,HR_HRZZIR,Iran,Iran,special_foreign_hr
+HR,2003.csv,578,HR_HRZZIT,Italy,Italy,special_foreign_hr
+HR,2003.csv,579,HR_HRZZJP,Japan,Japan,special_foreign_hr
+HR,2003.csv,580,HR_HRZZLY,Libija,Libija,special_foreign_hr
+HR,2003.csv,581,HR_HRZZMA,Maroko,Maroko,special_foreign_hr
+HR,2003.csv,582,HR_HRZZMK,Makedonija,Makedonija,special_foreign_hr
+HR,2003.csv,583,HR_HRZZMY,Malezija,Malezija,special_foreign_hr
+HR,2003.csv,584,HR_HRZZNL,Netherlands,Netherlands,special_foreign_hr
+HR,2003.csv,585,HR_HRZZNO,Norway,Norway,special_foreign_hr
+HR,2003.csv,586,HR_HRZZNZ,Novi Zeland,Novi Zeland,special_foreign_hr
+HR,2003.csv,587,HR_HRZZPE,Peru,Peru,special_foreign_hr
+HR,2003.csv,588,HR_HRZZPL,Poland,Poland,special_foreign_hr
+HR,2003.csv,589,HR_HRZZPT,Portugal,Portugal,special_foreign_hr
+HR,2003.csv,590,HR_HRZZRO,Romania,Romania,special_foreign_hr
+HR,2003.csv,591,HR_HRZZRS,Srbija i Crna Gora,Srbija i Crna Gora,special_foreign_hr
+HR,2003.csv,592,HR_HRZZRU,Ruska Federacija,Ruska Federacija,special_foreign_hr
+HR,2003.csv,593,HR_HRZZSE,Sweden,Sweden,special_foreign_hr
+HR,2003.csv,594,HR_HRZZSI,Slovenia,Slovenia,special_foreign_hr
+HR,2003.csv,595,HR_HRZZSK,Slovakia,Slovakia,special_foreign_hr
+HR,2003.csv,596,HR_HRZZTR,Turkey,Turkey,special_foreign_hr
+HR,2003.csv,597,HR_HRZZUA,Ukraine,Ukraine,special_foreign_hr
+HR,2003.csv,598,HR_HRZZUS,United States,United States,special_foreign_hr
+HR,2003.csv,599,HR_HRZZVE,Venecuela,Venecuela,special_foreign_hr
+HR,2003.csv,600,HR_HRZZZA,South Africa,South Africa,special_foreign_hr

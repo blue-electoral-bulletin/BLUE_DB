@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blue_db"
+version = "1.0.0"
+description = "Python API for BLUE_DB, a local-level election database for 31 European countries (2001-2025)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "numpy>=1.24"]
+
+[project.optional-dependencies]
+# Everything needed for BlueGeo and the examples/eval scripts.
+maps = ["geopandas>=0.14", "shapely>=2.0", "requests>=2.28", "matplotlib>=3.7"]
+eval = ["geopandas>=0.14", "shapely>=2.0", "openpyxl>=3.1"]
+
+[tool.setuptools]
+packages = ["blue_db"]

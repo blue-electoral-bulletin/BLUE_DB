@@ -1,0 +1,31 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+BG,2007.csv,4314,BG_BGZZAL,Albania,Albania,matched_foreign_by_code_prefix
+BG,2007.csv,4315,BG_BGZZBE,Belgium,Belgium,matched_foreign_by_code_prefix
+BG,2007.csv,4316,BG_BGZZGR,Greece,Greece,matched_foreign_by_code_prefix
+BG,2007.csv,4318,BG_BGZZIT,Italy,Italy,matched_foreign_by_code_prefix
+BG,2007.csv,4319,BG_BGZZCY,Cyprus,Cyprus,matched_foreign_by_code_prefix
+BG,2007.csv,4320,BG_BGZZCN,China,China,matched_foreign_by_code_prefix
+BG,2007.csv,4321,BG_BGZZKW,Kuwait,Kuwait,matched_foreign_by_code_prefix
+BG,2007.csv,4322,BG_BGZZLT,Lithuania,Lithuania,matched_foreign_by_code_prefix
+BG,2007.csv,4323,BG_BGZZMA,Morocco,Morocco,matched_foreign_by_code_prefix
+BG,2007.csv,4324,BG_BGZZNL,Netherlands,Netherlands,matched_foreign_by_code_prefix
+BG,2007.csv,4325,BG_BGZZPL,Poland,Poland,matched_foreign_by_code_prefix
+BG,2007.csv,4326,BG_BGZZZA,South Africa,South Africa,matched_foreign_by_code_prefix
+BG,2007.csv,4327,BG_BGZZUS,United States,United States,matched_foreign_by_code_prefix
+BG,2007.csv,4328,BG_BGZZSI,Slovenia,Slovenia,matched_foreign_by_code_prefix
+BG,2007.csv,4329,BG_BGZZTN,Tunisia,Tunisia,matched_foreign_by_code_prefix
+BG,2007.csv,4330,BG_BGZZHU,Hungary,Hungary,matched_foreign_by_code_prefix
+BG,2007.csv,4331,BG_BGZZFR,France,France,matched_foreign_by_code_prefix
+BG,2007.csv,4332,BG_BGZZCL,Chile,Chile,matched_foreign_by_code_prefix
+BG,2007.csv,4333,BG_BGZZJP,Japan,Japan,matched_foreign_by_code_prefix
+BG,2007.csv,4334,BG_BGZZSK,Slovakia,Slovakia,matched_foreign_city_name
+BG,2007.csv,4335,BG_BGZZSI,Slovenia,Slovenia,matched_foreign_city_name
+BG,2007.csv,4336,BG_BGZZRS,Serbia,Serbia,matched_foreign_city_name
+BG,2007.csv,4337,BG_BGZZXK,Kosovo,Kosovo,matched_foreign_city_name
+BG,2007.csv,4338,BG_BGZZTR,Turkey,Turkey,matched_foreign_city_name
+BG,2007.csv,4340,BG_BGZZHU,Hungary,Hungary,matched_foreign_city_name
+BG,2007.csv,4341,BG_BGZZFI,Finland,Finland,matched_foreign_city_name
+BG,2007.csv,4342,BG_BGZZFR,France,France,matched_foreign_city_name
+BG,2007.csv,4344,BG_BGZZDE,Germany,Germany,matched_foreign_city_name
+BG,2007.csv,4347,BG_BGZZCZ,Czech Republic,Czech Republic,matched_foreign_city_name
+BG,2007.csv,4348,BG_BGZZSE,Sweden,Sweden,matched_foreign_city_name

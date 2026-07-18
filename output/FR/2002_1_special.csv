@@ -1,0 +1,6 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+FR,2002_1.csv,36821,FR_97601,Ensemble du département ZM,Ensemble du département ZM,special_mayotte
+FR,2002_1.csv,36822,FR_98801,Ensemble du département ZN,Ensemble du département ZN,special_nouvelle_caledonie
+FR,2002_1.csv,36824,FR_98701,Ensemble du département ZP,Ensemble du département ZP,special_polynesie_francaise
+FR,2002_1.csv,36826,FR_97501,Ensemble du département ZS,Ensemble du département ZS,special_saint_pierre_et_miquelon
+FR,2002_1.csv,36827,FR_98601,Ensemble du département ZW,Ensemble du département ZW,special_wallis_et_futuna

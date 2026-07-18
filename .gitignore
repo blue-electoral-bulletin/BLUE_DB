@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# GISCO tiles downloaded on demand by BlueGeo
+.cache/
+
+# Example / script outputs
+examples/*.png
+examples/*.csv
+eval_ned_results*.csv
+eval_ned_results*.xlsx
+missing_parties.csv
+summary_by_country.tex
+
+# LaTeX build artifacts (codebook)
+codebook/*.aux
+codebook/*.log
+codebook/*.out
+codebook/*.toc
+codebook/blue_db_codebook.tex

@@ -1,0 +1,18 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+EE,2011.csv,0,EE_EEYY99,E-hääled,E-hääled,special_e_haaled
+EE,2011.csv,3,EE_MA01,Harju maakond,Harju maakond,special_maakond
+EE,2011.csv,26,EE_MA02,Hiiu maakond,Hiiu maakond,special_maakond
+EE,2011.csv,34,EE_MA03,Ida-Viru maakond,Ida-Viru maakond,special_maakond
+EE,2011.csv,57,EE_MA04,Järva maakond,Järva maakond,special_maakond
+EE,2011.csv,68,EE_MA05,Jõgeva maakond,Jõgeva maakond,special_maakond
+EE,2011.csv,85,EE_MA07,Lääne maakond,Lääne maakond,special_maakond
+EE,2011.csv,98,EE_MA06,Lääne-Viru maakond,Lääne-Viru maakond,special_maakond
+EE,2011.csv,119,EE_MA08,Pärnu maakond,Pärnu maakond,special_maakond
+EE,2011.csv,139,EE_MA09,Põlva maakond,Põlva maakond,special_maakond
+EE,2011.csv,154,EE_MA10,Rapla maakond,Rapla maakond,special_maakond
+EE,2011.csv,170,EE_MA11,Saare maakond,Saare maakond,special_maakond
+EE,2011.csv,192,EE_MA12,Tartu maakond,Tartu maakond,special_maakond
+EE,2011.csv,210,EE_MA13,Valga maakond,Valga maakond,special_maakond
+EE,2011.csv,226,EE_MA14,Viljandi maakond,Viljandi maakond,special_maakond
+EE,2011.csv,240,EE_MA15,Võru maakond,Võru maakond,special_maakond
+EE,2011.csv,242,EE_EEZZ99,välisriigid,välisriigid,special_välisriigist

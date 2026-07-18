@@ -1,0 +1,75 @@
+\subsubsection{Election result files (\texttt{elections/CC/\ldots.csv})}
+\label{sec:variables_election_files}
+
+\begin{longtable}{p{3cm}p{12cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{gisco\_id}      & Geographic unit identifier.  Links to
+                          \texttt{geo/laus.csv}, \texttt{geo/nuts.csv} or
+                          \texttt{geo/special.csv}. \\
+\texttt{name}           & Canonical geographic unit name valid in the
+                          election year (resolved from \texttt{name\_or}
+                          and historical name variants in the geo files). \\
+\texttt{registered}     & Number of registered voters (integer). \\
+\texttt{turnout}        & Total votes cast (valid and invalid combined) (integer). \\
+\texttt{invalid}        & Number of invalid or spoiled ballots (integer). \\
+\texttt{blank}          & Number of blank ballots (integer). \\
+\textit{party columns}  & One column per distinct \texttt{party\_id} used in
+                          the country file.
+                          Values are absolute vote counts (integers). \\
+\bottomrule
+\end{longtable}
+
+Details about specific vote counts and missing data at the municipal level
+can be found in the country-specific notes.
+
+\paragraph{Party column naming.}
+Party columns use \texttt{party\_id} values from
+\texttt{parties/parties.csv}.  The \texttt{party\_id} key is unique within
+each country and resolves source-file aliases to a single party row.
+
+\paragraph{File naming convention.}
+Election files follow the convention
+$$\texttt{\{year\}\_\{month\}[\_\{round\}][\_\{vote\_type\}].csv}$$
+for national elections and
+$$\texttt{EU\_\{year\}\_\{month\}.csv}$$
+for European Parliament elections, where \textit{month} is the zero-padded
+two-digit month (e.g.\ \texttt{09} for September).
+The optional \textit{round} suffix distinguishes voting rounds in two-round
+systems (e.g.\ \texttt{2024\_06\_1.csv} and \texttt{2024\_07\_2.csv} for
+France~2024).
+The optional \textit{vote\_type} suffix distinguishes ballot types where a
+single election produces separate tallies (e.g.\
+\texttt{Erststimme} or \texttt{Zweitstimme} for Germany,
+\texttt{party} or \texttt{single\_member} for Hungary).
+
+\subsubsection{Election index (\texttt{data\_files\_reference.csv})}
+\label{sec:variables_reference}
+
+A flat index of all election result files included in the distribution.
+
+\begin{longtable}{p{3.5cm}p{11.5cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{country\_code}    & ISO~3166 country code (e.g.\ \texttt{AT},
+                            \texttt{DE}). \\
+\texttt{parliament\_name} & Name of the parliament or assembly in the
+                            national language. \\
+\texttt{election\_date}   & Date of the election (\texttt{YYYY-MM-DD}).
+                            For two-round elections this is the date of the
+                            specific round; for multi-day elections it is
+                            the last polling day. \\
+\texttt{round}            & Round number (integer, empty for single-round
+                            elections). \\
+\texttt{vote\_type}       & Ballot type label for elections with multiple
+                            simultaneous tallies (e.g.\ \texttt{Erststimme},
+                            \texttt{party}); empty otherwise. \\
+\texttt{file\_path}       & Path to the result file relative to the
+                            distribution root (e.g.\
+                            \texttt{elections/AT/2002\_11.csv}). \\
+\bottomrule
+\end{longtable}

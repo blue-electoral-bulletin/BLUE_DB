@@ -1,0 +1,36 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+BG,2014.csv,4213,BG_BGZZAT,Austria,Austria,matched_foreign_city_name
+BG,2014.csv,4216,BG_BGZZAF,Afghanistan,Afghanistan,matched_foreign_city_name
+BG,2014.csv,4217,BG_BGZZBE,Belgium,Belgium,matched_foreign_city_name
+BG,2014.csv,4220,BG_BGZZGB,United Kingdom,United Kingdom,matched_foreign_city_name
+BG,2014.csv,4233,BG_BGZZGR,Greece,Greece,matched_foreign_city_name
+BG,2014.csv,4242,BG_BGZZDK,Denmark,Denmark,matched_foreign_city_name
+BG,2014.csv,4245,BG_BGZZIE,Ireland,Ireland,matched_foreign_city_name
+BG,2014.csv,4246,BG_BGZZES,Spain,Spain,matched_foreign_city_name
+BG,2014.csv,4285,BG_BGZZIT,Italy,Italy,matched_foreign_city_name
+BG,2014.csv,4289,BG_BGZZCY,Cyprus,Cyprus,matched_foreign_city_name
+BG,2014.csv,4295,BG_BGZZLB,Lebanon,Lebanon,matched_foreign_city_name
+BG,2014.csv,4296,BG_BGZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+BG,2014.csv,4297,BG_BGZZMK,North Macedonia,North Macedonia,matched_foreign_city_name
+BG,2014.csv,4299,BG_BGZZMT,Malta,Malta,matched_foreign_city_name
+BG,2014.csv,4300,BG_BGZZMD,Moldova,Moldova,matched_foreign_city_name
+BG,2014.csv,4301,BG_BGZZNL,Netherlands,Netherlands,matched_foreign_city_name
+BG,2014.csv,4307,BG_BGZZNO,Norway,Norway,matched_foreign_city_name
+BG,2014.csv,4308,BG_BGZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_city_name
+BG,2014.csv,4309,BG_BGZZPL,Poland,Poland,matched_foreign_city_name
+BG,2014.csv,4311,BG_BGZZPT,Portugal,Portugal,matched_foreign_city_name
+BG,2014.csv,4312,BG_BGZZRO,Romania,Romania,matched_foreign_city_name
+BG,2014.csv,4313,BG_BGZZRU,Russia,Russia,matched_foreign_city_name
+BG,2014.csv,4314,BG_BGZZUS,United States,United States,matched_foreign_city_name
+BG,2014.csv,4315,BG_BGZZSK,Slovakia,Slovakia,matched_foreign_city_name
+BG,2014.csv,4316,BG_BGZZSI,Slovenia,Slovenia,matched_foreign_city_name
+BG,2014.csv,4317,BG_BGZZTR,Turkey,Turkey,matched_foreign_city_name
+BG,2014.csv,4318,BG_BGZZHU,Hungary,Hungary,matched_foreign_city_name
+BG,2014.csv,4319,BG_BGZZDE,Germany,Germany,matched_foreign_city_name
+BG,2014.csv,4324,BG_BGZZFI,Finland,Finland,matched_foreign_city_name
+BG,2014.csv,4326,BG_BGZZFR,France,France,matched_foreign_city_name
+BG,2014.csv,4336,BG_BGZZCZ,Czech Republic,Czech Republic,matched_foreign_city_name
+BG,2014.csv,4338,BG_BGZZSE,Sweden,Sweden,matched_foreign_city_name
+BG,2014.csv,4341,BG_BGZZCH,Switzerland,Switzerland,matched_foreign_city_name
+BG,2014.csv,4343,BG_BGZZHR,Croatia,Croatia,matched_foreign_city_name
+BG,2014.csv,4344,BG_BGZZJP,Japan,Japan,matched_foreign_city_name

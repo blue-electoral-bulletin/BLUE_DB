@@ -1,0 +1,357 @@
+country_code,parliament_name,election_date,round,vote_type,file_type,file_path
+AT,Nationalrat,2002-11-24,,,main,output/AT/2002.csv
+AT,Nationalrat,2006-10-01,,,main,output/AT/2006.csv
+AT,Nationalrat,2008-09-28,,,main,output/AT/2008.csv
+AT,Nationalrat,2013-09-29,,,main,output/AT/2013.csv
+AT,Nationalrat,2017-10-15,,,main,output/AT/2017.csv
+AT,Nationalrat,2019-09-29,,,main,output/AT/2019.csv
+AT,Nationalrat,2024-09-29,,,main,output/AT/2024.csv
+BE,Chambre des Représentants,2003-05-18,,,main,output/BE/2003.csv
+BE,Chambre des Représentants,2007-06-10,,,main,output/BE/2007.csv
+BE,Chambre des Représentants,2010-06-13,,,main,output/BE/2010.csv
+BE,Chambre des Représentants,2014-05-25,,,main,output/BE/2014.csv
+BE,Chambre des Représentants,2019-05-26,,,main,output/BE/2019.csv
+BE,Chambre des Représentants,2024-06-09,,,main,output/BE/2024.csv
+BG,Народно събрание,2005-06-25,,,main,output/BG/2005.csv
+BG,Народно събрание,2009-07-05,,,main,output/BG/2009.csv
+BG,Народно събрание,2013-05-12,,,main,output/BG/2013.csv
+BG,Народно събрание,2014-10-05,,,main,output/BG/2014.csv
+BG,Народно събрание,2017-03-26,,,main,output/BG/2017.csv
+BG,Народно събрание,2021-04-04,,,main,output/BG/2021_04.csv
+BG,Народно събрание,2021-07-11,,,main,output/BG/2021_07.csv
+BG,Народно събрание,2021-11-14,,,main,output/BG/2021_11.csv
+BG,Народно събрание,2022-10-02,,,main,output/BG/2022.csv
+BG,Народно събрание,2023-04-02,,,main,output/BG/2023.csv
+BG,Народно събрание,2024-06-09,,,main,output/BG/2024_06.csv
+BG,Народно събрание,2024-10-27,,,main,output/BG/2024_10.csv
+CH,Nationalrat,2003-10-19,,,main,output/CH/2003.csv
+CH,Nationalrat,2007-10-21,,,main,output/CH/2007.csv
+CH,Nationalrat,2011-10-23,,,main,output/CH/2011.csv
+CH,Nationalrat,2015-10-18,,,main,output/CH/2015.csv
+CH,Nationalrat,2019-10-20,,,main,output/CH/2019.csv
+CH,Nationalrat,2023-10-22,,,main,output/CH/2023.csv
+CY,Βουλή των Αντιπροσώπων,2001-05-27,,,main,output/CY/2001.csv
+CY,Βουλή των Αντιπροσώπων,2006-05-21,,,main,output/CY/2006.csv
+CY,Βουλή των Αντιπροσώπων,2011-05-22,,,main,output/CY/2011.csv
+CY,Βουλή των Αντιπροσώπων,2016-05-22,,,main,output/CY/2016.csv
+CY,Βουλή των Αντιπροσώπων,2021-05-30,,,main,output/CY/2021.csv
+CZ,Poslanecká sněmovna,2002-06-15,,,main,output/CZ/2002.csv
+CZ,Poslanecká sněmovna,2006-06-03,,,main,output/CZ/2006.csv
+CZ,Poslanecká sněmovna,2010-05-29,,,main,output/CZ/2010.csv
+CZ,Poslanecká sněmovna,2013-10-26,,,main,output/CZ/2013.csv
+CZ,Poslanecká sněmovna,2017-10-21,,,main,output/CZ/2017.csv
+CZ,Poslanecká sněmovna,2021-10-09,,,main,output/CZ/2021.csv
+CZ,Poslanecká sněmovna,2025-10-04,,,main,output/CZ/2025.csv
+DE,Bundestag,2002-09-22,,Erststimme,main,output/DE/2002_1.csv
+DE,Bundestag,2002-09-22,,Zweitstimme,main,output/DE/2002_2.csv
+DE,Bundestag,2005-09-18,,Erststimme,main,output/DE/2005_1.csv
+DE,Bundestag,2005-09-18,,Zweitstimme,main,output/DE/2005_2.csv
+DE,Bundestag,2009-09-27,,Erststimme,main,output/DE/2009_1.csv
+DE,Bundestag,2009-09-27,,Zweitstimme,main,output/DE/2009_2.csv
+DE,Bundestag,2013-09-22,,Erststimme,main,output/DE/2013_1.csv
+DE,Bundestag,2013-09-22,,Zweitstimme,main,output/DE/2013_2.csv
+DE,Bundestag,2017-09-24,,Erststimme,main,output/DE/2017_1.csv
+DE,Bundestag,2017-09-24,,Zweitstimme,main,output/DE/2017_2.csv
+DE,Bundestag,2021-09-26,,Erststimme,main,output/DE/2021_1.csv
+DE,Bundestag,2021-09-26,,Zweitstimme,main,output/DE/2021_2.csv
+DE,Bundestag,2025-02-23,,Erststimme,main,output/DE/2025_1.csv
+DE,Bundestag,2025-02-23,,Zweitstimme,main,output/DE/2025_2.csv
+DK,Folketing,2001-11-20,,,main,output/DK/2001.csv
+DK,Folketing,2005-02-08,,,main,output/DK/2005.csv
+DK,Folketing,2007-11-13,,,main,output/DK/2007.csv
+DK,Folketing,2011-09-15,,,main,output/DK/2011.csv
+DK,Folketing,2015-06-18,,,main,output/DK/2015.csv
+DK,Folketing,2019-06-05,,,main,output/DK/2019.csv
+DK,Folketing,2022-11-01,,,main,output/DK/2022.csv
+EE,Riigikogu,2003-03-02,,,main,output/EE/2003.csv
+EE,Riigikogu,2007-03-04,,,main,output/EE/2007.csv
+EE,Riigikogu,2011-03-06,,,main,output/EE/2011.csv
+EE,Riigikogu,2015-03-01,,,main,output/EE/2015.csv
+EE,Riigikogu,2019-03-03,,,main,output/EE/2019.csv
+EE,Riigikogu,2023-03-05,,,main,output/EE/2023.csv
+EL,Βουλή των Ελλήνων,2004-03-07,,,main,output/EL/2004.csv
+EL,Βουλή των Ελλήνων,2007-09-16,,,main,output/EL/2007.csv
+EL,Βουλή των Ελλήνων,2009-10-04,,,main,output/EL/2009.csv
+EL,Βουλή των Ελλήνων,2012-05-06,,,main,output/EL/2012a.csv
+EL,Βουλή των Ελλήνων,2012-06-17,,,main,output/EL/2012b.csv
+EL,Βουλή των Ελλήνων,2015-01-25,,,main,output/EL/2015a.csv
+EL,Βουλή των Ελλήνων,2015-09-20,,,main,output/EL/2015b.csv
+EL,Βουλή των Ελλήνων,2019-07-07,,,main,output/EL/2019.csv
+EL,Βουλή των Ελλήνων,2023-05-21,,,main,output/EL/2023a.csv
+EL,Βουλή των Ελλήνων,2023-06-25,,,main,output/EL/2023b.csv
+ES,Congreso de los Diputados,2004-03-14,,,main,output/ES/2004.csv
+ES,Congreso de los Diputados,2008-03-09,,,main,output/ES/2008.csv
+ES,Congreso de los Diputados,2011-11-20,,,main,output/ES/2011.csv
+ES,Congreso de los Diputados,2015-12-20,,,main,output/ES/2015.csv
+ES,Congreso de los Diputados,2016-06-26,,,main,output/ES/2016.csv
+ES,Congreso de los Diputados,2019-04-28,,,main,output/ES/2019_04.csv
+ES,Congreso de los Diputados,2019-11-10,,,main,output/ES/2019_11.csv
+ES,Congreso de los Diputados,2023-07-23,,,main,output/ES/2023.csv
+AT,European Parliament,2004-06-13,,,main,output/EU_AT/2004.csv
+AT,European Parliament,2009-06-07,,,main,output/EU_AT/2009.csv
+AT,European Parliament,2014-05-25,,,main,output/EU_AT/2014.csv
+AT,European Parliament,2019-05-26,,,main,output/EU_AT/2019.csv
+AT,European Parliament,2024-06-09,,,main,output/EU_AT/2024.csv
+BE,European Parliament,2004-06-13,,,main,output/EU_BE/2004.csv
+BE,European Parliament,2009-06-07,,,main,output/EU_BE/2009.csv
+BE,European Parliament,2014-05-25,,,main,output/EU_BE/2014.csv
+BE,European Parliament,2019-05-26,,,main,output/EU_BE/2019.csv
+BE,European Parliament,2024-06-09,,,main,output/EU_BE/2024.csv
+BG,European Parliament,2007-05-20,,,main,output/EU_BG/2007.csv
+BG,European Parliament,2009-06-07,,,main,output/EU_BG/2009.csv
+BG,European Parliament,2014-05-25,,,main,output/EU_BG/2014.csv
+BG,European Parliament,2019-05-26,,,main,output/EU_BG/2019.csv
+BG,European Parliament,2024-06-09,,,main,output/EU_BG/2024.csv
+CY,European Parliament,2004-06-13,,,main,output/EU_CY/2004.csv
+CY,European Parliament,2009-06-07,,,main,output/EU_CY/2009.csv
+CY,European Parliament,2014-05-25,,,main,output/EU_CY/2014.csv
+CY,European Parliament,2019-05-26,,,main,output/EU_CY/2019.csv
+CY,European Parliament,2024-06-09,,,main,output/EU_CY/2024.csv
+CZ,European Parliament,2004-06-13,,,main,output/EU_CZ/2004.csv
+CZ,European Parliament,2009-06-07,,,main,output/EU_CZ/2009.csv
+CZ,European Parliament,2014-05-25,,,main,output/EU_CZ/2014.csv
+CZ,European Parliament,2019-05-26,,,main,output/EU_CZ/2019.csv
+CZ,European Parliament,2024-06-09,,,main,output/EU_CZ/2024.csv
+DE,European Parliament,2004-06-13,,,main,output/EU_DE/2004.csv
+DE,European Parliament,2009-06-07,,,main,output/EU_DE/2009.csv
+DE,European Parliament,2014-05-25,,,main,output/EU_DE/2014.csv
+DE,European Parliament,2019-05-26,,,main,output/EU_DE/2019.csv
+DE,European Parliament,2024-06-09,,,main,output/EU_DE/2024.csv
+DK,European Parliament,2004-06-13,,,main,output/EU_DK/2004.csv
+DK,European Parliament,2009-06-07,,,main,output/EU_DK/2009.csv
+DK,European Parliament,2014-05-25,,,main,output/EU_DK/2014.csv
+DK,European Parliament,2019-05-26,,,main,output/EU_DK/2019.csv
+DK,European Parliament,2024-06-09,,,main,output/EU_DK/2024.csv
+EE,European Parliament,2004-06-13,,,main,output/EU_EE/2004.csv
+EE,European Parliament,2009-06-07,,,main,output/EU_EE/2009.csv
+EE,European Parliament,2014-05-25,,,main,output/EU_EE/2014.csv
+EE,European Parliament,2019-05-26,,,main,output/EU_EE/2019.csv
+EE,European Parliament,2024-06-09,,,main,output/EU_EE/2024.csv
+EL,European Parliament,2004-06-13,,,main,output/EU_EL/2004.csv
+EL,European Parliament,2009-06-07,,,main,output/EU_EL/2009.csv
+EL,European Parliament,2014-05-25,,,main,output/EU_EL/2014.csv
+EL,European Parliament,2019-05-26,,,main,output/EU_EL/2019.csv
+EL,European Parliament,2024-06-09,,,main,output/EU_EL/2024.csv
+ES,European Parliament,2004-06-13,,,main,output/EU_ES/2004.csv
+ES,European Parliament,2009-06-07,,,main,output/EU_ES/2009.csv
+ES,European Parliament,2014-05-25,,,main,output/EU_ES/2014.csv
+ES,European Parliament,2019-05-26,,,main,output/EU_ES/2019.csv
+ES,European Parliament,2024-06-09,,,main,output/EU_ES/2024.csv
+FI,European Parliament,2004-06-13,,,main,output/EU_FI/2004.csv
+FI,European Parliament,2009-06-07,,,main,output/EU_FI/2009.csv
+FI,European Parliament,2014-05-25,,,main,output/EU_FI/2014.csv
+FI,European Parliament,2019-05-26,,,main,output/EU_FI/2019.csv
+FI,European Parliament,2024-06-09,,,main,output/EU_FI/2024.csv
+FR,European Parliament,2004-06-13,,,main,output/EU_FR/2004.csv
+FR,European Parliament,2009-06-07,,,main,output/EU_FR/2009.csv
+FR,European Parliament,2014-05-25,,,main,output/EU_FR/2014.csv
+FR,European Parliament,2019-05-26,,,main,output/EU_FR/2019.csv
+FR,European Parliament,2024-06-09,,,main,output/EU_FR/2024.csv
+HR,European Parliament,2013-04-14,,,main,output/EU_HR/2013.csv
+HR,European Parliament,2014-05-25,,,main,output/EU_HR/2014.csv
+HR,European Parliament,2019-05-26,,,main,output/EU_HR/2019.csv
+HR,European Parliament,2024-06-09,,,main,output/EU_HR/2024.csv
+HU,European Parliament,2004-06-13,,,main,output/EU_HU/2004.csv
+HU,European Parliament,2009-06-07,,,main,output/EU_HU/2009.csv
+HU,European Parliament,2014-05-25,,,main,output/EU_HU/2014.csv
+HU,European Parliament,2019-05-26,,,main,output/EU_HU/2019.csv
+HU,European Parliament,2024-06-09,,,main,output/EU_HU/2024.csv
+IE,European Parliament,2004-06-13,,,main,output/EU_IE/2004.csv
+IE,European Parliament,2009-06-07,,,main,output/EU_IE/2009.csv
+IE,European Parliament,2014-05-25,,,main,output/EU_IE/2014.csv
+IE,European Parliament,2019-05-26,,,main,output/EU_IE/2019.csv
+IE,European Parliament,2024-06-09,,,main,output/EU_IE/2024.csv
+IT,European Parliament,2004-06-13,,,main,output/EU_IT/2004.csv
+IT,European Parliament,2009-06-07,,,main,output/EU_IT/2009.csv
+IT,European Parliament,2014-05-25,,,main,output/EU_IT/2014.csv
+IT,European Parliament,2019-05-26,,,main,output/EU_IT/2019.csv
+IT,European Parliament,2024-06-09,,,main,output/EU_IT/2024.csv
+LT,European Parliament,2004-06-13,,,main,output/EU_LT/2004.csv
+LT,European Parliament,2009-06-07,,,main,output/EU_LT/2009.csv
+LT,European Parliament,2014-05-25,,,main,output/EU_LT/2014.csv
+LT,European Parliament,2019-05-26,,,main,output/EU_LT/2019.csv
+LT,European Parliament,2024-06-09,,,main,output/EU_LT/2024.csv
+LU,European Parliament,2004-06-13,,,main,output/EU_LU/2004.csv
+LU,European Parliament,2009-06-07,,,main,output/EU_LU/2009.csv
+LU,European Parliament,2014-05-25,,,main,output/EU_LU/2014.csv
+LU,European Parliament,2019-05-26,,,main,output/EU_LU/2019.csv
+LU,European Parliament,2024-06-09,,,main,output/EU_LU/2024.csv
+LV,European Parliament,2004-06-13,,,main,output/EU_LV/2004.csv
+LV,European Parliament,2009-06-07,,,main,output/EU_LV/2009.csv
+LV,European Parliament,2014-05-25,,,main,output/EU_LV/2014.csv
+LV,European Parliament,2019-05-26,,,main,output/EU_LV/2019.csv
+LV,European Parliament,2024-06-09,,,main,output/EU_LV/2024.csv
+MT,European Parliament,2004-06-13,,,main,output/EU_MT/2004.csv
+MT,European Parliament,2009-06-07,,,main,output/EU_MT/2009.csv
+MT,European Parliament,2014-05-25,,,main,output/EU_MT/2014.csv
+MT,European Parliament,2019-05-26,,,main,output/EU_MT/2019.csv
+MT,European Parliament,2024-06-09,,,main,output/EU_MT/2024.csv
+NL,European Parliament,2004-06-13,,,main,output/EU_NL/2004.csv
+NL,European Parliament,2009-06-07,,,main,output/EU_NL/2009.csv
+NL,European Parliament,2014-05-25,,,main,output/EU_NL/2014.csv
+NL,European Parliament,2019-05-26,,,main,output/EU_NL/2019.csv
+NL,European Parliament,2024-06-09,,,main,output/EU_NL/2024.csv
+PL,European Parliament,2004-06-13,,,main,output/EU_PL/2004.csv
+PL,European Parliament,2009-06-07,,,main,output/EU_PL/2009.csv
+PL,European Parliament,2014-05-25,,,main,output/EU_PL/2014.csv
+PL,European Parliament,2019-05-26,,,main,output/EU_PL/2019.csv
+PL,European Parliament,2024-06-09,,,main,output/EU_PL/2024.csv
+PT,European Parliament,2004-06-13,,,main,output/EU_PT/2004.csv
+PT,European Parliament,2009-06-07,,,main,output/EU_PT/2009.csv
+PT,European Parliament,2014-05-25,,,main,output/EU_PT/2014.csv
+PT,European Parliament,2019-05-26,,,main,output/EU_PT/2019.csv
+PT,European Parliament,2024-06-09,,,main,output/EU_PT/2024.csv
+RO,European Parliament,2007-11-25,,,main,output/EU_RO/2007.csv
+RO,European Parliament,,,,main,output/EU_RO/2009.csv
+RO,European Parliament,,,,main,output/EU_RO/2014.csv
+RO,European Parliament,,,,main,output/EU_RO/2019.csv
+RO,European Parliament,,,,main,output/EU_RO/2024.csv
+SE,European Parliament,2004-06-13,,,main,output/EU_SE/2004.csv
+SE,European Parliament,2009-06-07,,,main,output/EU_SE/2009.csv
+SE,European Parliament,2014-05-25,,,main,output/EU_SE/2014.csv
+SE,European Parliament,2019-05-26,,,main,output/EU_SE/2019.csv
+SE,European Parliament,2024-06-09,,,main,output/EU_SE/2024.csv
+SI,European Parliament,2004-06-13,,,main,output/EU_SI/2004.csv
+SI,European Parliament,2009-06-07,,,main,output/EU_SI/2009.csv
+SI,European Parliament,2014-05-25,,,main,output/EU_SI/2014.csv
+SI,European Parliament,2019-05-26,,,main,output/EU_SI/2019.csv
+SI,European Parliament,2024-06-09,,,main,output/EU_SI/2024.csv
+SK,European Parliament,2004-06-13,,,main,output/EU_SK/2004.csv
+SK,European Parliament,2009-06-07,,,main,output/EU_SK/2009.csv
+SK,European Parliament,2014-05-25,,,main,output/EU_SK/2014.csv
+SK,European Parliament,2019-05-26,,,main,output/EU_SK/2019.csv
+SK,European Parliament,2024-06-09,,,main,output/EU_SK/2024.csv
+FI,Eduskunta,2003-03-16,,,main,output/FI/2003.csv
+FI,Eduskunta,2007-03-18,,,main,output/FI/2007.csv
+FI,Eduskunta,2011-04-17,,,main,output/FI/2011.csv
+FI,Eduskunta,2015-04-19,,,main,output/FI/2015.csv
+FI,Eduskunta,2019-04-14,,,main,output/FI/2019.csv
+FI,Eduskunta,2023-04-02,,,main,output/FI/2023.csv
+FR,Assemblée nationale,2002-06-09,1,,main,output/FR/2002_1.csv
+FR,Assemblée nationale,2002-06-16,2,,main,output/FR/2002_2.csv
+FR,Assemblée nationale,2007-06-10,1,,main,output/FR/2007_1.csv
+FR,Assemblée nationale,2007-06-17,2,,main,output/FR/2007_2.csv
+FR,Assemblée nationale,2012-06-10,1,,main,output/FR/2012_1.csv
+FR,Assemblée nationale,2012-06-17,2,,main,output/FR/2012_2.csv
+FR,Assemblée nationale,2017-06-11,1,,main,output/FR/2017_1.csv
+FR,Assemblée nationale,2017-06-18,2,,main,output/FR/2017_2.csv
+FR,Assemblée nationale,2022-06-12,1,,main,output/FR/2022_1.csv
+FR,Assemblée nationale,2022-06-19,2,,main,output/FR/2022_2.csv
+FR,Assemblée nationale,2024-06-30,1,,main,output/FR/2024_1.csv
+FR,Assemblée nationale,2024-07-07,2,,main,output/FR/2024_2.csv
+HR,Hrvatski sabor,2003-11-23,,,main,output/HR/2003.csv
+HR,Hrvatski sabor,2007-11-25,,,main,output/HR/2007.csv
+HR,Hrvatski sabor,2011-12-04,,,main,output/HR/2011.csv
+HR,Hrvatski sabor,2015-11-08,,,main,output/HR/2015.csv
+HR,Hrvatski sabor,2016-09-11,,,main,output/HR/2016.csv
+HR,Hrvatski sabor,2020-07-05,,,main,output/HR/2020.csv
+HR,Hrvatski sabor,2024-04-17,,,main,output/HR/2024.csv
+HU,Országgyűlés,2002-04-07,1,party,main,output/HU/2002_1_party.csv
+HU,Országgyűlés,2002-04-07,1,single_member,main,output/HU/2002_1_single_member.csv
+HU,Országgyűlés,2002-04-21,2,single_member,main,output/HU/2002_2_single_member.csv
+HU,Országgyűlés,2006-04-09,1,party,main,output/HU/2006_1_party.csv
+HU,Országgyűlés,2006-04-09,1,single_member,main,output/HU/2006_1_single_member.csv
+HU,Országgyűlés,2006-04-23,2,single_member,main,output/HU/2006_2_single_member.csv
+HU,Országgyűlés,2010-04-11,1,party,main,output/HU/2010_1_party.csv
+HU,Országgyűlés,2010-04-11,1,single_member,main,output/HU/2010_1_single_member.csv
+HU,Országgyűlés,2010-04-25,2,single_member,main,output/HU/2010_2_single_member.csv
+HU,Országgyűlés,2014-04-06,1,party,main,output/HU/2014_1_party.csv
+HU,Országgyűlés,2014-04-06,1,single_member,main,output/HU/2014_1_single_member.csv
+HU,Országgyűlés,2018-04-08,1,party,main,output/HU/2018_1_party.csv
+HU,Országgyűlés,2018-04-08,1,single_member,main,output/HU/2018_1_single_member.csv
+HU,Országgyűlés,2022-04-03,1,party,main,output/HU/2022_1_party.csv
+HU,Országgyűlés,2022-04-03,1,single_member,main,output/HU/2022_1_single_member.csv
+IE,Dáil Éireann,2002-05-17,,,main,output/IE/2002.csv
+IE,Dáil Éireann,2007-05-24,,,main,output/IE/2007.csv
+IE,Dáil Éireann,2011-02-25,,,main,output/IE/2011.csv
+IE,Dáil Éireann,2016-02-26,,,main,output/IE/2016.csv
+IE,Dáil Éireann,2020-02-08,,,main,output/IE/2020.csv
+IE,Dáil Éireann,2024-11-29,,,main,output/IE/2024.csv
+IS,Alþingi,2003-05-10,,,main,output/IS/2003.csv
+IS,Alþingi,2007-05-12,,,main,output/IS/2007.csv
+IS,Alþingi,2009-04-25,,,main,output/IS/2009.csv
+IS,Alþingi,2013-04-27,,,main,output/IS/2013.csv
+IS,Alþingi,2016-10-29,,,main,output/IS/2016.csv
+IS,Alþingi,2017-10-28,,,main,output/IS/2017.csv
+IS,Alþingi,2021-09-25,,,main,output/IS/2021.csv
+IS,Alþingi,2024-11-30,,,main,output/IS/2024.csv
+IT,Camera dei Deputati,2001-05-13,,,main,output/IT/2001.csv
+IT,Camera dei Deputati,2006-04-10,,,main,output/IT/2006.csv
+IT,Camera dei Deputati,2008-04-14,,,main,output/IT/2008.csv
+IT,Camera dei Deputati,2013-02-25,,,main,output/IT/2013.csv
+IT,Camera dei Deputati,2018-03-04,,,main,output/IT/2018.csv
+IT,Camera dei Deputati,2022-09-25,,,main,output/IT/2022.csv
+LI,Landtag,2001-02-11,,,main,output/LI/2001.csv
+LI,Landtag,2005-03-13,,,main,output/LI/2005.csv
+LI,Landtag,2009-02-08,,,main,output/LI/2009.csv
+LI,Landtag,2013-02-03,,,main,output/LI/2013.csv
+LI,Landtag,2017-02-05,,,main,output/LI/2017.csv
+LI,Landtag,2021-02-07,,,main,output/LI/2021.csv
+LI,Landtag,2025-02-09,,,main,output/LI/2025.csv
+LT,Seimas,2004-10-10,,,main,output/LT/2004.csv
+LT,Seimas,2008-10-12,,,main,output/LT/2008.csv
+LT,Seimas,2012-10-14,,,main,output/LT/2012.csv
+LT,Seimas,2016-10-09,,,main,output/LT/2016.csv
+LT,Seimas,2020-10-11,,,main,output/LT/2020.csv
+LT,Seimas,2024-10-13,,,main,output/LT/2024.csv
+LU,Chambre des Députés,2004-06-13,,,main,output/LU/2004.csv
+LU,Chambre des Députés,2009-06-07,,,main,output/LU/2009.csv
+LU,Chambre des Députés,2013-10-20,,,main,output/LU/2013.csv
+LU,Chambre des Députés,2018-10-14,,,main,output/LU/2018.csv
+LU,Chambre des Députés,2023-10-08,,,main,output/LU/2023.csv
+LV,Saeima,2014-10-04,,,main,output/LV/2014.csv
+LV,Saeima,2018-10-06,,,main,output/LV/2018.csv
+LV,Saeima,2022-10-01,,,main,output/LV/2022.csv
+MT,Parlament ta' Malta,2003-04-12,,,main,output/MT/2003.csv
+MT,Parlament ta' Malta,2008-03-08,,,main,output/MT/2008.csv
+MT,Parlament ta' Malta,2013-03-09,,,main,output/MT/2013.csv
+MT,Parlament ta' Malta,2017-06-03,,,main,output/MT/2017.csv
+MT,Parlament ta' Malta,2022-03-26,,,main,output/MT/2022.csv
+NL,Tweede Kamer,2002-05-15,,,main,output/NL/2002.csv
+NL,Tweede Kamer,2003-01-22,,,main,output/NL/2003.csv
+NL,Tweede Kamer,2006-11-22,,,main,output/NL/2006.csv
+NL,Tweede Kamer,2010-06-09,,,main,output/NL/2010.csv
+NL,Tweede Kamer,2012-09-12,,,main,output/NL/2012.csv
+NL,Tweede Kamer,2017-03-15,,,main,output/NL/2017.csv
+NL,Tweede Kamer,2021-03-17,,,main,output/NL/2021.csv
+NL,Tweede Kamer,2023-11-22,,,main,output/NL/2023.csv
+NL,Tweede Kamer,2025-10-29,,,main,output/NL/2025.csv
+NO,Storting,2009-09-14,,,main,output/NO/2009.csv
+NO,Storting,2013-09-09,,,main,output/NO/2013.csv
+NO,Storting,2017-09-11,,,main,output/NO/2017.csv
+NO,Storting,2021-09-13,,,main,output/NO/2021.csv
+NO,Storting,2025-09-08,,,main,output/NO/2025.csv
+PL,Sejm,2001-09-23,,,main,output/PL/2001.csv
+PL,Sejm,2005-09-25,,,main,output/PL/2005.csv
+PL,Sejm,2007-10-21,,,main,output/PL/2007.csv
+PL,Sejm,2011-10-09,,,main,output/PL/2011.csv
+PL,Sejm,2015-10-25,,,main,output/PL/2015.csv
+PL,Sejm,2019-10-13,,,main,output/PL/2019.csv
+PL,Sejm,2023-10-15,,,main,output/PL/2023.csv
+PT,Assembleia da República,2002-03-17,,,main,output/PT/2002.csv
+PT,Assembleia da República,2005-02-20,,,main,output/PT/2005.csv
+PT,Assembleia da República,2009-09-27,,,main,output/PT/2009.csv
+PT,Assembleia da República,2011-06-05,,,main,output/PT/2011.csv
+PT,Assembleia da República,2015-10-04,,,main,output/PT/2015.csv
+PT,Assembleia da República,2019-10-06,,,main,output/PT/2019.csv
+PT,Assembleia da República,2022-01-30,,,main,output/PT/2022.csv
+PT,Assembleia da República,2024-03-10,,,main,output/PT/2024.csv
+PT,Assembleia da República,2025-05-18,,,main,output/PT/2025.csv
+RO,Camera Deputaților,2012-12-09,,,main,output/RO/2012.csv
+RO,Camera Deputaților,2016-12-11,,,main,output/RO/2016.csv
+RO,Camera Deputaților,2020-12-06,,,main,output/RO/2020.csv
+RO,Camera Deputaților,2024-12-01,,,main,output/RO/2024.csv
+SE,Riksdagen,2006-09-17,,,main,output/SE/2006.csv
+SE,Riksdagen,2010-09-19,,,main,output/SE/2010.csv
+SE,Riksdagen,2014-09-14,,,main,output/SE/2014.csv
+SE,Riksdagen,2018-09-09,,,main,output/SE/2018.csv
+SE,Riksdagen,2022-09-11,,,main,output/SE/2022.csv
+SI,Državni zbor,2004-10-03,,,main,output/SI/2004.csv
+SI,Državni zbor,2008-09-21,,,main,output/SI/2008.csv
+SI,Državni zbor,2011-12-04,,,main,output/SI/2011.csv
+SI,Državni zbor,2014-07-13,,,main,output/SI/2014.csv
+SI,Državni zbor,2018-06-03,,,main,output/SI/2018.csv
+SI,Državni zbor,2022-04-24,,,main,output/SI/2022.csv
+SK,Národná rada,2016-03-05,,,main,output/SK/2016.csv
+SK,Národná rada,2020-02-29,,,main,output/SK/2020.csv
+SK,Národná rada,2023-09-30,,,main,output/SK/2023.csv

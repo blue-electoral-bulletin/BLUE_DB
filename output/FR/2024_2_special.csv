@@ -1,0 +1,221 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+FR,2024_2.csv,31110,FR_97501,Miquelon-Langlade,Miquelon-Langlade,special_saint_pierre_et_miquelon
+FR,2024_2.csv,31111,FR_97502,Saint-Pierre,Saint-Pierre,special_saint_pierre_et_miquelon
+FR,2024_2.csv,31112,FR_97603,Bandrele,Bandrele,special_mayotte
+FR,2024_2.csv,31113,FR_97604,Bouéni,Bouéni,special_mayotte
+FR,2024_2.csv,31114,FR_97605,Chiconi,Chiconi,special_mayotte
+FR,2024_2.csv,31115,FR_97606,Chirongui,Chirongui,special_mayotte
+FR,2024_2.csv,31116,FR_97607,Dembeni,Dembeni,special_mayotte
+FR,2024_2.csv,31117,FR_97609,Kani-Kéli,Kani-Kéli,special_mayotte
+FR,2024_2.csv,31118,FR_97611,Mamoudzou,Mamoudzou,special_mayotte
+FR,2024_2.csv,31119,FR_97613,M'Tsangamouji,M'Tsangamouji,special_mayotte
+FR,2024_2.csv,31120,FR_97614,Ouangani,Ouangani,special_mayotte
+FR,2024_2.csv,31121,FR_97616,Sada,Sada,special_mayotte
+FR,2024_2.csv,31122,FR_97617,Tsingoni,Tsingoni,special_mayotte
+FR,2024_2.csv,31123,FR_98714,Bora-Bora,Bora-Bora,special_polynesie_francaise
+FR,2024_2.csv,31124,FR_98715,Faaa,Faaa,special_polynesie_francaise
+FR,2024_2.csv,31125,FR_98722,Hitiaa O Te Ra,Hitiaa O Te Ra,special_polynesie_francaise
+FR,2024_2.csv,31126,FR_98724,Huahine,Huahine,special_polynesie_francaise
+FR,2024_2.csv,31127,FR_98725,Mahina,Mahina,special_polynesie_francaise
+FR,2024_2.csv,31128,FR_98728,Maupiti,Maupiti,special_polynesie_francaise
+FR,2024_2.csv,31129,FR_98733,Paea,Paea,special_polynesie_francaise
+FR,2024_2.csv,31130,FR_98734,Papara,Papara,special_polynesie_francaise
+FR,2024_2.csv,31131,FR_98738,Punaauia,Punaauia,special_polynesie_francaise
+FR,2024_2.csv,31132,FR_98739,Raivavae,Raivavae,special_polynesie_francaise
+FR,2024_2.csv,31133,FR_98741,Rapa,Rapa,special_polynesie_francaise
+FR,2024_2.csv,31134,FR_98743,Rimatara,Rimatara,special_polynesie_francaise
+FR,2024_2.csv,31135,FR_98744,Rurutu,Rurutu,special_polynesie_francaise
+FR,2024_2.csv,31136,FR_98745,Tahaa,Tahaa,special_polynesie_francaise
+FR,2024_2.csv,31137,FR_98747,Taiarapu-Est,Taiarapu-Est,special_polynesie_francaise
+FR,2024_2.csv,31138,FR_98748,Taiarapu-Ouest,Taiarapu-Ouest,special_polynesie_francaise
+FR,2024_2.csv,31139,FR_98750,Taputapuatea,Taputapuatea,special_polynesie_francaise
+FR,2024_2.csv,31140,FR_98752,Teva I Uta,Teva I Uta,special_polynesie_francaise
+FR,2024_2.csv,31141,FR_98753,Tubuai,Tubuai,special_polynesie_francaise
+FR,2024_2.csv,31142,FR_98754,Tumaraa,Tumaraa,special_polynesie_francaise
+FR,2024_2.csv,31143,FR_98758,Uturoa,Uturoa,special_polynesie_francaise
+FR,2024_2.csv,31144,FR_98801,Belep,Belep,special_nouvelle_caledonie
+FR,2024_2.csv,31145,FR_98802,Bouloupari,Bouloupari,special_nouvelle_caledonie
+FR,2024_2.csv,31146,FR_98803,Bourail,Bourail,special_nouvelle_caledonie
+FR,2024_2.csv,31147,FR_98804,Canala,Canala,special_nouvelle_caledonie
+FR,2024_2.csv,31148,FR_98805,Dumbéa,Dumbéa,special_nouvelle_caledonie
+FR,2024_2.csv,31149,FR_98806,Farino,Farino,special_nouvelle_caledonie
+FR,2024_2.csv,31150,FR_98807,Hienghène,Hienghène,special_nouvelle_caledonie
+FR,2024_2.csv,31151,FR_98808,Houaïlou,Houaïlou,special_nouvelle_caledonie
+FR,2024_2.csv,31152,FR_98809,L'Ile-des-Pins,L'Ile-des-Pins,special_nouvelle_caledonie
+FR,2024_2.csv,31153,FR_98810,Kaala-Gomen,Kaala-Gomen,special_nouvelle_caledonie
+FR,2024_2.csv,31154,FR_98811,Koné,Koné,special_nouvelle_caledonie
+FR,2024_2.csv,31155,FR_98812,Koumac,Koumac,special_nouvelle_caledonie
+FR,2024_2.csv,31156,FR_98813,La Foa,La Foa,special_nouvelle_caledonie
+FR,2024_2.csv,31157,FR_98814,Lifou,Lifou,special_nouvelle_caledonie
+FR,2024_2.csv,31158,FR_98815,Maré,Maré,special_nouvelle_caledonie
+FR,2024_2.csv,31159,FR_98816,Moindou,Moindou,special_nouvelle_caledonie
+FR,2024_2.csv,31160,FR_98817,Le Mont-Dore,Le Mont-Dore,special_nouvelle_caledonie
+FR,2024_2.csv,31161,FR_98818,Nouméa,Nouméa,special_nouvelle_caledonie
+FR,2024_2.csv,31162,FR_98819,Ouégoa,Ouégoa,special_nouvelle_caledonie
+FR,2024_2.csv,31163,FR_98820,Ouvéa,Ouvéa,special_nouvelle_caledonie
+FR,2024_2.csv,31164,FR_98821,Païta,Païta,special_nouvelle_caledonie
+FR,2024_2.csv,31165,FR_98822,Poindimié,Poindimié,special_nouvelle_caledonie
+FR,2024_2.csv,31166,FR_98823,Ponérihouen,Ponérihouen,special_nouvelle_caledonie
+FR,2024_2.csv,31167,FR_98824,Pouébo,Pouébo,special_nouvelle_caledonie
+FR,2024_2.csv,31168,FR_98825,Pouembout,Pouembout,special_nouvelle_caledonie
+FR,2024_2.csv,31169,FR_98826,Poum,Poum,special_nouvelle_caledonie
+FR,2024_2.csv,31170,FR_98827,Poya,Poya,special_nouvelle_caledonie
+FR,2024_2.csv,31171,FR_98828,Sarraméa,Sarraméa,special_nouvelle_caledonie
+FR,2024_2.csv,31172,FR_98829,Thio,Thio,special_nouvelle_caledonie
+FR,2024_2.csv,31173,FR_98830,Touho,Touho,special_nouvelle_caledonie
+FR,2024_2.csv,31174,FR_98831,Voh,Voh,special_nouvelle_caledonie
+FR,2024_2.csv,31175,FR_98832,Yaté,Yaté,special_nouvelle_caledonie
+FR,2024_2.csv,31176,FR_98833,Kouaoua,Kouaoua,special_nouvelle_caledonie
+FR,2024_2.csv,31177,FR_97701,Saint-Barthélemy,Saint-Barthélemy,special_saint_barthelemy
+FR,2024_2.csv,31178,FR_97801,Saint-Martin,Saint-Martin,special_saint_martin
+FR,2024_2.csv,31179,FR_FRZZCI,Abidjan,Abidjan,matched_foreign_country_name
+FR,2024_2.csv,31180,FR_FRZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+FR,2024_2.csv,31181,FR_FRZZNG,Nigeria,Nigeria,matched_foreign_country_name
+FR,2024_2.csv,31182,FR_FRZZGH,Accra,Accra,matched_foreign_country_name
+FR,2024_2.csv,31183,FR_FRZZET,Ethiopia,Ethiopia,matched_foreign_country_name
+FR,2024_2.csv,31184,FR_FRZZMA,Morocco,Morocco,matched_foreign_country_name
+FR,2024_2.csv,31185,FR_FRZZEG,Egypt,Egypt,matched_foreign_country_name
+FR,2024_2.csv,31186,FR_FRZZDZ,Algeria,Algeria,matched_foreign_country_name
+FR,2024_2.csv,31187,FR_FRZZKZ,Kazakhstan,Kazakhstan,matched_foreign_country_name
+FR,2024_2.csv,31188,FR_FRZZJO,Jordan,Jordan,matched_foreign_country_name
+FR,2024_2.csv,31189,FR_FRZZNL,Netherlands,Netherlands,matched_foreign_country_name
+FR,2024_2.csv,31190,FR_FRZZAD,Andorre,Andorre,matched_foreign_country_name
+FR,2024_2.csv,31191,FR_FRZZTR,Turkey,Turkey,matched_foreign_country_name
+FR,2024_2.csv,31193,FR_FRZZUS,United States,United States,matched_foreign_country_name
+FR,2024_2.csv,31194,FR_FRZZGR,Greece,Greece,matched_foreign_country_name
+FR,2024_2.csv,31196,FR_FRZZIQ,Bagdad,Bagdad,matched_foreign_country_name
+FR,2024_2.csv,31197,FR_FRZZAZ,Azerbaijan,Azerbaijan,matched_foreign_country_name
+FR,2024_2.csv,31198,FR_FRZZML,Bamako,Bamako,matched_foreign_country_name
+FR,2024_2.csv,31199,FR_FRZZBN,Bandar Seri Begawan,Bandar Seri Begawan,matched_foreign_country_name
+FR,2024_2.csv,31200,FR_FRZZIN,India,India,matched_foreign_country_name
+FR,2024_2.csv,31201,FR_FRZZTH,Thailand,Thailand,matched_foreign_country_name
+FR,2024_2.csv,31202,FR_FRZZCF,Bangui,Bangui,matched_foreign_country_name
+FR,2024_2.csv,31203,FR_FRZZES,Spain,Spain,matched_foreign_country_name
+FR,2024_2.csv,31204,FR_FRZZRS,Serbia,Serbia,matched_foreign_country_name
+FR,2024_2.csv,31205,FR_FRZZDE,Germany,Germany,matched_foreign_country_name
+FR,2024_2.csv,31206,FR_FRZZLB,Lebanon,Lebanon,matched_foreign_country_name
+FR,2024_2.csv,31208,FR_FRZZCO,Bogota,Bogota,matched_foreign_country_name
+FR,2024_2.csv,31211,FR_FRZZBR,Brazil,Brazil,matched_foreign_country_name
+FR,2024_2.csv,31212,FR_FRZZSK,Slovakia,Slovakia,matched_foreign_country_name
+FR,2024_2.csv,31213,FR_FRZZCG,Brazzaville,Brazzaville,matched_foreign_country_name
+FR,2024_2.csv,31214,FR_FRZZBE,Belgium,Belgium,matched_foreign_country_name
+FR,2024_2.csv,31215,FR_FRZZRO,Romania,Romania,matched_foreign_country_name
+FR,2024_2.csv,31216,FR_FRZZHU,Hungary,Hungary,matched_foreign_country_name
+FR,2024_2.csv,31217,FR_FRZZAR,Argentina,Argentina,matched_foreign_country_name
+FR,2024_2.csv,31218,FR_FRZZBI,Bujumbura,Bujumbura,matched_foreign_country_name
+FR,2024_2.csv,31220,FR_FRZZCN,China,China,matched_foreign_country_name
+FR,2024_2.csv,31221,FR_FRZZVE,Caracas,Caracas,matched_foreign_country_name
+FR,2024_2.csv,31223,FR_FRZZLC,Castries,Castries,matched_foreign_country_name
+FR,2024_2.csv,31226,FR_FRZZMD,Moldova,Moldova,matched_foreign_country_name
+FR,2024_2.csv,31227,FR_FRZZLK,Colombo,Colombo,matched_foreign_country_name
+FR,2024_2.csv,31228,FR_FRZZGN,Conakry,Conakry,matched_foreign_country_name
+FR,2024_2.csv,31229,FR_FRZZDK,Denmark,Denmark,matched_foreign_country_name
+FR,2024_2.csv,31230,FR_FRZZBJ,Cotonou,Cotonou,matched_foreign_country_name
+FR,2024_2.csv,31231,FR_FRZZPL,Poland,Poland,matched_foreign_country_name
+FR,2024_2.csv,31232,FR_FRZZBD,Dacca,Dacca,matched_foreign_country_name
+FR,2024_2.csv,31233,FR_FRZZSN,Senegal,Senegal,matched_foreign_country_name
+FR,2024_2.csv,31234,FR_FRZZSY,Syria,Syria,matched_foreign_country_name
+FR,2024_2.csv,31235,FR_FRZZTZ,Tanzania,Tanzania,matched_foreign_country_name
+FR,2024_2.csv,31236,FR_FRZZSA,Saudi Arabia,Saudi Arabia,matched_foreign_country_name
+FR,2024_2.csv,31237,FR_FRZZDJ,Djibouti,Djibouti,matched_foreign_country_name
+FR,2024_2.csv,31238,FR_FRZZQA,Qatar,Qatar,matched_foreign_country_name
+FR,2024_2.csv,31239,FR_FRZZCM,Douala,Douala,matched_foreign_country_name
+FR,2024_2.csv,31241,FR_FRZZIE,Ireland,Ireland,matched_foreign_country_name
+FR,2024_2.csv,31243,FR_FRZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+FR,2024_2.csv,31244,FR_FRZZRU,Russia,Russia,matched_foreign_country_name
+FR,2024_2.csv,31245,FR_FRZZIQ,Erbil,Erbil,matched_foreign_country_name
+FR,2024_2.csv,31246,FR_FRZZAM,Armenia,Armenia,matched_foreign_country_name
+FR,2024_2.csv,31249,FR_FRZZCH,Switzerland,Switzerland,matched_foreign_country_name
+FR,2024_2.csv,31250,FR_FRZZGT,Guatemala,Guatemala,matched_foreign_country_name
+FR,2024_2.csv,31251,FR_FRZZIL,Israel,Israel,matched_foreign_country_name
+FR,2024_2.csv,31253,FR_FRZZVN,Vietnam,Vietnam,matched_foreign_country_name
+FR,2024_2.csv,31254,FR_FRZZZW,Harare,Harare,matched_foreign_country_name
+FR,2024_2.csv,31255,FR_FRZZFI,Finland,Finland,matched_foreign_country_name
+FR,2024_2.csv,31257,FR_FRZZHK,Hong Kong,Hong Kong,matched_foreign_country_name
+FR,2024_2.csv,31259,FR_FRZZPK,Islamabad,Islamabad,matched_foreign_country_name
+FR,2024_2.csv,31261,FR_FRZZID,Indonesia,Indonesia,matched_foreign_country_name
+FR,2024_2.csv,31263,FR_FRZZZA,South Africa,South Africa,matched_foreign_country_name
+FR,2024_2.csv,31264,FR_FRZZAF,Afghanistan,Afghanistan,matched_foreign_country_name
+FR,2024_2.csv,31265,FR_FRZZUG,Kampala,Kampala,matched_foreign_country_name
+FR,2024_2.csv,31266,FR_FRZZPK,Karachi,Karachi,matched_foreign_country_name
+FR,2024_2.csv,31267,FR_FRZZSD,Khartoum,Khartoum,matched_foreign_country_name
+FR,2024_2.csv,31268,FR_FRZZUA,Ukraine,Ukraine,matched_foreign_country_name
+FR,2024_2.csv,31269,FR_FRZZRW,Kigali,Kigali,matched_foreign_country_name
+FR,2024_2.csv,31270,FR_FRZZCD,Kinshasa,Kinshasa,matched_foreign_country_name
+FR,2024_2.csv,31271,FR_FRZZKW,Kuwait,Kuwait,matched_foreign_country_name
+FR,2024_2.csv,31272,FR_FRZZMY,Malaysia,Malaysia,matched_foreign_country_name
+FR,2024_2.csv,31273,FR_FRZZJP,Japan,Japan,matched_foreign_country_name
+FR,2024_2.csv,31274,FR_FRZZCU,Cuba,Cuba,matched_foreign_country_name
+FR,2024_2.csv,31276,FR_FRZZBO,La Paz,La Paz,matched_foreign_country_name
+FR,2024_2.csv,31277,FR_FRZZMT,Malta,Malta,matched_foreign_country_name
+FR,2024_2.csv,31281,FR_FRZZGA,Libreville,Libreville,matched_foreign_country_name
+FR,2024_2.csv,31282,FR_FRZZPE,Lima,Lima,matched_foreign_country_name
+FR,2024_2.csv,31283,FR_FRZZPT,Portugal,Portugal,matched_foreign_country_name
+FR,2024_2.csv,31284,FR_FRZZSI,Slovenia,Slovenia,matched_foreign_country_name
+FR,2024_2.csv,31285,FR_FRZZTG,Lome,Lome,matched_foreign_country_name
+FR,2024_2.csv,31288,FR_FRZZAO,Luanda,Luanda,matched_foreign_country_name
+FR,2024_2.csv,31289,FR_FRZZZM,Lusaka,Lusaka,matched_foreign_country_name
+FR,2024_2.csv,31290,FR_FRZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+FR,2024_2.csv,31292,FR_FRZZGQ,Malabo,Malabo,matched_foreign_country_name
+FR,2024_2.csv,31293,FR_FRZZBH,Bahrain,Bahrain,matched_foreign_country_name
+FR,2024_2.csv,31294,FR_FRZZPH,Philippines,Philippines,matched_foreign_country_name
+FR,2024_2.csv,31295,FR_FRZZMZ,Maputo,Maputo,matched_foreign_country_name
+FR,2024_2.csv,31297,FR_FRZZOM,Oman,Oman,matched_foreign_country_name
+FR,2024_2.csv,31298,FR_FRZZMX,Mexico,Mexico,matched_foreign_country_name
+FR,2024_2.csv,31300,FR_FRZZIT,Italy,Italy,matched_foreign_country_name
+FR,2024_2.csv,31301,FR_FRZZBY,Belarus,Belarus,matched_foreign_country_name
+FR,2024_2.csv,31302,FR_FRZZMC,Monaco,Monaco,matched_foreign_country_name
+FR,2024_2.csv,31303,FR_FRZZCA,Canada,Canada,matched_foreign_country_name
+FR,2024_2.csv,31304,FR_FRZZUY,Montevideo,Montevideo,matched_foreign_country_name
+FR,2024_2.csv,31306,FR_FRZZKM,Moroni,Moroni,matched_foreign_country_name
+FR,2024_2.csv,31309,FR_FRZZKE,Nairobi,Nairobi,matched_foreign_country_name
+FR,2024_2.csv,31311,FR_FRZZTD,Ndjamena,Ndjamena,matched_foreign_country_name
+FR,2024_2.csv,31314,FR_FRZZNE,Niamey,Niamey,matched_foreign_country_name
+FR,2024_2.csv,31315,FR_FRZZCY,Cyprus,Cyprus,matched_foreign_country_name
+FR,2024_2.csv,31316,FR_FRZZMR,Nouakchott,Nouakchott,matched_foreign_country_name
+FR,2024_2.csv,31318,FR_FRZZNO,Norway,Norway,matched_foreign_country_name
+FR,2024_2.csv,31319,FR_FRZZBF,Ouagadougou,Ouagadougou,matched_foreign_country_name
+FR,2024_2.csv,31320,FR_FRZZMN,Mongolia,Mongolia,matched_foreign_country_name
+FR,2024_2.csv,31321,FR_FRZZPA,Panama,Panama,matched_foreign_country_name
+FR,2024_2.csv,31322,FR_FRZZSR,Paramaribo,Paramaribo,matched_foreign_country_name
+FR,2024_2.csv,31324,FR_FRZZKH,Phnom Penh,Phnom Penh,matched_foreign_country_name
+FR,2024_2.csv,31325,FR_FRZZCG,Pointe-Noire,Pointe-Noire,matched_foreign_country_name
+FR,2024_2.csv,31327,FR_FRZZHT,Port-Au-Prince,Port-Au-Prince,matched_foreign_country_name
+FR,2024_2.csv,31328,FR_FRZZMU,Port-Louis,Port-Louis,matched_foreign_country_name
+FR,2024_2.csv,31329,FR_FRZZVU,Port Vila,Port Vila,matched_foreign_country_name
+FR,2024_2.csv,31330,FR_FRZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+FR,2024_2.csv,31331,FR_FRZZXK,Kosovo,Kosovo,matched_foreign_country_name
+FR,2024_2.csv,31333,FR_FRZZEC,Quito,Quito,matched_foreign_country_name
+FR,2024_2.csv,31335,FR_FRZZMM,Rangoun,Rangoun,matched_foreign_country_name
+FR,2024_2.csv,31337,FR_FRZZIS,Iceland,Iceland,matched_foreign_country_name
+FR,2024_2.csv,31338,FR_FRZZLV,Latvia,Latvia,matched_foreign_country_name
+FR,2024_2.csv,31342,FR_FRZZDO,Dominican Republic,Dominican Republic,matched_foreign_country_name
+FR,2024_2.csv,31345,FR_FRZZCR,San Jose,San Jose,matched_foreign_country_name
+FR,2024_2.csv,31346,FR_FRZZYE,Sanaa,Sanaa,matched_foreign_country_name
+FR,2024_2.csv,31347,FR_FRZZCL,Chile,Chile,matched_foreign_country_name
+FR,2024_2.csv,31349,FR_FRZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+FR,2024_2.csv,31351,FR_FRZZKR,South Korea,South Korea,matched_foreign_country_name
+FR,2024_2.csv,31354,FR_FRZZSG,Singapore,Singapore,matched_foreign_country_name
+FR,2024_2.csv,31355,FR_FRZZMK,North Macedonia,North Macedonia,matched_foreign_country_name
+FR,2024_2.csv,31356,FR_FRZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+FR,2024_2.csv,31357,FR_FRZZSE,Sweden,Sweden,matched_foreign_country_name
+FR,2024_2.csv,31359,FR_FRZZAU,Australia,Australia,matched_foreign_country_name
+FR,2024_2.csv,31360,FR_FRZZUZ,Uzbekistan,Uzbekistan,matched_foreign_country_name
+FR,2024_2.csv,31361,FR_FRZZEE,Estonia,Estonia,matched_foreign_country_name
+FR,2024_2.csv,31362,FR_FRZZMG,Tananarive,Tananarive,matched_foreign_country_name
+FR,2024_2.csv,31364,FR_FRZZGE,Georgia,Georgia,matched_foreign_country_name
+FR,2024_2.csv,31365,FR_FRZZHN,Tegucigalpa,Tegucigalpa,matched_foreign_country_name
+FR,2024_2.csv,31366,FR_FRZZIR,Iran,Iran,matched_foreign_country_name
+FR,2024_2.csv,31369,FR_FRZZAL,Albania,Albania,matched_foreign_country_name
+FR,2024_2.csv,31372,FR_FRZZLY,Libya,Libya,matched_foreign_country_name
+FR,2024_2.csv,31373,FR_FRZZTN,Tunisia,Tunisia,matched_foreign_country_name
+FR,2024_2.csv,31376,FR_FRZZAT,Austria,Austria,matched_foreign_country_name
+FR,2024_2.csv,31377,FR_FRZZLA,Vientiane,Vientiane,matched_foreign_country_name
+FR,2024_2.csv,31378,FR_FRZZLT,Lithuania,Lithuania,matched_foreign_country_name
+FR,2024_2.csv,31380,FR_FRZZNZ,New Zealand,New Zealand,matched_foreign_country_name
+FR,2024_2.csv,31382,FR_FRZZCM,Yaounde,Yaounde,matched_foreign_country_name
+FR,2024_2.csv,31383,FR_FRZZHR,Croatia,Croatia,matched_foreign_country_name
+FR,2024_2.csv,31385,FR_FRZZTW,Taiwan,Taiwan,matched_foreign_country_name
+FR,2024_2.csv,31387,FR_FRZZBS,Bahamas (Nassau),Bahamas (Nassau),matched_foreign_country_name
+FR,2024_2.csv,31389,FR_FRZZIQ,Mossoul,Mossoul,matched_foreign_country_name
+FR,2024_2.csv,31391,FR_FRZZNI,Managua,Managua,matched_foreign_country_name

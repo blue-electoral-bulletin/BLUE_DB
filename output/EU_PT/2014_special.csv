@@ -1,0 +1,35 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+PT,2014.csv,3092,PT_PTZZ99,África do Sul,África do Sul,special_foreign_pt
+PT,2014.csv,3093,PT_PTZZAO,Angola,Angola,special_foreign_pt
+PT,2014.csv,3094,PT_PTZZ99,Cabo Verde,Cabo Verde,special_foreign_pt
+PT,2014.csv,3095,PT_PTZZ99,Guiné-Bissau,Guiné-Bissau,special_foreign_pt
+PT,2014.csv,3096,PT_PTZZ99,Moçambique,Moçambique,special_foreign_pt
+PT,2014.csv,3097,PT_PTZZ99,Namíbia,Namíbia,special_foreign_pt
+PT,2014.csv,3098,PT_PTZZ99,São Tomé e Príncipe,São Tomé e Príncipe,special_foreign_pt
+PT,2014.csv,3099,PT_PTZZ99,Zimbabwe,Zimbabwe,special_foreign_pt
+PT,2014.csv,3100,PT_PTZZ99,Argentina,Argentina,special_foreign_pt
+PT,2014.csv,3101,PT_PTZZBR,Brasil,Brasil,special_foreign_pt
+PT,2014.csv,3102,PT_PTZZCA,Canadá,Canadá,special_foreign_pt
+PT,2014.csv,3103,PT_PTZZ99,Colômbia,Colômbia,special_foreign_pt
+PT,2014.csv,3104,PT_PTZZUS,Estados Unidos da América,Estados Unidos da América,special_foreign_pt
+PT,2014.csv,3105,PT_PTZZ99,Uruguai,Uruguai,special_foreign_pt
+PT,2014.csv,3106,PT_PTZZ99,Venezuela,Venezuela,special_foreign_pt
+PT,2014.csv,3107,PT_PTZZ99,Austrália,Austrália,special_foreign_pt
+PT,2014.csv,3108,PT_PTZZCN,China,China,special_foreign_pt
+PT,2014.csv,3109,PT_PTZZ99,Índia,Índia,special_foreign_pt
+PT,2014.csv,3110,PT_PTZZ99,Timor,Timor,special_foreign_pt
+PT,2014.csv,3111,PT_PTZZDE,Alemanha,Alemanha,special_foreign_pt
+PT,2014.csv,3112,PT_PTZZ99,Andorra,Andorra,special_foreign_pt
+PT,2014.csv,3113,PT_PTZZ99,Áustria,Áustria,special_foreign_pt
+PT,2014.csv,3114,PT_PTZZBE,Bélgica,Bélgica,special_foreign_pt
+PT,2014.csv,3115,PT_PTZZ99,Dinamarca,Dinamarca,special_foreign_pt
+PT,2014.csv,3116,PT_PTZZES,Espanha,Espanha,special_foreign_pt
+PT,2014.csv,3117,PT_PTZZFR,França,França,special_foreign_pt
+PT,2014.csv,3118,PT_PTZZNL,Holanda,Holanda,special_foreign_pt
+PT,2014.csv,3119,PT_PTZZ99,Itália,Itália,special_foreign_pt
+PT,2014.csv,3120,PT_PTZZLU,Luxemburgo,Luxemburgo,special_foreign_pt
+PT,2014.csv,3121,PT_PTZZ99,Noruega,Noruega,special_foreign_pt
+PT,2014.csv,3122,PT_PTZZ99,Polónia,Polónia,special_foreign_pt
+PT,2014.csv,3123,PT_PTZZGB,Reino Unido,Reino Unido,special_foreign_pt
+PT,2014.csv,3124,PT_PTZZ99,Suécia,Suécia,special_foreign_pt
+PT,2014.csv,3125,PT_PTZZCH,Suíça,Suíça,special_foreign_pt

@@ -1,0 +1,3 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+PL,2024.csv,1257,PL_PLZZ99,Zagranica,Zagranica,special_foreign_pl
+PL,2024.csv,2526,PL_PLZZ98,Statki,Statki,special_ships_pl

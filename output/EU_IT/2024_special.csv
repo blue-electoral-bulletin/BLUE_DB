@@ -1,0 +1,47 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+IT,2024.csv,0,IT_ITZZAT,Austria,Austria,matched_foreign_country_name
+IT,2024.csv,1,IT_ITZZBE,Belgium,Belgium,matched_foreign_country_name
+IT,2024.csv,2,IT_ITZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+IT,2024.csv,3,IT_ITZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+IT,2024.csv,4,IT_ITZZDK,Denmark,Denmark,matched_foreign_country_name
+IT,2024.csv,5,IT_ITZZFI,Finland,Finland,matched_foreign_country_name
+IT,2024.csv,6,IT_ITZZFR,France,France,matched_foreign_country_name
+IT,2024.csv,7,IT_ITZZDE,Germany,Germany,matched_foreign_country_name
+IT,2024.csv,8,IT_ITZZGR,Greece,Greece,matched_foreign_country_name
+IT,2024.csv,9,IT_ITZZIE,Ireland,Ireland,matched_foreign_country_name
+IT,2024.csv,10,IT_ITZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+IT,2024.csv,11,IT_ITZZMT,Malta,Malta,matched_foreign_country_name
+IT,2024.csv,12,IT_ITZZNL,Netherlands,Netherlands,matched_foreign_country_name
+IT,2024.csv,13,IT_ITZZPL,Poland,Poland,matched_foreign_country_name
+IT,2024.csv,14,IT_ITZZPT,Portugal,Portugal,matched_foreign_country_name
+IT,2024.csv,15,IT_ITZZRO,Romania,Romania,matched_foreign_country_name
+IT,2024.csv,16,IT_ITZZES,Spain,Spain,matched_foreign_country_name
+IT,2024.csv,17,IT_ITZZSE,Sweden,Sweden,matched_foreign_country_name
+IT,2024.csv,18,IT_ITZZHU,Hungary,Hungary,matched_foreign_country_name
+IT,2024.csv,19,IT_ITZZLT,Lithuania,Lithuania,matched_foreign_country_name
+IT,2024.csv,20,IT_ITZZLV,Latvia,Latvia,matched_foreign_country_name
+IT,2024.csv,21,IT_ITZZEE,Estonia,Estonia,matched_foreign_country_name
+IT,2024.csv,22,IT_ITZZHR,Croatia,Croatia,matched_foreign_country_name
+IT,2024.csv,23,IT_ITZZCY,Cyprus,Cyprus,matched_foreign_country_name
+IT,2024.csv,24,IT_ITZZSI,Slovenia,Slovenia,matched_foreign_country_name
+IT,2024.csv,25,IT_ITZZSK,Slovakia,Slovakia,matched_foreign_country_name
+IT,2024.csv,2782,IT_FS04,TRENTO (TRENTINO ALTO ADIGE),TRENTO (TRENTINO ALTO ADIGE),special_fuori_sede_it
+IT,2024.csv,2783,IT_FS05,VENEZIA (VENETO),VENEZIA (VENETO),special_fuori_sede_it
+IT,2024.csv,2784,IT_FS06,TRIESTE (FRIULI VENEZIA GIULIA),TRIESTE (FRIULI VENEZIA GIULIA),special_fuori_sede_it
+IT,2024.csv,3019,IT_FS08,BOLOGNA (EMILIA ROMAGNA),BOLOGNA (EMILIA ROMAGNA),special_fuori_sede_it
+IT,2024.csv,3020,IT_FS09,FIRENZE (TOSCANA),FIRENZE (TOSCANA),special_fuori_sede_it
+IT,2024.csv,3021,IT_FS10,PERUGIA (UMBRIA),PERUGIA (UMBRIA),special_fuori_sede_it
+IT,2024.csv,3022,IT_FS11,ANCONA (MARCHE),ANCONA (MARCHE),special_fuori_sede_it
+IT,2024.csv,3023,IT_FS12,ROMA (LAZIO),ROMA (LAZIO),special_fuori_sede_it
+IT,2024.csv,3024,IT_FS13,LAQUILA (ABRUZZO),LAQUILA (ABRUZZO),special_fuori_sede_it
+IT,2024.csv,3025,IT_FS14,CAMPOBASSO (MOLISE),CAMPOBASSO (MOLISE),special_fuori_sede_it
+IT,2024.csv,3026,IT_FS15,NAPOLI (CAMPANIA),NAPOLI (CAMPANIA),special_fuori_sede_it
+IT,2024.csv,3027,IT_FS16,BARI (PUGLIA),BARI (PUGLIA),special_fuori_sede_it
+IT,2024.csv,3028,IT_FS17,POTENZA (BASILICATA),POTENZA (BASILICATA),special_fuori_sede_it
+IT,2024.csv,3029,IT_FS18,CATANZARO (CALABRIA),CATANZARO (CALABRIA),special_fuori_sede_it
+IT,2024.csv,3030,IT_FS19,PALERMO (SICILIA),PALERMO (SICILIA),special_fuori_sede_it
+IT,2024.csv,3031,IT_FS20,CAGLIARI (SARDEGNA),CAGLIARI (SARDEGNA),special_fuori_sede_it
+IT,2024.csv,3032,IT_FS01,TORINO (PIEMONTE),TORINO (PIEMONTE),special_fuori_sede_it
+IT,2024.csv,3033,IT_FS02,AOSTA (VALLE DAOSTA),AOSTA (VALLE DAOSTA),special_fuori_sede_it
+IT,2024.csv,3034,IT_FS03,MILANO (LOMBARDIA),MILANO (LOMBARDIA),special_fuori_sede_it
+IT,2024.csv,4092,IT_FS07,GENOVA (LIGURIA),GENOVA (LIGURIA),special_fuori_sede_it

@@ -1,0 +1,2 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+EL,2012a.csv,325,EL_ELYY99,Votes outside of any municipality,Votes outside of any municipality,special_outside_municipality

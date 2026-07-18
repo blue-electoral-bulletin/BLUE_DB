@@ -1,0 +1,25 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+IT,2004.csv,8100,IT_ITZZBE,Belgium,Belgium,matched_foreign_country_name
+IT,2004.csv,8101,IT_ITZZDK,Denmark,Denmark,matched_foreign_country_name
+IT,2004.csv,8102,IT_ITZZFR,France,France,matched_foreign_country_name
+IT,2004.csv,8103,IT_ITZZDE,Germany,Germany,matched_foreign_country_name
+IT,2004.csv,8104,IT_ITZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+IT,2004.csv,8105,IT_ITZZIE,Ireland,Ireland,matched_foreign_country_name
+IT,2004.csv,8106,IT_ITZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+IT,2004.csv,8107,IT_ITZZNL,Netherlands,Netherlands,matched_foreign_country_name
+IT,2004.csv,8108,IT_ITZZGR,Greece,Greece,matched_foreign_country_name
+IT,2004.csv,8109,IT_ITZZES,Spain,Spain,matched_foreign_country_name
+IT,2004.csv,8110,IT_ITZZPT,Portugal,Portugal,matched_foreign_country_name
+IT,2004.csv,8111,IT_ITZZAT,Austria,Austria,matched_foreign_country_name
+IT,2004.csv,8112,IT_ITZZFI,Finland,Finland,matched_foreign_country_name
+IT,2004.csv,8113,IT_ITZZSE,Sweden,Sweden,matched_foreign_country_name
+IT,2004.csv,8114,IT_ITZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+IT,2004.csv,8115,IT_ITZZEE,Estonia,Estonia,matched_foreign_country_name
+IT,2004.csv,8116,IT_ITZZCY,Cyprus,Cyprus,matched_foreign_country_name
+IT,2004.csv,8117,IT_ITZZLV,Latvia,Latvia,matched_foreign_country_name
+IT,2004.csv,8118,IT_ITZZLT,Lithuania,Lithuania,matched_foreign_country_name
+IT,2004.csv,8119,IT_ITZZHU,Hungary,Hungary,matched_foreign_country_name
+IT,2004.csv,8120,IT_ITZZMT,Malta,Malta,matched_foreign_country_name
+IT,2004.csv,8121,IT_ITZZPL,Poland,Poland,matched_foreign_country_name
+IT,2004.csv,8122,IT_ITZZSK,Slovakia,Slovakia,matched_foreign_country_name
+IT,2004.csv,8123,IT_ITZZSI,Slovenia,Slovenia,matched_foreign_country_name

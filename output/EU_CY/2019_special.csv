@@ -1,0 +1,4 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CY,2019.csv,75,CY_CYZZBE,Βελγιο,Βελγιο,special_foreign_cy
+CY,2019.csv,101,CY_CYZZEL,Ελλαδα,Ελλαδα,special_foreign_cy
+CY,2019.csv,112,CY_CYZZGB,Ηνωμενο Βασιλειο,Ηνωμενο Βασιλειο,special_foreign_cy

@@ -1,0 +1,51 @@
+\subsubsection{\texttt{geo/communes.csv}}
+
+\begin{longtable}{p{2.5cm}p{12.5cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{gisco\_id}     & Extended GISCO identifier in the form \texttt{CC\_$x$}. \\
+\texttt{id}            & Primary key. Extended GISCO identifier in the form \texttt{CC\_$x$(yyyy)$?$} with optional foundation year in brackets disambiguating entries with identical \texttt{gisco\_id}. \\
+\texttt{name\_or}      & Official name in the local language. \\
+\texttt{level}         & Geographic level, set to \texttt{LAU 2}. \\
+\texttt{start\_year}   & Year from which the unit existed in its current form
+                          (integer, empty if unknown). \\
+\texttt{end\_year}     & Year in which the unit ceased to exist
+                          (integer, empty if still active). \\
+\texttt{predecessors}  & JSON array of \texttt{gisco\_id} values that merged
+                          into this unit. \\
+\texttt{parent}        & \texttt{gisco\_id} (or NUTS code) of the containing
+                          higher-level unit. \\
+\texttt{names}         & JSON array of historical name variants, each with
+                          optional \texttt{start\_date} and
+                          \texttt{end\_date}. \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{\texttt{geo/nuts.csv}}
+
+Contains all NUTS regions at levels 0 through 3 in a single file.
+The column structure is identical to that of \texttt{laus.csv}; the
+\bluevar{level} field takes values \texttt{NUTS~0}, \texttt{NUTS~1},
+\texttt{NUTS~2}, or \texttt{NUTS~3}.
+The \bluevar{parent} column points to the containing NUTS region one
+level up (empty for NUTS~0); \bluevar{gisco\_id} and \bluevar{id} follow the
+standard Eurostat coding (e.g.\ \texttt{AT}, \texttt{AT1}, \texttt{AT11},
+\texttt{AT111}).
+
+\subsubsection{\texttt{geo/special.csv}}
+
+Shares all columns of \texttt{laus.csv}, plus:
+
+\begin{longtable}{p{2.5cm}p{12.5cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{type} & Type of special unit.  Allowed values:
+\texttt{E-Voting}, \texttt{Electoral Constituency},
+\texttt{Overseas Country or Territory}, \texttt{Postal Vote},
+\texttt{Ships at Sea}, \texttt{Voters Abroad}. \\
+\bottomrule
+\end{longtable}

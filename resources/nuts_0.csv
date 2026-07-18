@@ -1,0 +1,32 @@
+id,gisco_id,name_or,level,start_date,end_date,predecessors,parent,names
+AT,AT,Österreich,NUTS 0,,,,,
+BE,BE,Belgique/België,NUTS 0,,,,,"[{""start_date"": """", ""end_date"": ""2021-01-01"", ""name"": ""Belgique-België""}]"
+BG,BG,България,NUTS 0,,,,,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Balgarija""}]"
+CH,CH,Schweiz/Suisse/Svizzera,NUTS 0,,,,,
+CY,CY,Κύπρος,NUTS 0,,,,,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Kypros""}]"
+CZ,CZ,Česko,NUTS 0,,,,,"[{""start_date"": """", ""end_date"": ""2021-01-01"", ""name"": ""Česká Republika""}]"
+DE,DE,Deutschland,NUTS 0,,,,,
+DK,DK,Danmark,NUTS 0,,,,,
+EE,EE,Eesti,NUTS 0,,,,,
+EL,EL,Ellada,NUTS 0,,,,,
+ES,ES,España,NUTS 0,,,,,
+FI,FI,Suomi / Finland,NUTS 0,,,,,
+FR,FR,France,NUTS 0,,,,,
+HR,HR,Hrvatska,NUTS 0,2012-01-01,,,,
+HU,HU,Magyarország,NUTS 0,,,,,
+IE,IE,Éire/Ireland,NUTS 0,,,,,"[{""start_date"": """", ""end_date"": ""2021-01-01"", ""name"": ""Ireland""}]"
+IS,IS,Ísland,NUTS 0,,,,,
+IT,IT,Italia,NUTS 0,,,,,
+LI,LI,Liechtenstein,NUTS 0,,,,,
+LT,LT,Lietuva,NUTS 0,,,,,
+LU,LU,Luxembourg,NUTS 0,,,,,"[{""start_date"": """", ""end_date"": ""2012-01-01"", ""name"": ""Luxembourg (Grand-Duché)""}]"
+LV,LV,Latvija,NUTS 0,,,,,
+MT,MT,Malta,NUTS 0,,,,,
+NL,NL,Nederland,NUTS 0,,,,,
+NO,NO,Norge,NUTS 0,,,,,
+PL,PL,Polska,NUTS 0,,,,,
+PT,PT,Portugal,NUTS 0,,,,,
+RO,RO,Romania,NUTS 0,,,,,
+SE,SE,Sverige,NUTS 0,,,,,
+SI,SI,Slovenija,NUTS 0,,,,,
+SK,SK,Slovensko,NUTS 0,,,,,"[{""start_date"": """", ""end_date"": ""2012-01-01"", ""name"": ""Slovenská Republika""}]"

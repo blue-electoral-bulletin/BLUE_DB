@@ -1,0 +1,357 @@
+country_code,parliament_name,election_date,round,vote_type,file_path
+LI,Landtag,2001-02-11,,,elections/LI/2001_02.csv
+IT,Camera dei Deputati,2001-05-13,,,elections/IT/2001_05.csv
+CY,Βουλή των Αντιπροσώπων,2001-05-27,,,elections/CY/2001_05.csv
+PL,Sejm,2001-09-23,,,elections/PL/2001_09.csv
+DK,Folketing,2001-11-20,,,elections/DK/2001_11.csv
+PT,Assembleia da República,2002-03-17,,,elections/PT/2002_03.csv
+HU,Országgyűlés,2002-04-07,1.0,party,elections/HU/2002_04_1_party.csv
+HU,Országgyűlés,2002-04-07,1.0,single_member,elections/HU/2002_04_1_single_member.csv
+HU,Országgyűlés,2002-04-21,2.0,single_member,elections/HU/2002_04_2_single_member.csv
+NL,Tweede Kamer,2002-05-15,,,elections/NL/2002_05.csv
+IE,Dáil Éireann,2002-05-17,,,elections/IE/2002_05.csv
+FR,Assemblée nationale,2002-06-09,1.0,,elections/FR/2002_06_1.csv
+CZ,Poslanecká sněmovna,2002-06-15,,,elections/CZ/2002_06.csv
+FR,Assemblée nationale,2002-06-16,2.0,,elections/FR/2002_06_2.csv
+DE,Bundestag,2002-09-22,,Erststimme,elections/DE/2002_09_Erststimme.csv
+DE,Bundestag,2002-09-22,,Zweitstimme,elections/DE/2002_09_Zweitstimme.csv
+AT,Nationalrat,2002-11-24,,,elections/AT/2002_11.csv
+NL,Tweede Kamer,2003-01-22,,,elections/NL/2003_01.csv
+EE,Riigikogu,2003-03-02,,,elections/EE/2003_03.csv
+FI,Eduskunta,2003-03-16,,,elections/FI/2003_03.csv
+MT,Parlament ta' Malta,2003-04-12,,,elections/MT/2003_04.csv
+IS,Alþingi,2003-05-10,,,elections/IS/2003_05.csv
+BE,Chambre des Représentants,2003-05-18,,,elections/BE/2003_05.csv
+CH,Nationalrat,2003-10-19,,,elections/CH/2003_10.csv
+HR,Hrvatski sabor,2003-11-23,,,elections/HR/2003_11.csv
+EL,Βουλή των Ελλήνων,2004-03-07,,,elections/EL/2004_03.csv
+ES,Congreso de los Diputados,2004-03-14,,,elections/ES/2004_03.csv
+AT,European Parliament,2004-06-13,,,elections/AT/EU_2004_06.csv
+BE,European Parliament,2004-06-13,,,elections/BE/EU_2004_06.csv
+CY,European Parliament,2004-06-13,,,elections/CY/EU_2004_06.csv
+CZ,European Parliament,2004-06-13,,,elections/CZ/EU_2004_06.csv
+DE,European Parliament,2004-06-13,,,elections/DE/EU_2004_06.csv
+DK,European Parliament,2004-06-13,,,elections/DK/EU_2004_06.csv
+EE,European Parliament,2004-06-13,,,elections/EE/EU_2004_06.csv
+EL,European Parliament,2004-06-13,,,elections/EL/EU_2004_06.csv
+ES,European Parliament,2004-06-13,,,elections/ES/EU_2004_06.csv
+FI,European Parliament,2004-06-13,,,elections/FI/EU_2004_06.csv
+FR,European Parliament,2004-06-13,,,elections/FR/EU_2004_06.csv
+HU,European Parliament,2004-06-13,,,elections/HU/EU_2004_06.csv
+IE,European Parliament,2004-06-13,,,elections/IE/EU_2004_06.csv
+IT,European Parliament,2004-06-13,,,elections/IT/EU_2004_06.csv
+LT,European Parliament,2004-06-13,,,elections/LT/EU_2004_06.csv
+LU,European Parliament,2004-06-13,,,elections/LU/EU_2004_06.csv
+LU,Chambre des Députés,2004-06-13,,,elections/LU/2004_06.csv
+LV,European Parliament,2004-06-13,,,elections/LV/EU_2004_06.csv
+MT,European Parliament,2004-06-13,,,elections/MT/EU_2004_06.csv
+NL,European Parliament,2004-06-13,,,elections/NL/EU_2004_06.csv
+PL,European Parliament,2004-06-13,,,elections/PL/EU_2004_06.csv
+PT,European Parliament,2004-06-13,,,elections/PT/EU_2004_06.csv
+SE,European Parliament,2004-06-13,,,elections/SE/EU_2004_06.csv
+SI,European Parliament,2004-06-13,,,elections/SI/EU_2004_06.csv
+SK,European Parliament,2004-06-13,,,elections/SK/EU_2004_06.csv
+SI,Državni zbor,2004-10-03,,,elections/SI/2004_10.csv
+LT,Seimas,2004-10-10,,,elections/LT/2004_10.csv
+DK,Folketing,2005-02-08,,,elections/DK/2005_02.csv
+PT,Assembleia da República,2005-02-20,,,elections/PT/2005_02.csv
+LI,Landtag,2005-03-13,,,elections/LI/2005_03.csv
+BG,Народно събрание,2005-06-25,,,elections/BG/2005_06.csv
+DE,Bundestag,2005-09-18,,Erststimme,elections/DE/2005_09_Erststimme.csv
+DE,Bundestag,2005-09-18,,Zweitstimme,elections/DE/2005_09_Zweitstimme.csv
+PL,Sejm,2005-09-25,,,elections/PL/2005_09.csv
+HU,Országgyűlés,2006-04-09,1.0,party,elections/HU/2006_04_1_party.csv
+HU,Országgyűlés,2006-04-09,1.0,single_member,elections/HU/2006_04_1_single_member.csv
+IT,Camera dei Deputati,2006-04-10,,,elections/IT/2006_04.csv
+HU,Országgyűlés,2006-04-23,2.0,single_member,elections/HU/2006_04_2_single_member.csv
+CY,Βουλή των Αντιπροσώπων,2006-05-21,,,elections/CY/2006_05.csv
+CZ,Poslanecká sněmovna,2006-06-03,,,elections/CZ/2006_06.csv
+SE,Riksdagen,2006-09-17,,,elections/SE/2006_09.csv
+AT,Nationalrat,2006-10-01,,,elections/AT/2006_10.csv
+NL,Tweede Kamer,2006-11-22,,,elections/NL/2006_11.csv
+EE,Riigikogu,2007-03-04,,,elections/EE/2007_03.csv
+FI,Eduskunta,2007-03-18,,,elections/FI/2007_03.csv
+IS,Alþingi,2007-05-12,,,elections/IS/2007_05.csv
+BG,European Parliament,2007-05-20,,,elections/BG/EU_2007_05.csv
+IE,Dáil Éireann,2007-05-24,,,elections/IE/2007_05.csv
+BE,Chambre des Représentants,2007-06-10,,,elections/BE/2007_06.csv
+FR,Assemblée nationale,2007-06-10,1.0,,elections/FR/2007_06_1.csv
+FR,Assemblée nationale,2007-06-17,2.0,,elections/FR/2007_06_2.csv
+EL,Βουλή των Ελλήνων,2007-09-16,,,elections/EL/2007_09.csv
+CH,Nationalrat,2007-10-21,,,elections/CH/2007_10.csv
+PL,Sejm,2007-10-21,,,elections/PL/2007_10.csv
+DK,Folketing,2007-11-13,,,elections/DK/2007_11.csv
+HR,Hrvatski sabor,2007-11-25,,,elections/HR/2007_11.csv
+RO,European Parliament,2007-11-25,,,elections/RO/EU_2007_11.csv
+MT,Parlament ta' Malta,2008-03-08,,,elections/MT/2008_03.csv
+ES,Congreso de los Diputados,2008-03-09,,,elections/ES/2008_03.csv
+IT,Camera dei Deputati,2008-04-14,,,elections/IT/2008_04.csv
+SI,Državni zbor,2008-09-21,,,elections/SI/2008_09.csv
+AT,Nationalrat,2008-09-28,,,elections/AT/2008_09.csv
+LT,Seimas,2008-10-12,,,elections/LT/2008_10.csv
+LI,Landtag,2009-02-08,,,elections/LI/2009_02.csv
+IS,Alþingi,2009-04-25,,,elections/IS/2009_04.csv
+AT,European Parliament,2009-06-07,,,elections/AT/EU_2009_06.csv
+BE,European Parliament,2009-06-07,,,elections/BE/EU_2009_06.csv
+BG,European Parliament,2009-06-07,,,elections/BG/EU_2009_06.csv
+CY,European Parliament,2009-06-07,,,elections/CY/EU_2009_06.csv
+CZ,European Parliament,2009-06-07,,,elections/CZ/EU_2009_06.csv
+DE,European Parliament,2009-06-07,,,elections/DE/EU_2009_06.csv
+DK,European Parliament,2009-06-07,,,elections/DK/EU_2009_06.csv
+EE,European Parliament,2009-06-07,,,elections/EE/EU_2009_06.csv
+EL,European Parliament,2009-06-07,,,elections/EL/EU_2009_06.csv
+ES,European Parliament,2009-06-07,,,elections/ES/EU_2009_06.csv
+FI,European Parliament,2009-06-07,,,elections/FI/EU_2009_06.csv
+FR,European Parliament,2009-06-07,,,elections/FR/EU_2009_06.csv
+HU,European Parliament,2009-06-07,,,elections/HU/EU_2009_06.csv
+IE,European Parliament,2009-06-07,,,elections/IE/EU_2009_06.csv
+IT,European Parliament,2009-06-07,,,elections/IT/EU_2009_06.csv
+LT,European Parliament,2009-06-07,,,elections/LT/EU_2009_06.csv
+LU,European Parliament,2009-06-07,,,elections/LU/EU_2009_06.csv
+LU,Chambre des Députés,2009-06-07,,,elections/LU/2009_06.csv
+LV,European Parliament,2009-06-07,,,elections/LV/EU_2009_06.csv
+MT,European Parliament,2009-06-07,,,elections/MT/EU_2009_06.csv
+NL,European Parliament,2009-06-07,,,elections/NL/EU_2009_06.csv
+PL,European Parliament,2009-06-07,,,elections/PL/EU_2009_06.csv
+PT,European Parliament,2009-06-07,,,elections/PT/EU_2009_06.csv
+SE,European Parliament,2009-06-07,,,elections/SE/EU_2009_06.csv
+SI,European Parliament,2009-06-07,,,elections/SI/EU_2009_06.csv
+SK,European Parliament,2009-06-07,,,elections/SK/EU_2009_06.csv
+BG,Народно събрание,2009-07-05,,,elections/BG/2009_07.csv
+NO,Storting,2009-09-14,,,elections/NO/2009_09.csv
+DE,Bundestag,2009-09-27,,Erststimme,elections/DE/2009_09_Erststimme.csv
+DE,Bundestag,2009-09-27,,Zweitstimme,elections/DE/2009_09_Zweitstimme.csv
+PT,Assembleia da República,2009-09-27,,,elections/PT/2009_09.csv
+EL,Βουλή των Ελλήνων,2009-10-04,,,elections/EL/2009_10.csv
+HU,Országgyűlés,2010-04-11,1.0,party,elections/HU/2010_04_1_party.csv
+HU,Országgyűlés,2010-04-11,1.0,single_member,elections/HU/2010_04_1_single_member.csv
+HU,Országgyűlés,2010-04-25,2.0,single_member,elections/HU/2010_04_2_single_member.csv
+CZ,Poslanecká sněmovna,2010-05-29,,,elections/CZ/2010_05.csv
+NL,Tweede Kamer,2010-06-09,,,elections/NL/2010_06.csv
+BE,Chambre des Représentants,2010-06-13,,,elections/BE/2010_06.csv
+SE,Riksdagen,2010-09-19,,,elections/SE/2010_09.csv
+IE,Dáil Éireann,2011-02-25,,,elections/IE/2011_02.csv
+EE,Riigikogu,2011-03-06,,,elections/EE/2011_03.csv
+FI,Eduskunta,2011-04-17,,,elections/FI/2011_04.csv
+CY,Βουλή των Αντιπροσώπων,2011-05-22,,,elections/CY/2011_05.csv
+PT,Assembleia da República,2011-06-05,,,elections/PT/2011_06.csv
+DK,Folketing,2011-09-15,,,elections/DK/2011_09.csv
+PL,Sejm,2011-10-09,,,elections/PL/2011_10.csv
+CH,Nationalrat,2011-10-23,,,elections/CH/2011_10.csv
+ES,Congreso de los Diputados,2011-11-20,,,elections/ES/2011_11.csv
+HR,Hrvatski sabor,2011-12-04,,,elections/HR/2011_12.csv
+SI,Državni zbor,2011-12-04,,,elections/SI/2011_12.csv
+EL,Βουλή των Ελλήνων,2012-05-06,,,elections/EL/2012_05.csv
+FR,Assemblée nationale,2012-06-10,1.0,,elections/FR/2012_06_1.csv
+EL,Βουλή των Ελλήνων,2012-06-17,,,elections/EL/2012_06.csv
+FR,Assemblée nationale,2012-06-17,2.0,,elections/FR/2012_06_2.csv
+NL,Tweede Kamer,2012-09-12,,,elections/NL/2012_09.csv
+LT,Seimas,2012-10-14,,,elections/LT/2012_10.csv
+RO,Camera Deputaților,2012-12-09,,,elections/RO/2012_12.csv
+LI,Landtag,2013-02-03,,,elections/LI/2013_02.csv
+IT,Camera dei Deputati,2013-02-25,,,elections/IT/2013_02.csv
+MT,Parlament ta' Malta,2013-03-09,,,elections/MT/2013_03.csv
+HR,European Parliament,2013-04-14,,,elections/HR/EU_2013_04.csv
+IS,Alþingi,2013-04-27,,,elections/IS/2013_04.csv
+BG,Народно събрание,2013-05-12,,,elections/BG/2013_05.csv
+NO,Storting,2013-09-09,,,elections/NO/2013_09.csv
+DE,Bundestag,2013-09-22,,Erststimme,elections/DE/2013_09_Erststimme.csv
+DE,Bundestag,2013-09-22,,Zweitstimme,elections/DE/2013_09_Zweitstimme.csv
+AT,Nationalrat,2013-09-29,,,elections/AT/2013_09.csv
+LU,Chambre des Députés,2013-10-20,,,elections/LU/2013_10.csv
+CZ,Poslanecká sněmovna,2013-10-26,,,elections/CZ/2013_10.csv
+HU,Országgyűlés,2014-04-06,1.0,party,elections/HU/2014_04_1_party.csv
+HU,Országgyűlés,2014-04-06,1.0,single_member,elections/HU/2014_04_1_single_member.csv
+AT,European Parliament,2014-05-25,,,elections/AT/EU_2014_05.csv
+BE,Chambre des Représentants,2014-05-25,,,elections/BE/2014_05.csv
+BE,European Parliament,2014-05-25,,,elections/BE/EU_2014_05.csv
+BG,European Parliament,2014-05-25,,,elections/BG/EU_2014_05.csv
+CY,European Parliament,2014-05-25,,,elections/CY/EU_2014_05.csv
+CZ,European Parliament,2014-05-25,,,elections/CZ/EU_2014_05.csv
+DE,European Parliament,2014-05-25,,,elections/DE/EU_2014_05.csv
+DK,European Parliament,2014-05-25,,,elections/DK/EU_2014_05.csv
+EE,European Parliament,2014-05-25,,,elections/EE/EU_2014_05.csv
+EL,European Parliament,2014-05-25,,,elections/EL/EU_2014_05.csv
+ES,European Parliament,2014-05-25,,,elections/ES/EU_2014_05.csv
+FI,European Parliament,2014-05-25,,,elections/FI/EU_2014_05.csv
+FR,European Parliament,2014-05-25,,,elections/FR/EU_2014_05.csv
+HR,European Parliament,2014-05-25,,,elections/HR/EU_2014_05.csv
+HU,European Parliament,2014-05-25,,,elections/HU/EU_2014_05.csv
+IE,European Parliament,2014-05-25,,,elections/IE/EU_2014_05.csv
+IT,European Parliament,2014-05-25,,,elections/IT/EU_2014_05.csv
+LT,European Parliament,2014-05-25,,,elections/LT/EU_2014_05.csv
+LU,European Parliament,2014-05-25,,,elections/LU/EU_2014_05.csv
+LV,European Parliament,2014-05-25,,,elections/LV/EU_2014_05.csv
+MT,European Parliament,2014-05-25,,,elections/MT/EU_2014_05.csv
+NL,European Parliament,2014-05-25,,,elections/NL/EU_2014_05.csv
+PL,European Parliament,2014-05-25,,,elections/PL/EU_2014_05.csv
+PT,European Parliament,2014-05-25,,,elections/PT/EU_2014_05.csv
+SE,European Parliament,2014-05-25,,,elections/SE/EU_2014_05.csv
+SI,European Parliament,2014-05-25,,,elections/SI/EU_2014_05.csv
+SK,European Parliament,2014-05-25,,,elections/SK/EU_2014_05.csv
+SI,Državni zbor,2014-07-13,,,elections/SI/2014_07.csv
+SE,Riksdagen,2014-09-14,,,elections/SE/2014_09.csv
+LV,Saeima,2014-10-04,,,elections/LV/2014_10.csv
+BG,Народно събрание,2014-10-05,,,elections/BG/2014_10.csv
+EL,Βουλή των Ελλήνων,2015-01-25,,,elections/EL/2015_01.csv
+EE,Riigikogu,2015-03-01,,,elections/EE/2015_03.csv
+FI,Eduskunta,2015-04-19,,,elections/FI/2015_04.csv
+DK,Folketing,2015-06-18,,,elections/DK/2015_06.csv
+EL,Βουλή των Ελλήνων,2015-09-20,,,elections/EL/2015_09.csv
+PT,Assembleia da República,2015-10-04,,,elections/PT/2015_10.csv
+CH,Nationalrat,2015-10-18,,,elections/CH/2015_10.csv
+PL,Sejm,2015-10-25,,,elections/PL/2015_10.csv
+HR,Hrvatski sabor,2015-11-08,,,elections/HR/2015_11.csv
+ES,Congreso de los Diputados,2015-12-20,,,elections/ES/2015_12.csv
+IE,Dáil Éireann,2016-02-26,,,elections/IE/2016_02.csv
+SK,Národná rada,2016-03-05,,,elections/SK/2016_03.csv
+CY,Βουλή των Αντιπροσώπων,2016-05-22,,,elections/CY/2016_05.csv
+ES,Congreso de los Diputados,2016-06-26,,,elections/ES/2016_06.csv
+HR,Hrvatski sabor,2016-09-11,,,elections/HR/2016_09.csv
+LT,Seimas,2016-10-09,,,elections/LT/2016_10.csv
+IS,Alþingi,2016-10-29,,,elections/IS/2016_10.csv
+RO,Camera Deputaților,2016-12-11,,,elections/RO/2016_12.csv
+LI,Landtag,2017-02-05,,,elections/LI/2017_02.csv
+NL,Tweede Kamer,2017-03-15,,,elections/NL/2017_03.csv
+BG,Народно събрание,2017-03-26,,,elections/BG/2017_03.csv
+MT,Parlament ta' Malta,2017-06-03,,,elections/MT/2017_06.csv
+FR,Assemblée nationale,2017-06-11,1.0,,elections/FR/2017_06_1.csv
+FR,Assemblée nationale,2017-06-18,2.0,,elections/FR/2017_06_2.csv
+NO,Storting,2017-09-11,,,elections/NO/2017_09.csv
+DE,Bundestag,2017-09-24,,Erststimme,elections/DE/2017_09_Erststimme.csv
+DE,Bundestag,2017-09-24,,Zweitstimme,elections/DE/2017_09_Zweitstimme.csv
+AT,Nationalrat,2017-10-15,,,elections/AT/2017_10.csv
+CZ,Poslanecká sněmovna,2017-10-21,,,elections/CZ/2017_10.csv
+IS,Alþingi,2017-10-28,,,elections/IS/2017_10.csv
+IT,Camera dei Deputati,2018-03-04,,,elections/IT/2018_03.csv
+HU,Országgyűlés,2018-04-08,1.0,party,elections/HU/2018_04_1_party.csv
+HU,Országgyűlés,2018-04-08,1.0,single_member,elections/HU/2018_04_1_single_member.csv
+SI,Državni zbor,2018-06-03,,,elections/SI/2018_06.csv
+SE,Riksdagen,2018-09-09,,,elections/SE/2018_09.csv
+LV,Saeima,2018-10-06,,,elections/LV/2018_10.csv
+LU,Chambre des Députés,2018-10-14,,,elections/LU/2018_10.csv
+EE,Riigikogu,2019-03-03,,,elections/EE/2019_03.csv
+FI,Eduskunta,2019-04-14,,,elections/FI/2019_04.csv
+ES,Congreso de los Diputados,2019-04-28,,,elections/ES/2019_04.csv
+AT,European Parliament,2019-05-26,,,elections/AT/EU_2019_05.csv
+BE,Chambre des Représentants,2019-05-26,,,elections/BE/2019_05.csv
+BE,European Parliament,2019-05-26,,,elections/BE/EU_2019_05.csv
+BG,European Parliament,2019-05-26,,,elections/BG/EU_2019_05.csv
+CY,European Parliament,2019-05-26,,,elections/CY/EU_2019_05.csv
+CZ,European Parliament,2019-05-26,,,elections/CZ/EU_2019_05.csv
+DE,European Parliament,2019-05-26,,,elections/DE/EU_2019_05.csv
+DK,European Parliament,2019-05-26,,,elections/DK/EU_2019_05.csv
+EE,European Parliament,2019-05-26,,,elections/EE/EU_2019_05.csv
+EL,European Parliament,2019-05-26,,,elections/EL/EU_2019_05.csv
+ES,European Parliament,2019-05-26,,,elections/ES/EU_2019_05.csv
+FI,European Parliament,2019-05-26,,,elections/FI/EU_2019_05.csv
+FR,European Parliament,2019-05-26,,,elections/FR/EU_2019_05.csv
+HR,European Parliament,2019-05-26,,,elections/HR/EU_2019_05.csv
+HU,European Parliament,2019-05-26,,,elections/HU/EU_2019_05.csv
+IE,European Parliament,2019-05-26,,,elections/IE/EU_2019_05.csv
+IT,European Parliament,2019-05-26,,,elections/IT/EU_2019_05.csv
+LT,European Parliament,2019-05-26,,,elections/LT/EU_2019_05.csv
+LU,European Parliament,2019-05-26,,,elections/LU/EU_2019_05.csv
+LV,European Parliament,2019-05-26,,,elections/LV/EU_2019_05.csv
+MT,European Parliament,2019-05-26,,,elections/MT/EU_2019_05.csv
+NL,European Parliament,2019-05-26,,,elections/NL/EU_2019_05.csv
+PL,European Parliament,2019-05-26,,,elections/PL/EU_2019_05.csv
+PT,European Parliament,2019-05-26,,,elections/PT/EU_2019_05.csv
+SE,European Parliament,2019-05-26,,,elections/SE/EU_2019_05.csv
+SI,European Parliament,2019-05-26,,,elections/SI/EU_2019_05.csv
+SK,European Parliament,2019-05-26,,,elections/SK/EU_2019_05.csv
+DK,Folketing,2019-06-05,,,elections/DK/2019_06.csv
+EL,Βουλή των Ελλήνων,2019-07-07,,,elections/EL/2019_07.csv
+AT,Nationalrat,2019-09-29,,,elections/AT/2019_09.csv
+PT,Assembleia da República,2019-10-06,,,elections/PT/2019_10.csv
+PL,Sejm,2019-10-13,,,elections/PL/2019_10.csv
+CH,Nationalrat,2019-10-20,,,elections/CH/2019_10.csv
+ES,Congreso de los Diputados,2019-11-10,,,elections/ES/2019_11.csv
+IE,Dáil Éireann,2020-02-08,,,elections/IE/2020_02.csv
+SK,Národná rada,2020-02-29,,,elections/SK/2020_02.csv
+HR,Hrvatski sabor,2020-07-05,,,elections/HR/2020_07.csv
+LT,Seimas,2020-10-11,,,elections/LT/2020_10.csv
+RO,Camera Deputaților,2020-12-06,,,elections/RO/2020_12.csv
+LI,Landtag,2021-02-07,,,elections/LI/2021_02.csv
+NL,Tweede Kamer,2021-03-17,,,elections/NL/2021_03.csv
+BG,Народно събрание,2021-04-04,,,elections/BG/2021_04.csv
+CY,Βουλή των Αντιπροσώπων,2021-05-30,,,elections/CY/2021_05.csv
+BG,Народно събрание,2021-07-11,,,elections/BG/2021_07.csv
+NO,Storting,2021-09-13,,,elections/NO/2021_09.csv
+IS,Alþingi,2021-09-25,,,elections/IS/2021_09.csv
+DE,Bundestag,2021-09-26,,Erststimme,elections/DE/2021_09_Erststimme.csv
+DE,Bundestag,2021-09-26,,Zweitstimme,elections/DE/2021_09_Zweitstimme.csv
+CZ,Poslanecká sněmovna,2021-10-09,,,elections/CZ/2021_10.csv
+BG,Народно събрание,2021-11-14,,,elections/BG/2021_11.csv
+PT,Assembleia da República,2022-01-30,,,elections/PT/2022_01.csv
+MT,Parlament ta' Malta,2022-03-26,,,elections/MT/2022_03.csv
+HU,Országgyűlés,2022-04-03,1.0,party,elections/HU/2022_04_1_party.csv
+HU,Országgyűlés,2022-04-03,1.0,single_member,elections/HU/2022_04_1_single_member.csv
+SI,Državni zbor,2022-04-24,,,elections/SI/2022_04.csv
+FR,Assemblée nationale,2022-06-12,1.0,,elections/FR/2022_06_1.csv
+FR,Assemblée nationale,2022-06-19,2.0,,elections/FR/2022_06_2.csv
+SE,Riksdagen,2022-09-11,,,elections/SE/2022_09.csv
+IT,Camera dei Deputati,2022-09-25,,,elections/IT/2022_09.csv
+LV,Saeima,2022-10-01,,,elections/LV/2022_10.csv
+BG,Народно събрание,2022-10-02,,,elections/BG/2022_10.csv
+DK,Folketing,2022-11-01,,,elections/DK/2022_11.csv
+EE,Riigikogu,2023-03-05,,,elections/EE/2023_03.csv
+BG,Народно събрание,2023-04-02,,,elections/BG/2023_04.csv
+FI,Eduskunta,2023-04-02,,,elections/FI/2023_04.csv
+EL,Βουλή των Ελλήνων,2023-05-21,,,elections/EL/2023_05.csv
+EL,Βουλή των Ελλήνων,2023-06-25,,,elections/EL/2023_06.csv
+ES,Congreso de los Diputados,2023-07-23,,,elections/ES/2023_07.csv
+SK,Národná rada,2023-09-30,,,elections/SK/2023_09.csv
+LU,Chambre des Députés,2023-10-08,,,elections/LU/2023_10.csv
+PL,Sejm,2023-10-15,,,elections/PL/2023_10.csv
+CH,Nationalrat,2023-10-22,,,elections/CH/2023_10.csv
+NL,Tweede Kamer,2023-11-22,,,elections/NL/2023_11.csv
+PT,Assembleia da República,2024-03-10,,,elections/PT/2024_03.csv
+HR,Hrvatski sabor,2024-04-17,,,elections/HR/2024_04.csv
+AT,European Parliament,2024-06-09,,,elections/AT/EU_2024_06.csv
+BE,Chambre des Représentants,2024-06-09,,,elections/BE/2024_06.csv
+BE,European Parliament,2024-06-09,,,elections/BE/EU_2024_06.csv
+BG,Народно събрание,2024-06-09,,,elections/BG/2024_06.csv
+BG,European Parliament,2024-06-09,,,elections/BG/EU_2024_06.csv
+CY,European Parliament,2024-06-09,,,elections/CY/EU_2024_06.csv
+CZ,European Parliament,2024-06-09,,,elections/CZ/EU_2024_06.csv
+DE,European Parliament,2024-06-09,,,elections/DE/EU_2024_06.csv
+DK,European Parliament,2024-06-09,,,elections/DK/EU_2024_06.csv
+EE,European Parliament,2024-06-09,,,elections/EE/EU_2024_06.csv
+EL,European Parliament,2024-06-09,,,elections/EL/EU_2024_06.csv
+ES,European Parliament,2024-06-09,,,elections/ES/EU_2024_06.csv
+FI,European Parliament,2024-06-09,,,elections/FI/EU_2024_06.csv
+FR,European Parliament,2024-06-09,,,elections/FR/EU_2024_06.csv
+HR,European Parliament,2024-06-09,,,elections/HR/EU_2024_06.csv
+HU,European Parliament,2024-06-09,,,elections/HU/EU_2024_06.csv
+IE,European Parliament,2024-06-09,,,elections/IE/EU_2024_06.csv
+IT,European Parliament,2024-06-09,,,elections/IT/EU_2024_06.csv
+LT,European Parliament,2024-06-09,,,elections/LT/EU_2024_06.csv
+LU,European Parliament,2024-06-09,,,elections/LU/EU_2024_06.csv
+LV,European Parliament,2024-06-09,,,elections/LV/EU_2024_06.csv
+MT,European Parliament,2024-06-09,,,elections/MT/EU_2024_06.csv
+NL,European Parliament,2024-06-09,,,elections/NL/EU_2024_06.csv
+PL,European Parliament,2024-06-09,,,elections/PL/EU_2024_06.csv
+PT,European Parliament,2024-06-09,,,elections/PT/EU_2024_06.csv
+SE,European Parliament,2024-06-09,,,elections/SE/EU_2024_06.csv
+SI,European Parliament,2024-06-09,,,elections/SI/EU_2024_06.csv
+SK,European Parliament,2024-06-09,,,elections/SK/EU_2024_06.csv
+FR,Assemblée nationale,2024-06-30,1.0,,elections/FR/2024_06_1.csv
+FR,Assemblée nationale,2024-07-07,2.0,,elections/FR/2024_07_2.csv
+AT,Nationalrat,2024-09-29,,,elections/AT/2024_09.csv
+LT,Seimas,2024-10-13,,,elections/LT/2024_10.csv
+BG,Народно събрание,2024-10-27,,,elections/BG/2024_10.csv
+IE,Dáil Éireann,2024-11-29,,,elections/IE/2024_11.csv
+IS,Alþingi,2024-11-30,,,elections/IS/2024_11.csv
+RO,Camera Deputaților,2024-12-01,,,elections/RO/2024_12.csv
+LI,Landtag,2025-02-09,,,elections/LI/2025_02.csv
+DE,Bundestag,2025-02-23,,Erststimme,elections/DE/2025_02_Erststimme.csv
+DE,Bundestag,2025-02-23,,Zweitstimme,elections/DE/2025_02_Zweitstimme.csv
+PT,Assembleia da República,2025-05-18,,,elections/PT/2025_05.csv
+NO,Storting,2025-09-08,,,elections/NO/2025_09.csv
+CZ,Poslanecká sněmovna,2025-10-04,,,elections/CZ/2025_10.csv
+NL,Tweede Kamer,2025-10-29,,,elections/NL/2025_10.csv
+RO,European Parliament,,,,elections/RO/EU_2009.csv
+RO,European Parliament,,,,elections/RO/EU_2014.csv
+RO,European Parliament,,,,elections/RO/EU_2019.csv
+RO,European Parliament,,,,elections/RO/EU_2024.csv

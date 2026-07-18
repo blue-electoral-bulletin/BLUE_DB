@@ -1,0 +1,31 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+BG,2009.csv,4285,BG_BGZZAU,Australia,Australia,matched_foreign_by_code_prefix
+BG,2009.csv,4286,BG_BGZZAT,Austria,Austria,matched_foreign_by_code_prefix
+BG,2009.csv,4287,BG_BGZZAL,Albania,Albania,matched_foreign_by_code_prefix
+BG,2009.csv,4292,BG_BGZZAF,Afghanistan,Afghanistan,matched_foreign_by_code_prefix
+BG,2009.csv,4293,BG_BGZZBE,Belgium,Belgium,matched_foreign_by_code_prefix
+BG,2009.csv,4295,BG_BGZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_by_code_prefix
+BG,2009.csv,4296,BG_BGZZGR,Greece,Greece,matched_foreign_by_code_prefix
+BG,2009.csv,4297,BG_BGZZDK,Denmark,Denmark,matched_foreign_by_code_prefix
+BG,2009.csv,4306,BG_BGZZIL,Israel,Israel,matched_foreign_by_code_prefix
+BG,2009.csv,4308,BG_BGZZIR,Iran,Iran,matched_foreign_by_code_prefix
+BG,2009.csv,4309,BG_BGZZIE,Ireland,Ireland,matched_foreign_by_code_prefix
+BG,2009.csv,4310,BG_BGZZES,Spain,Spain,matched_foreign_by_code_prefix
+BG,2009.csv,4311,BG_BGZZIT,Italy,Italy,matched_foreign_by_code_prefix
+BG,2009.csv,4312,BG_BGZZKZ,Kazakhstan,Kazakhstan,matched_foreign_by_code_prefix
+BG,2009.csv,4313,BG_BGZZCA,Canada,Canada,matched_foreign_by_code_prefix
+BG,2009.csv,4314,BG_BGZZCY,Cyprus,Cyprus,matched_foreign_by_code_prefix
+BG,2009.csv,4316,BG_BGZZCN,China,China,matched_foreign_by_code_prefix
+BG,2009.csv,4317,BG_BGZZKR,South Korea,South Korea,matched_foreign_by_code_prefix
+BG,2009.csv,4318,BG_BGZZXK,Kosovo,Kosovo,matched_foreign_by_code_prefix
+BG,2009.csv,4319,BG_BGZZKW,Kuwait,Kuwait,matched_foreign_by_code_prefix
+BG,2009.csv,4320,BG_BGZZLY,Libya,Libya,matched_foreign_by_code_prefix
+BG,2009.csv,4321,BG_BGZZLB,Lebanon,Lebanon,matched_foreign_by_code_prefix
+BG,2009.csv,4322,BG_BGZZLU,Luxembourg,Luxembourg,matched_foreign_by_code_prefix
+BG,2009.csv,4323,BG_BGZZMT,Malta,Malta,matched_foreign_by_code_prefix
+BG,2009.csv,4325,BG_BGZZMA,Morocco,Morocco,matched_foreign_by_code_prefix
+BG,2009.csv,4326,BG_BGZZNG,Nigeria,Nigeria,matched_foreign_by_code_prefix
+BG,2009.csv,4330,BG_BGZZNL,Netherlands,Netherlands,matched_foreign_by_code_prefix
+BG,2009.csv,4332,BG_BGZZNO,Norway,Norway,matched_foreign_by_code_prefix
+BG,2009.csv,4333,BG_BGZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_by_code_prefix
+BG,2009.csv,4334,BG_BGZZPL,Poland,Poland,matched_foreign_by_code_prefix

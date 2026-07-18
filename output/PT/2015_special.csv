@@ -1,0 +1,13 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+PT,2015.csv,3092,PT_PTZZDE,Alemanha,Alemanha,special_foreign_pt
+PT,2015.csv,3093,PT_PTZZES,Espanha,Espanha,special_foreign_pt
+PT,2015.csv,3094,PT_PTZZFR,França,França,special_foreign_pt
+PT,2015.csv,3095,PT_PTZZ90,Restantes Países de Europa,Restantes Países de Europa,special_foreign_pt
+PT,2015.csv,3096,PT_PTZZCH,Suíça,Suíça,special_foreign_pt
+PT,2015.csv,3097,PT_PTZZBR,Brasil,Brasil,special_foreign_pt
+PT,2015.csv,3098,PT_PTZZCA,Canadá,Canadá,special_foreign_pt
+PT,2015.csv,3099,PT_PTZZCN,China,China,special_foreign_pt
+PT,2015.csv,3100,PT_PTZZUS,Estados Unidos da América,Estados Unidos da América,special_foreign_pt
+PT,2015.csv,3101,PT_PTZZ93,Países de África,Países de África,special_foreign_pt
+PT,2015.csv,3102,PT_PTZZ91,Restantes Países da América,Restantes Países da América,special_foreign_pt
+PT,2015.csv,3103,PT_PTZZ92,Países da Ásia e Oceânia,Países da Ásia e Oceânia,special_foreign_pt

@@ -1,0 +1,4 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+NL,2012.csv,48,NL_NLZZBO,Bonaire,Bonaire,special_bonaire
+NL,2012.csv,298,NL_NLZZSA,Saba,Saba,special_saba
+NL,2012.csv,312,NL_NLZZSE,Sint Eustatius,Sint Eustatius,special_sint_eustatius

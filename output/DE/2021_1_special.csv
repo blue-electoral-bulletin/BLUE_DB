@@ -1,0 +1,625 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+DE,2021_1.csv,115,DE_01051963,Briefwahl Amt Burg-St. Michaelisdonn,Briefwahl Amt Burg-St. Michaelisdonn,special_briefwahl
+DE,2021_1.csv,116,DE_01051966,Briefwahl Amt Marne-Nordsee,Briefwahl Amt Marne-Nordsee,special_briefwahl
+DE,2021_1.csv,117,DE_01051969,Briefwahl KSLG Eider,Briefwahl KSLG Eider,special_briefwahl
+DE,2021_1.csv,118,DE_01051972,Briefwahl KSLG Heider Umland,Briefwahl KSLG Heider Umland,special_briefwahl
+DE,2021_1.csv,119,DE_01051975,Briefwahl Amt Mitteldithmarschen,Briefwahl Amt Mitteldithmarschen,special_briefwahl
+DE,2021_1.csv,120,DE_01051978,Briefwahl Amt Büsum-Wesselburen,Briefwahl Amt Büsum-Wesselburen,special_briefwahl
+DE,2021_1.csv,253,DE_01053908,Briefwahl Amt Berkenthin,Briefwahl Amt Berkenthin,special_briefwahl
+DE,2021_1.csv,254,DE_01053913,Briefwahl Amt Breitenfelde,Briefwahl Amt Breitenfelde,special_briefwahl
+DE,2021_1.csv,255,DE_01053918,Briefwahl Amt Büchen,Briefwahl Amt Büchen,special_briefwahl
+DE,2021_1.csv,256,DE_01053923,Briefwahl Amt Hohe Elbgeest,Briefwahl Amt Hohe Elbgeest,special_briefwahl
+DE,2021_1.csv,257,DE_01053943,Briefwahl Amt Lütau,Briefwahl Amt Lütau,special_briefwahl
+DE,2021_1.csv,258,DE_01053958,Briefwahl Amt Lauenburgische Seen,Briefwahl Amt Lauenburgische Seen,special_briefwahl
+DE,2021_1.csv,259,DE_01053973,Briefwahl Amt Schwarzenbek-Land,Briefwahl Amt Schwarzenbek-Land,special_briefwahl
+DE,2021_1.csv,260,DE_01053991,Briefwahl Amt Sandesneben-Nusse (Gemeinden Wahlkreis 10),Briefwahl Amt Sandesneben-Nusse (Gemeinden Wahlkreis 10),special_briefwahl
+DE,2021_1.csv,261,DE_01053991,Briefwahl Amt Sandesneben-Nusse (Gemeinden Wahlkreis 11),Briefwahl Amt Sandesneben-Nusse (Gemeinden Wahlkreis 11),special_briefwahl
+DE,2021_1.csv,392,DE_01054917,Briefwahl Amt Eiderstedt,Briefwahl Amt Eiderstedt,special_briefwahl
+DE,2021_1.csv,393,DE_01054939,Briefwahl Amt Landschaft Sylt,Briefwahl Amt Landschaft Sylt,special_briefwahl
+DE,2021_1.csv,394,DE_01054953,Briefwahl Amt Viöl,Briefwahl Amt Viöl,special_briefwahl
+DE,2021_1.csv,395,DE_01054959,Briefwahl Amt Pellworm,Briefwahl Amt Pellworm,special_briefwahl
+DE,2021_1.csv,396,DE_01054988,Briefwahl Amt Föhr-Amrum (Gemeinden Insel Föhr),Briefwahl Amt Föhr-Amrum (Gemeinden Insel Föhr),special_briefwahl
+DE,2021_1.csv,397,DE_01054989,Briefwahl Amt Südtondern ohne Stadt Niebüll,Briefwahl Amt Südtondern ohne Stadt Niebüll,special_briefwahl
+DE,2021_1.csv,398,DE_01054992,Briefwahl Amt Nordsee-Treene und Stadt Friedrichstadt,Briefwahl Amt Nordsee-Treene und Stadt Friedrichstadt,special_briefwahl
+DE,2021_1.csv,399,DE_01054994,Briefwahl Amt Mittleres Nordfriesland und Gemeinde Reußenköge,Briefwahl Amt Mittleres Nordfriesland und Gemeinde Reußenköge,special_briefwahl
+DE,2021_1.csv,400,DE_01054998,Briefwahl Amt Föhr-Amrum (Gemeinden Insel Amrum),Briefwahl Amt Föhr-Amrum (Gemeinden Insel Amrum),special_briefwahl
+DE,2021_1.csv,437,DE_01055924,"Briefwahl Gemeinden Dahme, Grube und Kellenhusen (Ostsee)","Briefwahl Gemeinden Dahme, Grube und Kellenhusen (Ostsee)",special_briefwahl
+DE,2021_1.csv,438,DE_01055943,Briefwahl Amt Oldenburg-Land,Briefwahl Amt Oldenburg-Land,special_briefwahl
+DE,2021_1.csv,439,DE_01055946,Briefwahl Amt Lensahn,Briefwahl Amt Lensahn,special_briefwahl
+DE,2021_1.csv,440,DE_01055991,Briefwahl Amt Ostholstein-Mitte,Briefwahl Amt Ostholstein-Mitte,special_briefwahl
+DE,2021_1.csv,490,DE_01056916,Briefwahl Amt Elmshorn-Land,Briefwahl Amt Elmshorn-Land,special_briefwahl
+DE,2021_1.csv,491,DE_01056936,Briefwahl Amt Hörnerkirchen,Briefwahl Amt Hörnerkirchen,special_briefwahl
+DE,2021_1.csv,492,DE_01056960,Briefwahl Amt Rantzau,Briefwahl Amt Rantzau,special_briefwahl
+DE,2021_1.csv,493,DE_01056987,Briefwahl Amt Pinnau,Briefwahl Amt Pinnau,special_briefwahl
+DE,2021_1.csv,494,DE_01056990,Briefwahl Amt Geest und Marsch Südholstein,Briefwahl Amt Geest und Marsch Südholstein,special_briefwahl
+DE,2021_1.csv,580,DE_01057927,Briefwahl Amt Lütjenburg,Briefwahl Amt Lütjenburg,special_briefwahl
+DE,2021_1.csv,581,DE_01057939,Briefwahl Amt Großer Plöner See,Briefwahl Amt Großer Plöner See,special_briefwahl
+DE,2021_1.csv,582,DE_01057947,Briefwahl Amt Preetz-Land,Briefwahl Amt Preetz-Land,special_briefwahl
+DE,2021_1.csv,583,DE_01057955,Briefwahl Amt Probstei,Briefwahl Amt Probstei,special_briefwahl
+DE,2021_1.csv,584,DE_01057975,Briefwahl Amt Selent/ Schlesen,Briefwahl Amt Selent/ Schlesen,special_briefwahl
+DE,2021_1.csv,585,DE_01057985,Briefwahl Amt Bokhorst-Wankendorf,Briefwahl Amt Bokhorst-Wankendorf,special_briefwahl
+DE,2021_1.csv,750,DE_01058903,Briefwahl Amt Achterwehr,Briefwahl Amt Achterwehr,special_briefwahl
+DE,2021_1.csv,751,DE_01058922,Briefwahl Amt Dänischenhagen ohne Gemeinde Dänischenhagen,Briefwahl Amt Dänischenhagen ohne Gemeinde Dänischenhagen,special_briefwahl
+DE,2021_1.csv,752,DE_01058924,Briefwahl Amt Dänischer Wohld ohne Gemeinde Gettorf,Briefwahl Amt Dänischer Wohld ohne Gemeinde Gettorf,special_briefwahl
+DE,2021_1.csv,753,DE_01058930,Briefwahl Amt Flintbek,Briefwahl Amt Flintbek,special_briefwahl
+DE,2021_1.csv,754,DE_01058933,Briefwahl Amt Fockbek,Briefwahl Amt Fockbek,special_briefwahl
+DE,2021_1.csv,755,DE_01058947,Briefwahl Amt Hohner Harde,Briefwahl Amt Hohner Harde,special_briefwahl
+DE,2021_1.csv,756,DE_01058953,Briefwahl Amt Jevenstedt,Briefwahl Amt Jevenstedt,special_briefwahl
+DE,2021_1.csv,757,DE_01058959,Briefwahl Amt Molfsee ohne Gemeinde Molfsee,Briefwahl Amt Molfsee ohne Gemeinde Molfsee,special_briefwahl
+DE,2021_1.csv,758,DE_01058964,Briefwahl Amt Nortorfer  Land,Briefwahl Amt Nortorfer  Land,special_briefwahl
+DE,2021_1.csv,759,DE_01058988,Briefwahl Amt Eiderkanal ohne Gemeinden Osterrönfeld und Schacht-Audorf,Briefwahl Amt Eiderkanal ohne Gemeinden Osterrönfeld und Schacht-Audorf,special_briefwahl
+DE,2021_1.csv,760,DE_01058989,Briefwahl Amt Bordesholm,Briefwahl Amt Bordesholm,special_briefwahl
+DE,2021_1.csv,761,DE_01058990,Briefwahl Amt Hüttener Berge,Briefwahl Amt Hüttener Berge,special_briefwahl
+DE,2021_1.csv,762,DE_01058993,Briefwahl Amt Schlei-Ostsee,Briefwahl Amt Schlei-Ostsee,special_briefwahl
+DE,2021_1.csv,763,DE_01058995,Briefwahl Amt Mittelholstein,Briefwahl Amt Mittelholstein,special_briefwahl
+DE,2021_1.csv,889,DE_01059912,Briefwahl Amt Eggebek,Briefwahl Amt Eggebek,special_briefwahl
+DE,2021_1.csv,890,DE_01059915,Briefwahl Amt Haddeby,Briefwahl Amt Haddeby,special_briefwahl
+DE,2021_1.csv,891,DE_01059919,Briefwahl Amt Hürup,Briefwahl Amt Hürup,special_briefwahl
+DE,2021_1.csv,892,DE_01059920,Briefwahl Amt Kappeln-Land,Briefwahl Amt Kappeln-Land,special_briefwahl
+DE,2021_1.csv,893,DE_01059937,Briefwahl Amt Langballig,Briefwahl Amt Langballig,special_briefwahl
+DE,2021_1.csv,894,DE_01059940,Briefwahl Gemeinden Sieverstedt und Oeversee,Briefwahl Gemeinden Sieverstedt und Oeversee,special_briefwahl
+DE,2021_1.csv,895,DE_01059949,Briefwahl Gemeinden Schnarup-Thumby und Sörup,Briefwahl Gemeinden Schnarup-Thumby und Sörup,special_briefwahl
+DE,2021_1.csv,896,DE_01059952,Briefwahl Amt Schafflund,Briefwahl Amt Schafflund,special_briefwahl
+DE,2021_1.csv,897,DE_01059974,Briefwahl Amt Süderbrarup,Briefwahl Amt Süderbrarup,special_briefwahl
+DE,2021_1.csv,898,DE_01059987,Briefwahl Amt Südangeln,Briefwahl Amt Südangeln,special_briefwahl
+DE,2021_1.csv,899,DE_01059990,Briefwahl Amt Geltinger Bucht,Briefwahl Amt Geltinger Bucht,special_briefwahl
+DE,2021_1.csv,900,DE_01059993,Briefwahl Amt Arensharde,Briefwahl Amt Arensharde,special_briefwahl
+DE,2021_1.csv,901,DE_01059996,Briefwahl Amt Kropp-Stapelholm,Briefwahl Amt Kropp-Stapelholm,special_briefwahl
+DE,2021_1.csv,997,DE_01060905,Briefwahl Amt Bad Bramstedt-Land,Briefwahl Amt Bad Bramstedt-Land,special_briefwahl
+DE,2021_1.csv,998,DE_01060924,Briefwahl Amt Bornhöved,Briefwahl Amt Bornhöved,special_briefwahl
+DE,2021_1.csv,999,DE_01060934,Briefwahl Amt Itzstedt,Briefwahl Amt Itzstedt,special_briefwahl
+DE,2021_1.csv,1000,DE_01060943,Briefwahl Amt Kaltenkirchen-Land,Briefwahl Amt Kaltenkirchen-Land,special_briefwahl
+DE,2021_1.csv,1001,DE_01060948,"Briefwahl Gemeinden Kisdorf, Wakendorf II und Winsen","Briefwahl Gemeinden Kisdorf, Wakendorf II und Winsen",special_briefwahl
+DE,2021_1.csv,1002,DE_01060953,Briefwahl Amt Leezen,Briefwahl Amt Leezen,special_briefwahl
+DE,2021_1.csv,1003,DE_01060963,Briefwahl Amt Boostedt-Rickling ohne Gemeinde Boostedt,Briefwahl Amt Boostedt-Rickling ohne Gemeinde Boostedt,special_briefwahl
+DE,2021_1.csv,1004,DE_01060968,"Briefwahl Amt Kisdorf ohne Gemeinden Kisdorf, Wakendorf II und Winsen","Briefwahl Amt Kisdorf ohne Gemeinden Kisdorf, Wakendorf II und Winsen",special_briefwahl
+DE,2021_1.csv,1005,DE_01060986,Briefwahl Amt Trave-Land,Briefwahl Amt Trave-Land,special_briefwahl
+DE,2021_1.csv,1108,DE_01061904,Briefwahl Amt Breitenburg,Briefwahl Amt Breitenburg,special_briefwahl
+DE,2021_1.csv,1109,DE_01061934,Briefwahl Amt Horst-Herzhorn ohne Gemeinde Horst (Holstein),Briefwahl Amt Horst-Herzhorn ohne Gemeinde Horst (Holstein),special_briefwahl
+DE,2021_1.csv,1110,DE_01061938,Briefwahl Amt Itzehoe-Land,Briefwahl Amt Itzehoe-Land,special_briefwahl
+DE,2021_1.csv,1111,DE_01061953,Briefwahl Amt Krempermarsch,Briefwahl Amt Krempermarsch,special_briefwahl
+DE,2021_1.csv,1112,DE_01061968,Briefwahl Amt Schenefeld,Briefwahl Amt Schenefeld,special_briefwahl
+DE,2021_1.csv,1113,DE_01061979,Briefwahl Amt Wilstermarsch,Briefwahl Amt Wilstermarsch,special_briefwahl
+DE,2021_1.csv,1114,DE_01061989,Briefwahl Amt Kellinghusen ohne Stadt Kellinghusen,Briefwahl Amt Kellinghusen ohne Stadt Kellinghusen,special_briefwahl
+DE,2021_1.csv,1170,DE_01062907,Briefwahl Amt Bad Oldesloe-Land,Briefwahl Amt Bad Oldesloe-Land,special_briefwahl
+DE,2021_1.csv,1171,DE_01062918,Briefwahl Amt Bargteheide-Land,Briefwahl Amt Bargteheide-Land,special_briefwahl
+DE,2021_1.csv,1172,DE_01062944,Briefwahl Amt Nordstormarn,Briefwahl Amt Nordstormarn,special_briefwahl
+DE,2021_1.csv,1173,DE_01062962,Briefwahl Amt Siek,Briefwahl Amt Siek,special_briefwahl
+DE,2021_1.csv,1174,DE_01062970,Briefwahl Amt Trittau ohne Gemeinde Trittau,Briefwahl Amt Trittau ohne Gemeinde Trittau,special_briefwahl
+DE,2021_1.csv,1228,DE_03151901,Briefwahl SG Boldecker Land ohne Gemeinde Weyhausen,Briefwahl SG Boldecker Land ohne Gemeinde Weyhausen,special_briefwahl
+DE,2021_1.csv,1229,DE_03151902,Briefwahl Gemeinde Bergfeld und Flecken Brome,Briefwahl Gemeinde Bergfeld und Flecken Brome,special_briefwahl
+DE,2021_1.csv,1230,DE_03151903,Briefwahl SG Hankensbüttel ohne Gemeinde Hankensbüttel,Briefwahl SG Hankensbüttel ohne Gemeinde Hankensbüttel,special_briefwahl
+DE,2021_1.csv,1231,DE_03151906,Briefwahl Gemeinden Adenbüttel und Rötgesbüttel,Briefwahl Gemeinden Adenbüttel und Rötgesbüttel,special_briefwahl
+DE,2021_1.csv,1232,DE_03151907,Briefwahl SG Wesendorf,Briefwahl SG Wesendorf,special_briefwahl
+DE,2021_1.csv,1233,DE_03151922,"Briefwahl Gemeinden Ehra-Lessien, Parsau, Tiddische und Tülau","Briefwahl Gemeinden Ehra-Lessien, Parsau, Tiddische und Tülau",special_briefwahl
+DE,2021_1.csv,1234,DE_03151926,Briefwahl Gemeinden Vordorf und Didderse,Briefwahl Gemeinden Vordorf und Didderse,special_briefwahl
+DE,2021_1.csv,1265,DE_03154901,Briefwahl SG Grasleben,Briefwahl SG Grasleben,special_briefwahl
+DE,2021_1.csv,1266,DE_03154902,Briefwahl SG Heeseberg,Briefwahl SG Heeseberg,special_briefwahl
+DE,2021_1.csv,1267,DE_03154903,"Briefwahl Gemeinden Frellstedt, Räbke und Süpplingen","Briefwahl Gemeinden Frellstedt, Räbke und Süpplingen",special_briefwahl
+DE,2021_1.csv,1268,DE_03154904,Briefwahl Gemeinden Bahrdorf und Danndorf,Briefwahl Gemeinden Bahrdorf und Danndorf,special_briefwahl
+DE,2021_1.csv,1269,DE_03154923,"Briefwahl Gemeinden Süpplingenburg, Warberg und Wolsdorf","Briefwahl Gemeinden Süpplingenburg, Warberg und Wolsdorf",special_briefwahl
+DE,2021_1.csv,1270,DE_03154924,Briefwahl Gemeinden Grafhorst und Groß Twülpstedt,Briefwahl Gemeinden Grafhorst und Groß Twülpstedt,special_briefwahl
+DE,2021_1.csv,1321,DE_03158902,Briefwahl SG Baddeckenstedt,Briefwahl SG Baddeckenstedt,special_briefwahl
+DE,2021_1.csv,1322,DE_03158903,Briefwahl SG Oderwald,Briefwahl SG Oderwald,special_briefwahl
+DE,2021_1.csv,1323,DE_03158906,Briefwahl SG Sickte ohne Gemeinde Sickte,Briefwahl SG Sickte ohne Gemeinde Sickte,special_briefwahl
+DE,2021_1.csv,1324,DE_03158907,"Briefwahl Gemeinden Dahlum, Kissenbrück und Winnigstedt","Briefwahl Gemeinden Dahlum, Kissenbrück und Winnigstedt",special_briefwahl
+DE,2021_1.csv,1325,DE_03158927,Briefwahl Gemeinden Denkte und Uehrde,Briefwahl Gemeinden Denkte und Uehrde,special_briefwahl
+DE,2021_1.csv,1326,DE_03158947,"Briefwahl Gemeinden Hedeper, Kneitlingen, Vahlberg und Wittmar","Briefwahl Gemeinden Hedeper, Kneitlingen, Vahlberg und Wittmar",special_briefwahl
+DE,2021_1.csv,1327,DE_03158967,Briefwahl Gemeinden Roklum und Remlingen-Semmenstedt,Briefwahl Gemeinden Roklum und Remlingen-Semmenstedt,special_briefwahl
+DE,2021_1.csv,1367,DE_03159901,Briefwahl SG Dransfeld,Briefwahl SG Dransfeld,special_briefwahl
+DE,2021_1.csv,1368,DE_03159902,Briefwahl SG Gieboldehausen ohne Gemeinde Gieboldehausen,Briefwahl SG Gieboldehausen ohne Gemeinde Gieboldehausen,special_briefwahl
+DE,2021_1.csv,1369,DE_03159903,Briefwahl SG Hattorf am Harz ohne Gemeinde Hattorf am Harz,Briefwahl SG Hattorf am Harz ohne Gemeinde Hattorf am Harz,special_briefwahl
+DE,2021_1.csv,1370,DE_03159904,Briefwahl SG Radolfshausen,Briefwahl SG Radolfshausen,special_briefwahl
+DE,2021_1.csv,1437,DE_03251901,Briefwahl SG Altes Amt Lemförde ohne Flecken Lemförde,Briefwahl SG Altes Amt Lemförde ohne Flecken Lemförde,special_briefwahl
+DE,2021_1.csv,1438,DE_03251902,Briefwahl SG Barnstorf,Briefwahl SG Barnstorf,special_briefwahl
+DE,2021_1.csv,1439,DE_03251903,Briefwahl SG Bruchhausen-Vilsen,Briefwahl SG Bruchhausen-Vilsen,special_briefwahl
+DE,2021_1.csv,1440,DE_03251904,Briefwahl SG Kirchdorf,Briefwahl SG Kirchdorf,special_briefwahl
+DE,2021_1.csv,1441,DE_03251905,Briefwahl SG Rehden,Briefwahl SG Rehden,special_briefwahl
+DE,2021_1.csv,1442,DE_03251906,Briefwahl SG Schwaförden,Briefwahl SG Schwaförden,special_briefwahl
+DE,2021_1.csv,1443,DE_03251907,Briefwahl SG Siedenburg,Briefwahl SG Siedenburg,special_briefwahl
+DE,2021_1.csv,1472,DE_03254906,Briefwahl SG Leinebergland,Briefwahl SG Leinebergland,special_briefwahl
+DE,2021_1.csv,1505,DE_03255901,Briefwahl SG Bevern,Briefwahl SG Bevern,special_briefwahl
+DE,2021_1.csv,1506,DE_03255903,Briefwahl SG Boffzen,Briefwahl SG Boffzen,special_briefwahl
+DE,2021_1.csv,1507,DE_03255908,Briefwahl SG Bodenwerder-Polle,Briefwahl SG Bodenwerder-Polle,special_briefwahl
+DE,2021_1.csv,1508,DE_03255909,Briefwahl SG Eschershausen-Stadtoldendorf,Briefwahl SG Eschershausen-Stadtoldendorf,special_briefwahl
+DE,2021_1.csv,1545,DE_03256902,Briefwahl SG Heemsen,Briefwahl SG Heemsen,special_briefwahl
+DE,2021_1.csv,1546,DE_03256907,Briefwahl SG Steimbke,Briefwahl SG Steimbke,special_briefwahl
+DE,2021_1.csv,1547,DE_03256909,Briefwahl SG Grafschaft Hoya,Briefwahl SG Grafschaft Hoya,special_briefwahl
+DE,2021_1.csv,1548,DE_03256910,Briefwahl SG Mittelweser ohne Gemeinde Stolzenau,Briefwahl SG Mittelweser ohne Gemeinde Stolzenau,special_briefwahl
+DE,2021_1.csv,1549,DE_03256911,Briefwahl SG Weser-Aue ohne Gemeinde Marklohe,Briefwahl SG Weser-Aue ohne Gemeinde Marklohe,special_briefwahl
+DE,2021_1.csv,1588,DE_03257901,Briefwahl SG Eilsen,Briefwahl SG Eilsen,special_briefwahl
+DE,2021_1.csv,1589,DE_03257902,Briefwahl SG Lindhorst,Briefwahl SG Lindhorst,special_briefwahl
+DE,2021_1.csv,1590,DE_03257903,Briefwahl SG Nenndorf,Briefwahl SG Nenndorf,special_briefwahl
+DE,2021_1.csv,1591,DE_03257904,Briefwahl SG Niedernwöhren,Briefwahl SG Niedernwöhren,special_briefwahl
+DE,2021_1.csv,1592,DE_03257905,Briefwahl SG Nienstädt,Briefwahl SG Nienstädt,special_briefwahl
+DE,2021_1.csv,1593,DE_03257906,Briefwahl SG Rodenberg,Briefwahl SG Rodenberg,special_briefwahl
+DE,2021_1.csv,1594,DE_03257907,Briefwahl SG Sachsenhagen,Briefwahl SG Sachsenhagen,special_briefwahl
+DE,2021_1.csv,1616,DE_03351903,Briefwahl SG Lachendorf,Briefwahl SG Lachendorf,special_briefwahl
+DE,2021_1.csv,1617,DE_03351904,Briefwahl Gemeinden Nienhagen und Wathlingen,Briefwahl Gemeinden Nienhagen und Wathlingen,special_briefwahl
+DE,2021_1.csv,1647,DE_03352904,Briefwahl SG Börde Lamstedt ohne Gemeinde Lamstedt,Briefwahl SG Börde Lamstedt ohne Gemeinde Lamstedt,special_briefwahl
+DE,2021_1.csv,1648,DE_03352911,Briefwahl SG Land Hadeln,Briefwahl SG Land Hadeln,special_briefwahl
+DE,2021_1.csv,1691,DE_03353901,Briefwahl SG Elbmarsch,Briefwahl SG Elbmarsch,special_briefwahl
+DE,2021_1.csv,1692,DE_03353902,Briefwahl SG Hanstedt,Briefwahl SG Hanstedt,special_briefwahl
+DE,2021_1.csv,1693,DE_03353903,Briefwahl SG Hollenstedt,Briefwahl SG Hollenstedt,special_briefwahl
+DE,2021_1.csv,1694,DE_03353904,Briefwahl SG Jesteburg,Briefwahl SG Jesteburg,special_briefwahl
+DE,2021_1.csv,1695,DE_03353905,Briefwahl SG Salzhausen,Briefwahl SG Salzhausen,special_briefwahl
+DE,2021_1.csv,1696,DE_03353906,Briefwahl SG Tostedt,Briefwahl SG Tostedt,special_briefwahl
+DE,2021_1.csv,1724,DE_03354903,Briefwahl SG Gartow,Briefwahl SG Gartow,special_briefwahl
+DE,2021_1.csv,1725,DE_03354906,Briefwahl SG Elbtalaue,Briefwahl SG Elbtalaue,special_briefwahl
+DE,2021_1.csv,1726,DE_03354907,Briefwahl SG Lüchow (Wendland) ohne Stadt Lüchow (Wendland),Briefwahl SG Lüchow (Wendland) ohne Stadt Lüchow (Wendland),special_briefwahl
+DE,2021_1.csv,1770,DE_03355901,Briefwahl SG Amelinghausen,Briefwahl SG Amelinghausen,special_briefwahl
+DE,2021_1.csv,1771,DE_03355902,Briefwahl SG Bardowick,Briefwahl SG Bardowick,special_briefwahl
+DE,2021_1.csv,1772,DE_03355903,Briefwahl SG Dahlenburg ohne Flecken Dahlenburg,Briefwahl SG Dahlenburg ohne Flecken Dahlenburg,special_briefwahl
+DE,2021_1.csv,1773,DE_03355904,Briefwahl SG Gellersen ohne Gemeinde Reppenstedt,Briefwahl SG Gellersen ohne Gemeinde Reppenstedt,special_briefwahl
+DE,2021_1.csv,1774,DE_03355905,Briefwahl SG Ilmenau,Briefwahl SG Ilmenau,special_briefwahl
+DE,2021_1.csv,1775,DE_03355906,Briefwahl SG Ostheide,Briefwahl SG Ostheide,special_briefwahl
+DE,2021_1.csv,1776,DE_03355907,Briefwahl SG Scharnebeck,Briefwahl SG Scharnebeck,special_briefwahl
+DE,2021_1.csv,1788,DE_03356901,Briefwahl SG Hambergen,Briefwahl SG Hambergen,special_briefwahl
+DE,2021_1.csv,1846,DE_03357901,Briefwahl SG Bothel,Briefwahl SG Bothel,special_briefwahl
+DE,2021_1.csv,1847,DE_03357902,Briefwahl SG Fintel,Briefwahl SG Fintel,special_briefwahl
+DE,2021_1.csv,1848,DE_03357903,Briefwahl SG Geestequelle,Briefwahl SG Geestequelle,special_briefwahl
+DE,2021_1.csv,1849,DE_03357904,Briefwahl SG Selsingen,Briefwahl SG Selsingen,special_briefwahl
+DE,2021_1.csv,1850,DE_03357905,Briefwahl SG Sittensen,Briefwahl SG Sittensen,special_briefwahl
+DE,2021_1.csv,1851,DE_03357906,Briefwahl SG Sottrum,Briefwahl SG Sottrum,special_briefwahl
+DE,2021_1.csv,1852,DE_03357907,Briefwahl SG Tarmstedt,Briefwahl SG Tarmstedt,special_briefwahl
+DE,2021_1.csv,1853,DE_03357908,Briefwahl SG Zeven,Briefwahl SG Zeven,special_briefwahl
+DE,2021_1.csv,1877,DE_03358901,Briefwahl SG Ahlden,Briefwahl SG Ahlden,special_briefwahl
+DE,2021_1.csv,1878,DE_03358902,"Briefwahl SG Rethem (Aller), Stadt","Briefwahl SG Rethem (Aller), Stadt",special_briefwahl
+DE,2021_1.csv,1879,DE_03358903,Briefwahl SG Schwarmstedt ohne Gemeinde Scharmtstedt,Briefwahl SG Schwarmstedt ohne Gemeinde Scharmtstedt,special_briefwahl
+DE,2021_1.csv,1880,DE_03358921,Briefwahl Gemeinde Wietzendorf und gemfr. Bezirk Osterheide,Briefwahl Gemeinde Wietzendorf und gemfr. Bezirk Osterheide,special_briefwahl
+DE,2021_1.csv,1921,DE_03359901,Briefwahl SG Apensen,Briefwahl SG Apensen,special_briefwahl
+DE,2021_1.csv,1922,DE_03359902,Briefwahl SG Fredenbeck,Briefwahl SG Fredenbeck,special_briefwahl
+DE,2021_1.csv,1923,DE_03359903,Briefwahl SG Harsefeld,Briefwahl SG Harsefeld,special_briefwahl
+DE,2021_1.csv,1924,DE_03359905,Briefwahl SG Horneburg,Briefwahl SG Horneburg,special_briefwahl
+DE,2021_1.csv,1925,DE_03359906,Briefwahl SG Lühe,Briefwahl SG Lühe,special_briefwahl
+DE,2021_1.csv,1926,DE_03359907,Briefwahl SG Nordkehdingen,Briefwahl SG Nordkehdingen,special_briefwahl
+DE,2021_1.csv,1927,DE_03359909,Briefwahl SG Oldendorf-Himmelpforten ohne Gemeinde Himmelpforten,Briefwahl SG Oldendorf-Himmelpforten ohne Gemeinde Himmelpforten,special_briefwahl
+DE,2021_1.csv,1955,DE_03360904,Briefwahl SG Rosche,Briefwahl SG Rosche,special_briefwahl
+DE,2021_1.csv,1956,DE_03360907,Briefwahl SG Bevensen-Ebstorf,Briefwahl SG Bevensen-Ebstorf,special_briefwahl
+DE,2021_1.csv,1968,DE_03361901,Briefwahl SG Thedinghausen,Briefwahl SG Thedinghausen,special_briefwahl
+DE,2021_1.csv,2077,DE_03454901,Briefwahl SG Dörpen,Briefwahl SG Dörpen,special_briefwahl
+DE,2021_1.csv,2078,DE_03454902,Briefwahl SG Freren ohne Stadt Freren,Briefwahl SG Freren ohne Stadt Freren,special_briefwahl
+DE,2021_1.csv,2079,DE_03454903,Briefwahl Gemeinden Dohren und Herzlake,Briefwahl Gemeinden Dohren und Herzlake,special_briefwahl
+DE,2021_1.csv,2080,DE_03454904,Briefwahl SG Lathen,Briefwahl SG Lathen,special_briefwahl
+DE,2021_1.csv,2081,DE_03454905,Briefwahl SG Lengerich,Briefwahl SG Lengerich,special_briefwahl
+DE,2021_1.csv,2082,DE_03454906,Briefwahl SG Nordhümmling,Briefwahl SG Nordhümmling,special_briefwahl
+DE,2021_1.csv,2083,DE_03454907,Briefwahl SG Sögel ohne Gemeinde Sögel,Briefwahl SG Sögel ohne Gemeinde Sögel,special_briefwahl
+DE,2021_1.csv,2084,DE_03454908,Briefwahl SG Spelle ohne Gemeinde Spelle,Briefwahl SG Spelle ohne Gemeinde Spelle,special_briefwahl
+DE,2021_1.csv,2085,DE_03454909,Briefwahl SG Werlte,Briefwahl SG Werlte,special_briefwahl
+DE,2021_1.csv,2119,DE_03456901,Briefwahl SG Emlichheim ohne Gemeinde Emlichheim,Briefwahl SG Emlichheim ohne Gemeinde Emlichheim,special_briefwahl
+DE,2021_1.csv,2120,DE_03456902,Briefwahl SG Neuenhaus ohne Stadt Neuenhaus,Briefwahl SG Neuenhaus ohne Stadt Neuenhaus,special_briefwahl
+DE,2021_1.csv,2121,DE_03456903,Briefwahl SG Schüttorf,Briefwahl SG Schüttorf,special_briefwahl
+DE,2021_1.csv,2122,DE_03456904,Briefwahl SG Uelsen ohne Gemeinde Uelsen,Briefwahl SG Uelsen ohne Gemeinde Uelsen,special_briefwahl
+DE,2021_1.csv,2142,DE_03457902,Briefwahl SG Hesel,Briefwahl SG Hesel,special_briefwahl
+DE,2021_1.csv,2143,DE_03457903,Briefwahl SG Jümme,Briefwahl SG Jümme,special_briefwahl
+DE,2021_1.csv,2159,DE_03458901,Briefwahl SG Harpstedt,Briefwahl SG Harpstedt,special_briefwahl
+DE,2021_1.csv,2232,DE_03462901,Briefwahl SG Esens ohne Stadt Esens,Briefwahl SG Esens ohne Stadt Esens,special_briefwahl
+DE,2021_1.csv,2233,DE_03462902,Briefwahl SG Holtriem,Briefwahl SG Holtriem,special_briefwahl
+DE,2021_1.csv,3117,DE_07131901,Briefwahl VG Adenau,Briefwahl VG Adenau,special_briefwahl
+DE,2021_1.csv,3118,DE_07131903,Briefwahl VG Bad Breisig,Briefwahl VG Bad Breisig,special_briefwahl
+DE,2021_1.csv,3119,DE_07131904,Briefwahl VG Brohltal,Briefwahl VG Brohltal,special_briefwahl
+DE,2021_1.csv,3229,DE_07132903,Briefwahl VG Daaden-Herdorf ohne Städte Daaden und Herdorf,Briefwahl VG Daaden-Herdorf ohne Städte Daaden und Herdorf,special_briefwahl
+DE,2021_1.csv,3230,DE_07132906,Briefwahl VG Hamm (Sieg),Briefwahl VG Hamm (Sieg),special_briefwahl
+DE,2021_1.csv,3231,DE_07132907,"Briefwahl Gemeinden Brachbach, Friesenhagen und Harbach","Briefwahl Gemeinden Brachbach, Friesenhagen und Harbach",special_briefwahl
+DE,2021_1.csv,3232,DE_07132908,Briefwahl Stadt Wissen und Gemeinde Hövels,Briefwahl Stadt Wissen und Gemeinde Hövels,special_briefwahl
+DE,2021_1.csv,3233,DE_07132909,Briefwahl ehemalige VG Betzdorf,Briefwahl ehemalige VG Betzdorf,special_briefwahl
+DE,2021_1.csv,3234,DE_07132910,Briefwahl VG Altenkirchen-Flammersfeld,Briefwahl VG Altenkirchen-Flammersfeld,special_briefwahl
+DE,2021_1.csv,3235,DE_07132928,Briefwahl Gemeinden Mittelhof und Selbach (Sieg),Briefwahl Gemeinden Mittelhof und Selbach (Sieg),special_briefwahl
+DE,2021_1.csv,3236,DE_07132929,Briefwahl ehemalige VG Gebardshain,Briefwahl ehemalige VG Gebardshain,special_briefwahl
+DE,2021_1.csv,3350,DE_07133901,Briefwahl VG Bad Kreuznach,Briefwahl VG Bad Kreuznach,special_briefwahl
+DE,2021_1.csv,3351,DE_07133906,Briefwahl VG Rüdesheim,Briefwahl VG Rüdesheim,special_briefwahl
+DE,2021_1.csv,3352,DE_07133909,Briefwahl VG Kirner Land,Briefwahl VG Kirner Land,special_briefwahl
+DE,2021_1.csv,3353,DE_07133910,Briefwahl VG Nahe-Glan,Briefwahl VG Nahe-Glan,special_briefwahl
+DE,2021_1.csv,3354,DE_07133911,Briefwahl Gemeinden Bretzenheim und Langenlonsheim,Briefwahl Gemeinden Bretzenheim und Langenlonsheim,special_briefwahl
+DE,2021_1.csv,3355,DE_07133931,"Briefwahl Gemeinden Guldental, Laubenheim und Windesheim","Briefwahl Gemeinden Guldental, Laubenheim und Windesheim",special_briefwahl
+DE,2021_1.csv,3356,DE_07133951,Briefwahl verschiedene Gemeinden aus VG Langenlonsheim-Stromberg,Briefwahl verschiedene Gemeinden aus VG Langenlonsheim-Stromberg,special_briefwahl
+DE,2021_1.csv,3357,DE_07133971,"Briefwahl Stadt Stromberg und Gemeinden Daxweiler, Roth, Schwepppenhausen und Warmsroth","Briefwahl Stadt Stromberg und Gemeinden Daxweiler, Roth, Schwepppenhausen und Warmsroth",special_briefwahl
+DE,2021_1.csv,3454,DE_07134901,Briefwahl VG Baumholder,Briefwahl VG Baumholder,special_briefwahl
+DE,2021_1.csv,3455,DE_07134902,Briefwahl VG Birkenfeld,Briefwahl VG Birkenfeld,special_briefwahl
+DE,2021_1.csv,3456,DE_07134905,Briefwahl VG Herrstein-Rhaunen,Briefwahl VG Herrstein-Rhaunen,special_briefwahl
+DE,2021_1.csv,3546,DE_07135901,Briefwahl VG Cochem,Briefwahl VG Cochem,special_briefwahl
+DE,2021_1.csv,3547,DE_07135902,Briefwahl VG Kaisersesch ohne Stadt Kaisersesch,Briefwahl VG Kaisersesch ohne Stadt Kaisersesch,special_briefwahl
+DE,2021_1.csv,3548,DE_07135903,Briefwahl VG Ulmen,Briefwahl VG Ulmen,special_briefwahl
+DE,2021_1.csv,3549,DE_07135905,Briefwahl VG Zell (Mosel) ohne Stadt Zell (Mosel),Briefwahl VG Zell (Mosel) ohne Stadt Zell (Mosel),special_briefwahl
+DE,2021_1.csv,3636,DE_07137902,Briefwahl VG Maifeld ohne Städte Polch und Münstermaifeld und Gemeinde Ochtendung,Briefwahl VG Maifeld ohne Städte Polch und Münstermaifeld und Gemeinde Ochtendung,special_briefwahl
+DE,2021_1.csv,3637,DE_07137903,Briefwahl VG Vordereifel,Briefwahl VG Vordereifel,special_briefwahl
+DE,2021_1.csv,3638,DE_07137904,Briefwahl Gemeinden Rieden und Volkesfeld,Briefwahl Gemeinden Rieden und Volkesfeld,special_briefwahl
+DE,2021_1.csv,3639,DE_07137909,Briefwahl VG Rhein-Mosel,Briefwahl VG Rhein-Mosel,special_briefwahl
+DE,2021_1.csv,3700,DE_07138903,"Briefwahl Gemeinden Isenburg, Stebach und Marienhausen","Briefwahl Gemeinden Isenburg, Stebach und Marienhausen",special_briefwahl
+DE,2021_1.csv,3701,DE_07138904,Briefwahl VG Linz am Rhein ohne Gemeinde Vettelschoß,Briefwahl VG Linz am Rhein ohne Gemeinde Vettelschoß,special_briefwahl
+DE,2021_1.csv,3702,DE_07138905,Briefwahl VG Puderbach,Briefwahl VG Puderbach,special_briefwahl
+DE,2021_1.csv,3703,DE_07138907,Briefwahl Gemeinden Bruchhausen und Erpel,Briefwahl Gemeinden Bruchhausen und Erpel,special_briefwahl
+DE,2021_1.csv,3841,DE_07140903,Briefwahl VG Kastellaun,Briefwahl VG Kastellaun,special_briefwahl
+DE,2021_1.csv,3842,DE_07140904,Briefwahl VG Kirchberg (Hunsrück),Briefwahl VG Kirchberg (Hunsrück),special_briefwahl
+DE,2021_1.csv,3843,DE_07140908,Briefwahl VG Simmern-Rheinböllen,Briefwahl VG Simmern-Rheinböllen,special_briefwahl
+DE,2021_1.csv,3844,DE_07140909,"Briefwahl VG Hunsrück-Mittelrhein ohne Städte Emmelshausen, Oberwesel und Sankt Goar","Briefwahl VG Hunsrück-Mittelrhein ohne Städte Emmelshausen, Oberwesel und Sankt Goar",special_briefwahl
+DE,2021_1.csv,3982,DE_07141903,Briefwahl VG Diez,Briefwahl VG Diez,special_briefwahl
+DE,2021_1.csv,3983,DE_07141907,Briefwahl VG Nastätten,Briefwahl VG Nastätten,special_briefwahl
+DE,2021_1.csv,3984,DE_07141909,Briefwahl VG Loreley,Briefwahl VG Loreley,special_briefwahl
+DE,2021_1.csv,3985,DE_07141910,Briefwahl VG Bad Ems-Nassau (Gemeinden Wahlkreis 199 ohne Stadt Bad Ems),Briefwahl VG Bad Ems-Nassau (Gemeinden Wahlkreis 199 ohne Stadt Bad Ems),special_briefwahl
+DE,2021_1.csv,3986,DE_07141910,Briefwahl VG Bad Ems-Nassau (Gemeinden Wahlkreis 204 ohne Stadt Nassau),Briefwahl VG Bad Ems-Nassau (Gemeinden Wahlkreis 204 ohne Stadt Nassau),special_briefwahl
+DE,2021_1.csv,3987,DE_07141911,Briefwahl VG Aar-Einrich,Briefwahl VG Aar-Einrich,special_briefwahl
+DE,2021_1.csv,4180,DE_07143901,Briefwahl VG Bad Marienberg (Westerwald) ohne Stadt Bad Marienberg,Briefwahl VG Bad Marienberg (Westerwald) ohne Stadt Bad Marienberg,special_briefwahl
+DE,2021_1.csv,4181,DE_07143902,Briefwahl VG Hachenburg,Briefwahl VG Hachenburg,special_briefwahl
+DE,2021_1.csv,4182,DE_07143903,Briefwahl VG Höhr-Grenzhausen,Briefwahl VG Höhr-Grenzhausen,special_briefwahl
+DE,2021_1.csv,4183,DE_07143904,Briefwahl VG Montabaur,Briefwahl VG Montabaur,special_briefwahl
+DE,2021_1.csv,4184,DE_07143905,Briefwahl VG Ransbach-Baumbach,Briefwahl VG Ransbach-Baumbach,special_briefwahl
+DE,2021_1.csv,4185,DE_07143906,Briefwahl VG Rennerod,Briefwahl VG Rennerod,special_briefwahl
+DE,2021_1.csv,4186,DE_07143907,Briefwahl VG Selters (Westerwald),Briefwahl VG Selters (Westerwald),special_briefwahl
+DE,2021_1.csv,4187,DE_07143908,Briefwahl VG Wallmerod,Briefwahl VG Wallmerod,special_briefwahl
+DE,2021_1.csv,4188,DE_07143909,Briefwahl VG Westerburg,Briefwahl VG Westerburg,special_briefwahl
+DE,2021_1.csv,4189,DE_07143910,Briefwahl VG Wirges,Briefwahl VG Wirges,special_briefwahl
+DE,2021_1.csv,4293,DE_07231901,Briefwahl Stadt Bernkastel-Kues und Gemeinden Brauneberg und Burgen,Briefwahl Stadt Bernkastel-Kues und Gemeinden Brauneberg und Burgen,special_briefwahl
+DE,2021_1.csv,4294,DE_07231906,Briefwahl VG Thalfang am Erbeskopf,Briefwahl VG Thalfang am Erbeskopf,special_briefwahl
+DE,2021_1.csv,4295,DE_07231908,Briefwahl VG Wittlich-Land,Briefwahl VG Wittlich-Land,special_briefwahl
+DE,2021_1.csv,4296,DE_07231909,"Briefwahl Gemeinden Burg (Mosel), Enkirch, Starkenburg, Lötzbeuren und Irmenach","Briefwahl Gemeinden Burg (Mosel), Enkirch, Starkenburg, Lötzbeuren und Irmenach",special_briefwahl
+DE,2021_1.csv,4297,DE_07231909,Briefwahl VG Traben-Trarbach (Gemeinden Wahlkreis 202),Briefwahl VG Traben-Trarbach (Gemeinden Wahlkreis 202),special_briefwahl
+DE,2021_1.csv,4298,DE_07231921,"Briefwahl Gemeinden Erden, Gornhausen, Graach, Hochscheid, Kesten, Kleinich, Kommen, Lieser","Briefwahl Gemeinden Erden, Gornhausen, Graach, Hochscheid, Kesten, Kleinich, Kommen, Lieser",special_briefwahl
+DE,2021_1.csv,4299,DE_07231931,"Briefwahl Gemeinden Lösnich, Longkamp, Maring-Noviand und Minheim","Briefwahl Gemeinden Lösnich, Longkamp, Maring-Noviand und Minheim",special_briefwahl
+DE,2021_1.csv,4300,DE_07231941,"Briefwahl Gemeinden Monzelfeld, Mülheim an der Mosel und Neumagen-Dhron","Briefwahl Gemeinden Monzelfeld, Mülheim an der Mosel und Neumagen-Dhron",special_briefwahl
+DE,2021_1.csv,4301,DE_07231951,"Briefwahl Gemeinden Piesport, Ürzig und Veldenz","Briefwahl Gemeinden Piesport, Ürzig und Veldenz",special_briefwahl
+DE,2021_1.csv,4302,DE_07231961,Briefwahl Gemeinden Wintrich und Zeltingen-Rachtig,Briefwahl Gemeinden Wintrich und Zeltingen-Rachtig,special_briefwahl
+DE,2021_1.csv,4483,DE_07232901,Briefwahl VG Arzfeld,Briefwahl VG Arzfeld,special_briefwahl
+DE,2021_1.csv,4484,DE_07232905,Briefwahl VG Südeifel,Briefwahl VG Südeifel,special_briefwahl
+DE,2021_1.csv,4485,DE_07232906,Briefwahl VG Prüm,Briefwahl VG Prüm,special_briefwahl
+DE,2021_1.csv,4486,DE_07232907,Briefwahl VG Speicher ohne Stadt Speicher,Briefwahl VG Speicher ohne Stadt Speicher,special_briefwahl
+DE,2021_1.csv,4487,DE_07232908,Briefwahl VG Bitburger Land,Briefwahl VG Bitburger Land,special_briefwahl
+DE,2021_1.csv,4595,DE_07233901,Briefwahl VG Daun ohne Stadt Daun,Briefwahl VG Daun ohne Stadt Daun,special_briefwahl
+DE,2021_1.csv,4596,DE_07233904,Briefwahl VG Kelberg,Briefwahl VG Kelberg,special_briefwahl
+DE,2021_1.csv,4597,DE_07233906,Briefwahl VG Gerolstein,Briefwahl VG Gerolstein,special_briefwahl
+DE,2021_1.csv,4700,DE_07235901,Briefwahl VG Hermeskeil,Briefwahl VG Hermeskeil,special_briefwahl
+DE,2021_1.csv,4701,DE_07235903,Briefwahl VG Konz,Briefwahl VG Konz,special_briefwahl
+DE,2021_1.csv,4702,DE_07235904,Briefwahl VG Ruwer,Briefwahl VG Ruwer,special_briefwahl
+DE,2021_1.csv,4703,DE_07235906,Briefwahl VG Schweich an der Römischen Weinstraße,Briefwahl VG Schweich an der Römischen Weinstraße,special_briefwahl
+DE,2021_1.csv,4704,DE_07235907,Briefwahl VG Trier-Land,Briefwahl VG Trier-Land,special_briefwahl
+DE,2021_1.csv,4705,DE_07235908,Briefwahl VG Saarburg-Kell,Briefwahl VG Saarburg-Kell,special_briefwahl
+DE,2021_1.csv,4785,DE_07331901,Briefwahl VG Alzey-Land,Briefwahl VG Alzey-Land,special_briefwahl
+DE,2021_1.csv,4786,DE_07331902,Briefwahl VG Eich,Briefwahl VG Eich,special_briefwahl
+DE,2021_1.csv,4787,DE_07331903,Briefwahl VG Monsheim,Briefwahl VG Monsheim,special_briefwahl
+DE,2021_1.csv,4788,DE_07331905,Briefwahl VG Wöllstein,Briefwahl VG Wöllstein,special_briefwahl
+DE,2021_1.csv,4789,DE_07331906,Briefwahl VG Wörrstadt,Briefwahl VG Wörrstadt,special_briefwahl
+DE,2021_1.csv,4790,DE_07331907,Briefwahl VG Wonnegau,Briefwahl VG Wonnegau,special_briefwahl
+DE,2021_1.csv,4839,DE_07332901,Briefwahl Gemeinden Forst an der Weinstraße und Meckenheim,Briefwahl Gemeinden Forst an der Weinstraße und Meckenheim,special_briefwahl
+DE,2021_1.csv,4840,DE_07332902,Briefwahl Gemeinden Dackenheim und Erpolzheim,Briefwahl Gemeinden Dackenheim und Erpolzheim,special_briefwahl
+DE,2021_1.csv,4841,DE_07332906,"Briefwahl Gemeinden Ellerstadt, Friedelsheim und Gönnheim","Briefwahl Gemeinden Ellerstadt, Friedelsheim und Gönnheim",special_briefwahl
+DE,2021_1.csv,4842,DE_07332907,Briefwahl VG Leiningerland,Briefwahl VG Leiningerland,special_briefwahl
+DE,2021_1.csv,4843,DE_07332921,Briefwahl Gemeinden Niederkirchen bei Deidesheim und Ruppertsberg,Briefwahl Gemeinden Niederkirchen bei Deidesheim und Ruppertsberg,special_briefwahl
+DE,2021_1.csv,4844,DE_07332922,"Briefwahl Gemeinden Bobenheim am Berg, Herxheim am Berg und Weisenheim am Berg","Briefwahl Gemeinden Bobenheim am Berg, Herxheim am Berg und Weisenheim am Berg",special_briefwahl
+DE,2021_1.csv,4924,DE_07333903,Briefwahl VG Göllheim,Briefwahl VG Göllheim,special_briefwahl
+DE,2021_1.csv,4925,DE_07333904,Briefwahl VG Kirchheimbolanden,Briefwahl VG Kirchheimbolanden,special_briefwahl
+DE,2021_1.csv,4926,DE_07333906,Briefwahl VG Winnweiler,Briefwahl VG Winnweiler,special_briefwahl
+DE,2021_1.csv,4927,DE_07333907,Briefwahl VG Nordpfälzer Land,Briefwahl VG Nordpfälzer Land,special_briefwahl
+DE,2021_1.csv,4959,DE_07334904,Briefwahl VG Kandel,Briefwahl VG Kandel,special_briefwahl
+DE,2021_1.csv,4960,DE_07334905,Briefwahl VG Lingenfeld,Briefwahl VG Lingenfeld,special_briefwahl
+DE,2021_1.csv,5011,DE_07335901,"Briefwahl Gemeinden Gerhardsbrunn, Lambsborn, Langwieden und Martinshöhe","Briefwahl Gemeinden Gerhardsbrunn, Lambsborn, Langwieden und Martinshöhe",special_briefwahl
+DE,2021_1.csv,5012,DE_07335902,Briefwahl VG Enkenbach-Alsenborn,Briefwahl VG Enkenbach-Alsenborn,special_briefwahl
+DE,2021_1.csv,5013,DE_07335909,"Briefwahl Gemeinden Erzenhausen, Eulenbis, Kollweiler und Schwedelbach","Briefwahl Gemeinden Erzenhausen, Eulenbis, Kollweiler und Schwedelbach",special_briefwahl
+DE,2021_1.csv,5014,DE_07335910,Briefwahl VG Otterbach-Otterberg ohne Stadt Otterberg und Gemeinde Otterbach,Briefwahl VG Otterbach-Otterberg ohne Stadt Otterberg und Gemeinde Otterbach,special_briefwahl
+DE,2021_1.csv,5015,DE_07335911,"Briefwahl Gemeinden Bann, Mittelbrunn und Oberarnbach","Briefwahl Gemeinden Bann, Mittelbrunn und Oberarnbach",special_briefwahl
+DE,2021_1.csv,5016,DE_07335929,Briefwahl Gemeinden Mackenbach und Reichenbach-Steegen,Briefwahl Gemeinden Mackenbach und Reichenbach-Steegen,special_briefwahl
+DE,2021_1.csv,5017,DE_07335931,Briefwahl Gemeinden Hauptstuhl und Kindsbach,Briefwahl Gemeinden Hauptstuhl und Kindsbach,special_briefwahl
+DE,2021_1.csv,5018,DE_07335951,Briefwahl Gemeinden Krickenbach und Linden,Briefwahl Gemeinden Krickenbach und Linden,special_briefwahl
+DE,2021_1.csv,5019,DE_07335971,Briefwahl Gemeinden Stelzenberg und Schopp,Briefwahl Gemeinden Stelzenberg und Schopp,special_briefwahl
+DE,2021_1.csv,5115,DE_07336908,Briefwahl VG Lauterecken-Wolfstein,Briefwahl VG Lauterecken-Wolfstein,special_briefwahl
+DE,2021_1.csv,5116,DE_07336909,Briefwahl VG Oberes Glantal,Briefwahl VG Oberes Glantal,special_briefwahl
+DE,2021_1.csv,5117,DE_07336910,Briefwahl VG Kusel-Altenglan,Briefwahl VG Kusel-Altenglan,special_briefwahl
+DE,2021_1.csv,5192,DE_07337901,Briefwahl VG Annweiler am Trifels 1,Briefwahl VG Annweiler am Trifels 1,special_briefwahl
+DE,2021_1.csv,5193,DE_07337902,Briefwahl VG Bad Bergzabern,Briefwahl VG Bad Bergzabern,special_briefwahl
+DE,2021_1.csv,5194,DE_07337903,"Briefwahl Gemeinden Altdorf, Böbingen, Freimersh., Gommersh., Großf. und Kleinf.","Briefwahl Gemeinden Altdorf, Böbingen, Freimersh., Gommersh., Großf. und Kleinf.",special_briefwahl
+DE,2021_1.csv,5195,DE_07337904,"Briefwahl Gemeinden Herxheimweyher, Insheim und Rohrbach","Briefwahl Gemeinden Herxheimweyher, Insheim und Rohrbach",special_briefwahl
+DE,2021_1.csv,5196,DE_07337905,Briefwahl VG Landau-Land,Briefwahl VG Landau-Land,special_briefwahl
+DE,2021_1.csv,5197,DE_07337906,Briefwahl Gemeinden Kirrweiler (Pfalz) und Sankt Martin,Briefwahl Gemeinden Kirrweiler (Pfalz) und Sankt Martin,special_briefwahl
+DE,2021_1.csv,5198,DE_07337907,Briefwahl VG Offenbach an der Queich,Briefwahl VG Offenbach an der Queich,special_briefwahl
+DE,2021_1.csv,5199,DE_07337921,Briefwahl VG Annweiler am Trifels 2,Briefwahl VG Annweiler am Trifels 2,special_briefwahl
+DE,2021_1.csv,5200,DE_07337923,"Briefwahl Gemeinden Edesheim, Roschbach und Venningen","Briefwahl Gemeinden Edesheim, Roschbach und Venningen",special_briefwahl
+DE,2021_1.csv,5201,DE_07337941,Briefwahl Stadt Annweiler am Trifels und Gemeinde Wernersberg,Briefwahl Stadt Annweiler am Trifels und Gemeinde Wernersberg,special_briefwahl
+DE,2021_1.csv,5202,DE_07337943,"Briefwahl Gemeinden Burrweiler, Flemlingen, Gleisweiler, Hainfeld, Rhodt und Weyher","Briefwahl Gemeinden Burrweiler, Flemlingen, Gleisweiler, Hainfeld, Rhodt und Weyher",special_briefwahl
+DE,2021_1.csv,5228,DE_07338906,Briefwahl VG Lambsheim-Heßheim,Briefwahl VG Lambsheim-Heßheim,special_briefwahl
+DE,2021_1.csv,5293,DE_07339901,Briefwahl VG Rhein-Nahe,Briefwahl VG Rhein-Nahe,special_briefwahl
+DE,2021_1.csv,5294,DE_07339903,Briefwahl VG Gau-Algesheim,Briefwahl VG Gau-Algesheim,special_briefwahl
+DE,2021_1.csv,5295,DE_07339908,Briefwahl VG Sprendlingen-Gensingen,Briefwahl VG Sprendlingen-Gensingen,special_briefwahl
+DE,2021_1.csv,5380,DE_07340901,Briefwahl VG Dahner Felsenland 1,Briefwahl VG Dahner Felsenland 1,special_briefwahl
+DE,2021_1.csv,5381,DE_07340902,Briefwahl VG Hauenstein ohne Gemeinde Hauenstein,Briefwahl VG Hauenstein ohne Gemeinde Hauenstein,special_briefwahl
+DE,2021_1.csv,5382,DE_07340903,"Briefwahl Gemeinden Eppenbrunn, Hilst, Kröppen und Schweix","Briefwahl Gemeinden Eppenbrunn, Hilst, Kröppen und Schweix",special_briefwahl
+DE,2021_1.csv,5383,DE_07340904,"Briefwahl Gemeinden Clausen, Donsieders, Leimen und Merzalben","Briefwahl Gemeinden Clausen, Donsieders, Leimen und Merzalben",special_briefwahl
+DE,2021_1.csv,5384,DE_07340906,"Briefwahl Gemeinden Geiselberg, Heltersberg, Horbach und Schmalenberg","Briefwahl Gemeinden Geiselberg, Heltersberg, Horbach und Schmalenberg",special_briefwahl
+DE,2021_1.csv,5385,DE_07340908,Briefwahl VG Zweibrücken-Land 1,Briefwahl VG Zweibrücken-Land 1,special_briefwahl
+DE,2021_1.csv,5386,DE_07340909,Briefwahl VG Thaleischweiler-Wallhalben 1,Briefwahl VG Thaleischweiler-Wallhalben 1,special_briefwahl
+DE,2021_1.csv,5387,DE_07340921,Briefwahl VG Dahner Felsenland 2,Briefwahl VG Dahner Felsenland 2,special_briefwahl
+DE,2021_1.csv,5388,DE_07340923,"Briefwahl Gemeinden Obersimten, Ruppertsweiler und Bottenbach","Briefwahl Gemeinden Obersimten, Ruppertsweiler und Bottenbach",special_briefwahl
+DE,2021_1.csv,5389,DE_07340926,"Briefwahl Gemeinden Hermersberg, Höheinöd, Steinalben und Waldfischbach-Burgalben","Briefwahl Gemeinden Hermersberg, Höheinöd, Steinalben und Waldfischbach-Burgalben",special_briefwahl
+DE,2021_1.csv,5390,DE_07340928,Briefwahl VG Zweibrücken-Land 2,Briefwahl VG Zweibrücken-Land 2,special_briefwahl
+DE,2021_1.csv,5391,DE_07340929,"Briefwahl Gemeinden Nünschweiler, Weselberg, Maßweiler und Wallhalben","Briefwahl Gemeinden Nünschweiler, Weselberg, Maßweiler und Wallhalben",special_briefwahl
+DE,2021_1.csv,5392,DE_07340943,Briefwahl Gemeinden Trulben und Vinningen,Briefwahl Gemeinden Trulben und Vinningen,special_briefwahl
+DE,2021_1.csv,5393,DE_07340948,Briefwahl Gemeinden Contwig und Wiesbach,Briefwahl Gemeinden Contwig und Wiesbach,special_briefwahl
+DE,2021_1.csv,5394,DE_07340949,"Briefwahl Gemeinden Höhfröschen, Petersberg, Reifenberg und Rieschweiler-Mühlbach","Briefwahl Gemeinden Höhfröschen, Petersberg, Reifenberg und Rieschweiler-Mühlbach",special_briefwahl
+DE,2021_1.csv,5395,DE_07340969,Briefwahl Gemeinden Höheischweiler und Thaleischweiler-Fröschen,Briefwahl Gemeinden Höheischweiler und Thaleischweiler-Fröschen,special_briefwahl
+DE,2021_1.csv,5949,DE_08237905,Briefwahl VVG der Gemeinde Pfalzgrafenweiler,Briefwahl VVG der Gemeinde Pfalzgrafenweiler,special_briefwahl
+DE,2021_1.csv,6212,DE_08336906,"Briefwahl Stadt Schönau und Gemeinden Böllen, Schönenberg, Tunau und Wembach","Briefwahl Stadt Schönau und Gemeinden Böllen, Schönenberg, Tunau und Wembach",special_briefwahl
+DE,2021_1.csv,6367,DE_08425901,"Briefwahl Gemeinden Altheim, Asselfingen, Ballendorf, Börslingen, Breitingen und Emeringen","Briefwahl Gemeinden Altheim, Asselfingen, Ballendorf, Börslingen, Breitingen und Emeringen",special_briefwahl
+DE,2021_1.csv,6368,DE_08425905,"Briefwahl Gemeinden Griesingen, Holzkirch, Emerkingen, Grundsheim, Hausen und Lauterach","Briefwahl Gemeinden Griesingen, Holzkirch, Emerkingen, Grundsheim, Hausen und Lauterach",special_briefwahl
+DE,2021_1.csv,6369,DE_08425908,"Briefwahl Gemeinden Neenstetten, Nerensteten, Öllingen und Obermarchtal","Briefwahl Gemeinden Neenstetten, Nerensteten, Öllingen und Obermarchtal",special_briefwahl
+DE,2021_1.csv,6370,DE_08425910,"Briefwahl Gemeinden Untermarchtal, Unterstadtion und Unterwachinen","Briefwahl Gemeinden Untermarchtal, Unterstadtion und Unterwachinen",special_briefwahl
+DE,2021_1.csv,6371,DE_08425928,"Briefwahl Gemeinden Rammingen, Setzingen und Rechtenstein","Briefwahl Gemeinden Rammingen, Setzingen und Rechtenstein",special_briefwahl
+DE,2021_1.csv,6479,DE_08436901,"Briefwahl GVV Altshausen ohne Gemeinden Altshausen, Hoßkirch und Ebersbach-Musbach","Briefwahl GVV Altshausen ohne Gemeinden Altshausen, Hoßkirch und Ebersbach-Musbach",special_briefwahl
+DE,2021_1.csv,8656,DE_12060903,Briefwahl Stadt Biesenthal und Gemeinde Melchow,Briefwahl Stadt Biesenthal und Gemeinde Melchow,special_briefwahl
+DE,2021_1.csv,8657,DE_12060906,Briefwahl Amt Joachimsthal (Schorfheide),Briefwahl Amt Joachimsthal (Schorfheide),special_briefwahl
+DE,2021_1.csv,8658,DE_12060911,Briefwahl Gemeinden Britz und Hohenfinow,Briefwahl Gemeinden Britz und Hohenfinow,special_briefwahl
+DE,2021_1.csv,8659,DE_12060923,Briefwahl Gemeinden Breydin und Sydower Fließ,Briefwahl Gemeinden Breydin und Sydower Fließ,special_briefwahl
+DE,2021_1.csv,8660,DE_12060931,"Briefwahl Gemeinden Liepe, Lunow-Stolzenhagen und Niederfinow","Briefwahl Gemeinden Liepe, Lunow-Stolzenhagen und Niederfinow",special_briefwahl
+DE,2021_1.csv,8661,DE_12060951,Briefwahl Stadt Oderberg und Gemeinde Parsteinsee,Briefwahl Stadt Oderberg und Gemeinde Parsteinsee,special_briefwahl
+DE,2021_1.csv,8699,DE_12061908,Briefwahl Stadt Märkisch Buchholz und Gemeinde Halbe,Briefwahl Stadt Märkisch Buchholz und Gemeinde Halbe,special_briefwahl
+DE,2021_1.csv,8700,DE_12061913,Briefwahl Stadt Lieberose und Gemeinden Jamlitz und Schwielochsee,Briefwahl Stadt Lieberose und Gemeinden Jamlitz und Schwielochsee,special_briefwahl
+DE,2021_1.csv,8701,DE_12061914,"Briefwahl Bersteland, Drahnsdorf, Kasel-Golzig und Schönwald","Briefwahl Bersteland, Drahnsdorf, Kasel-Golzig und Schönwald",special_briefwahl
+DE,2021_1.csv,8702,DE_12061928,Briefwahl Stadt Teupitz und Gemeinden Münchehofe und Schwerin,Briefwahl Stadt Teupitz und Gemeinden Münchehofe und Schwerin,special_briefwahl
+DE,2021_1.csv,8703,DE_12061933,"Briefwahl Alt Zauche-Wußwerk, Byhleguhre-Byhlen, Neu Zauche, Spreewaldheide und Staupitz","Briefwahl Alt Zauche-Wußwerk, Byhleguhre-Byhlen, Neu Zauche, Spreewaldheide und Staupitz",special_briefwahl
+DE,2021_1.csv,8704,DE_12061934,"Briefwahl Krausnick-Groß Wasserburg, Rietzneuendorf-Staakkow, Schlepzig und Unterspreewald","Briefwahl Krausnick-Groß Wasserburg, Rietzneuendorf-Staakkow, Schlepzig und Unterspreewald",special_briefwahl
+DE,2021_1.csv,8705,DE_12061954,Briefwahl Stadt Golßen und Gemeinde Steinreich,Briefwahl Stadt Golßen und Gemeinde Steinreich,special_briefwahl
+DE,2021_1.csv,8739,DE_12062902,"Briefwahl Gemeinden Schilda, Schönborn und Tröbitz","Briefwahl Gemeinden Schilda, Schönborn und Tröbitz",special_briefwahl
+DE,2021_1.csv,8740,DE_12062905,Briefwahl Gemeinden Crinitz und Sallgast,Briefwahl Gemeinden Crinitz und Sallgast,special_briefwahl
+DE,2021_1.csv,8741,DE_12062907,Briefwahl Gemeinden Gorden-Staupitz und Hohenleipisch,Briefwahl Gemeinden Gorden-Staupitz und Hohenleipisch,special_briefwahl
+DE,2021_1.csv,8742,DE_12062909,Briefwahl Amt Schlieben ohne Stadt Schlieben,Briefwahl Amt Schlieben ohne Stadt Schlieben,special_briefwahl
+DE,2021_1.csv,8743,DE_12062911,Briefwahl Gemeinden Gröden und Merzdorf,Briefwahl Gemeinden Gröden und Merzdorf,special_briefwahl
+DE,2021_1.csv,8744,DE_12062922,Briefwahl Gemeinden Heideland und Rückersdorf,Briefwahl Gemeinden Heideland und Rückersdorf,special_briefwahl
+DE,2021_1.csv,8745,DE_12062925,Briefwahl Gemeinden Lichterfeld-Schacksdorf und Massen-Niederlausitz,Briefwahl Gemeinden Lichterfeld-Schacksdorf und Massen-Niederlausitz,special_briefwahl
+DE,2021_1.csv,8746,DE_12062927,Briefwahl Gemeinden Plessa und Schraden,Briefwahl Gemeinden Plessa und Schraden,special_briefwahl
+DE,2021_1.csv,8747,DE_12062931,Briefwahl Gemeinden Großthiemig und Hirschfeld,Briefwahl Gemeinden Großthiemig und Hirschfeld,special_briefwahl
+DE,2021_1.csv,8774,DE_12063902,Briefwahl Stadt Friesack und Gemeinde Wiesenaue,Briefwahl Stadt Friesack und Gemeinde Wiesenaue,special_briefwahl
+DE,2021_1.csv,8775,DE_12063906,Briefwahl Amt Nennhausen,Briefwahl Amt Nennhausen,special_briefwahl
+DE,2021_1.csv,8776,DE_12063909,Briefwahl Amt Rhinow,Briefwahl Amt Rhinow,special_briefwahl
+DE,2021_1.csv,8777,DE_12063922,"Briefwahl Gemeinden Mühlenberge, Paulinenaue, Pessin und Retzow","Briefwahl Gemeinden Mühlenberge, Paulinenaue, Pessin und Retzow",special_briefwahl
+DE,2021_1.csv,8823,DE_12064903,Briefwahl Amt Falkenberg-Höhe,Briefwahl Amt Falkenberg-Höhe,special_briefwahl
+DE,2021_1.csv,8824,DE_12064904,Briefwahl Amt Golzow,Briefwahl Amt Golzow,special_briefwahl
+DE,2021_1.csv,8825,DE_12064906,Briefwahl Amt Lebus,Briefwahl Amt Lebus,special_briefwahl
+DE,2021_1.csv,8826,DE_12064908,Briefwahl Stadt Buckow und Gemeinden Garzau-Garzin und Oberbarnim,Briefwahl Stadt Buckow und Gemeinden Garzau-Garzin und Oberbarnim,special_briefwahl
+DE,2021_1.csv,8827,DE_12064910,Briefwahl Amt Neuhardenberg,Briefwahl Amt Neuhardenberg,special_briefwahl
+DE,2021_1.csv,8828,DE_12064912,Briefwahl Amt Seelow-Land,Briefwahl Amt Seelow-Land,special_briefwahl
+DE,2021_1.csv,8829,DE_12064914,Briefwahl Amt Barnim-Oderbruch,Briefwahl Amt Barnim-Oderbruch,special_briefwahl
+DE,2021_1.csv,8830,DE_12064928,Briefwahl Gemeinden Rehfelde und Waldsieversdorf,Briefwahl Gemeinden Rehfelde und Waldsieversdorf,special_briefwahl
+DE,2021_1.csv,8850,DE_12065902,Briefwahl Amt Gransee und Gemeinden,Briefwahl Amt Gransee und Gemeinden,special_briefwahl
+DE,2021_1.csv,8876,DE_12066901,Briefwahl Amt Altdöbern ohne Gemeinde Altdöbern,Briefwahl Amt Altdöbern ohne Gemeinde Altdöbern,special_briefwahl
+DE,2021_1.csv,8877,DE_12066906,Briefwahl Stadt Ortrand und Gemeinde Großkmehlen,Briefwahl Stadt Ortrand und Gemeinde Großkmehlen,special_briefwahl
+DE,2021_1.csv,8878,DE_12066907,Briefwahl Amt Ruhland ohne Stadt Ruhland,Briefwahl Amt Ruhland ohne Stadt Ruhland,special_briefwahl
+DE,2021_1.csv,8879,DE_12066926,"Briefwahl Gemeinden Frauendorf, Kroppen, Lindenau und Tettau","Briefwahl Gemeinden Frauendorf, Kroppen, Lindenau und Tettau",special_briefwahl
+DE,2021_1.csv,8917,DE_12067901,"Briefwahl Gemeinden Brieskow-Finkenheerd, Groß Lindow und Vogelsang","Briefwahl Gemeinden Brieskow-Finkenheerd, Groß Lindow und Vogelsang",special_briefwahl
+DE,2021_1.csv,8918,DE_12067905,Briefwahl Amt Neuzelle,Briefwahl Amt Neuzelle,special_briefwahl
+DE,2021_1.csv,8919,DE_12067906,Briefwahl Gemeinden Briesen (Mark) und Jacobsdorf,Briefwahl Gemeinden Briesen (Mark) und Jacobsdorf,special_briefwahl
+DE,2021_1.csv,8920,DE_12067907,Briefwahl Amt Scharmützelsee,Briefwahl Amt Scharmützelsee,special_briefwahl
+DE,2021_1.csv,8921,DE_12067908,"Briefwahl Stadt Müllrose und Gemeinden Grunow-Dammendorf, Ragow-Merz und Schlaubetal","Briefwahl Stadt Müllrose und Gemeinden Grunow-Dammendorf, Ragow-Merz und Schlaubetal",special_briefwahl
+DE,2021_1.csv,8922,DE_12067909,Briefwahl Amt Spreenhagen,Briefwahl Amt Spreenhagen,special_briefwahl
+DE,2021_1.csv,8923,DE_12067921,Briefwahl Gemeinden Wiesenau und Ziltendorf,Briefwahl Gemeinden Wiesenau und Ziltendorf,special_briefwahl
+DE,2021_1.csv,8924,DE_12067926,Briefwahl Gemeinden Berkenbrück und Steinhöfel,Briefwahl Gemeinden Berkenbrück und Steinhöfel,special_briefwahl
+DE,2021_1.csv,8925,DE_12067928,Briefwahl Gemeinden Mixdorf und Siehdichum,Briefwahl Gemeinden Mixdorf und Siehdichum,special_briefwahl
+DE,2021_1.csv,8949,DE_12068904,Briefwahl Amt Lindow (Mark),Briefwahl Amt Lindow (Mark),special_briefwahl
+DE,2021_1.csv,8950,DE_12068905,Briefwahl Amt Neustadt (Dosse) ohne Stadt Neustadt (Dosse),Briefwahl Amt Neustadt (Dosse) ohne Stadt Neustadt (Dosse),special_briefwahl
+DE,2021_1.csv,8951,DE_12068907,"Briefwahl Gemeinden Dabergotz, Märkisch Linden, Storbeck-Frankendorf und Temnitzquell","Briefwahl Gemeinden Dabergotz, Märkisch Linden, Storbeck-Frankendorf und Temnitzquell",special_briefwahl
+DE,2021_1.csv,8952,DE_12068927,Briefwahl Gemeinden Temnitztal und Walsleben,Briefwahl Gemeinden Temnitztal und Walsleben,special_briefwahl
+DE,2021_1.csv,8991,DE_12069902,"Briefwahl Gemeinden Beetzsee, Päwesin und Roskow","Briefwahl Gemeinden Beetzsee, Päwesin und Roskow",special_briefwahl
+DE,2021_1.csv,8992,DE_12069904,Briefwahl Gemeinden Borkheide und Borkwalde,Briefwahl Gemeinden Borkheide und Borkwalde,special_briefwahl
+DE,2021_1.csv,8993,DE_12069910,Briefwahl Amt Niemegk,Briefwahl Amt Niemegk,special_briefwahl
+DE,2021_1.csv,8994,DE_12069917,Briefwahl Amt Wusterwitz,Briefwahl Amt Wusterwitz,special_briefwahl
+DE,2021_1.csv,8995,DE_12069918,Briefwahl Amt Ziesar,Briefwahl Amt Ziesar,special_briefwahl
+DE,2021_1.csv,8996,DE_12069922,Briefwahl Stadt Havelsee und Gemeinde Beetzseeheide,Briefwahl Stadt Havelsee und Gemeinde Beetzseeheide,special_briefwahl
+DE,2021_1.csv,8997,DE_12069924,"Briefwahl Gemeinden Golzow, Linthe und Planebruch","Briefwahl Gemeinden Golzow, Linthe und Planebruch",special_briefwahl
+DE,2021_1.csv,9024,DE_12070901,Briefwahl Stadt Wilsnack und Gemeinde Legde/Quitzöbel,Briefwahl Stadt Wilsnack und Gemeinde Legde/Quitzöbel,special_briefwahl
+DE,2021_1.csv,9025,DE_12070905,Briefwahl Amt Lenzen-Elbtalaue,Briefwahl Amt Lenzen-Elbtalaue,special_briefwahl
+DE,2021_1.csv,9026,DE_12070906,Briefwahl Amt Meyenburg,Briefwahl Amt Meyenburg,special_briefwahl
+DE,2021_1.csv,9027,DE_12070909,Briefwahl Amt Putlitz-Berge ohne Stadt Putlitz,Briefwahl Amt Putlitz-Berge ohne Stadt Putlitz,special_briefwahl
+DE,2021_1.csv,9028,DE_12070921,"Briefwahl Gemeinden Breese, Rühstädt und Weisen","Briefwahl Gemeinden Breese, Rühstädt und Weisen",special_briefwahl
+DE,2021_1.csv,9058,DE_12071901,"Briefwahl Gemeinden Briesen, Dissen-Striesow und Guhrow","Briefwahl Gemeinden Briesen, Dissen-Striesow und Guhrow",special_briefwahl
+DE,2021_1.csv,9059,DE_12071902,Briefwahl Gemeinden Felixsee und Jämlitz-Klein Düben,Briefwahl Gemeinden Felixsee und Jämlitz-Klein Düben,special_briefwahl
+DE,2021_1.csv,9060,DE_12071907,Briefwahl Amt Peitz,Briefwahl Amt Peitz,special_briefwahl
+DE,2021_1.csv,9061,DE_12071921,"Briefwahl Gemeinden Burg (Spreewald), Schmogrow-Fehrow und Werben","Briefwahl Gemeinden Burg (Spreewald), Schmogrow-Fehrow und Werben",special_briefwahl
+DE,2021_1.csv,9062,DE_12071922,Briefwahl Gemeinden Groß Schacksdorf-Simmersdorf und Neiße-Malxetal,Briefwahl Gemeinden Groß Schacksdorf-Simmersdorf und Neiße-Malxetal,special_briefwahl
+DE,2021_1.csv,9063,DE_12071942,Briefwahl Gemeinden Tschernitz und Wiesengrund,Briefwahl Gemeinden Tschernitz und Wiesengrund,special_briefwahl
+DE,2021_1.csv,9080,DE_12072904,Briefwahl Amt Dahme/Mark,Briefwahl Amt Dahme/Mark,special_briefwahl
+DE,2021_1.csv,9114,DE_12073903,Briefwahl Stadt Brüssow und Gemeinde Carmzow-Wallnow,Briefwahl Stadt Brüssow und Gemeinde Carmzow-Wallnow,special_briefwahl
+DE,2021_1.csv,9115,DE_12073904,Briefwahl Amt Gartz (Oder) ohne Stadt Gartz (Oder),Briefwahl Amt Gartz (Oder) ohne Stadt Gartz (Oder),special_briefwahl
+DE,2021_1.csv,9116,DE_12073905,Briefwahl Gemeinden Flieth-Stegelitz und Gerswalde,Briefwahl Gemeinden Flieth-Stegelitz und Gerswalde,special_briefwahl
+DE,2021_1.csv,9117,DE_12073906,"Briefwahl Gemeinden Gramzow, Grünow und Zichow","Briefwahl Gemeinden Gramzow, Grünow und Zichow",special_briefwahl
+DE,2021_1.csv,9118,DE_12073910,Briefwahl Amt Oder-Welse,Briefwahl Amt Oder-Welse,special_briefwahl
+DE,2021_1.csv,9119,DE_12073923,"Briefwahl Gemeinden Göritz, Schenkenberg und Schönfeld","Briefwahl Gemeinden Göritz, Schenkenberg und Schönfeld",special_briefwahl
+DE,2021_1.csv,9120,DE_12073925,"Briefwahl Gemeinden Milmersdorf, Mittenwalde und Temmen-Ringenwalde","Briefwahl Gemeinden Milmersdorf, Mittenwalde und Temmen-Ringenwalde",special_briefwahl
+DE,2021_1.csv,9121,DE_12073926,"Briefwahl Gemeinden Oberuckersee, Randowtal und Uckerfelde","Briefwahl Gemeinden Oberuckersee, Randowtal und Uckerfelde",special_briefwahl
+DE,2021_1.csv,9270,DE_13071951,Briefwahl Amt Demmin-Land,Briefwahl Amt Demmin-Land,special_briefwahl
+DE,2021_1.csv,9271,DE_13071952,Briefwahl Amt Friedland,Briefwahl Amt Friedland,special_briefwahl
+DE,2021_1.csv,9272,DE_13071953,Briefwahl Amt Malchin am Kummerower See ohne Stadt Malchin,Briefwahl Amt Malchin am Kummerower See ohne Stadt Malchin,special_briefwahl
+DE,2021_1.csv,9273,DE_13071954,Briefwahl Amt Malchow ohne Stadt Malchow,Briefwahl Amt Malchow ohne Stadt Malchow,special_briefwahl
+DE,2021_1.csv,9274,DE_13071955,Briefwahl Amt Mecklenburgische Kleinseenplatte,Briefwahl Amt Mecklenburgische Kleinseenplatte,special_briefwahl
+DE,2021_1.csv,9275,DE_13071956,Briefwahl Amt Neustrelitz-Land,Briefwahl Amt Neustrelitz-Land,special_briefwahl
+DE,2021_1.csv,9276,DE_13071957,Briefwahl Amt Neverin,Briefwahl Amt Neverin,special_briefwahl
+DE,2021_1.csv,9277,DE_13071958,Briefwahl Amt Penzliner Land ohne Stadt Penzlin,Briefwahl Amt Penzliner Land ohne Stadt Penzlin,special_briefwahl
+DE,2021_1.csv,9278,DE_13071959,Briefwahl Amt Röbel-Müritz,Briefwahl Amt Röbel-Müritz,special_briefwahl
+DE,2021_1.csv,9279,DE_13071960,Briefwahl Amt Seenlandschaft Waren,Briefwahl Amt Seenlandschaft Waren,special_briefwahl
+DE,2021_1.csv,9280,DE_13071961,Briefwahl Amt Stargarder Land,Briefwahl Amt Stargarder Land,special_briefwahl
+DE,2021_1.csv,9281,DE_13071962,Briefwahl Amt Stavenhagen,Briefwahl Amt Stavenhagen,special_briefwahl
+DE,2021_1.csv,9282,DE_13071963,Briefwahl Amt Treptower Tollensewinkel ohne Stadt Altentreptow,Briefwahl Amt Treptower Tollensewinkel ohne Stadt Altentreptow,special_briefwahl
+DE,2021_1.csv,9283,DE_13071964,Briefwahl Amt Woldegk,Briefwahl Amt Woldegk,special_briefwahl
+DE,2021_1.csv,9391,DE_13072951,"Briefwahl Gemeinden Admannshagen-Bargeshagen, Börgerende-Rethwisch, Steffenshagen, Wittenbeck","Briefwahl Gemeinden Admannshagen-Bargeshagen, Börgerende-Rethwisch, Steffenshagen, Wittenbeck",special_briefwahl
+DE,2021_1.csv,9392,DE_13072952,"Briefwahl Gemeinden Baumgarten, Bernitt, Dreetz, Jürgenshagen und Klein Belitz","Briefwahl Gemeinden Baumgarten, Bernitt, Dreetz, Jürgenshagen und Klein Belitz",special_briefwahl
+DE,2021_1.csv,9393,DE_13072953,Briefwahl Amt Carbäk,Briefwahl Amt Carbäk,special_briefwahl
+DE,2021_1.csv,9394,DE_13072954,Briefwahl Amt Gnoien,Briefwahl Amt Gnoien,special_briefwahl
+DE,2021_1.csv,9395,DE_13072955,Briefwahl Amt Güstrow-Land,Briefwahl Amt Güstrow-Land,special_briefwahl
+DE,2021_1.csv,9396,DE_13072956,Briefwahl Amt Krakow am See,Briefwahl Amt Krakow am See,special_briefwahl
+DE,2021_1.csv,9397,DE_13072957,Briefwahl Amt Laage,Briefwahl Amt Laage,special_briefwahl
+DE,2021_1.csv,9398,DE_13072958,Briefwahl Amt Mecklenburgische Schweiz,Briefwahl Amt Mecklenburgische Schweiz,special_briefwahl
+DE,2021_1.csv,9399,DE_13072959,Briefwahl Amt Neubukow-Salzhaff,Briefwahl Amt Neubukow-Salzhaff,special_briefwahl
+DE,2021_1.csv,9400,DE_13072960,Briefwahl Gemeinden Bentwisch und Rövershagen,Briefwahl Gemeinden Bentwisch und Rövershagen,special_briefwahl
+DE,2021_1.csv,9401,DE_13072961,Briefwahl Amt Schwaan ohne Stadt Schwaan,Briefwahl Amt Schwaan ohne Stadt Schwaan,special_briefwahl
+DE,2021_1.csv,9402,DE_13072962,Briefwahl Amt Tessin ohne Stadt Tessin und Gemeinde Selpin,Briefwahl Amt Tessin ohne Stadt Tessin und Gemeinde Selpin,special_briefwahl
+DE,2021_1.csv,9403,DE_13072963,Briefwahl Gemeinden Elmenhorst/Lichtenhagen und Kritzmow,Briefwahl Gemeinden Elmenhorst/Lichtenhagen und Kritzmow,special_briefwahl
+DE,2021_1.csv,9404,DE_13072971,"Briefwahl Gemeinden Bartenshagen-Parkentin, Hohenfelde, Nienhagen, Reddelich, Retschow","Briefwahl Gemeinden Bartenshagen-Parkentin, Hohenfelde, Nienhagen, Reddelich, Retschow",special_briefwahl
+DE,2021_1.csv,9405,DE_13072972,"Briefwahl Gemeinden Penzin, Rühn, Steinhagen, Tarnow, Warnow und Zepelin","Briefwahl Gemeinden Penzin, Rühn, Steinhagen, Tarnow, Warnow und Zepelin",special_briefwahl
+DE,2021_1.csv,9406,DE_13072980,"Briefwahl Gemeinden Blankenhagen, Gelbensande und Mönchhagen","Briefwahl Gemeinden Blankenhagen, Gelbensande und Mönchhagen",special_briefwahl
+DE,2021_1.csv,9407,DE_13072983,"Briefwahl Gemeinden Lambrechtshagen, Papendorf, Pölchow, Stäbelow und Ziesendorf","Briefwahl Gemeinden Lambrechtshagen, Papendorf, Pölchow, Stäbelow und Ziesendorf",special_briefwahl
+DE,2021_1.csv,9508,DE_13073951,Briefwahl Amt Altenpleen,Briefwahl Amt Altenpleen,special_briefwahl
+DE,2021_1.csv,9509,DE_13073952,Briefwahl Amt Barth ohne Stadt Barth,Briefwahl Amt Barth ohne Stadt Barth,special_briefwahl
+DE,2021_1.csv,9510,DE_13073953,Briefwahl Stadt Garz/Rügen und Gemeinden Gustow und Poseritz,Briefwahl Stadt Garz/Rügen und Gemeinden Gustow und Poseritz,special_briefwahl
+DE,2021_1.csv,9511,DE_13073954,Briefwahl Amt Darß/Fischland,Briefwahl Amt Darß/Fischland,special_briefwahl
+DE,2021_1.csv,9512,DE_13073955,Briefwahl Amt Franzburg-Richtenberg,Briefwahl Amt Franzburg-Richtenberg,special_briefwahl
+DE,2021_1.csv,9513,DE_13073956,Briefwahl Gemeinden Elmenhorst und Wittenhagen,Briefwahl Gemeinden Elmenhorst und Wittenhagen,special_briefwahl
+DE,2021_1.csv,9514,DE_13073957,Briefwahl Amt Mönchgut-Granitz,Briefwahl Amt Mönchgut-Granitz,special_briefwahl
+DE,2021_1.csv,9515,DE_13073958,Briefwahl Amt Niepars,Briefwahl Amt Niepars,special_briefwahl
+DE,2021_1.csv,9516,DE_13073959,Briefwahl Amt Nord-Rügen,Briefwahl Amt Nord-Rügen,special_briefwahl
+DE,2021_1.csv,9517,DE_13073960,Briefwahl Amt Recknitz-Trebeltal,Briefwahl Amt Recknitz-Trebeltal,special_briefwahl
+DE,2021_1.csv,9518,DE_13073961,Briefwahl Amt Ribnitz-Damgarten ohne Stadt Ribnitz-Damgarten,Briefwahl Amt Ribnitz-Damgarten ohne Stadt Ribnitz-Damgarten,special_briefwahl
+DE,2021_1.csv,9519,DE_13073962,Briefwahl Amt West-Rügen,Briefwahl Amt West-Rügen,special_briefwahl
+DE,2021_1.csv,9520,DE_13073973,"Briefwahl Gemeinden Buschvitz, Lietzow, Parchtitz, Patzig, Ralswiek, Rappin und Sehlen","Briefwahl Gemeinden Buschvitz, Lietzow, Parchtitz, Patzig, Ralswiek, Rappin und Sehlen",special_briefwahl
+DE,2021_1.csv,9603,DE_13074951,Briefwahl Amt Dorf Mecklenburg-Bad Kleinen,Briefwahl Amt Dorf Mecklenburg-Bad Kleinen,special_briefwahl
+DE,2021_1.csv,9604,DE_13074952,Briefwahl Amt Gadebusch,Briefwahl Amt Gadebusch,special_briefwahl
+DE,2021_1.csv,9605,DE_13074953,Briefwahl Amt Grevesmühlen-Land,Briefwahl Amt Grevesmühlen-Land,special_briefwahl
+DE,2021_1.csv,9606,DE_13074954,Briefwahl Amt Klützer Winkel,Briefwahl Amt Klützer Winkel,special_briefwahl
+DE,2021_1.csv,9607,DE_13074955,Briefwahl Amt Lützow-Lübstorf,Briefwahl Amt Lützow-Lübstorf,special_briefwahl
+DE,2021_1.csv,9608,DE_13074956,Briefwahl Amt Neuburg,Briefwahl Amt Neuburg,special_briefwahl
+DE,2021_1.csv,9609,DE_13074957,Briefwahl Amt Neukloster-Warin,Briefwahl Amt Neukloster-Warin,special_briefwahl
+DE,2021_1.csv,9610,DE_13074958,Briefwahl Amt Rehna,Briefwahl Amt Rehna,special_briefwahl
+DE,2021_1.csv,9611,DE_13074959,Briefwahl Amt Schönberger Land ohne Stadt Dassow und Gemeinde Lüdersdorf,Briefwahl Amt Schönberger Land ohne Stadt Dassow und Gemeinde Lüdersdorf,special_briefwahl
+DE,2021_1.csv,9612,DE_13074979,Briefwahl Stadt Dassow und Gemeinde Lüdersdorf,Briefwahl Stadt Dassow und Gemeinde Lüdersdorf,special_briefwahl
+DE,2021_1.csv,9751,DE_13075951,Briefwahl Amt Am Peenestrom,Briefwahl Amt Am Peenestrom,special_briefwahl
+DE,2021_1.csv,9752,DE_13075952,Briefwahl Amt Am Stettiner Haff,Briefwahl Amt Am Stettiner Haff,special_briefwahl
+DE,2021_1.csv,9753,DE_13075953,Briefwahl Amt Anklam-Land,Briefwahl Amt Anklam-Land,special_briefwahl
+DE,2021_1.csv,9754,DE_13075954,Briefwahl Amt Jarmen-Tutow,Briefwahl Amt Jarmen-Tutow,special_briefwahl
+DE,2021_1.csv,9755,DE_13075955,Briefwahl Amt Landhagen,Briefwahl Amt Landhagen,special_briefwahl
+DE,2021_1.csv,9756,DE_13075956,Briefwahl Amt Löcknitz-Penkun ohne Gemeinde Löcknitz,Briefwahl Amt Löcknitz-Penkun ohne Gemeinde Löcknitz,special_briefwahl
+DE,2021_1.csv,9757,DE_13075957,Briefwahl Amt Lubmin,Briefwahl Amt Lubmin,special_briefwahl
+DE,2021_1.csv,9758,DE_13075958,Briefwahl Amt Peenetal/Loitz,Briefwahl Amt Peenetal/Loitz,special_briefwahl
+DE,2021_1.csv,9759,DE_13075959,Briefwahl Amt Torgelow-Ferdinandshof ohne Stadt Torgelow,Briefwahl Amt Torgelow-Ferdinandshof ohne Stadt Torgelow,special_briefwahl
+DE,2021_1.csv,9760,DE_13075960,Briefwahl Amt Uecker-Randow-Tal,Briefwahl Amt Uecker-Randow-Tal,special_briefwahl
+DE,2021_1.csv,9761,DE_13075961,Briefwahl Amt Usedom-Nord,Briefwahl Amt Usedom-Nord,special_briefwahl
+DE,2021_1.csv,9762,DE_13075962,Briefwahl Amt Usedom-Süd,Briefwahl Amt Usedom-Süd,special_briefwahl
+DE,2021_1.csv,9763,DE_13075963,Briefwahl Amt Züssow,Briefwahl Amt Züssow,special_briefwahl
+DE,2021_1.csv,9906,DE_13076952,Briefwahl Amt Boizenburg-Land,Briefwahl Amt Boizenburg-Land,special_briefwahl
+DE,2021_1.csv,9907,DE_13076954,Briefwahl Amt Dömitz-Malliß,Briefwahl Amt Dömitz-Malliß,special_briefwahl
+DE,2021_1.csv,9908,DE_13076955,Briefwahl Amt Eldenburg Lübz,Briefwahl Amt Eldenburg Lübz,special_briefwahl
+DE,2021_1.csv,9909,DE_13076956,Briefwahl Amt Goldberg-Mildenitz,Briefwahl Amt Goldberg-Mildenitz,special_briefwahl
+DE,2021_1.csv,9910,DE_13076957,Briefwahl Amt Grabow ohne Stadt Grabow,Briefwahl Amt Grabow ohne Stadt Grabow,special_briefwahl
+DE,2021_1.csv,9911,DE_13076958,Briefwahl Amt Hagenow-Land,Briefwahl Amt Hagenow-Land,special_briefwahl
+DE,2021_1.csv,9912,DE_13076959,Briefwahl Amt Ludwigslust-Land,Briefwahl Amt Ludwigslust-Land,special_briefwahl
+DE,2021_1.csv,9913,DE_13076960,Briefwahl Amt Neustadt-Glewe,Briefwahl Amt Neustadt-Glewe,special_briefwahl
+DE,2021_1.csv,9914,DE_13076962,Briefwahl Amt Parchimer Umland,Briefwahl Amt Parchimer Umland,special_briefwahl
+DE,2021_1.csv,9915,DE_13076963,Briefwahl Amt Plau am See,Briefwahl Amt Plau am See,special_briefwahl
+DE,2021_1.csv,9916,DE_13076964,Briefwahl Amt Sternberger Seenlandschaft,Briefwahl Amt Sternberger Seenlandschaft,special_briefwahl
+DE,2021_1.csv,9917,DE_13076965,Briefwahl Amt Stralendorf,Briefwahl Amt Stralendorf,special_briefwahl
+DE,2021_1.csv,9918,DE_13076967,Briefwahl Amt Zarrentin ohne Stadt Zarrentin am Schaalsee,Briefwahl Amt Zarrentin ohne Stadt Zarrentin am Schaalsee,special_briefwahl
+DE,2021_1.csv,9919,DE_13076968,Briefwahl Amt Crivitz,Briefwahl Amt Crivitz,special_briefwahl
+DE,2021_1.csv,9980,DE_14521901,Briefwahl VVG Bärenstein-Königswalde,Briefwahl VVG Bärenstein-Königswalde,special_briefwahl
+DE,2021_1.csv,9981,DE_14521905,Briefwahl GVV Wildenstein,Briefwahl GVV Wildenstein,special_briefwahl
+DE,2021_1.csv,9982,DE_14521910,Briefwahl VVG Geyer,Briefwahl VVG Geyer,special_briefwahl
+DE,2021_1.csv,9983,DE_14521930,Briefwahl VVG Scheibenberg-Schlettau,Briefwahl VVG Scheibenberg-Schlettau,special_briefwahl
+DE,2021_1.csv,9984,DE_14521932,Briefwahl VVG Kurort Seiffen - Deutschneudorf - Heidersdorf,Briefwahl VVG Kurort Seiffen - Deutschneudorf - Heidersdorf,special_briefwahl
+DE,2021_1.csv,10038,DE_14522902,Briefwahl VVG Burgstädt,Briefwahl VVG Burgstädt,special_briefwahl
+DE,2021_1.csv,10039,DE_14522919,Briefwahl VVG Mittweida,Briefwahl VVG Mittweida,special_briefwahl
+DE,2021_1.csv,10040,DE_14522926,Briefwahl VVG Rochlitz,Briefwahl VVG Rochlitz,special_briefwahl
+DE,2021_1.csv,10041,DE_14522929,Briefwahl VVG Sayda/Dorfchemnitz,Briefwahl VVG Sayda/Dorfchemnitz,special_briefwahl
+DE,2021_1.csv,10112,DE_14524904,Briefwahl VVG Crimmitschau-Dennheritz,Briefwahl VVG Crimmitschau-Dennheritz,special_briefwahl
+DE,2021_1.csv,10113,DE_14524918,Briefwahl VVG Meerane-Schönberg,Briefwahl VVG Meerane-Schönberg,special_briefwahl
+DE,2021_1.csv,10114,DE_14524928,Briefwahl VVG Rund um den Auersberg,Briefwahl VVG Rund um den Auersberg,special_briefwahl
+DE,2021_1.csv,10173,DE_14625901,Briefwahl GVV Am Klosterwasser,Briefwahl GVV Am Klosterwasser,special_briefwahl
+DE,2021_1.csv,10174,DE_14625907,Briefwahl VVG Bischofswerda,Briefwahl VVG Bischofswerda,special_briefwahl
+DE,2021_1.csv,10175,DE_14625911,Briefwahl VVG Großharthau,Briefwahl VVG Großharthau,special_briefwahl
+DE,2021_1.csv,10176,DE_14625912,Briefwahl VVG Großpostwitz/O.L.,Briefwahl VVG Großpostwitz/O.L.,special_briefwahl
+DE,2021_1.csv,10177,DE_14625918,Briefwahl VVG Königsbrück,Briefwahl VVG Königsbrück,special_briefwahl
+DE,2021_1.csv,10178,DE_14625923,Briefwahl VVG Neschwitz,Briefwahl VVG Neschwitz,special_briefwahl
+DE,2021_1.csv,10179,DE_14625931,Briefwahl VVG Pulsnitz,Briefwahl VVG Pulsnitz,special_briefwahl
+DE,2021_1.csv,10233,DE_14626902,Briefwahl Gemeinden Mücka und Quitzdorf am See,Briefwahl Gemeinden Mücka und Quitzdorf am See,special_briefwahl
+DE,2021_1.csv,10234,DE_14626903,Briefwahl VVG Bad Muskau,Briefwahl VVG Bad Muskau,special_briefwahl
+DE,2021_1.csv,10235,DE_14626906,Briefwahl VVG Bernstadt / Schönau-Berzdorf,Briefwahl VVG Bernstadt / Schönau-Berzdorf,special_briefwahl
+DE,2021_1.csv,10236,DE_14626914,Briefwahl VVG Großschönau-Hainewalde,Briefwahl VVG Großschönau-Hainewalde,special_briefwahl
+DE,2021_1.csv,10237,DE_14626924,Briefwahl VVG Neusalza-Spremberg,Briefwahl VVG Neusalza-Spremberg,special_briefwahl
+DE,2021_1.csv,10238,DE_14626927,Briefwahl VVG Olbersdorf,Briefwahl VVG Olbersdorf,special_briefwahl
+DE,2021_1.csv,10239,DE_14626932,Briefwahl VVG Reichenbach/O.L.,Briefwahl VVG Reichenbach/O.L.,special_briefwahl
+DE,2021_1.csv,10240,DE_14626933,Briefwahl VVG Rietschen,Briefwahl VVG Rietschen,special_briefwahl
+DE,2021_1.csv,10241,DE_14626935,Briefwahl VVG Rothenburg/O.L.,Briefwahl VVG Rothenburg/O.L.,special_briefwahl
+DE,2021_1.csv,10242,DE_14626937,Briefwahl VVG Schleife,Briefwahl VVG Schleife,special_briefwahl
+DE,2021_1.csv,10243,DE_14626942,Briefwahl VVG Weißwasser/O.L.,Briefwahl VVG Weißwasser/O.L.,special_briefwahl
+DE,2021_1.csv,10244,DE_14626953,Briefwahl Gemeinden Horka und Kodersdorf,Briefwahl Gemeinden Horka und Kodersdorf,special_briefwahl
+DE,2021_1.csv,10245,DE_14626963,Briefwahl Gemeinden Neißeaue und Schöpstal,Briefwahl Gemeinden Neißeaue und Schöpstal,special_briefwahl
+DE,2021_1.csv,10341,DE_14729901,Briefwahl VVG Bad Lausick,Briefwahl VVG Bad Lausick,special_briefwahl
+DE,2021_1.csv,10342,DE_14729908,Briefwahl VVG Pegau,Briefwahl VVG Pegau,special_briefwahl
+DE,2021_1.csv,10373,DE_14730902,Briefwahl VVG Beilrode,Briefwahl VVG Beilrode,special_briefwahl
+DE,2021_1.csv,10374,DE_14730903,Briefwahl VVG Dommitzsch,Briefwahl VVG Dommitzsch,special_briefwahl
+DE,2021_1.csv,10375,DE_14730906,Briefwahl VVG Krostitz,Briefwahl VVG Krostitz,special_briefwahl
+DE,2021_1.csv,10376,DE_14730911,Briefwahl VVG Torgau,Briefwahl VVG Torgau,special_briefwahl
+DE,2021_1.csv,10667,DE_16061901,Briefwahl VVG Lindenberg/Eichsfeld,Briefwahl VVG Lindenberg/Eichsfeld,special_briefwahl
+DE,2021_1.csv,10668,DE_16061906,Briefwahl VVG Eichsfeld-Wipperaue,Briefwahl VVG Eichsfeld-Wipperaue,special_briefwahl
+DE,2021_1.csv,10669,DE_16061908,Briefwahl VVG Hanstein-Rusteberg,Briefwahl VVG Hanstein-Rusteberg,special_briefwahl
+DE,2021_1.csv,10670,DE_16061909,Briefwahl VVG Leinetal,Briefwahl VVG Leinetal,special_briefwahl
+DE,2021_1.csv,10671,DE_16061912,Briefwahl VVG Uder,Briefwahl VVG Uder,special_briefwahl
+DE,2021_1.csv,10672,DE_16061913,Briefwahl VVG Westerwald-Obereichsfeld,Briefwahl VVG Westerwald-Obereichsfeld,special_briefwahl
+DE,2021_1.csv,10673,DE_16061914,Briefwahl VVG Ershausen/Geismar,Briefwahl VVG Ershausen/Geismar,special_briefwahl
+DE,2021_1.csv,10689,DE_16062953,"Briefwahl EG Heringen/Helme, Stadt","Briefwahl EG Heringen/Helme, Stadt",special_briefwahl
+DE,2021_1.csv,10690,DE_16062954,"Briefwahl EG Bleicherode, Stadt","Briefwahl EG Bleicherode, Stadt",special_briefwahl
+DE,2021_1.csv,10722,DE_16063906,Briefwahl VVG Hainich-Werratal,Briefwahl VVG Hainich-Werratal,special_briefwahl
+DE,2021_1.csv,10723,DE_16063951,"Briefwahl EG Bad Salzungen, Stadt","Briefwahl EG Bad Salzungen, Stadt",special_briefwahl
+DE,2021_1.csv,10724,DE_16063956,"Briefwahl EG Geisa, Stadt","Briefwahl EG Geisa, Stadt",special_briefwahl
+DE,2021_1.csv,10725,DE_16063959,Briefwahl EG Dermbach,Briefwahl EG Dermbach,special_briefwahl
+DE,2021_1.csv,10752,DE_16064901,Briefwahl VVG Bad Tennstedt,Briefwahl VVG Bad Tennstedt,special_briefwahl
+DE,2021_1.csv,10753,DE_16064951,Briefwahl EG Herbsleben,Briefwahl EG Herbsleben,special_briefwahl
+DE,2021_1.csv,10754,DE_16064952,Briefwahl EG Südeichsfeld,Briefwahl EG Südeichsfeld,special_briefwahl
+DE,2021_1.csv,10755,DE_16064953,Briefwahl EG Vogtei,Briefwahl EG Vogtei,special_briefwahl
+DE,2021_1.csv,10756,DE_16064954,Briefwahl EG Unstrut-Hainich,Briefwahl EG Unstrut-Hainich,special_briefwahl
+DE,2021_1.csv,10757,DE_16064955,"Briefwahl EG Nottertal-Heilinger Höhen, Stadt","Briefwahl EG Nottertal-Heilinger Höhen, Stadt",special_briefwahl
+DE,2021_1.csv,10786,DE_16065902,Briefwahl VVG Greußen,Briefwahl VVG Greußen,special_briefwahl
+DE,2021_1.csv,10787,DE_16065952,"Briefwahl EG Ebeleben, Stadt und Gemeinde Helbedündorf","Briefwahl EG Ebeleben, Stadt und Gemeinde Helbedündorf",special_briefwahl
+DE,2021_1.csv,10788,DE_16065955,"Briefwahl EG Artern, Stadt","Briefwahl EG Artern, Stadt",special_briefwahl
+DE,2021_1.csv,10789,DE_16065956,"Briefwahl EG An der Schmücke, Stadt","Briefwahl EG An der Schmücke, Stadt",special_briefwahl
+DE,2021_1.csv,10829,DE_16066905,Briefwahl VVG Hohe Rhön,Briefwahl VVG Hohe Rhön,special_briefwahl
+DE,2021_1.csv,10830,DE_16066913,Briefwahl VVG Wasungen-Amt Sand,Briefwahl VVG Wasungen-Amt Sand,special_briefwahl
+DE,2021_1.csv,10831,DE_16066914,Briefwahl VVG Dolmar-Salzbrücke,Briefwahl VVG Dolmar-Salzbrücke,special_briefwahl
+DE,2021_1.csv,10832,DE_16066950,"Briefwahl EG Meiningen, Stadt ohne Meiningen","Briefwahl EG Meiningen, Stadt ohne Meiningen",special_briefwahl
+DE,2021_1.csv,10833,DE_16066951,Briefwahl EG Breitungen/Werra,Briefwahl EG Breitungen/Werra,special_briefwahl
+DE,2021_1.csv,10864,DE_16067907,Briefwahl VVG Nesseaue,Briefwahl VVG Nesseaue,special_briefwahl
+DE,2021_1.csv,10865,DE_16067912,Briefwahl VVG Fahner Höhe,Briefwahl VVG Fahner Höhe,special_briefwahl
+DE,2021_1.csv,10866,DE_16067950,"Briefwahl EG Ohrdruf, Stadt","Briefwahl EG Ohrdruf, Stadt",special_briefwahl
+DE,2021_1.csv,10867,DE_16067952,Briefwahl EG Drei Gleichen,Briefwahl EG Drei Gleichen,special_briefwahl
+DE,2021_1.csv,10868,DE_16067953,Briefwahl EG Nessetal,Briefwahl EG Nessetal,special_briefwahl
+DE,2021_1.csv,10869,DE_16067954,Briefwahl EG Georgenthal,Briefwahl EG Georgenthal,special_briefwahl
+DE,2021_1.csv,10908,DE_16068902,Briefwahl VVG Gera-Aue,Briefwahl VVG Gera-Aue,special_briefwahl
+DE,2021_1.csv,10909,DE_16068905,Briefwahl VVG Kindelbrück,Briefwahl VVG Kindelbrück,special_briefwahl
+DE,2021_1.csv,10910,DE_16068906,Briefwahl VVG Kölleda,Briefwahl VVG Kölleda,special_briefwahl
+DE,2021_1.csv,10911,DE_16068909,Briefwahl VVG Straußfurt,Briefwahl VVG Straußfurt,special_briefwahl
+DE,2021_1.csv,10912,DE_16068912,Briefwahl VVG Gramme-Vippach,Briefwahl VVG Gramme-Vippach,special_briefwahl
+DE,2021_1.csv,10913,DE_16068950,Briefwahl EG Elxleben,Briefwahl EG Elxleben,special_briefwahl
+DE,2021_1.csv,10946,DE_16069902,Briefwahl VVG Feldstein,Briefwahl VVG Feldstein,special_briefwahl
+DE,2021_1.csv,10947,DE_16069904,Briefwahl VVG Heldburger Unterland,Briefwahl VVG Heldburger Unterland,special_briefwahl
+DE,2021_1.csv,10948,DE_16069951,Briefwahl EG Auengrund,Briefwahl EG Auengrund,special_briefwahl
+DE,2021_1.csv,10965,DE_16070902,Briefwahl VVG Geratal/Plaue,Briefwahl VVG Geratal/Plaue,special_briefwahl
+DE,2021_1.csv,10966,DE_16070909,Briefwahl VVG Riechheimer Berg,Briefwahl VVG Riechheimer Berg,special_briefwahl
+DE,2021_1.csv,11006,DE_16071907,Briefwahl VVG Kranichfeld,Briefwahl VVG Kranichfeld,special_briefwahl
+DE,2021_1.csv,11007,DE_16071908,Briefwahl VVG Mellingen,Briefwahl VVG Mellingen,special_briefwahl
+DE,2021_1.csv,11008,DE_16071951,"Briefwahl EG Bad Sulza, Stadt","Briefwahl EG Bad Sulza, Stadt",special_briefwahl
+DE,2021_1.csv,11009,DE_16071953,Briefwahl EG Am Ettersberg,Briefwahl EG Am Ettersberg,special_briefwahl
+DE,2021_1.csv,11018,DE_16072951,"Briefwahl EG Neuhaus am Rennweg, Stadt","Briefwahl EG Neuhaus am Rennweg, Stadt",special_briefwahl
+DE,2021_1.csv,11045,DE_16073905,Briefwahl Städte Gräfenthal und Lehesten,Briefwahl Städte Gräfenthal und Lehesten,special_briefwahl
+DE,2021_1.csv,11046,DE_16073912,Briefwahl VVG Schwarzatal ohne Stadt Schwarzatal,Briefwahl VVG Schwarzatal ohne Stadt Schwarzatal,special_briefwahl
+DE,2021_1.csv,11047,DE_16073951,Briefwahl EG Kaulsdorf,Briefwahl EG Kaulsdorf,special_briefwahl
+DE,2021_1.csv,11048,DE_16073954,"Briefwahl EG Königsee, Stadt","Briefwahl EG Königsee, Stadt",special_briefwahl
+DE,2021_1.csv,11133,DE_16074905,Briefwahl VVG Heideland-Elstertal-Schkölen,Briefwahl VVG Heideland-Elstertal-Schkölen,special_briefwahl
+DE,2021_1.csv,11134,DE_16074907,Briefwahl VVG Hügelland/Täler,Briefwahl VVG Hügelland/Täler,special_briefwahl
+DE,2021_1.csv,11135,DE_16074911,"Briefwahl VVG Südliches Saaletal, Gemeinden Milda bis Zöllnitz","Briefwahl VVG Südliches Saaletal, Gemeinden Milda bis Zöllnitz",special_briefwahl
+DE,2021_1.csv,11136,DE_16074914,Briefwahl VVG Hermsdorf,Briefwahl VVG Hermsdorf,special_briefwahl
+DE,2021_1.csv,11137,DE_16074915,Briefwahl VVG Dornburg-Camburg ohne Stadt Dornburg-Camburg,Briefwahl VVG Dornburg-Camburg ohne Stadt Dornburg-Camburg,special_briefwahl
+DE,2021_1.csv,11138,DE_16074931,"Briefwahl VVG Südliches Saaletal, Gemeinden Altenberga bis Lindig","Briefwahl VVG Südliches Saaletal, Gemeinden Altenberga bis Lindig",special_briefwahl
+DE,2021_1.csv,11139,DE_16074950,"Briefwahl EG Stadtroda, Stadt","Briefwahl EG Stadtroda, Stadt",special_briefwahl
+DE,2021_1.csv,11140,DE_16074951,"Briefwahl EG Bürgel, Stadt","Briefwahl EG Bürgel, Stadt",special_briefwahl
+DE,2021_1.csv,11141,DE_16074952,"Briefwahl EG Eisenberg, Stadt","Briefwahl EG Eisenberg, Stadt",special_briefwahl
+DE,2021_1.csv,11142,DE_16074953,Briefwahl EG Bad Klosterlausnitz,Briefwahl EG Bad Klosterlausnitz,special_briefwahl
+DE,2021_1.csv,11195,DE_16075904,Briefwahl VVG Seenplatte,Briefwahl VVG Seenplatte,special_briefwahl
+DE,2021_1.csv,11196,DE_16075905,Briefwahl VVG Oppurg,Briefwahl VVG Oppurg,special_briefwahl
+DE,2021_1.csv,11197,DE_16075911,Briefwahl VVG Triptis,Briefwahl VVG Triptis,special_briefwahl
+DE,2021_1.csv,11198,DE_16075913,Briefwahl VVG Ranis-Ziegenrück ohne Gemeinde Krölpa,Briefwahl VVG Ranis-Ziegenrück ohne Gemeinde Krölpa,special_briefwahl
+DE,2021_1.csv,11199,DE_16075950,"Briefwahl EG Neustadt an der Orla, Stadt","Briefwahl EG Neustadt an der Orla, Stadt",special_briefwahl
+DE,2021_1.csv,11242,DE_16076904,Briefwahl VVG Wünschendorf/Elster,Briefwahl VVG Wünschendorf/Elster,special_briefwahl
+DE,2021_1.csv,11243,DE_16076906,Briefwahl VVG Münchenbernsdorf,Briefwahl VVG Münchenbernsdorf,special_briefwahl
+DE,2021_1.csv,11244,DE_16076908,Briefwahl VVG Am Brahmetal,Briefwahl VVG Am Brahmetal,special_briefwahl
+DE,2021_1.csv,11245,DE_16076951,"Briefwahl EG Bad Köstritz, Stadt","Briefwahl EG Bad Köstritz, Stadt",special_briefwahl
+DE,2021_1.csv,11246,DE_16076953,"Briefwahl EG Weida, Stadt","Briefwahl EG Weida, Stadt",special_briefwahl
+DE,2021_1.csv,11247,DE_16076954,"Briefwahl EG Zeulenroda-Triebes, Stadt","Briefwahl EG Zeulenroda-Triebes, Stadt",special_briefwahl
+DE,2021_1.csv,11248,DE_16076956,Briefwahl EG Langenwetzendorf,Briefwahl EG Langenwetzendorf,special_briefwahl
+DE,2021_1.csv,11279,DE_16077904,Briefwahl VVG Pleißenaue,Briefwahl VVG Pleißenaue,special_briefwahl
+DE,2021_1.csv,11280,DE_16077905,"Briefwahl Gemeinden Kriebitzsch, Lödla, Monstab und Rositz","Briefwahl Gemeinden Kriebitzsch, Lödla, Monstab und Rositz",special_briefwahl
+DE,2021_1.csv,11281,DE_16077909,Briefwahl VVG Oberes Sprottental,Briefwahl VVG Oberes Sprottental,special_briefwahl
+DE,2021_1.csv,11282,DE_16077925,"Briefwahl Gemeinden Göhren, Göllnitz, Mehna und Starkenberg","Briefwahl Gemeinden Göhren, Göllnitz, Mehna und Starkenberg",special_briefwahl
+DE,2021_1.csv,11283,DE_16077950,"Briefwahl EG Gößnitz, Stadt","Briefwahl EG Gößnitz, Stadt",special_briefwahl
+DE,2021_1.csv,11284,DE_16077951,Briefwahl EG Nobitz,Briefwahl EG Nobitz,special_briefwahl
+DE,2021_1.csv,11285,DE_16077952,"Briefwahl EG Schmölln, Stadt","Briefwahl EG Schmölln, Stadt",special_briefwahl

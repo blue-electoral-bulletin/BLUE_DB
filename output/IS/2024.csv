@@ -1,0 +1,7 @@
+gisco_id,name,registered,turnout,invalid,blank,Framsóknarflokkur  (B),Viðreisn  (C),Sjálfstæðisflokkur  (D),Flokkur fólksins  (F),Sósíalistaflokkur Íslands (J),Lýðræðisflokkur  samtök um sjálfsákvörðunarrétt  (L),Miðflokkurinn  (M),Píratar  (P),Samfylkingin  (S),Vinstrihreyfingin - grænt framboð  (V),Ábyrg framtíð  (Y)
+IS_NV,Norðvesturkjördæmi,22150,18398,39,284,2406,2286,3249,3023,620,143,2669,322,2871,486,0
+IS_NA,Norðausturkjördæmi,31038,24809,30,445,3445,2296,3652,3475,924,183,3818,438,5183,920,0
+IS_SU,Suðurkjördæmi,40997,32285,55,403,3806,3571,6233,6354,773,406,4322,422,5519,421,0
+IS_SV,Suðvesturkjördæmi,79088,64559,31,570,3792,12829,14997,7014,1820,728,7689,1778,12324,987,0
+IS_RS,Reykjavíkurkjördæmi suður,47617,37665,72,337,1638,6581,6553,5022,2091,388,3917,1445,8541,1080,0
+IS_RN,Reykjavíkurkjördæmi norður,47595,37500,81,399,1492,6043,6459,4400,2194,367,3284,2006,9653,1080,42

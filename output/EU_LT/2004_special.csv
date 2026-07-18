@@ -1,0 +1,3 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+LT,2004.csv,1949,LT_LTZZ99,/Vilniaus m./Balsavimas LR diplomatinėse atstovybėse,/Vilniaus m./Balsavimas LR diplomatinėse atstovybėse,special_foreign_voter_lt
+LT,2004.csv,2045,LT_LTYY98,"/Balsai, suskaičiuoti Vyriausiojoje rinkimų komisijoje","/Balsai, suskaičiuoti Vyriausiojoje rinkimų komisijoje",special_national_aggregate_lt

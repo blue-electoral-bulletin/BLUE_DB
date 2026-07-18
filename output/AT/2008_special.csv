@@ -1,0 +1,107 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+AT,2008.csv,0,AT_10099,nichtzuordenbare Wahlkarten - Burgenland,nichtzuordenbare Wahlkarten - Burgenland,special_wahlkarten
+AT,2008.csv,2,AT_10199,Briefwahlkarten - Eisenstadt(Stadt),Briefwahlkarten - Eisenstadt(Stadt),special_wahlkarten
+AT,2008.csv,4,AT_10299,Briefwahlkarten - Rust(Stadt),Briefwahlkarten - Rust(Stadt),special_wahlkarten
+AT,2008.csv,28,AT_10399,Briefwahlkarten - Eisenstadt-Umgebung,Briefwahlkarten - Eisenstadt-Umgebung,special_wahlkarten
+AT,2008.csv,57,AT_10499,Briefwahlkarten - Güssing,Briefwahlkarten - Güssing,special_wahlkarten
+AT,2008.csv,70,AT_10599,Briefwahlkarten - Jennersdorf,Briefwahlkarten - Jennersdorf,special_wahlkarten
+AT,2008.csv,90,AT_10699,Briefwahlkarten - Mattersburg,Briefwahlkarten - Mattersburg,special_wahlkarten
+AT,2008.csv,118,AT_10799,Briefwahlkarten - Neusiedel am See,Briefwahlkarten - Neusiedel am See,special_wahlkarten
+AT,2008.csv,147,AT_10899,Briefwahlkarten - Oberpullendorf,Briefwahlkarten - Oberpullendorf,special_wahlkarten
+AT,2008.csv,180,AT_10999,Briefwahlkarten - Oberwart,Briefwahlkarten - Oberwart,special_wahlkarten
+AT,2008.csv,181,AT_20099,nichtzuordenbare Wahlkarten - Kärnten,nichtzuordenbare Wahlkarten - Kärnten,special_wahlkarten
+AT,2008.csv,183,AT_20199,Briefwahlkarten - Klagenfurt(Stadt),Briefwahlkarten - Klagenfurt(Stadt),special_wahlkarten
+AT,2008.csv,185,AT_20299,Briefwahlkarten - Villach(Stadt),Briefwahlkarten - Villach(Stadt),special_wahlkarten
+AT,2008.csv,193,AT_20399,Briefwahlkarten - Hermagor,Briefwahlkarten - Hermagor,special_wahlkarten
+AT,2008.csv,213,AT_20499,Briefwahlkarten - Klagenfurt Land,Briefwahlkarten - Klagenfurt Land,special_wahlkarten
+AT,2008.csv,234,AT_20599,Briefwahlkarten - Sankt Veit an der Glan,Briefwahlkarten - Sankt Veit an der Glan,special_wahlkarten
+AT,2008.csv,268,AT_20699,Briefwahlkarten - Spittal an der Drau,Briefwahlkarten - Spittal an der Drau,special_wahlkarten
+AT,2008.csv,288,AT_20799,Briefwahlkarten - Villach Land,Briefwahlkarten - Villach Land,special_wahlkarten
+AT,2008.csv,302,AT_20899,Briefwahlkarten - Völkermarkt,Briefwahlkarten - Völkermarkt,special_wahlkarten
+AT,2008.csv,312,AT_20999,Briefwahlkarten - Wolfsberg,Briefwahlkarten - Wolfsberg,special_wahlkarten
+AT,2008.csv,323,AT_21099,Briefwahlkarten - Feldkirchen,Briefwahlkarten - Feldkirchen,special_wahlkarten
+AT,2008.csv,324,AT_30099,nichtzuordenbare Wahlkarten - Niederösterreich,nichtzuordenbare Wahlkarten - Niederösterreich,special_wahlkarten
+AT,2008.csv,326,AT_30199,Briefwahlkarten - Krems an der Donau(Stadt),Briefwahlkarten - Krems an der Donau(Stadt),special_wahlkarten
+AT,2008.csv,328,AT_30299,Briefwahlkarten - Sankt Pölten(Stadt),Briefwahlkarten - Sankt Pölten(Stadt),special_wahlkarten
+AT,2008.csv,330,AT_30399,Briefwahlkarten - Waidhofen an der Ybbs(Stadt),Briefwahlkarten - Waidhofen an der Ybbs(Stadt),special_wahlkarten
+AT,2008.csv,332,AT_30499,Briefwahlkarten - Wiener Neustadt(Stadt),Briefwahlkarten - Wiener Neustadt(Stadt),special_wahlkarten
+AT,2008.csv,367,AT_30599,Briefwahlkarten - Amstetten,Briefwahlkarten - Amstetten,special_wahlkarten
+AT,2008.csv,398,AT_30699,Briefwahlkarten - Baden,Briefwahlkarten - Baden,special_wahlkarten
+AT,2008.csv,419,AT_30799,Briefwahlkarten - Bruck an der Leitha,Briefwahlkarten - Bruck an der Leitha,special_wahlkarten
+AT,2008.csv,464,AT_30899,Briefwahlkarten - Gänserndorf,Briefwahlkarten - Gänserndorf,special_wahlkarten
+AT,2008.csv,486,AT_30999,Briefwahlkarten - Gmünd,Briefwahlkarten - Gmünd,special_wahlkarten
+AT,2008.csv,511,AT_31099,Briefwahlkarten - Hollabrunn,Briefwahlkarten - Hollabrunn,special_wahlkarten
+AT,2008.csv,532,AT_31199,Briefwahlkarten - Horn,Briefwahlkarten - Horn,special_wahlkarten
+AT,2008.csv,552,AT_31299,Briefwahlkarten - Korneuburg,Briefwahlkarten - Korneuburg,special_wahlkarten
+AT,2008.csv,583,AT_31399,Briefwahlkarten - Krems(Land),Briefwahlkarten - Krems(Land),special_wahlkarten
+AT,2008.csv,598,AT_31499,Briefwahlkarten - Lilienfeld,Briefwahlkarten - Lilienfeld,special_wahlkarten
+AT,2008.csv,639,AT_31599,Briefwahlkarten - Melk,Briefwahlkarten - Melk,special_wahlkarten
+AT,2008.csv,676,AT_31699,Briefwahlkarten - Mistelbach,Briefwahlkarten - Mistelbach,special_wahlkarten
+AT,2008.csv,697,AT_31799,Briefwahlkarten - Mödling,Briefwahlkarten - Mödling,special_wahlkarten
+AT,2008.csv,742,AT_31899,Briefwahlkarten - Neunkirchen,Briefwahlkarten - Neunkirchen,special_wahlkarten
+AT,2008.csv,782,AT_31999,Briefwahlkarten - Sankt Pölten(Land),Briefwahlkarten - Sankt Pölten(Land),special_wahlkarten
+AT,2008.csv,801,AT_32099,Briefwahlkarten - Scheibbs,Briefwahlkarten - Scheibbs,special_wahlkarten
+AT,2008.csv,823,AT_32199,Briefwahlkarten - Tulln,Briefwahlkarten - Tulln,special_wahlkarten
+AT,2008.csv,839,AT_32299,Briefwahlkarten - Waidhofen an der Thaya,Briefwahlkarten - Waidhofen an der Thaya,special_wahlkarten
+AT,2008.csv,875,AT_32399,Briefwahlkarten - Wiener Neustadt(Land),Briefwahlkarten - Wiener Neustadt(Land),special_wahlkarten
+AT,2008.csv,897,AT_32499,Briefwahlkarten - Wien-Umgebung,Briefwahlkarten - Wien-Umgebung,special_wahlkarten
+AT,2008.csv,922,AT_32599,Briefwahlkarten - Zwettl,Briefwahlkarten - Zwettl,special_wahlkarten
+AT,2008.csv,923,AT_40099,nichtzuordenbare Wahlkarten - Oberösterreich,nichtzuordenbare Wahlkarten - Oberösterreich,special_wahlkarten
+AT,2008.csv,925,AT_40199,Briefwahlkarten - Linz(Stadt,Briefwahlkarten - Linz(Stadt,special_wahlkarten
+AT,2008.csv,927,AT_40299,Briefwahlkarten - Steyr(Stadt),Briefwahlkarten - Steyr(Stadt),special_wahlkarten
+AT,2008.csv,929,AT_40399,Briefwahlkarten - Wels(Stadt),Briefwahlkarten - Wels(Stadt),special_wahlkarten
+AT,2008.csv,976,AT_40499,Briefwahlkarten - Braunau am Inn,Briefwahlkarten - Braunau am Inn,special_wahlkarten
+AT,2008.csv,989,AT_40599,Briefwahlkarten - Eferding,Briefwahlkarten - Eferding,special_wahlkarten
+AT,2008.csv,1017,AT_40699,Briefwahlkarten - Freistadt,Briefwahlkarten - Freistadt,special_wahlkarten
+AT,2008.csv,1038,AT_40799,Briefwahlkarten - Gmunden,Briefwahlkarten - Gmunden,special_wahlkarten
+AT,2008.csv,1073,AT_40899,Briefwahlkarten - Grieskirchen,Briefwahlkarten - Grieskirchen,special_wahlkarten
+AT,2008.csv,1097,AT_40999,Briefwahlkarten - Kirchdorf an der Krems,Briefwahlkarten - Kirchdorf an der Krems,special_wahlkarten
+AT,2008.csv,1120,AT_41099,Briefwahlkarten - Linz-Land,Briefwahlkarten - Linz-Land,special_wahlkarten
+AT,2008.csv,1147,AT_41199,Briefwahlkarten - Perg,Briefwahlkarten - Perg,special_wahlkarten
+AT,2008.csv,1184,AT_41299,Briefwahlkarten - Ried im Innkreis,Briefwahlkarten - Ried im Innkreis,special_wahlkarten
+AT,2008.csv,1227,AT_41399,Briefwahlkarten - Rohrbach,Briefwahlkarten - Rohrbach,special_wahlkarten
+AT,2008.csv,1258,AT_41499,Briefwahlkarten - Schärding,Briefwahlkarten - Schärding,special_wahlkarten
+AT,2008.csv,1279,AT_41599,Briefwahlkarten - Steyr-Land,Briefwahlkarten - Steyr-Land,special_wahlkarten
+AT,2008.csv,1307,AT_41699,Briefwahlkarten - Urfahr-Umgebung,Briefwahlkarten - Urfahr-Umgebung,special_wahlkarten
+AT,2008.csv,1360,AT_41799,Briefwahlkarten - Vöcklabruck,Briefwahlkarten - Vöcklabruck,special_wahlkarten
+AT,2008.csv,1385,AT_41899,Briefwahlkarten - Wels-Land,Briefwahlkarten - Wels-Land,special_wahlkarten
+AT,2008.csv,1386,AT_50099,nichtzuordenbare Wahlkarten - Salzburg,nichtzuordenbare Wahlkarten - Salzburg,special_wahlkarten
+AT,2008.csv,1388,AT_50199,Briefwahlkarten - Salzburg(Stadt),Briefwahlkarten - Salzburg(Stadt),special_wahlkarten
+AT,2008.csv,1402,AT_50299,Briefwahlkarten - Hallein,Briefwahlkarten - Hallein,special_wahlkarten
+AT,2008.csv,1440,AT_50399,Briefwahlkarten - Salzburg-Umgebung,Briefwahlkarten - Salzburg-Umgebung,special_wahlkarten
+AT,2008.csv,1466,AT_50499,Briefwahlkarten - Sankt Johann im Pongau,Briefwahlkarten - Sankt Johann im Pongau,special_wahlkarten
+AT,2008.csv,1482,AT_50599,Briefwahlkarten - Tamsweg,Briefwahlkarten - Tamsweg,special_wahlkarten
+AT,2008.csv,1511,AT_50699,Briefwahlkarten - Zell am See,Briefwahlkarten - Zell am See,special_wahlkarten
+AT,2008.csv,1512,AT_60099,nichtzuordenbare Wahlkarten - Steiermark,nichtzuordenbare Wahlkarten - Steiermark,special_wahlkarten
+AT,2008.csv,1514,AT_60199,Briefwahlkarten - Graz(Stadt),Briefwahlkarten - Graz(Stadt),special_wahlkarten
+AT,2008.csv,1536,AT_60299,Briefwahlkarten - Bruck an der Mur,Briefwahlkarten - Bruck an der Mur,special_wahlkarten
+AT,2008.csv,1577,AT_60399,Briefwahlkarten - Deutschlandsberg,Briefwahlkarten - Deutschlandsberg,special_wahlkarten
+AT,2008.csv,1633,AT_60499,Briefwahlkarten - Feldbach,Briefwahlkarten - Feldbach,special_wahlkarten
+AT,2008.csv,1648,AT_60599,Briefwahlkarten - Fürstenfeld,Briefwahlkarten - Fürstenfeld,special_wahlkarten
+AT,2008.csv,1706,AT_60699,Briefwahlkarten - Graz-Umgebung,Briefwahlkarten - Graz-Umgebung,special_wahlkarten
+AT,2008.csv,1757,AT_60799,Briefwahlkarten - Hartberg,Briefwahlkarten - Hartberg,special_wahlkarten
+AT,2008.csv,1782,AT_60899,Briefwahlkarten - Judenburg,Briefwahlkarten - Judenburg,special_wahlkarten
+AT,2008.csv,1797,AT_60999,Briefwahlkarten - Knittelfeld,Briefwahlkarten - Knittelfeld,special_wahlkarten
+AT,2008.csv,1846,AT_61099,Briefwahlkarten - Leibnitz,Briefwahlkarten - Leibnitz,special_wahlkarten
+AT,2008.csv,1866,AT_61199,Briefwahlkarten - Leoben,Briefwahlkarten - Leoben,special_wahlkarten
+AT,2008.csv,1918,AT_61299,Briefwahlkarten - Liezen,Briefwahlkarten - Liezen,special_wahlkarten
+AT,2008.csv,1935,AT_61399,Briefwahlkarten - Mürzzuschlag,Briefwahlkarten - Mürzzuschlag,special_wahlkarten
+AT,2008.csv,1970,AT_61499,Briefwahlkarten - Murau,Briefwahlkarten - Murau,special_wahlkarten
+AT,2008.csv,1990,AT_61599,Briefwahlkarten - Radkersburg,Briefwahlkarten - Radkersburg,special_wahlkarten
+AT,2008.csv,2016,AT_61699,Briefwahlkarten - Voitsberg,Briefwahlkarten - Voitsberg,special_wahlkarten
+AT,2008.csv,2071,AT_61799,Briefwahlkarten - Weiz,Briefwahlkarten - Weiz,special_wahlkarten
+AT,2008.csv,2072,AT_70099,nichtzuordenbare Wahlkarten - Tirol,nichtzuordenbare Wahlkarten - Tirol,special_wahlkarten
+AT,2008.csv,2074,AT_70199,Briefwahlkarten - Innsbruck(Stadt),Briefwahlkarten - Innsbruck(Stadt),special_wahlkarten
+AT,2008.csv,2099,AT_70299,Briefwahlkarten - Imst,Briefwahlkarten - Imst,special_wahlkarten
+AT,2008.csv,2165,AT_70399,Briefwahlkarten - Innsbruck-Land,Briefwahlkarten - Innsbruck-Land,special_wahlkarten
+AT,2008.csv,2186,AT_70499,Briefwahlkarten - Kitzbühel,Briefwahlkarten - Kitzbühel,special_wahlkarten
+AT,2008.csv,2217,AT_70599,Briefwahlkarten - Kufstein,Briefwahlkarten - Kufstein,special_wahlkarten
+AT,2008.csv,2248,AT_70699,Briefwahlkarten - Landeck,Briefwahlkarten - Landeck,special_wahlkarten
+AT,2008.csv,2282,AT_70799,Briefwahlkarten - Lienz,Briefwahlkarten - Lienz,special_wahlkarten
+AT,2008.csv,2320,AT_70899,Briefwahlkarten - Reutte,Briefwahlkarten - Reutte,special_wahlkarten
+AT,2008.csv,2360,AT_70999,Briefwahlkarten - Schwaz,Briefwahlkarten - Schwaz,special_wahlkarten
+AT,2008.csv,2361,AT_80099,nichtzuordenbare Wahlkarten - Vorarlberg,nichtzuordenbare Wahlkarten - Vorarlberg,special_wahlkarten
+AT,2008.csv,2391,AT_80199,Briefwahlkarten - Bludenz,Briefwahlkarten - Bludenz,special_wahlkarten
+AT,2008.csv,2432,AT_80299,Briefwahlkarten - Bregenz,Briefwahlkarten - Bregenz,special_wahlkarten
+AT,2008.csv,2436,AT_80399,Briefwahlkarten - Dornbirn,Briefwahlkarten - Dornbirn,special_wahlkarten
+AT,2008.csv,2461,AT_80499,Briefwahlkarten - Feldkirch,Briefwahlkarten - Feldkirch,special_wahlkarten

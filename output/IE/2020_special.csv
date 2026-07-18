@@ -1,0 +1,40 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+IE,2020.csv,0,IE_001,Carlow–Kilkenny,Carlow–Kilkenny,matched_ie_constituency
+IE,2020.csv,1,IE_002,Cavan–Monaghan,Cavan–Monaghan,matched_ie_constituency
+IE,2020.csv,2,IE_003,Clare,Clare,matched_ie_constituency
+IE,2020.csv,3,IE_004,Cork East,Cork East,matched_ie_constituency
+IE,2020.csv,4,IE_005,Cork North–Central,Cork North–Central,matched_ie_constituency
+IE,2020.csv,5,IE_006,Cork North–West,Cork North–West,matched_ie_constituency
+IE,2020.csv,6,IE_007,Cork South–Central,Cork South–Central,matched_ie_constituency
+IE,2020.csv,7,IE_008,Cork South–West,Cork South–West,matched_ie_constituency
+IE,2020.csv,8,IE_009,Donegal,Donegal,matched_ie_constituency
+IE,2020.csv,9,IE_012,Dublin Bay North,Dublin Bay North,matched_ie_constituency
+IE,2020.csv,10,IE_013,Dublin Bay South,Dublin Bay South,matched_ie_constituency
+IE,2020.csv,11,IE_014,Dublin Central,Dublin Central,matched_ie_constituency
+IE,2020.csv,12,IE_015,Dublin Fingal,Dublin Fingal,matched_ie_constituency
+IE,2020.csv,13,IE_018,Dublin Mid–West,Dublin Mid–West,matched_ie_constituency
+IE,2020.csv,14,IE_022,Dublin North–West,Dublin North–West,matched_ie_constituency
+IE,2020.csv,15,IE_023,Dublin Rathdown,Dublin Rathdown,matched_ie_constituency
+IE,2020.csv,16,IE_025,Dublin South–Central,Dublin South–Central,matched_ie_constituency
+IE,2020.csv,17,IE_027,Dublin South–West,Dublin South–West,matched_ie_constituency
+IE,2020.csv,18,IE_028,Dublin West,Dublin West,matched_ie_constituency
+IE,2020.csv,19,IE_029,Dún Laoghaire,Dún Laoghaire,matched_ie_constituency
+IE,2020.csv,20,IE_030,Galway East,Galway East,matched_ie_constituency
+IE,2020.csv,21,IE_031,Galway West,Galway West,matched_ie_constituency
+IE,2020.csv,22,IE_032,Kerry,Kerry,matched_ie_constituency
+IE,2020.csv,23,IE_036,Kildare North,Kildare North,matched_ie_constituency
+IE,2020.csv,24,IE_037,Kildare South,Kildare South,matched_ie_constituency
+IE,2020.csv,25,IE_040,Laois–Offaly,Laois–Offaly,matched_ie_constituency
+IE,2020.csv,26,IE_042,Limerick City,Limerick City,matched_ie_constituency
+IE,2020.csv,27,IE_043,Limerick County,Limerick County,matched_ie_constituency
+IE,2020.csv,28,IE_047,Longford–Westmeath,Longford–Westmeath,matched_ie_constituency
+IE,2020.csv,29,IE_048,Louth,Louth,matched_ie_constituency
+IE,2020.csv,30,IE_049,Mayo,Mayo,matched_ie_constituency
+IE,2020.csv,31,IE_051,Meath East,Meath East,matched_ie_constituency
+IE,2020.csv,32,IE_052,Meath West,Meath West,matched_ie_constituency
+IE,2020.csv,33,IE_054,Roscommon–Galway,Roscommon–Galway,matched_ie_constituency
+IE,2020.csv,34,IE_056,Sligo–Leitrim,Sligo–Leitrim,matched_ie_constituency
+IE,2020.csv,35,IE_058,Tipperary,Tipperary,matched_ie_constituency
+IE,2020.csv,36,IE_061,Waterford,Waterford,matched_ie_constituency
+IE,2020.csv,37,IE_063,Wexford,Wexford,matched_ie_constituency
+IE,2020.csv,38,IE_064,Wicklow,Wicklow,matched_ie_constituency

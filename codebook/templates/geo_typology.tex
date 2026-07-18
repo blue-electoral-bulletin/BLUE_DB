@@ -1,0 +1,34 @@
+% ── Geographic Taxonomy ───────────────────────────────────────────────────────
+% Edit this file to customise the "Geographic Taxonomy" section intro.
+
+\noindent
+Geographic units are identified by \textit{extended GISCO IDs}, a harmonised coding
+scheme derived from Eurostat's NUTS.
+Extended GISCO IDs can take three forms, corresponding to different geographic levels:
+\begin{itemize}
+\item \textbf{Country codes} are two-letter codes aligned with European Union
+conventions, which follow
+\href{https://www.iso.org/obp/ui/#search/code/}{ISO 3166-1 alpha-2}
+except for Greece (\texttt{EL}) and Kosovo (\texttt{XK}).
+This corresponds to the \texttt{NUTS 0} level.
+\item \textbf{Regional GISCO IDs} take the form
+\texttt{CCL} (\texttt{NUTS 1}),
+\texttt{CCLL} (\texttt{NUTS 2}),
+or \texttt{CCLLL} (\texttt{NUTS 3}),
+with \texttt{CC} a country code and each \texttt{L} alphanumeric.
+Prefixes identify parent units, e.g.\
+$\mathtt{PT10}$ is a subunit of $\mathtt{PT1}$, which is a subunit of
+$\mathtt{PT}$ (Portugal).
+\item \textbf{Local GISCO IDs} take the form \texttt{CC\_L\ldots L}.
+For standard LAU municipalities the local part matches the Eurostat LAU code
+(e.g.\ \texttt{AT\_10101} for Vienna's first district).
+Extended local IDs of the form \texttt{CC\_CCYYxx} or \texttt{CC\_CCZZxx}
+identify special aggregate units described in the subsections below.
+Municipality-level units constitute the \texttt{LAU 2} level; identifiable
+groups of municipalities are coded at \texttt{LAU 1}; other local units
+(constituencies, postal aggregates, etc.) have a special type.
+\end{itemize}
+
+The subsections below describe how BLUE\_DB extends the standard GISCO taxonomy
+to accommodate geographic units not present in the official NUTS/LAU
+classification.

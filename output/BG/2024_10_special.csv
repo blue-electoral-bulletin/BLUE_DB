@@ -1,0 +1,58 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+BG,2024_10.csv,4184,BG_BGZZIT,Italy,Italy,matched_foreign_country_name
+BG,2024_10.csv,4185,BG_BGZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+BG,2024_10.csv,4186,BG_BGZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+BG,2024_10.csv,4187,BG_BGZZTR,Turkey,Turkey,matched_foreign_country_name
+BG,2024_10.csv,4189,BG_BGZZNL,Netherlands,Netherlands,matched_foreign_country_name
+BG,2024_10.csv,4191,BG_BGZZGR,Greece,Greece,matched_foreign_country_name
+BG,2024_10.csv,4192,BG_BGZZDZ,Algeria,Algeria,matched_foreign_country_name
+BG,2024_10.csv,4193,BG_BGZZES,Spain,Spain,matched_foreign_country_name
+BG,2024_10.csv,4197,BG_BGZZJO,Jordan,Jordan,matched_foreign_country_name
+BG,2024_10.csv,4202,BG_BGZZBE,Belgium,Belgium,matched_foreign_country_name
+BG,2024_10.csv,4205,BG_BGZZUS,United States,United States,matched_foreign_country_name
+BG,2024_10.csv,4209,BG_BGZZDE,Germany,Germany,matched_foreign_country_name
+BG,2024_10.csv,4210,BG_BGZZCH,Switzerland,Switzerland,matched_foreign_country_name
+BG,2024_10.csv,4216,BG_BGZZRS,Serbia,Serbia,matched_foreign_country_name
+BG,2024_10.csv,4219,BG_BGZZNO,Norway,Norway,matched_foreign_country_name
+BG,2024_10.csv,4224,BG_BGZZMK,North Macedonia,North Macedonia,matched_foreign_country_name
+BG,2024_10.csv,4227,BG_BGZZFR,France,France,matched_foreign_country_name
+BG,2024_10.csv,4234,BG_BGZZAT,Austria,Austria,matched_foreign_country_name
+BG,2024_10.csv,4236,BG_BGZZCA,Canada,Canada,matched_foreign_country_name
+BG,2024_10.csv,4237,BG_BGZZSK,Slovakia,Slovakia,matched_foreign_country_name
+BG,2024_10.csv,4242,BG_BGZZAU,Australia,Australia,matched_foreign_country_name
+BG,2024_10.csv,4245,BG_BGZZHU,Hungary,Hungary,matched_foreign_country_name
+BG,2024_10.csv,4246,BG_BGZZMT,Malta,Malta,matched_foreign_country_name
+BG,2024_10.csv,4247,BG_BGZZRO,Romania,Romania,matched_foreign_country_name
+BG,2024_10.csv,4267,BG_BGZZPL,Poland,Poland,matched_foreign_country_name
+BG,2024_10.csv,4292,BG_BGZZSE,Sweden,Sweden,matched_foreign_country_name
+BG,2024_10.csv,4294,BG_BGZZCY,Cyprus,Cyprus,matched_foreign_country_name
+BG,2024_10.csv,4304,BG_BGZZQA,Qatar,Qatar,matched_foreign_country_name
+BG,2024_10.csv,4308,BG_BGZZIE,Ireland,Ireland,matched_foreign_country_name
+BG,2024_10.csv,4316,BG_BGZZAL,Albania,Albania,matched_foreign_country_name
+BG,2024_10.csv,4320,BG_BGZZAM,Armenia,Armenia,matched_foreign_country_name
+BG,2024_10.csv,4326,BG_BGZZHR,Croatia,Croatia,matched_foreign_country_name
+BG,2024_10.csv,4373,BG_BGZZEG,Egypt,Egypt,matched_foreign_country_name
+BG,2024_10.csv,4390,BG_BGZZMD,Moldova,Moldova,matched_foreign_country_name
+BG,2024_10.csv,4392,BG_BGZZZA,South Africa,South Africa,matched_foreign_country_name
+BG,2024_10.csv,4413,BG_BGZZDK,Denmark,Denmark,matched_foreign_country_name
+BG,2024_10.csv,4421,BG_BGZZKW,Kuwait,Kuwait,matched_foreign_country_name
+BG,2024_10.csv,4446,BG_BGZZPT,Portugal,Portugal,matched_foreign_country_name
+BG,2024_10.csv,4453,BG_BGZZSI,Slovenia,Slovenia,matched_foreign_country_name
+BG,2024_10.csv,4454,BG_BGZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+BG,2024_10.csv,4483,BG_BGZZBY,Belarus,Belarus,matched_foreign_country_name
+BG,2024_10.csv,4488,BG_BGZZRU,Russia,Russia,matched_foreign_country_name
+BG,2024_10.csv,4535,BG_BGZZNZ,New Zealand,New Zealand,matched_foreign_country_name
+BG,2024_10.csv,4547,BG_BGZZCN,China,China,matched_foreign_country_name
+BG,2024_10.csv,4554,BG_BGZZME,Montenegro,Montenegro,matched_foreign_country_name
+BG,2024_10.csv,4558,BG_BGZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+BG,2024_10.csv,4562,BG_BGZZXK,Kosovo,Kosovo,matched_foreign_country_name
+BG,2024_10.csv,4566,BG_BGZZMA,Morocco,Morocco,matched_foreign_country_name
+BG,2024_10.csv,4568,BG_BGZZFI,Finland,Finland,matched_foreign_country_name
+BG,2024_10.csv,4571,BG_BGZZIS,Iceland,Iceland,matched_foreign_country_name
+BG,2024_10.csv,4576,BG_BGZZSA,Saudi Arabia,Saudi Arabia,matched_foreign_country_name
+BG,2024_10.csv,4592,BG_BGZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+BG,2024_10.csv,4602,BG_BGZZKR,South Korea,South Korea,matched_foreign_country_name
+BG,2024_10.csv,4605,BG_BGZZSG,Singapore,Singapore,matched_foreign_country_name
+BG,2024_10.csv,4621,BG_BGZZGE,Georgia,Georgia,matched_foreign_country_name
+BG,2024_10.csv,4633,BG_BGZZJP,Japan,Japan,matched_foreign_country_name
+BG,2024_10.csv,4645,BG_BGZZTN,Tunisia,Tunisia,matched_foreign_country_name

@@ -1,0 +1,16 @@
+{
+  "name": "BLUE_DB",
+  "full_name": "Basic Local Units Election Database",
+  "tagline": "A local-level election database for 31 European countries (2001–2025).",
+  "description_short": "BLUE_DB is a Europe-wide database of municipality-level results of national parliamentary and European Parliament elections.",
+  "website": "https://electionatlas.eu",
+  "github": "https://github.com/blue-electoral-bulletin/BLUE_DB",
+  "zenodo_doi": "10.5281/zenodo.21434112",
+  "zenodo_url": "https://doi.org/10.5281/zenodo.21434112",
+  "zenodo_doi_pending": true,
+  "publisher": "Groupe d'études géopolitiques",
+  "publisher_url": "https://geopolitique.eu",
+  "authors": ["François Hublet", "Nicola Chiecchio"],
+  "year": 2026,
+  "citation": "Hublet, F., & Chiecchio, N. (2026). BLUE_DB — Basic Local Units Election Database. Paris: Groupe d'études géopolitiques. https://doi.org/10.5281/zenodo.21434112"
+}

@@ -1,0 +1,5 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CH,2007.csv,2701,CH_9030,LU-Ausland-CH,LU-Ausland-CH,special_ausland
+CH,2007.csv,2702,CH_9160,AI-Ausland-CH,AI-Ausland-CH,special_ausland
+CH,2007.csv,2704,CH_9220,VD-CH de l'étranger,VD-CH de l'étranger,special_ausland
+CH,2007.csv,2705,CH_9250,GE-CH de l'étranger,GE-CH de l'étranger,special_ausland

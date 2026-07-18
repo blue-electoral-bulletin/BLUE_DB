@@ -1,0 +1,37 @@
+In countries where official results are published only at an electoral-district
+level that does not correspond to any standard administrative unit, BLUE\_DB
+codes the reporting units as electoral constituencies.
+These entries are stored in \bluepath{geo/special.csv} with
+\texttt{type = Electoral Constituency} and replace LAU-level rows in the
+election files.
+
+Electoral constituencies are used in 10 countries. In four, they are the
+most fine-grained reporting units for which data is available:
+
+\begin{description}[leftmargin=1.5cm, style=sameline]
+  \item[IE] 43 D\'ail constituencies and 3--4 European Parliament constituencies.
+  \item[IS] 6 Icelandic constituencies (\textit{kjörd\ae mi}).
+  \item[MT] 10 electoral districts for Parliamentary election and a single 
+  European Parliament constituency.
+  \item[SI] 88 Slovenian electoral units (\textit{volilne enote}).
+\end{description}
+
+In another six countries, electoral constituencies are used alongside standard LAUs to
+report part of the results:
+
+\begin{description}[leftmargin=1.5cm, style=sameline]
+  \item[BE] Electoral cantons (\textit{cantons \'electoraux / kieskantonen})
+            are sub-provincial units used for legislative elections.
+            While only older election do not report municipality-level,
+            registered voters counts are only available at the cantonal level for
+            all elections to date.
+  \item[EE] Two special aggregate units. Additionally, 15 counties (\textit{maakond})
+            are used in early elections for reporting registered voters and turnout.
+  \item[EL] One special unit is used to report votes that cannot be attributed to a municipality.
+  \item[HR] Three Croatian special units covering diaspora and domestic
+            aggregates.
+  \item[LT] One national aggregate used where a municipal breakdown is
+            unavailable.
+  \item[PT] Two units used for a grouping of two municipalities and votes
+            not attributable to any municipality, respectively.
+\end{description}

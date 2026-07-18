@@ -1,0 +1,61 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+PT,2019.csv,0,PT_PTYY99,Portugal (votes outside of a municipality),Portugal (votes outside of a municipality),special_outside_municipality_pt
+PT,2019.csv,1,PT_PTZZTR,Turkey,Turkey,matched_foreign_country_name
+PT,2019.csv,2,PT_PTZZCH,Switzerland,Switzerland,matched_foreign_country_name
+PT,2019.csv,3,PT_PTZZSE,Sweden,Sweden,matched_foreign_country_name
+PT,2019.csv,4,PT_PTZZRU,Russia,Russia,matched_foreign_country_name
+PT,2019.csv,5,PT_PTZZRO,Romania,Romania,matched_foreign_country_name
+PT,2019.csv,6,PT_PTZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+PT,2019.csv,7,PT_PTZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+PT,2019.csv,8,PT_PTZZPL,Poland,Poland,matched_foreign_country_name
+PT,2019.csv,9,PT_PTZZNO,Norway,Norway,matched_foreign_country_name
+PT,2019.csv,10,PT_PTZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+PT,2019.csv,11,PT_PTZZIT,Italy,Italy,matched_foreign_country_name
+PT,2019.csv,12,PT_PTZZIE,Ireland,Ireland,matched_foreign_country_name
+PT,2019.csv,13,PT_PTZZHU,Hungary,Hungary,matched_foreign_country_name
+PT,2019.csv,14,PT_PTZZNL,Netherlands,Netherlands,matched_foreign_country_name
+PT,2019.csv,15,PT_PTZZGR,Greece,Greece,matched_foreign_country_name
+PT,2019.csv,16,PT_PTZZFR,France,France,matched_foreign_country_name
+PT,2019.csv,17,PT_PTZZFI,Finland,Finland,matched_foreign_country_name
+PT,2019.csv,18,PT_PTZZES,Spain,Spain,matched_foreign_country_name
+PT,2019.csv,19,PT_PTZZDK,Denmark,Denmark,matched_foreign_country_name
+PT,2019.csv,20,PT_PTZZCY,Cyprus,Cyprus,matched_foreign_country_name
+PT,2019.csv,21,PT_PTZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+PT,2019.csv,22,PT_PTZZBE,Belgium,Belgium,matched_foreign_country_name
+PT,2019.csv,23,PT_PTZZAT,Austria,Austria,matched_foreign_country_name
+PT,2019.csv,24,PT_PTZZAD,AD,AD,matched_foreign_country_name
+PT,2019.csv,25,PT_PTZZDE,Germany,Germany,matched_foreign_country_name
+PT,2019.csv,26,PT_PTZZTL,TL,TL,matched_foreign_country_name
+PT,2019.csv,27,PT_PTZZTH,Thailand,Thailand,matched_foreign_country_name
+PT,2019.csv,28,PT_PTZZSG,Singapore,Singapore,matched_foreign_country_name
+PT,2019.csv,29,PT_PTZZQA,Qatar,Qatar,matched_foreign_country_name
+PT,2019.csv,30,PT_PTZZJP,Japan,Japan,matched_foreign_country_name
+PT,2019.csv,31,PT_PTZZIL,Israel,Israel,matched_foreign_country_name
+PT,2019.csv,32,PT_PTZZID,Indonesia,Indonesia,matched_foreign_country_name
+PT,2019.csv,33,PT_PTZZIN,India,India,matched_foreign_country_name
+PT,2019.csv,34,PT_PTZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+PT,2019.csv,35,PT_PTZZCN,China,China,matched_foreign_country_name
+PT,2019.csv,36,PT_PTZZAU,Australia,Australia,matched_foreign_country_name
+PT,2019.csv,37,PT_PTZZSA,Saudi Arabia,Saudi Arabia,matched_foreign_country_name
+PT,2019.csv,38,PT_PTZZVE,VE,VE,matched_foreign_country_name
+PT,2019.csv,39,PT_PTZZUY,UY,UY,matched_foreign_country_name
+PT,2019.csv,40,PT_PTZZPE,PE,PE,matched_foreign_country_name
+PT,2019.csv,41,PT_PTZZPA,Panama,Panama,matched_foreign_country_name
+PT,2019.csv,42,PT_PTZZMX,Mexico,Mexico,matched_foreign_country_name
+PT,2019.csv,43,PT_PTZZUS,United States,United States,matched_foreign_country_name
+PT,2019.csv,44,PT_PTZZCO,CO,CO,matched_foreign_country_name
+PT,2019.csv,45,PT_PTZZCL,Chile,Chile,matched_foreign_country_name
+PT,2019.csv,46,PT_PTZZCA,Canada,Canada,matched_foreign_country_name
+PT,2019.csv,47,PT_PTZZBR,Brazil,Brazil,matched_foreign_country_name
+PT,2019.csv,48,PT_PTZZAR,Argentina,Argentina,matched_foreign_country_name
+PT,2019.csv,49,PT_PTZZZW,ZW,ZW,matched_foreign_country_name
+PT,2019.csv,50,PT_PTZZSN,Senegal,Senegal,matched_foreign_country_name
+PT,2019.csv,51,PT_PTZZST,ST,ST,matched_foreign_country_name
+PT,2019.csv,52,PT_PTZZCD,CD,CD,matched_foreign_country_name
+PT,2019.csv,53,PT_PTZZNA,NA,NA,matched_foreign_country_name
+PT,2019.csv,54,PT_PTZZMZ,MZ,MZ,matched_foreign_country_name
+PT,2019.csv,55,PT_PTZZMA,Morocco,Morocco,matched_foreign_country_name
+PT,2019.csv,56,PT_PTZZGW,GW,GW,matched_foreign_country_name
+PT,2019.csv,57,PT_PTZZCV,CV,CV,matched_foreign_country_name
+PT,2019.csv,58,PT_PTZZAO,AO,AO,matched_foreign_country_name
+PT,2019.csv,59,PT_PTZZZA,South Africa,South Africa,matched_foreign_country_name

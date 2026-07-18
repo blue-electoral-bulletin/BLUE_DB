@@ -1,0 +1,46 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+LT,2004.csv,21,LT_LTZZIE,Ireland,Ireland,special_foreign_voter_lt
+LT,2004.csv,22,LT_LTZZAR,Argentina,Argentina,special_foreign_voter_lt
+LT,2004.csv,23,LT_LTZZAU,Australia,Australia,special_foreign_voter_lt
+LT,2004.csv,26,LT_LTZZAT,Austria,Austria,special_foreign_voter_lt
+LT,2004.csv,27,LT_LTZZBY,Belarus,Belarus,special_foreign_voter_lt
+LT,2004.csv,29,LT_LTZZBE,Belgium,Belgium,special_foreign_voter_lt
+LT,2004.csv,30,LT_LTZZBR,Brazil,Brazil,special_foreign_voter_lt
+LT,2004.csv,31,LT_LTZZCA,Canada,Canada,special_foreign_voter_lt
+LT,2004.csv,33,LT_LTZZCN,China,China,special_foreign_voter_lt
+LT,2004.csv,34,LT_LTZZCO,Kolumbijos Respublikai,Kolumbijos Respublikai,special_foreign_voter_lt
+LT,2004.csv,35,LT_LTZZDK,Denmark,Denmark,special_foreign_voter_lt
+LT,2004.csv,36,LT_LTZZEG,Egypt,Egypt,special_foreign_voter_lt
+LT,2004.csv,37,LT_LTZZEE,Estonia,Estonia,special_foreign_voter_lt
+LT,2004.csv,38,LT_LTZZFI,Finland,Finland,special_foreign_voter_lt
+LT,2004.csv,39,LT_LTZZFR,France,France,special_foreign_voter_lt
+LT,2004.csv,40,LT_LTZZGE,Georgia,Georgia,special_foreign_voter_lt
+LT,2004.csv,41,LT_LTZZDE,Germany,Germany,special_foreign_voter_lt
+LT,2004.csv,43,LT_LTZZGB,United Kingdom,United Kingdom,special_foreign_voter_lt
+LT,2004.csv,44,LT_LTZZGR,Greece,Greece,special_foreign_voter_lt
+LT,2004.csv,45,LT_LTZZIL,Israel,Israel,special_foreign_voter_lt
+LT,2004.csv,46,LT_LTZZIT,Italy,Italy,special_foreign_voter_lt
+LT,2004.csv,47,LT_LTZZJP,Japan,Japan,special_foreign_voter_lt
+LT,2004.csv,48,LT_LTZZKZ,Kazakhstan,Kazakhstan,special_foreign_voter_lt
+LT,2004.csv,49,LT_LTZZLV,Latvia,Latvia,special_foreign_voter_lt
+LT,2004.csv,50,LT_LTZZNO,Norway,Norway,special_foreign_voter_lt
+LT,2004.csv,51,LT_LTZZPL,Poland,Poland,special_foreign_voter_lt
+LT,2004.csv,53,LT_LTZZPT,Portugal,Portugal,special_foreign_voter_lt
+LT,2004.csv,54,LT_LTZZRU,Russia,Russia,special_foreign_voter_lt
+LT,2004.csv,58,LT_LTZZES,Spain,Spain,special_foreign_voter_lt
+LT,2004.csv,60,LT_LTZZSE,Sweden,Sweden,special_foreign_voter_lt
+LT,2004.csv,61,LT_LTZZCH,Switzerland,Switzerland,special_foreign_voter_lt
+LT,2004.csv,62,LT_LTZZCZ,Czech Republic,Czech Republic,special_foreign_voter_lt
+LT,2004.csv,63,LT_LTZZNL,Netherlands,Netherlands,special_foreign_voter_lt
+LT,2004.csv,64,LT_LTZZTR,Turkey,Turkey,special_foreign_voter_lt
+LT,2004.csv,65,LT_LTZZUA,Ukraine,Ukraine,special_foreign_voter_lt
+LT,2004.csv,66,LT_LTZZUS,United States,United States,special_foreign_voter_lt
+LT,2004.csv,71,LT_LTZZUY,Urugvajaus,Urugvajaus,special_foreign_voter_lt
+LT,2004.csv,72,LT_LTZZVE,Venesueloje,Venesueloje,special_foreign_voter_lt
+LT,2004.csv,73,LT_LTZZHU,Hungary,Hungary,special_foreign_voter_lt
+LT,2004.csv,618,LT_LTYY99,/Silales - Silutes/Voting by mail (region district),/Silales - Silutes/Voting by mail (region district),special_postal_lt
+LT,2004.csv,1101,LT_LTYY99,/Pakruojo - Joniskio/Voting by mail (region district),/Pakruojo - Joniskio/Voting by mail (region district),special_postal_lt
+LT,2004.csv,1353,LT_LTYY99,/Zarasu - Visagino/Voting by mail (region district),/Zarasu - Visagino/Voting by mail (region district),special_postal_lt
+LT,2004.csv,1521,LT_LTYY99,/Vilniaus - Salcininku/Voting by mail (region district),/Vilniaus - Salcininku/Voting by mail (region district),special_postal_lt
+LT,2004.csv,1544,LT_LTYY99,/Vilniaus - Traku/Voting by mail (region district),/Vilniaus - Traku/Voting by mail (region district),special_postal_lt
+LT,2004.csv,1639,LT_LTYY99,/Jonavos/Voting by mail (region district),/Jonavos/Voting by mail (region district),special_postal_lt

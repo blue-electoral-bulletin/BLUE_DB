@@ -1,0 +1,3 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+EL,2004.csv,1019,EL_ELZZ99,ΕΞΩΤΕΡΙΚΟΥ,ΕΞΩΤΕΡΙΚΟΥ,special_foreign_el
+EL,2004.csv,1020,EL_ELYY99,Votes outside of any municipality,Votes outside of any municipality,special_outside_municipality

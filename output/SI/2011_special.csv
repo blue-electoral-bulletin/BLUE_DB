@@ -1,0 +1,89 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+SI,2011.csv,0,SI_1001,JESENICE,JESENICE,special_all_muni
+SI,2011.csv,1,SI_1002,RADOVLJICA 1,RADOVLJICA 1,special_all_muni
+SI,2011.csv,2,SI_1003,RADOVLJICA 2,RADOVLJICA 2,special_all_muni
+SI,2011.csv,3,SI_1004,KRANJ 1,KRANJ 1,special_all_muni
+SI,2011.csv,4,SI_1005,KRANJ 2,KRANJ 2,special_all_muni
+SI,2011.csv,5,SI_1006,KRANJ 3,KRANJ 3,special_all_muni
+SI,2011.csv,6,SI_1007,TRŽIČ,TRŽIČ,special_all_muni
+SI,2011.csv,7,SI_1008,ŠKOFJA LOKA 1,ŠKOFJA LOKA 1,special_all_muni
+SI,2011.csv,8,SI_1009,ŠKOFJA LOKA 2,ŠKOFJA LOKA 2,special_all_muni
+SI,2011.csv,9,SI_1010,KAMNIK,KAMNIK,special_all_muni
+SI,2011.csv,10,SI_1011,IDRIJA,IDRIJA,special_all_muni
+SI,2011.csv,11,SI_2001,TOLMIN,TOLMIN,special_all_muni
+SI,2011.csv,12,SI_2002,PIRAN,PIRAN,special_all_muni
+SI,2011.csv,13,SI_2003,IZOLA,IZOLA,special_all_muni
+SI,2011.csv,14,SI_2004,KOPER 1,KOPER 1,special_all_muni
+SI,2011.csv,15,SI_2005,KOPER 2,KOPER 2,special_all_muni
+SI,2011.csv,16,SI_2006,SEŽANA,SEŽANA,special_all_muni
+SI,2011.csv,17,SI_2007,ILIRSKA BISTRICA,ILIRSKA BISTRICA,special_all_muni
+SI,2011.csv,18,SI_2008,POSTOJNA,POSTOJNA,special_all_muni
+SI,2011.csv,19,SI_2009,NOVA GORICA 1,NOVA GORICA 1,special_all_muni
+SI,2011.csv,20,SI_2010,NOVA GORICA 2,NOVA GORICA 2,special_all_muni
+SI,2011.csv,21,SI_2011,AJDOVŠČINA,AJDOVŠČINA,special_all_muni
+SI,2011.csv,22,SI_3001,CERKNICA - LOGATEC,CERKNICA - LOGATEC,special_all_muni
+SI,2011.csv,23,SI_3002,VRHNIKA,VRHNIKA,special_all_muni
+SI,2011.csv,24,SI_3003,LJUBLJANA-VIČ RUDNIK 1,LJUBLJANA-VIČ RUDNIK 1,special_all_muni
+SI,2011.csv,25,SI_3004,LJUBLJANA-VIČ RUDNIK 2,LJUBLJANA-VIČ RUDNIK 2,special_all_muni
+SI,2011.csv,26,SI_3005,LJUBLJANA-VIČ RUDNIK 3,LJUBLJANA-VIČ RUDNIK 3,special_all_muni
+SI,2011.csv,27,SI_3006,LJUBLJANA-VIČ RUDNIK 4,LJUBLJANA-VIČ RUDNIK 4,special_all_muni
+SI,2011.csv,28,SI_3007,LJUBLJANA-CENTER,LJUBLJANA-CENTER,special_all_muni
+SI,2011.csv,29,SI_3008,LJUBLJANA-ŠIŠKA 1,LJUBLJANA-ŠIŠKA 1,special_all_muni
+SI,2011.csv,30,SI_3009,LJUBLJANA-ŠIŠKA 2,LJUBLJANA-ŠIŠKA 2,special_all_muni
+SI,2011.csv,31,SI_3010,LJUBLJANA-ŠIŠKA 3,LJUBLJANA-ŠIŠKA 3,special_all_muni
+SI,2011.csv,32,SI_3011,LJUBLJANA-ŠIŠKA 4,LJUBLJANA-ŠIŠKA 4,special_all_muni
+SI,2011.csv,33,SI_4001,KOČEVJE,KOČEVJE,special_all_muni
+SI,2011.csv,34,SI_4002,RIBNICA,RIBNICA,special_all_muni
+SI,2011.csv,35,SI_4003,GROSUPLJE,GROSUPLJE,special_all_muni
+SI,2011.csv,36,SI_4004,LITIJA,LITIJA,special_all_muni
+SI,2011.csv,37,SI_4005,LJUBLJANA-MOSTE POLJE 1,LJUBLJANA-MOSTE POLJE 1,special_all_muni
+SI,2011.csv,38,SI_4006,LJUBLJANA-MOSTE POLJE 2,LJUBLJANA-MOSTE POLJE 2,special_all_muni
+SI,2011.csv,39,SI_4007,LJUBLJANA-MOSTE POLJE 3,LJUBLJANA-MOSTE POLJE 3,special_all_muni
+SI,2011.csv,40,SI_4008,LJUBLJANA-BEŽIGRAD 1,LJUBLJANA-BEŽIGRAD 1,special_all_muni
+SI,2011.csv,41,SI_4009,LJUBLJANA-BEŽIGRAD 2,LJUBLJANA-BEŽIGRAD 2,special_all_muni
+SI,2011.csv,42,SI_4010,DOMŽALE 1,DOMŽALE 1,special_all_muni
+SI,2011.csv,43,SI_4011,DOMŽALE 2,DOMŽALE 2,special_all_muni
+SI,2011.csv,44,SI_5001,ŠENTJUR,ŠENTJUR,special_all_muni
+SI,2011.csv,45,SI_5002,CELJE 1,CELJE 1,special_all_muni
+SI,2011.csv,46,SI_5003,CELJE 2,CELJE 2,special_all_muni
+SI,2011.csv,47,SI_5004,ŽALEC 1,ŽALEC 1,special_all_muni
+SI,2011.csv,48,SI_5005,ŽALEC 2,ŽALEC 2,special_all_muni
+SI,2011.csv,49,SI_5006,MOZIRJE,MOZIRJE,special_all_muni
+SI,2011.csv,50,SI_5007,VELENJE 1,VELENJE 1,special_all_muni
+SI,2011.csv,51,SI_5008,VELENJE 2,VELENJE 2,special_all_muni
+SI,2011.csv,52,SI_5009,SLOVENJ GRADEC,SLOVENJ GRADEC,special_all_muni
+SI,2011.csv,53,SI_5010,RAVNE,RAVNE,special_all_muni
+SI,2011.csv,54,SI_5011,DRAVOGRAD - RADLJE,DRAVOGRAD - RADLJE,special_all_muni
+SI,2011.csv,55,SI_6001,ČRNOMELJ - METLIKA,ČRNOMELJ - METLIKA,special_all_muni
+SI,2011.csv,56,SI_6002,NOVO MESTO 1,NOVO MESTO 1,special_all_muni
+SI,2011.csv,57,SI_6003,NOVO MESTO 2,NOVO MESTO 2,special_all_muni
+SI,2011.csv,58,SI_6004,TREBNJE,TREBNJE,special_all_muni
+SI,2011.csv,59,SI_6005,BREŽICE,BREŽICE,special_all_muni
+SI,2011.csv,60,SI_6006,KRŠKO,KRŠKO,special_all_muni
+SI,2011.csv,61,SI_6007,SEVNICA,SEVNICA,special_all_muni
+SI,2011.csv,62,SI_6008,LAŠKO,LAŠKO,special_all_muni
+SI,2011.csv,63,SI_6009,HRASTNIK,HRASTNIK,special_all_muni
+SI,2011.csv,64,SI_6010,TRBOVLJE,TRBOVLJE,special_all_muni
+SI,2011.csv,65,SI_6011,ZAGORJE,ZAGORJE,special_all_muni
+SI,2011.csv,66,SI_7001,ŠMARJE PRI JELŠAH,ŠMARJE PRI JELŠAH,special_all_muni
+SI,2011.csv,67,SI_7002,SLOVENSKA BISTRICA,SLOVENSKA BISTRICA,special_all_muni
+SI,2011.csv,68,SI_7003,SLOVENSKE KONJICE,SLOVENSKE KONJICE,special_all_muni
+SI,2011.csv,69,SI_7004,RUŠE,RUŠE,special_all_muni
+SI,2011.csv,70,SI_7005,MARIBOR 1,MARIBOR 1,special_all_muni
+SI,2011.csv,71,SI_7006,MARIBOR 2,MARIBOR 2,special_all_muni
+SI,2011.csv,72,SI_7007,MARIBOR 3,MARIBOR 3,special_all_muni
+SI,2011.csv,73,SI_7008,MARIBOR 4,MARIBOR 4,special_all_muni
+SI,2011.csv,74,SI_7009,MARIBOR 5,MARIBOR 5,special_all_muni
+SI,2011.csv,75,SI_7010,MARIBOR 6,MARIBOR 6,special_all_muni
+SI,2011.csv,76,SI_7011,MARIBOR 7,MARIBOR 7,special_all_muni
+SI,2011.csv,77,SI_8001,LENDAVA,LENDAVA,special_all_muni
+SI,2011.csv,78,SI_8002,ORMOŽ,ORMOŽ,special_all_muni
+SI,2011.csv,79,SI_8003,LJUTOMER,LJUTOMER,special_all_muni
+SI,2011.csv,80,SI_8004,MURSKA SOBOTA 1,MURSKA SOBOTA 1,special_all_muni
+SI,2011.csv,81,SI_8005,MURSKA SOBOTA 2,MURSKA SOBOTA 2,special_all_muni
+SI,2011.csv,82,SI_8006,GORNJA RADGONA,GORNJA RADGONA,special_all_muni
+SI,2011.csv,83,SI_8007,LENART,LENART,special_all_muni
+SI,2011.csv,84,SI_8008,PESNICA,PESNICA,special_all_muni
+SI,2011.csv,85,SI_8009,PTUJ 1,PTUJ 1,special_all_muni
+SI,2011.csv,86,SI_8010,PTUJ 2,PTUJ 2,special_all_muni
+SI,2011.csv,87,SI_8011,PTUJ 3,PTUJ 3,special_all_muni

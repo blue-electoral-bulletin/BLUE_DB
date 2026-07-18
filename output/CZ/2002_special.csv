@@ -1,0 +1,88 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CZ,2002.csv,6254,CZ_CZZZDZ,Alžírsko,Alžírsko,special_foreign_cz
+CZ,2002.csv,6255,CZ_CZZZEG,Egypt,Egypt,special_foreign_cz
+CZ,2002.csv,6256,CZ_CZZZET,Etiopie,Etiopie,special_foreign_cz
+CZ,2002.csv,6257,CZ_CZZZGH,Ghana,Ghana,special_foreign_cz
+CZ,2002.csv,6258,CZ_CZZZZA,Jihoafrická republika,Jihoafrická republika,special_foreign_cz
+CZ,2002.csv,6259,CZ_CZZZKE,Keňa,Keňa,special_foreign_cz
+CZ,2002.csv,6260,CZ_CZZZCD,"Kongo, demokrat.repub","Kongo, demokrat.repub",special_foreign_cz
+CZ,2002.csv,6261,CZ_CZZZLY,Libye,Libye,special_foreign_cz
+CZ,2002.csv,6262,CZ_CZZZMA,Maroko,Maroko,special_foreign_cz
+CZ,2002.csv,6263,CZ_CZZZNG,Nigérie,Nigérie,special_foreign_cz
+CZ,2002.csv,6264,CZ_CZZZCI,Pobřeží slonoviny,Pobřeží slonoviny,special_foreign_cz
+CZ,2002.csv,6265,CZ_CZZZSN,Senegal,Senegal,special_foreign_cz
+CZ,2002.csv,6266,CZ_CZZZTN,Tunisko,Tunisko,special_foreign_cz
+CZ,2002.csv,6267,CZ_CZZZZW,Zimbabwe,Zimbabwe,special_foreign_cz
+CZ,2002.csv,6268,CZ_CZZZAR,Argentina,Argentina,special_foreign_cz
+CZ,2002.csv,6269,CZ_CZZZBR,Brazílie,Brazílie,special_foreign_cz
+CZ,2002.csv,6270,CZ_CZZZCL,Chile,Chile,special_foreign_cz
+CZ,2002.csv,6271,CZ_CZZZCA,Kanada,Kanada,special_foreign_cz
+CZ,2002.csv,6272,CZ_CZZZCO,Kolumbie,Kolumbie,special_foreign_cz
+CZ,2002.csv,6273,CZ_CZZZCR,Kostarika,Kostarika,special_foreign_cz
+CZ,2002.csv,6274,CZ_CZZZCU,Kuba,Kuba,special_foreign_cz
+CZ,2002.csv,6275,CZ_CZZZMX,Mexiko,Mexiko,special_foreign_cz
+CZ,2002.csv,6276,CZ_CZZZPE,Peru,Peru,special_foreign_cz
+CZ,2002.csv,6277,CZ_CZZZUS,Spojené státy,Spojené státy,special_foreign_cz
+CZ,2002.csv,6278,CZ_CZZZUY,Uruguay,Uruguay,special_foreign_cz
+CZ,2002.csv,6279,CZ_CZZZVE,Venezuela,Venezuela,special_foreign_cz
+CZ,2002.csv,6280,CZ_CZZZCN,Čína,Čína,special_foreign_cz
+CZ,2002.csv,6281,CZ_CZZZPH,Filipíny,Filipíny,special_foreign_cz
+CZ,2002.csv,6282,CZ_CZZZGE,Gruzie,Gruzie,special_foreign_cz
+CZ,2002.csv,6283,CZ_CZZZIN,Indie,Indie,special_foreign_cz
+CZ,2002.csv,6284,CZ_CZZZID,Indonésie,Indonésie,special_foreign_cz
+CZ,2002.csv,6285,CZ_CZZZIQ,Irák,Irák,special_foreign_cz
+CZ,2002.csv,6286,CZ_CZZZIR,Írán,Írán,special_foreign_cz
+CZ,2002.csv,6287,CZ_CZZZIL,Izrael,Izrael,special_foreign_cz
+CZ,2002.csv,6288,CZ_CZZZJP,Japonsko,Japonsko,special_foreign_cz
+CZ,2002.csv,6289,CZ_CZZZYE,Jemen,Jemen,special_foreign_cz
+CZ,2002.csv,6290,CZ_CZZZJO,Jordánsko,Jordánsko,special_foreign_cz
+CZ,2002.csv,6291,CZ_CZZZKZ,Kazachstán,Kazachstán,special_foreign_cz
+CZ,2002.csv,6292,CZ_CZZZKR,Korejská republika,Korejská republika,special_foreign_cz
+CZ,2002.csv,6293,CZ_CZZZKW,Kuvajt,Kuvajt,special_foreign_cz
+CZ,2002.csv,6294,CZ_CZZZCY,Kypr,Kypr,special_foreign_cz
+CZ,2002.csv,6295,CZ_CZZZLB,Libanon,Libanon,special_foreign_cz
+CZ,2002.csv,6296,CZ_CZZZMY,Malajsie,Malajsie,special_foreign_cz
+CZ,2002.csv,6297,CZ_CZZZMN,Mongolsko,Mongolsko,special_foreign_cz
+CZ,2002.csv,6298,CZ_CZZZPK,Pákistán,Pákistán,special_foreign_cz
+CZ,2002.csv,6299,CZ_CZZZSA,Saúdská Arábie,Saúdská Arábie,special_foreign_cz
+CZ,2002.csv,6300,CZ_CZZZSG,Singapur,Singapur,special_foreign_cz
+CZ,2002.csv,6301,CZ_CZZZAE,Spojené arabské emiráty,Spojené arabské emiráty,special_foreign_cz
+CZ,2002.csv,6302,CZ_CZZZSY,Sýrie,Sýrie,special_foreign_cz
+CZ,2002.csv,6303,CZ_CZZZTH,Thajsko,Thajsko,special_foreign_cz
+CZ,2002.csv,6304,CZ_CZZZTR,Turecko,Turecko,special_foreign_cz
+CZ,2002.csv,6305,CZ_CZZZUZ,Uzbekistán,Uzbekistán,special_foreign_cz
+CZ,2002.csv,6306,CZ_CZZZVN,Vietnam,Vietnam,special_foreign_cz
+CZ,2002.csv,6307,CZ_CZZZAU,Austrálie,Austrálie,special_foreign_cz
+CZ,2002.csv,6308,CZ_CZZZAL,Albánie,Albánie,special_foreign_cz
+CZ,2002.csv,6309,CZ_CZZZBE,Belgie,Belgie,special_foreign_cz
+CZ,2002.csv,6310,CZ_CZZZBY,Bělorusko,Bělorusko,special_foreign_cz
+CZ,2002.csv,6311,CZ_CZZZBA,Bosna a Hercegovina,Bosna a Hercegovina,special_foreign_cz
+CZ,2002.csv,6312,CZ_CZZZBG,Bulharsko,Bulharsko,special_foreign_cz
+CZ,2002.csv,6313,CZ_CZZZDK,Dánsko,Dánsko,special_foreign_cz
+CZ,2002.csv,6314,CZ_CZZZEE,Estonsko,Estonsko,special_foreign_cz
+CZ,2002.csv,6315,CZ_CZZZFI,Finsko,Finsko,special_foreign_cz
+CZ,2002.csv,6316,CZ_CZZZFR,Francie,Francie,special_foreign_cz
+CZ,2002.csv,6317,CZ_CZZZHR,Chorvatsko,Chorvatsko,special_foreign_cz
+CZ,2002.csv,6318,CZ_CZZZIE,Irsko,Irsko,special_foreign_cz
+CZ,2002.csv,6319,CZ_CZZZIT,Itálie,Itálie,special_foreign_cz
+CZ,2002.csv,6320,CZ_CZZZYU,Jugoslávie,Jugoslávie,special_foreign_cz
+CZ,2002.csv,6321,CZ_CZZZLT,Litva,Litva,special_foreign_cz
+CZ,2002.csv,6322,CZ_CZZZLV,Lotyšsko,Lotyšsko,special_foreign_cz
+CZ,2002.csv,6323,CZ_CZZZHU,Maďarsko,Maďarsko,special_foreign_cz
+CZ,2002.csv,6324,CZ_CZZZDE,Německo,Německo,special_foreign_cz
+CZ,2002.csv,6325,CZ_CZZZNL,Nizozemsko,Nizozemsko,special_foreign_cz
+CZ,2002.csv,6326,CZ_CZZZNO,Norsko,Norsko,special_foreign_cz
+CZ,2002.csv,6327,CZ_CZZZPL,Polsko,Polsko,special_foreign_cz
+CZ,2002.csv,6328,CZ_CZZZPT,Portugalsko,Portugalsko,special_foreign_cz
+CZ,2002.csv,6329,CZ_CZZZAT,Rakousko,Rakousko,special_foreign_cz
+CZ,2002.csv,6330,CZ_CZZZRO,Rumunsko,Rumunsko,special_foreign_cz
+CZ,2002.csv,6331,CZ_CZZZRU,Rusko,Rusko,special_foreign_cz
+CZ,2002.csv,6332,CZ_CZZZGR,Řecko,Řecko,special_foreign_cz
+CZ,2002.csv,6333,CZ_CZZZSK,Slovensko,Slovensko,special_foreign_cz
+CZ,2002.csv,6334,CZ_CZZZSI,Slovinsko,Slovinsko,special_foreign_cz
+CZ,2002.csv,6335,CZ_CZZZGB,Spojené království,Spojené království,special_foreign_cz
+CZ,2002.csv,6336,CZ_CZZZVA,Svatý stolec,Svatý stolec,special_foreign_cz
+CZ,2002.csv,6337,CZ_CZZZES,Španělsko,Španělsko,special_foreign_cz
+CZ,2002.csv,6338,CZ_CZZZSE,Švédsko,Švédsko,special_foreign_cz
+CZ,2002.csv,6339,CZ_CZZZCH,Švýcarsko,Švýcarsko,special_foreign_cz
+CZ,2002.csv,6340,CZ_CZZZUA,Ukrajina,Ukrajina,special_foreign_cz

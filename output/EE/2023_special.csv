@@ -1,0 +1,3 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+EE,2023.csv,79,EE_EEYY97,Väljaspoolt ringkonda hääled,Väljaspoolt ringkonda hääled,special_outside_district
+EE,2023.csv,80,EE_EEZZ99,Välisriigid,Välisriigid,special_välisriigist

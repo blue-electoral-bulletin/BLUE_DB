@@ -1,0 +1,2 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CH,2011.csv,2504,CH_9000,Auslandschweizer in Kantonen mit separater Auszählung,Auslandschweizer in Kantonen mit separater Auszählung,special_ausland

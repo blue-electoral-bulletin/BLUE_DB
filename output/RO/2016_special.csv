@@ -1,0 +1,99 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RO,2016.csv,0,RO_ROYY99,Biroul electoral pentru votul  prin corespondenţă,Biroul electoral pentru votul  prin corespondenţă,special_postal_ro
+RO,2016.csv,3187,ROZZAF,Afganistan,Afganistan,special_foreign_ro
+RO,2016.csv,3188,ROZZZA,Africa de Sud,Africa de Sud,special_foreign_ro
+RO,2016.csv,3189,ROZZAL,Albania,Albania,special_foreign_ro
+RO,2016.csv,3190,ROZZDZ,Algeria,Algeria,special_foreign_ro
+RO,2016.csv,3191,ROZZAO,Angola,Angola,special_foreign_ro
+RO,2016.csv,3192,ROZZSA,Arabia Saudita,Arabia Saudita,special_foreign_ro
+RO,2016.csv,3193,ROZZAR,Argentina,Argentina,special_foreign_ro
+RO,2016.csv,3194,ROZZAM,Armenia,Armenia,special_foreign_ro
+RO,2016.csv,3195,ROZZAU,Australia,Australia,matched_foreign_country_name
+RO,2016.csv,3196,ROZZAT,Austria,Austria,special_foreign_ro
+RO,2016.csv,3197,ROZZAZ,Azerbaidjan,Azerbaidjan,special_foreign_ro
+RO,2016.csv,3198,ROZZBY,Belarus,Belarus,special_foreign_ro
+RO,2016.csv,3199,ROZZBE,Belgia,Belgia,special_foreign_ro
+RO,2016.csv,3200,ROZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+RO,2016.csv,3201,ROZZBR,Brazilia,Brazilia,special_foreign_ro
+RO,2016.csv,3202,ROZZBG,Bulgaria,Bulgaria,special_foreign_ro
+RO,2016.csv,3203,ROZZCA,Canada,Canada,matched_foreign_country_name
+RO,2016.csv,3204,ROZZCL,Chile,Chile,special_foreign_ro
+RO,2016.csv,3205,ROZZCN,China,China,special_foreign_ro
+RO,2016.csv,3206,ROZZCY,Cipru,Cipru,special_foreign_ro
+RO,2016.csv,3207,ROZZCO,Columbia,Columbia,special_foreign_ro
+RO,2016.csv,3208,ROZZKP,Coreea de Nord,Coreea de Nord,special_foreign_ro
+RO,2016.csv,3209,ROZZKR,Coreea de Sud,Coreea de Sud,special_foreign_ro
+RO,2016.csv,3210,ROZZHR,Croatia,Croatia,special_foreign_ro
+RO,2016.csv,3211,ROZZCU,Cuba,Cuba,special_foreign_ro
+RO,2016.csv,3212,ROZZDK,Danemarca,Danemarca,special_foreign_ro
+RO,2016.csv,3213,ROZZEG,Egipt,Egipt,special_foreign_ro
+RO,2016.csv,3214,ROZZCH,Switzerland,Switzerland,matched_foreign_country_name
+RO,2016.csv,3215,ROZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+RO,2016.csv,3216,ROZZEE,Estonia,Estonia,special_foreign_ro
+RO,2016.csv,3217,ROZZET,Etiopia,Etiopia,special_foreign_ro
+RO,2016.csv,3218,ROZZPH,Filipine,Filipine,special_foreign_ro
+RO,2016.csv,3219,ROZZFI,Finlanda,Finlanda,special_foreign_ro
+RO,2016.csv,3220,ROZZFR,Franta,Franta,special_foreign_ro
+RO,2016.csv,3221,ROZZGE,Georgia,Georgia,special_foreign_ro
+RO,2016.csv,3222,ROZZDE,Germania,Germania,special_foreign_ro
+RO,2016.csv,3223,ROZZGR,Grecia,Grecia,special_foreign_ro
+RO,2016.csv,3224,ROZZHK,Hong Kong,Hong Kong,special_foreign_ro
+RO,2016.csv,3225,ROZZIN,India,India,special_foreign_ro
+RO,2016.csv,3226,ROZZID,Indonezia,Indonezia,special_foreign_ro
+RO,2016.csv,3227,ROZZJO,Iordania,Iordania,special_foreign_ro
+RO,2016.csv,3228,ROZZIQ,Irak,Irak,special_foreign_ro
+RO,2016.csv,3229,ROZZIR,Iran,Iran,special_foreign_ro
+RO,2016.csv,3230,ROZZIE,Irlanda,Irlanda,special_foreign_ro
+RO,2016.csv,3231,ROZZIS,Islanda,Islanda,special_foreign_ro
+RO,2016.csv,3232,ROZZIL,Israel,Israel,special_foreign_ro
+RO,2016.csv,3233,ROZZIT,Italia,Italia,special_foreign_ro
+RO,2016.csv,3234,ROZZJP,Japonia,Japonia,special_foreign_ro
+RO,2016.csv,3235,ROZZKZ,Kazahstan,Kazahstan,special_foreign_ro
+RO,2016.csv,3236,ROZZKE,Kenia,Kenia,special_foreign_ro
+RO,2016.csv,3237,ROZZXK,Kosovo,Kosovo,special_foreign_ro
+RO,2016.csv,3238,ROZZKW,Kuweit,Kuweit,special_foreign_ro
+RO,2016.csv,3239,ROZZLB,Liban,Liban,special_foreign_ro
+RO,2016.csv,3240,ROZZLT,Lituania,Lituania,special_foreign_ro
+RO,2016.csv,3241,ROZZLU,Luxemburg,Luxemburg,special_foreign_ro
+RO,2016.csv,3242,ROZZMK,Macedonia,Macedonia,special_foreign_ro
+RO,2016.csv,3243,ROZZMY,Malaezia,Malaezia,special_foreign_ro
+RO,2016.csv,3244,ROZZMT,Malta,Malta,special_foreign_ro
+RO,2016.csv,3245,ROZZMA,Maroc,Maroc,special_foreign_ro
+RO,2016.csv,3246,ROZZMX,Mexic,Mexic,special_foreign_ro
+RO,2016.csv,3247,ROZZME,Muntenegru,Muntenegru,special_foreign_ro
+RO,2016.csv,3248,ROZZNG,Nigeria,Nigeria,special_foreign_ro
+RO,2016.csv,3249,ROZZNO,Norvegia,Norvegia,special_foreign_ro
+RO,2016.csv,3250,ROZZNZ,Noua Zeelanda,Noua Zeelanda,special_foreign_ro
+RO,2016.csv,3251,ROZZNL,Olanda,Olanda,special_foreign_ro
+RO,2016.csv,3252,ROZZPK,Pakistan,Pakistan,special_foreign_ro
+RO,2016.csv,3253,ROZZPS,Palestina,Palestina,special_foreign_ro
+RO,2016.csv,3254,ROZZPE,Peru,Peru,special_foreign_ro
+RO,2016.csv,3255,ROZZPL,Polonia,Polonia,special_foreign_ro
+RO,2016.csv,3256,ROZZPT,Portugalia,Portugalia,special_foreign_ro
+RO,2016.csv,3257,ROZZQA,Qatar,Qatar,special_foreign_ro
+RO,2016.csv,3258,ROZZGB,Regatul Unit,Regatul Unit,special_foreign_ro
+RO,2016.csv,3259,ROZZCZ,Republica Ceha,Republica Ceha,special_foreign_ro
+RO,2016.csv,3260,ROZZMD,Republica Moldova,Republica Moldova,special_foreign_ro
+RO,2016.csv,3261,ROZZRU,Rusia,Rusia,special_foreign_ro
+RO,2016.csv,3262,ROZZSN,Senegal,Senegal,special_foreign_ro
+RO,2016.csv,3263,ROZZRS,Serbia,Serbia,special_foreign_ro
+RO,2016.csv,3264,ROZZSG,Singapore,Singapore,special_foreign_ro
+RO,2016.csv,3265,ROZZSY,Syria,Syria,matched_foreign_country_name
+RO,2016.csv,3266,ROZZSK,Slovacia,Slovacia,special_foreign_ro
+RO,2016.csv,3267,ROZZSI,Slovenia,Slovenia,special_foreign_ro
+RO,2016.csv,3268,ROZZES,Spania,Spania,special_foreign_ro
+RO,2016.csv,3269,ROZZLK,Sri Lanka,Sri Lanka,special_foreign_ro
+RO,2016.csv,3270,ROZZUS,Statele Unite,Statele Unite,special_foreign_ro
+RO,2016.csv,3271,ROZZSD,Sudan,Sudan,special_foreign_ro
+RO,2016.csv,3272,ROZZSE,Suedia,Suedia,special_foreign_ro
+RO,2016.csv,3273,ROZZTH,Tailanda,Tailanda,special_foreign_ro
+RO,2016.csv,3274,ROZZTN,Tunisia,Tunisia,special_foreign_ro
+RO,2016.csv,3275,ROZZTR,Turcia,Turcia,special_foreign_ro
+RO,2016.csv,3276,ROZZTM,Turkmenistan,Turkmenistan,special_foreign_ro
+RO,2016.csv,3277,ROZZUA,Ucraina,Ucraina,special_foreign_ro
+RO,2016.csv,3278,ROZZHU,Ungaria,Ungaria,special_foreign_ro
+RO,2016.csv,3279,ROZZUY,Uruguay,Uruguay,special_foreign_ro
+RO,2016.csv,3280,ROZZUZ,Uzbekistan,Uzbekistan,special_foreign_ro
+RO,2016.csv,3281,ROZZVE,Venezuela,Venezuela,special_foreign_ro
+RO,2016.csv,3282,ROZZVN,Vietnam,Vietnam,special_foreign_ro
+RO,2016.csv,3283,ROZZZW,Zimbabwe,Zimbabwe,special_foreign_ro

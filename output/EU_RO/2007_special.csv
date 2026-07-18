@@ -1,0 +1,97 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RO,2007.csv,97,ROZZAU,Australia,Australia,matched_foreign_country_name
+RO,2007.csv,330,ROZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+RO,2007.csv,492,ROZZCA,Canada,Canada,matched_foreign_country_name
+RO,2007.csv,687,ROZZCH,Switzerland,Switzerland,matched_foreign_country_name
+RO,2007.csv,979,ROZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+RO,2007.csv,1013,ROZZRU,FEDERATIA RUSA,FEDERATIA RUSA,special_foreign_ro
+RO,2007.csv,1105,ROZZGE,GEORGIA,GEORGIA,special_foreign_ro
+RO,2007.csv,1331,ROZZIN,INDIA,INDIA,special_foreign_ro
+RO,2007.csv,1347,ROZZIE,IRLANDA,IRLANDA,special_foreign_ro
+RO,2007.csv,1370,ROZZJP,JAPONIA,JAPONIA,special_foreign_ro
+RO,2007.csv,1392,ROZZXK,KOSOVO,KOSOVO,special_foreign_ro
+RO,2007.csv,1513,ROZZMY,MALAEZIA,MALAEZIA,special_foreign_ro
+RO,2007.csv,1521,ROZZMT,MALTA,MALTA,special_foreign_ro
+RO,2007.csv,1544,ROZZLY,Libya,Libya,matched_foreign_country_name
+RO,2007.csv,1545,ROZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+RO,2007.csv,1834,ROZZNZ,NOUA ZEELANDA,NOUA ZEELANDA,special_foreign_ro
+RO,2007.csv,2389,ROZZSA,REGATUL ARABIEI SAUDITE,REGATUL ARABIEI SAUDITE,special_foreign_ro
+RO,2007.csv,2390,ROZZBE,Belgium,Belgium,matched_foreign_country_name
+RO,2007.csv,2391,ROZZDK,Denmark,Denmark,matched_foreign_country_name
+RO,2007.csv,2392,ROZZJO,REGATUL HASEMIT AL IORDANIEI,REGATUL HASEMIT AL IORDANIEI,special_foreign_ro
+RO,2007.csv,2393,ROZZMA,REGATUL MAROC,REGATUL MAROC,special_foreign_ro
+RO,2007.csv,2394,ROZZNO,Norway,Norway,matched_foreign_country_name
+RO,2007.csv,2395,ROZZES,Spain,Spain,matched_foreign_country_name
+RO,2007.csv,2396,ROZZSE,Sweden,Sweden,matched_foreign_country_name
+RO,2007.csv,2397,ROZZNL,REGATUL TARILOR DE JOS,REGATUL TARILOR DE JOS,special_foreign_ro
+RO,2007.csv,2398,ROZZTH,REGATUL THAILANDEI,REGATUL THAILANDEI,special_foreign_ro
+RO,2007.csv,2399,ROZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+RO,2007.csv,2407,ROZZNG,Nigeria,Nigeria,matched_foreign_country_name
+RO,2007.csv,2408,ROZZAF,Afghanistan,Afghanistan,matched_foreign_country_name
+RO,2007.csv,2409,ROZZZA,South Africa,South Africa,matched_foreign_country_name
+RO,2007.csv,2410,ROZZAL,REPUBLICA ALBANIA,REPUBLICA ALBANIA,special_foreign_ro
+RO,2007.csv,2411,ROZZDZ,Algeria,Algeria,matched_foreign_country_name
+RO,2007.csv,2412,ROZZAO,AO,AO,matched_foreign_country_name
+RO,2007.csv,2413,ROZZEG,Egypt,Egypt,matched_foreign_country_name
+RO,2007.csv,2414,ROZZSY,REPUBLICA ARABA SIRIANA,REPUBLICA ARABA SIRIANA,special_foreign_ro
+RO,2007.csv,2415,ROZZAR,Argentina,Argentina,matched_foreign_country_name
+RO,2007.csv,2416,ROZZAM,Armenia,Armenia,matched_foreign_country_name
+RO,2007.csv,2417,ROZZAT,Austria,Austria,matched_foreign_country_name
+RO,2007.csv,2418,ROZZAZ,Azerbaijan,Azerbaijan,matched_foreign_country_name
+RO,2007.csv,2419,ROZZBY,REPUBLICA BELARUS,REPUBLICA BELARUS,special_foreign_ro
+RO,2007.csv,2420,ROZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+RO,2007.csv,2421,ROZZCZ,REPUBLICA CEHA,REPUBLICA CEHA,special_foreign_ro
+RO,2007.csv,2422,ROZZCL,REPUBLICA CHILE,REPUBLICA CHILE,special_foreign_ro
+RO,2007.csv,2423,ROZZCY,REPUBLICA CIPRU,REPUBLICA CIPRU,special_foreign_ro
+RO,2007.csv,2424,ROZZCO,REPUBLICA COLUMBIA,REPUBLICA COLUMBIA,special_foreign_ro
+RO,2007.csv,2425,ROZZKR,REPUBLICA COREEA,REPUBLICA COREEA,special_foreign_ro
+RO,2007.csv,2426,ROZZHR,REPUBLICA CROATIA,REPUBLICA CROATIA,special_foreign_ro
+RO,2007.csv,2427,ROZZCU,Cuba,Cuba,matched_foreign_country_name
+RO,2007.csv,2428,ROZZLK,LK,LK,matched_foreign_country_name
+RO,2007.csv,2429,ROZZGR,REPUBLICA ELENA,REPUBLICA ELENA,special_foreign_ro
+RO,2007.csv,2430,ROZZET,Ethiopia,Ethiopia,matched_foreign_country_name
+RO,2007.csv,2431,ROZZDE,Germany,Germany,matched_foreign_country_name
+RO,2007.csv,2433,ROZZBR,Brazil,Brazil,matched_foreign_country_name
+RO,2007.csv,2434,ROZZPH,Philippines,Philippines,matched_foreign_country_name
+RO,2007.csv,2435,ROZZFI,Finland,Finland,matched_foreign_country_name
+RO,2007.csv,2436,ROZZFR,France,France,matched_foreign_country_name
+RO,2007.csv,2437,ROZZID,REPUBLICA INDONEZIA,REPUBLICA INDONEZIA,special_foreign_ro
+RO,2007.csv,2438,ROZZIQ,IQ,IQ,matched_foreign_country_name
+RO,2007.csv,2439,ROZZIR,REPUBLICA ISLAMICA IRAN,REPUBLICA ISLAMICA IRAN,special_foreign_ro
+RO,2007.csv,2440,ROZZPK,REPUBLICA ISLAMICA PAKISTAN,REPUBLICA ISLAMICA PAKISTAN,special_foreign_ro
+RO,2007.csv,2441,ROZZIT,Italy,Italy,matched_foreign_country_name
+RO,2007.csv,2442,ROZZKZ,REPUBLICA KAZAHSTAN,REPUBLICA KAZAHSTAN,special_foreign_ro
+RO,2007.csv,2443,ROZZKE,KE,KE,matched_foreign_country_name
+RO,2007.csv,2444,ROZZLB,REPUBLICA LIBANEZA,REPUBLICA LIBANEZA,special_foreign_ro
+RO,2007.csv,2445,ROZZLT,Lithuania,Lithuania,matched_foreign_country_name
+RO,2007.csv,2446,ROZZMK,North Macedonia,North Macedonia,matched_foreign_country_name
+RO,2007.csv,2447,ROZZMD,REPUBLICA MOLDOVA,REPUBLICA MOLDOVA,special_foreign_ro
+RO,2007.csv,2448,ROZZME,Montenegro,Montenegro,matched_foreign_country_name
+RO,2007.csv,2449,ROZZUY,REPUBLICA ORIENTALA A URUGUAYULUI,REPUBLICA ORIENTALA A URUGUAYULUI,special_foreign_ro
+RO,2007.csv,2450,ROZZPE,REPUBLICA PERU,REPUBLICA PERU,special_foreign_ro
+RO,2007.csv,2451,ROZZPL,Poland,Poland,matched_foreign_country_name
+RO,2007.csv,2452,ROZZCN,REPUBLICA POPULARA CHINEZA,REPUBLICA POPULARA CHINEZA,special_foreign_ro
+RO,2007.csv,2453,ROZZKP,North Korea,North Korea,matched_foreign_country_name
+RO,2007.csv,2454,ROZZPT,Portugal,Portugal,matched_foreign_country_name
+RO,2007.csv,2455,ROZZSM,SM,SM,matched_foreign_country_name
+RO,2007.csv,2456,ROZZSN,Senegal,Senegal,matched_foreign_country_name
+RO,2007.csv,2457,ROZZRS,REPUBLICA SERBIA,REPUBLICA SERBIA,special_foreign_ro
+RO,2007.csv,2458,ROZZSK,REPUBLICA SLOVACA,REPUBLICA SLOVACA,special_foreign_ro
+RO,2007.csv,2459,ROZZSI,Slovenia,Slovenia,matched_foreign_country_name
+RO,2007.csv,2460,ROZZVN,REPUBLICA SOCIALISTA VIETNAM,REPUBLICA SOCIALISTA VIETNAM,special_foreign_ro
+RO,2007.csv,2461,ROZZSD,SD,SD,matched_foreign_country_name
+RO,2007.csv,2462,ROZZTN,REPUBLICA TUNISIANA,REPUBLICA TUNISIANA,special_foreign_ro
+RO,2007.csv,2463,ROZZTR,Turkey,Turkey,matched_foreign_country_name
+RO,2007.csv,2464,ROZZHU,Hungary,Hungary,matched_foreign_country_name
+RO,2007.csv,2465,ROZZUZ,Uzbekistan,Uzbekistan,matched_foreign_country_name
+RO,2007.csv,2466,ROZZVE,VE,VE,matched_foreign_country_name
+RO,2007.csv,2467,ROZZZW,ZW,ZW,matched_foreign_country_name
+RO,2007.csv,2688,ROZZRS,SERBIA,SERBIA,special_foreign_ro
+RO,2007.csv,2724,ROZZSG,SINGAPORE,SINGAPORE,special_foreign_ro
+RO,2007.csv,2802,ROZZUS,STATELE UNITE ALE AMERICII,STATELE UNITE ALE AMERICII,special_foreign_ro
+RO,2007.csv,2803,ROZZMX,Mexico,Mexico,matched_foreign_country_name
+RO,2007.csv,2804,ROZZIL,STATUL ISRAEL,STATUL ISRAEL,special_foreign_ro
+RO,2007.csv,2805,ROZZKW,Kuwait,Kuwait,matched_foreign_country_name
+RO,2007.csv,2806,ROZZQA,Qatar,Qatar,matched_foreign_country_name
+RO,2007.csv,3012,ROZZTM,TURKMENISTAN,TURKMENISTAN,special_foreign_ro
+RO,2007.csv,3022,ROZZUA,UCRAINA,UCRAINA,special_foreign_ro
