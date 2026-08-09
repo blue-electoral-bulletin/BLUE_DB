@@ -8,7 +8,7 @@ candidates. Results are joinable to Eurostat geodata via GISCO identifiers and
 to the wider party-politics literature via Party Facts identifiers.
 
 - **Web interface & maps:** https://electionatlas.eu
-- **Dataset archive (Zenodo):** https://doi.org/10.5281/zenodo.21434112
+- **Dataset archive (Zenodo):** https://doi.org/10.5281/zenodo.21434111
 - **Source repository:** https://github.com/blue-electoral-bulletin/BLUE_DB
 
 This repository holds the **Python library** and the **evaluation,

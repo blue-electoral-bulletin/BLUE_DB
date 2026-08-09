@@ -5,9 +5,8 @@
   "description_short": "BLUE_DB is a Europe-wide database of municipality-level results of national parliamentary and European Parliament elections.",
   "website": "https://electionatlas.eu",
   "github": "https://github.com/blue-electoral-bulletin/BLUE_DB",
-  "zenodo_doi": "10.5281/zenodo.21434112",
-  "zenodo_url": "https://doi.org/10.5281/zenodo.21434112",
-  "zenodo_doi_pending": true,
+  "zenodo_doi": "10.5281/zenodo.21434111",
+  "zenodo_url": "https://doi.org/10.5281/zenodo.21434111",
   "publisher": "Groupe d'études géopolitiques",
   "publisher_url": "https://geopolitique.eu",
   "authors": [
