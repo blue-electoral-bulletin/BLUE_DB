@@ -1,0 +1,22 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+FR,2004.csv,36676,FR_97601,ACOUA,ACOUA,special_mayotte
+FR,2004.csv,36677,FR_97602,BANDRABOUA,BANDRABOUA,special_mayotte
+FR,2004.csv,36678,FR_97603,BANDRELE,BANDRELE,special_mayotte
+FR,2004.csv,36679,FR_97604,BOUÉNI,BOUÉNI,special_mayotte
+FR,2004.csv,36680,FR_97605,CHICONI,CHICONI,special_mayotte
+FR,2004.csv,36681,FR_97606,CHIRONGUI,CHIRONGUI,special_mayotte
+FR,2004.csv,36682,FR_97607,DEMBENI,DEMBENI,special_mayotte
+FR,2004.csv,36683,FR_97608,DZAOUDZI,DZAOUDZI,special_mayotte
+FR,2004.csv,36684,FR_97609,KANI-KÉLI,KANI-KÉLI,special_mayotte
+FR,2004.csv,36685,FR_97610,KOUNGOU,KOUNGOU,special_mayotte
+FR,2004.csv,36686,FR_97611,MAMOUDZOU,MAMOUDZOU,special_mayotte
+FR,2004.csv,36687,FR_97612,MTSAMBORO,MTSAMBORO,special_mayotte
+FR,2004.csv,36688,FR_97613,M'TSANGAMOUJI,M'TSANGAMOUJI,special_mayotte
+FR,2004.csv,36689,FR_97614,OUANGANI,OUANGANI,special_mayotte
+FR,2004.csv,36690,FR_97615,PAMANDZI,PAMANDZI,special_mayotte
+FR,2004.csv,36691,FR_97616,SADA,SADA,special_mayotte
+FR,2004.csv,36692,FR_97617,TSINGONI,TSINGONI,special_mayotte
+FR,2004.csv,36693,FR_98801,Ensemble du département ZN,Ensemble du département ZN,special_nouvelle_caledonie
+FR,2004.csv,36694,FR_98701,Ensemble du département ZP,Ensemble du département ZP,special_polynesie_francaise
+FR,2004.csv,36695,FR_97501,Ensemble du département ZS,Ensemble du département ZS,special_saint_pierre_et_miquelon
+FR,2004.csv,36696,FR_98601,Ensemble du département ZW,Ensemble du département ZW,special_wallis_et_futuna

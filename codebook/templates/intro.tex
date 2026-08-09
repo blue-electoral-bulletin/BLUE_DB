@@ -1,0 +1,37 @@
+The \textbf{BLUE\_DB} dataset (\textit{Basic Local Unit Election Database}) provides
+structured, unit-level electoral results for national legislative elections and
+European Parliament elections in European countries, together with a harmonised
+geographic reference frame based on EU GISCO identifiers.
+
+\medskip
+\noindent
+The dataset covers \VAR{n_countries} countries from \VAR{year_min} to
+\VAR{year_max}, comprising \VAR{n_national_elections} national elections and
+\VAR{n_eu_elections} European Parliament elections.  Results are reported at
+the level of municipalities (LAU~2) where available, or at the lowest
+geographic level published by national statistical offices.  Special aggregate
+units---such as postal votes, overseas voter counts, and electoral
+constituencies---are included in a separate reference file and linked to the
+main geographic hierarchy.
+
+\medskip
+\noindent
+Geographic units are identified by \textit{GISCO IDs}, a harmonised coding
+scheme derived from Eurostat's GISCO database.  A GISCO ID takes the form
+\texttt{CC\_LLLLLL}, where \texttt{CC} is the ISO~3166-1 alpha-2 country code
+and \texttt{LLLLLL} is a numeric or alphanumeric local unit code.  Special and
+aggregate units use codes in the \texttt{CC\_CCZZXX} range following the
+conventions described in Section~\ref{sec:special}.
+
+\medskip
+\noindent
+Party results are identified by \texttt{party\_id}, a unique country-level
+key that harmonises source-file aliases to one party entry in
+\texttt{parties.csv}.  The parties file links each entry to Wikidata,
+European party affiliation, and EP parliamentary-group metadata.
+
+\medskip
+\noindent
+\textbf{Coverage note.}  Not all countries are covered for all years.
+Country-specific notes in Chapter~\ref{ch:countries} document the elections
+included, known data-quality issues, and deviations from the standard format.

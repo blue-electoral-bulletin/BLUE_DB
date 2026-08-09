@@ -1,0 +1,42 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+LT,2012.csv,16,LT_LTZZIE,Ireland,Ireland,special_foreign_voter_lt
+LT,2012.csv,17,LT_LTZZAR,Argentina,Argentina,special_foreign_voter_lt
+LT,2012.csv,18,LT_LTZZAM,Armenia,Armenia,special_foreign_voter_lt
+LT,2012.csv,19,LT_LTZZAT,Austria,Austria,special_foreign_voter_lt
+LT,2012.csv,20,LT_LTZZAZ,Azerbaijan,Azerbaijan,special_foreign_voter_lt
+LT,2012.csv,21,LT_LTZZBE,Belgium,Belgium,special_foreign_voter_lt
+LT,2012.csv,22,LT_LTZZBG,Bulgaria,Bulgaria,special_foreign_voter_lt
+LT,2012.csv,23,LT_LTZZCZ,Czech Republic,Czech Republic,special_foreign_voter_lt
+LT,2012.csv,24,LT_LTZZDK,Denmark,Denmark,special_foreign_voter_lt
+LT,2012.csv,25,LT_LTZZEG,Egypt,Egypt,special_foreign_voter_lt
+LT,2012.csv,26,LT_LTZZEE,Estonia,Estonia,special_foreign_voter_lt
+LT,2012.csv,27,LT_LTZZGR,Greece,Greece,special_foreign_voter_lt
+LT,2012.csv,28,LT_LTZZGE,Georgia,Georgia,special_foreign_voter_lt
+LT,2012.csv,29,LT_LTZZIT,Italy,Italy,special_foreign_voter_lt
+LT,2012.csv,30,LT_LTZZIL,Israel,Israel,special_foreign_voter_lt
+LT,2012.csv,31,LT_LTZZJP,Japan,Japan,special_foreign_voter_lt
+LT,2012.csv,32,LT_LTZZKZ,Kazakhstan,Kazakhstan,special_foreign_voter_lt
+LT,2012.csv,34,LT_LTZZCN,China,China,special_foreign_voter_lt
+LT,2012.csv,35,LT_LTZZLV,Latvia,Latvia,special_foreign_voter_lt
+LT,2012.csv,36,LT_LTZZMD,Moldova,Moldova,special_foreign_voter_lt
+LT,2012.csv,37,LT_LTZZNL,Netherlands,Netherlands,special_foreign_voter_lt
+LT,2012.csv,38,LT_LTZZNO,Norway,Norway,special_foreign_voter_lt
+LT,2012.csv,39,LT_LTZZPT,Portugal,Portugal,special_foreign_voter_lt
+LT,2012.csv,40,LT_LTZZFR,France,France,special_foreign_voter_lt
+LT,2012.csv,41,LT_LTZZRO,Romania,Romania,special_foreign_voter_lt
+LT,2012.csv,42,LT_LTZZSI,Slovenia,Slovenia,special_foreign_voter_lt
+LT,2012.csv,43,LT_LTZZFI,Finland,Finland,special_foreign_voter_lt
+LT,2012.csv,44,LT_LTZZSE,Sweden,Sweden,special_foreign_voter_lt
+LT,2012.csv,45,LT_LTZZCH,Switzerland,Switzerland,special_foreign_voter_lt
+LT,2012.csv,46,LT_LTZZTR,Turkey,Turkey,special_foreign_voter_lt
+LT,2012.csv,47,LT_LTZZUA,Ukraine,Ukraine,special_foreign_voter_lt
+LT,2012.csv,48,LT_LTZZHU,Hungary,Hungary,special_foreign_voter_lt
+LT,2012.csv,49,LT_LTZZIN,India,India,special_foreign_voter_lt
+LT,2012.csv,50,LT_LTZZBY,Belarus,Belarus,special_foreign_voter_lt
+LT,2012.csv,52,LT_LTZZES,Spain,Spain,special_foreign_voter_lt
+LT,2012.csv,54,LT_LTZZUS,United States,United States,special_foreign_voter_lt
+LT,2012.csv,58,LT_LTZZGB,United Kingdom,United Kingdom,special_foreign_voter_lt
+LT,2012.csv,59,LT_LTZZCA,Canada,Canada,special_foreign_voter_lt
+LT,2012.csv,60,LT_LTZZPL,Poland,Poland,special_foreign_voter_lt
+LT,2012.csv,62,LT_LTZZRU,Russia,Russia,special_foreign_voter_lt
+LT,2012.csv,66,LT_LTZZDE,Germany,Germany,special_foreign_voter_lt

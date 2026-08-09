@@ -1,0 +1,146 @@
+\subsubsection{\texttt{geo/communes.csv}}
+
+\begin{longtable}{p{2.5cm}p{12.5cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{gisco\_id}     & Extended GISCO identifier in the form \texttt{CC\_$x$}. \\
+\texttt{id}            & Primary key. Extended GISCO identifier in the form \texttt{CC\_$x$(yyyy)$?$} with optional foundation year in brackets disambiguating entries with identical \texttt{gisco\_id}. \\
+\texttt{name\_or}      & Official name in the local language. \\
+\texttt{level}         & Geographic level, set to \texttt{LAU 2}. \\
+\texttt{start\_year}   & Year from which the unit existed in its current form
+                          (integer, empty if unknown). \\
+\texttt{end\_year}     & Year in which the unit ceased to exist
+                          (integer, empty if still active). \\
+\texttt{predecessors}  & JSON array of \texttt{gisco\_id} values that merged
+                          into this unit. \\
+\texttt{parent}        & \texttt{gisco\_id} (or NUTS code) of the containing
+                          higher-level unit. \\
+\texttt{names}         & JSON array of historical name variants, each with
+                          optional \texttt{start\_date} and
+                          \texttt{end\_date}.  A variant applies to an election
+                          held in year $y$ when
+                          $\texttt{start\_date} \le y < \texttt{end\_date}$;
+                          an empty bound is open-ended on that side.  This is
+                          what the \bluevar{name} column of the election files
+                          resolves to, so a unit is labelled with the name it
+                          bore at the time — Klagenfurt in 2002, Klagenfurt am
+                          Wörthersee in 2024 — rather than with its current
+                          name.  Party names are dated the same way, in the
+                          \bluevar{other\_names} field of
+                          \texttt{parties/parties.csv}. \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{\texttt{geo/nuts.csv}}
+
+Contains all NUTS regions at levels 0 through 3 in a single file.
+The column structure is identical to that of \texttt{laus.csv}; the
+\bluevar{level} field takes values \texttt{NUTS~0}, \texttt{NUTS~1},
+\texttt{NUTS~2}, or \texttt{NUTS~3}.
+The \bluevar{parent} column points to the containing NUTS region one
+level up (empty for NUTS~0); \bluevar{gisco\_id} and \bluevar{id} follow the
+standard Eurostat coding (e.g.\ \texttt{AT}, \texttt{AT1}, \texttt{AT11},
+\texttt{AT111}).
+
+\subsubsection{\texttt{geo/special.csv}}
+
+Shares all columns of \texttt{laus.csv}, plus:
+
+\begin{longtable}{p{2.5cm}p{12.5cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{type} & Type of special unit.  Allowed values:
+\texttt{E-Voting}, \texttt{Electoral Constituency},
+\texttt{Overseas Country or Territory}, \texttt{Postal Vote},
+\texttt{Ships at Sea}, \texttt{Voters Abroad}. \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{\texttt{geo/geo\_lookup.csv}}
+\label{sec:geo_lookup}
+
+BLUE\_DB does not redistribute boundaries.  The polygons come from Eurostat's
+GISCO, whose licence they carry, and from a small set of curated shapefiles for
+constituencies GISCO does not publish.  What the release does contain is the
+\emph{join}: for every unit of every election, the layer and the feature inside
+that layer which draws it.  A reader who downloads the corresponding GISCO file
+can therefore reproduce any map in this codebook exactly, and audit the choice
+made for any single unit.
+
+\begin{longtable}{p{2.9cm}p{12.1cm}}
+\toprule
+\textbf{Variable} & \textbf{Description} \\
+\midrule
+\endhead
+\texttt{country}       & Country code of the election. \\
+\texttt{file}          & Election file the row belongs to, without extension
+                         (e.g.\ \texttt{2002\_11}), matching
+                         \texttt{elections/}. \\
+\texttt{year}          & Year of the election. \\
+\texttt{election\_type} & \texttt{national} or \texttt{european}. \\
+\texttt{gisco\_id}     & The unit being drawn, as it appears in the election
+                         file. \\
+\texttt{source\_kind}  & Which family of layers the polygon comes from; see the
+                         table below. \\
+\texttt{source\_layer} & The layer within that family: a vintage year for
+                         \texttt{lau} and \texttt{cntr}, a
+                         \texttt{year:level} pair for \texttt{nuts}, a file
+                         name for \texttt{maps}. \\
+\texttt{source\_id}    & The identifier of the polygon \emph{inside} that
+                         layer.  For the set kinds, the identifiers to dissolve,
+                         joined by \texttt{+}. \\
+\texttt{status}        & \texttt{mapped}, or a reason the unit has no polygon. \\
+\bottomrule
+\end{longtable}
+
+\paragraph{Source kinds}\mbox{}
+
+\begin{longtable}{p{2.4cm}p{12.6cm}}
+\toprule
+\textbf{Kind} & \textbf{Meaning} \\
+\midrule
+\endhead
+\texttt{lau}     & A GISCO local administrative unit (a commune before 2011),
+                   at the vintage named in \texttt{source\_layer}.  This draws
+                   the overwhelming majority of units. \\
+\texttt{nuts}    & A GISCO NUTS region, used where an election is reported at
+                   regional rather than municipal level.
+                   \texttt{source\_layer} is \texttt{vintage:level}, so
+                   \texttt{2016:3} is a NUTS~3 region of the 2016 vintage. \\
+\texttt{cntr}    & A GISCO country polygon, used for voters abroad: a unit
+                   hosted in one country is drawn as that country. \\
+\texttt{maps}    & One of the shapefiles shipped in \texttt{maps/}, for
+                   constituencies GISCO does not publish — Ireland's
+                   \emph{Dáil} constituencies, Slovenia's
+                   \emph{volilni okraji}, and the French and Dutch overseas
+                   territories. \\
+\texttt{lauset}, \texttt{nutsset}, \texttt{cntrset}, \texttt{mapsset}
+                 & The same four families, dissolved into one polygon.  A
+                   constituency spanning several countries — France's eleven
+                   \emph{circonscriptions des Français établis hors de France},
+                   Portugal's continental emigrant groupings — is the union of
+                   its members, every one of which is listed in
+                   \texttt{source\_id}. \\
+\bottomrule
+\end{longtable}
+
+Two properties of this file are deliberate and worth stating.  First, the same
+unit may be drawn from different layers in different years: that is how boundary
+changes are preserved, so an election held before a merger is mapped with the
+municipalities that existed at the time.  Second, unresolved units are kept
+rather than dropped, with empty source columns, so the file documents what is
+\emph{not} covered as well as what is.  A \texttt{status} of
+\texttt{no geometry (postal vote)}, \texttt{no geometry (ships at sea)} or
+\texttt{no geometry (e-voting)} is not a gap in the data: those units have no
+territory to draw, by their nature.
+In this release the crosswalk has no holes: every unit of every election that
+can have a polygon has one.  The per-election summary used to check this is
+kept with the project's working files, in \texttt{resources/geo\_coverage.csv},
+and any unit that failed to resolve would be listed in
+\texttt{resources/geo\_missing.csv} in the format of the overrides file, so that
+filling in one row reroutes it everywhere — in the maps, in the viewer, and in
+this crosswalk.

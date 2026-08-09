@@ -1,0 +1,32 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+PT,2009.csv,4260,PT_PTZZ99,Ãfrica do Sul,Ãfrica do Sul,special_foreign_pt
+PT,2009.csv,4261,PT_PTZZAO,Angola,Angola,special_foreign_pt
+PT,2009.csv,4262,PT_PTZZ99,Cabo Verde,Cabo Verde,special_foreign_pt
+PT,2009.csv,4263,PT_PTZZ99,Congo,Congo,special_foreign_pt
+PT,2009.csv,4264,PT_PTZZ99,GuinÃ©-Bissau,GuinÃ©-Bissau,special_foreign_pt
+PT,2009.csv,4265,PT_PTZZ99,MoÃ§ambique,MoÃ§ambique,special_foreign_pt
+PT,2009.csv,4266,PT_PTZZ99,SÃ£o TomÃ© e PrÃ­ncipe,SÃ£o TomÃ© e PrÃ­ncipe,special_foreign_pt
+PT,2009.csv,4267,PT_PTZZ99,Zimbabwe,Zimbabwe,special_foreign_pt
+PT,2009.csv,4268,PT_PTZZ99,Argentina,Argentina,special_foreign_pt
+PT,2009.csv,4269,PT_PTZZBR,Brasil,Brasil,special_foreign_pt
+PT,2009.csv,4270,PT_PTZZCA,Canadá,Canadá,special_foreign_pt
+PT,2009.csv,4271,PT_PTZZUS,Estados Unidos da América,Estados Unidos da América,special_foreign_pt
+PT,2009.csv,4272,PT_PTZZ99,Uruguai,Uruguai,special_foreign_pt
+PT,2009.csv,4273,PT_PTZZ99,Venezuela,Venezuela,special_foreign_pt
+PT,2009.csv,4274,PT_PTZZ99,AustrÃ¡lia,AustrÃ¡lia,special_foreign_pt
+PT,2009.csv,4275,PT_PTZZCN,China,China,special_foreign_pt
+PT,2009.csv,4276,PT_PTZZ99,Ãndia,Ãndia,special_foreign_pt
+PT,2009.csv,4277,PT_PTZZ99,Timor,Timor,special_foreign_pt
+PT,2009.csv,4278,PT_PTZZDE,Alemanha,Alemanha,special_foreign_pt
+PT,2009.csv,4279,PT_PTZZ99,Andorra,Andorra,special_foreign_pt
+PT,2009.csv,4280,PT_PTZZBE,Bélgica,Bélgica,special_foreign_pt
+PT,2009.csv,4281,PT_PTZZ99,Dinamarca,Dinamarca,special_foreign_pt
+PT,2009.csv,4282,PT_PTZZES,Espanha,Espanha,special_foreign_pt
+PT,2009.csv,4283,PT_PTZZFR,França,França,special_foreign_pt
+PT,2009.csv,4284,PT_PTZZNL,Holanda,Holanda,special_foreign_pt
+PT,2009.csv,4285,PT_PTZZ99,ItÃ¡lia,ItÃ¡lia,special_foreign_pt
+PT,2009.csv,4286,PT_PTZZLU,Luxemburgo,Luxemburgo,special_foreign_pt
+PT,2009.csv,4287,PT_PTZZ99,Noruega,Noruega,special_foreign_pt
+PT,2009.csv,4288,PT_PTZZGB,Reino Unido,Reino Unido,special_foreign_pt
+PT,2009.csv,4289,PT_PTZZ99,SuÃ©cia,SuÃ©cia,special_foreign_pt
+PT,2009.csv,4290,PT_PTZZCH,Suíça,Suíça,special_foreign_pt

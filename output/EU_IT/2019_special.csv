@@ -1,0 +1,28 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+IT,2019.csv,7915,IT_ITZZAT,Austria,Austria,matched_foreign_country_name
+IT,2019.csv,7916,IT_ITZZBE,Belgium,Belgium,matched_foreign_country_name
+IT,2019.csv,7917,IT_ITZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+IT,2019.csv,7918,IT_ITZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+IT,2019.csv,7919,IT_ITZZDK,Denmark,Denmark,matched_foreign_country_name
+IT,2019.csv,7920,IT_ITZZFI,Finland,Finland,matched_foreign_country_name
+IT,2019.csv,7921,IT_ITZZFR,France,France,matched_foreign_country_name
+IT,2019.csv,7922,IT_ITZZDE,Germany,Germany,matched_foreign_country_name
+IT,2019.csv,7923,IT_ITZZGR,Greece,Greece,matched_foreign_country_name
+IT,2019.csv,7924,IT_ITZZIE,Ireland,Ireland,matched_foreign_country_name
+IT,2019.csv,7925,IT_ITZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+IT,2019.csv,7926,IT_ITZZMT,Malta,Malta,matched_foreign_country_name
+IT,2019.csv,7927,IT_ITZZNL,Netherlands,Netherlands,matched_foreign_country_name
+IT,2019.csv,7928,IT_ITZZPL,Poland,Poland,matched_foreign_country_name
+IT,2019.csv,7929,IT_ITZZPT,Portugal,Portugal,matched_foreign_country_name
+IT,2019.csv,7930,IT_ITZZRO,Romania,Romania,matched_foreign_country_name
+IT,2019.csv,7931,IT_ITZZES,Spain,Spain,matched_foreign_country_name
+IT,2019.csv,7932,IT_ITZZSE,Sweden,Sweden,matched_foreign_country_name
+IT,2019.csv,7933,IT_ITZZHU,Hungary,Hungary,matched_foreign_country_name
+IT,2019.csv,7934,IT_ITZZLT,Lithuania,Lithuania,matched_foreign_country_name
+IT,2019.csv,7935,IT_ITZZLV,Latvia,Latvia,matched_foreign_country_name
+IT,2019.csv,7936,IT_ITZZEE,Estonia,Estonia,matched_foreign_country_name
+IT,2019.csv,7937,IT_ITZZHR,Croatia,Croatia,matched_foreign_country_name
+IT,2019.csv,7938,IT_ITZZCY,Cyprus,Cyprus,matched_foreign_country_name
+IT,2019.csv,7939,IT_ITZZSI,Slovenia,Slovenia,matched_foreign_country_name
+IT,2019.csv,7940,IT_ITZZSK,Slovakia,Slovakia,matched_foreign_country_name
+IT,2019.csv,7941,IT_ITZZGB,United Kingdom,United Kingdom,matched_foreign_country_name

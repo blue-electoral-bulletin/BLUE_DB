@@ -1,0 +1,3 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CY,2011.csv,327,CY_CYZZGB,ΗΝΩΜΕΝΟ ΒΑΣΙΛΕΙΟ,ΗΝΩΜΕΝΟ ΒΑΣΙΛΕΙΟ,special_foreign_cy
+CY,2011.csv,328,CY_CYZZEL,ΕΛΛΑΔΑ,ΕΛΛΑΔΑ,special_foreign_cy

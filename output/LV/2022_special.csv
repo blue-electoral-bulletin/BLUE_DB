@@ -1,0 +1,67 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+LV,2022.csv,1,LV_LVZZ99,Ārzemes,Ārzemes,special_foreign_voter_lv
+LV,2022.csv,2,LV_LVZZBR,Brazīlija,Brazīlija,special_foreign_voter_lv
+LV,2022.csv,3,LV_LVZZUS,Amerikas Savienotās Valstis,Amerikas Savienotās Valstis,special_foreign_voter_lv
+LV,2022.csv,5,LV_LVZZIN,Indija,Indija,special_foreign_voter_lv
+LV,2022.csv,7,LV_LVZZGB,Apvienotā Karaliste,Apvienotā Karaliste,special_foreign_voter_lv
+LV,2022.csv,13,LV_LVZZAU,Austrālija,Austrālija,special_foreign_voter_lv
+LV,2022.csv,16,LV_LVZZAT,Austrija,Austrija,special_foreign_voter_lv
+LV,2022.csv,17,LV_LVZZAE,Apvienotie Arābu Emirāti,Apvienotie Arābu Emirāti,special_foreign_voter_lv
+LV,2022.csv,18,LV_LVZZBY,Baltkrievija,Baltkrievija,special_foreign_voter_lv
+LV,2022.csv,19,LV_LVZZBE,Belģija,Belģija,special_foreign_voter_lv
+LV,2022.csv,21,LV_LVZZCZ,Čehija,Čehija,special_foreign_voter_lv
+LV,2022.csv,22,LV_LVZZDK,Dānija,Dānija,special_foreign_voter_lv
+LV,2022.csv,23,LV_LVZZFR,Francija,Francija,special_foreign_voter_lv
+LV,2022.csv,24,LV_LVZZGR,Grieķija,Grieķija,special_foreign_voter_lv
+LV,2022.csv,25,LV_LVZZEE,Igaunija,Igaunija,special_foreign_voter_lv
+LV,2022.csv,26,LV_LVZZIT,Itālija,Itālija,special_foreign_voter_lv
+LV,2022.csv,27,LV_LVZZIL,Izraēla,Izraēla,special_foreign_voter_lv
+LV,2022.csv,28,LV_LVZZJP,Japāna,Japāna,special_foreign_voter_lv
+LV,2022.csv,29,LV_LVZZCA,Kanāda,Kanāda,special_foreign_voter_lv
+LV,2022.csv,31,LV_LVZZRU,Krievija,Krievija,special_foreign_voter_lv
+LV,2022.csv,34,LV_LVZZCN,Ķīna,Ķīna,special_foreign_voter_lv
+LV,2022.csv,39,LV_LVZZLT,Lietuva,Lietuva,special_foreign_voter_lv
+LV,2022.csv,40,LV_LVZZNL,Nīderlande,Nīderlande,special_foreign_voter_lv
+LV,2022.csv,41,LV_LVZZNO,Norvēģija,Norvēģija,special_foreign_voter_lv
+LV,2022.csv,42,LV_LVZZPL,Polija,Polija,special_foreign_voter_lv
+LV,2022.csv,43,LV_LVZZIS,Islande,Islande,special_foreign_voter_lv
+LV,2022.csv,44,LV_LVZZES,Spānija,Spānija,special_foreign_voter_lv
+LV,2022.csv,45,LV_LVZZFI,Somija,Somija,special_foreign_voter_lv
+LV,2022.csv,46,LV_LVZZCH,Šveice,Šveice,special_foreign_voter_lv
+LV,2022.csv,47,LV_LVZZTR,Turcija,Turcija,special_foreign_voter_lv
+LV,2022.csv,48,LV_LVZZUA,Ukraina,Ukraina,special_foreign_voter_lv
+LV,2022.csv,49,LV_LVZZDE,Vācija,Vācija,special_foreign_voter_lv
+LV,2022.csv,52,LV_LVZZSE,Zviedrija,Zviedrija,special_foreign_voter_lv
+LV,2022.csv,53,LV_LVZZKR,Dienvidkoreja,Dienvidkoreja,special_foreign_voter_lv
+LV,2022.csv,54,LV_LVZZIE,Īrija,Īrija,special_foreign_voter_lv
+LV,2022.csv,57,LV_LVZZAZ,Azerbaidžāna,Azerbaidžāna,special_foreign_voter_lv
+LV,2022.csv,58,LV_LVZZGE,Gruzija,Gruzija,special_foreign_voter_lv
+LV,2022.csv,59,LV_LVZZKZ,Kazahstāna,Kazahstāna,special_foreign_voter_lv
+LV,2022.csv,60,LV_LVZZMD,Moldova,Moldova,special_foreign_voter_lv
+LV,2022.csv,61,LV_LVZZUZ,Uzbekistāna,Uzbekistāna,special_foreign_voter_lv
+LV,2022.csv,63,LV_LVZZHU,Ungārija,Ungārija,special_foreign_voter_lv
+LV,2022.csv,64,LV_LVZZEG,Ēģipte,Ēģipte,special_foreign_voter_lv
+LV,2022.csv,76,LV_LVZZLU,Luksemburga,Luksemburga,special_foreign_voter_lv
+LV,2022.csv,83,LV_LVZZXK,Kosova,Kosova,special_foreign_voter_lv
+LV,2022.csv,84,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (AMERIKAS SAVIENOTĀS VALSTIS),PASTA BALSOŠANAS KOMISIJA (AMERIKAS SAVIENOTĀS VALSTIS),special_postal_lv
+LV,2022.csv,85,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (AUSTRIJA),PASTA BALSOŠANAS KOMISIJA (AUSTRIJA),special_postal_lv
+LV,2022.csv,86,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (APVIENOTIE ARĀBU EMIRĀTI),PASTA BALSOŠANAS KOMISIJA (APVIENOTIE ARĀBU EMIRĀTI),special_postal_lv
+LV,2022.csv,87,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (BALTKRIEVIJA),PASTA BALSOŠANAS KOMISIJA (BALTKRIEVIJA),special_postal_lv
+LV,2022.csv,88,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (DĀNIJA),PASTA BALSOŠANAS KOMISIJA (DĀNIJA),special_postal_lv
+LV,2022.csv,89,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (FRANCIJA),PASTA BALSOŠANAS KOMISIJA (FRANCIJA),special_postal_lv
+LV,2022.csv,90,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (JAPĀNA),PASTA BALSOŠANAS KOMISIJA (JAPĀNA),special_postal_lv
+LV,2022.csv,91,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (KANĀDA),PASTA BALSOŠANAS KOMISIJA (KANĀDA),special_postal_lv
+LV,2022.csv,92,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (APVIENOTĀ KARALISTE),PASTA BALSOŠANAS KOMISIJA (APVIENOTĀ KARALISTE),special_postal_lv
+LV,2022.csv,93,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (NĪDERLANDE),PASTA BALSOŠANAS KOMISIJA (NĪDERLANDE),special_postal_lv
+LV,2022.csv,94,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (NORVĒĢIJA),PASTA BALSOŠANAS KOMISIJA (NORVĒĢIJA),special_postal_lv
+LV,2022.csv,95,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (POLIJA),PASTA BALSOŠANAS KOMISIJA (POLIJA),special_postal_lv
+LV,2022.csv,96,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (SPĀNIJA),PASTA BALSOŠANAS KOMISIJA (SPĀNIJA),special_postal_lv
+LV,2022.csv,97,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (SOMIJA),PASTA BALSOŠANAS KOMISIJA (SOMIJA),special_postal_lv
+LV,2022.csv,98,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (TURCIJA),PASTA BALSOŠANAS KOMISIJA (TURCIJA),special_postal_lv
+LV,2022.csv,99,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (VĀCIJA),PASTA BALSOŠANAS KOMISIJA (VĀCIJA),special_postal_lv
+LV,2022.csv,100,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (ZVIEDRIJA),PASTA BALSOŠANAS KOMISIJA (ZVIEDRIJA),special_postal_lv
+LV,2022.csv,101,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (KOREJAS REPUBLIKA),PASTA BALSOŠANAS KOMISIJA (KOREJAS REPUBLIKA),special_postal_lv
+LV,2022.csv,102,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (ĪRIJA),PASTA BALSOŠANAS KOMISIJA (ĪRIJA),special_postal_lv
+LV,2022.csv,103,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (KAZAHSTĀNA),PASTA BALSOŠANAS KOMISIJA (KAZAHSTĀNA),special_postal_lv
+LV,2022.csv,104,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (ĒĢIPTE),PASTA BALSOŠANAS KOMISIJA (ĒĢIPTE),special_postal_lv
+LV,2022.csv,105,LV_LVYY99,PASTA BALSOŠANAS KOMISIJA (AUSTRĀLIJA),PASTA BALSOŠANAS KOMISIJA (AUSTRĀLIJA),special_postal_lv

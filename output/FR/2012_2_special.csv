@@ -1,0 +1,115 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+FR,2012_2.csv,36820,FR_97601,Acoua,Acoua,special_mayotte
+FR,2012_2.csv,36821,FR_97602,Bandraboua,Bandraboua,special_mayotte
+FR,2012_2.csv,36822,FR_97603,Bandrele,Bandrele,special_mayotte
+FR,2012_2.csv,36823,FR_97604,Bouéni,Bouéni,special_mayotte
+FR,2012_2.csv,36824,FR_97605,Chiconi,Chiconi,special_mayotte
+FR,2012_2.csv,36825,FR_97606,Chirongui,Chirongui,special_mayotte
+FR,2012_2.csv,36826,FR_97607,Dembeni,Dembeni,special_mayotte
+FR,2012_2.csv,36827,FR_97608,Dzaoudzi,Dzaoudzi,special_mayotte
+FR,2012_2.csv,36828,FR_97609,Kani-Kéli,Kani-Kéli,special_mayotte
+FR,2012_2.csv,36829,FR_97610,Koungou,Koungou,special_mayotte
+FR,2012_2.csv,36830,FR_97611,Mamoudzou,Mamoudzou,special_mayotte
+FR,2012_2.csv,36832,FR_97612,Mtsamboro,Mtsamboro,special_mayotte
+FR,2012_2.csv,36833,FR_97613,M'Tsangamouji,M'Tsangamouji,special_mayotte
+FR,2012_2.csv,36834,FR_97614,Ouangani,Ouangani,special_mayotte
+FR,2012_2.csv,36835,FR_97615,Pamandzi,Pamandzi,special_mayotte
+FR,2012_2.csv,36836,FR_97616,Sada,Sada,special_mayotte
+FR,2012_2.csv,36837,FR_97617,Tsingoni,Tsingoni,special_mayotte
+FR,2012_2.csv,36838,FR_98801,Belep,Belep,special_nouvelle_caledonie
+FR,2012_2.csv,36839,FR_98802,Boulouparis,Boulouparis,special_nouvelle_caledonie
+FR,2012_2.csv,36840,FR_98803,Bourail,Bourail,special_nouvelle_caledonie
+FR,2012_2.csv,36841,FR_98804,Canala,Canala,special_nouvelle_caledonie
+FR,2012_2.csv,36842,FR_98805,Dumbéa,Dumbéa,special_nouvelle_caledonie
+FR,2012_2.csv,36843,FR_98806,Farino,Farino,special_nouvelle_caledonie
+FR,2012_2.csv,36844,FR_98807,Hienghène,Hienghène,special_nouvelle_caledonie
+FR,2012_2.csv,36845,FR_98808,Houailou,Houailou,special_nouvelle_caledonie
+FR,2012_2.csv,36846,FR_98809,Ile des Pins,Ile des Pins,special_nouvelle_caledonie
+FR,2012_2.csv,36847,FR_98810,Kaala-Gomen,Kaala-Gomen,special_nouvelle_caledonie
+FR,2012_2.csv,36848,FR_98811,Koné,Koné,special_nouvelle_caledonie
+FR,2012_2.csv,36849,FR_98812,Koumac,Koumac,special_nouvelle_caledonie
+FR,2012_2.csv,36850,FR_98813,La Foa,La Foa,special_nouvelle_caledonie
+FR,2012_2.csv,36851,FR_98814,Lifou,Lifou,special_nouvelle_caledonie
+FR,2012_2.csv,36852,FR_98815,Maré,Maré,special_nouvelle_caledonie
+FR,2012_2.csv,36853,FR_98816,Moindou,Moindou,special_nouvelle_caledonie
+FR,2012_2.csv,36854,FR_98817,Mont-Dore,Mont-Dore,special_nouvelle_caledonie
+FR,2012_2.csv,36855,FR_98818,Nouméa,Nouméa,special_nouvelle_caledonie
+FR,2012_2.csv,36856,FR_98819,Ouégoa,Ouégoa,special_nouvelle_caledonie
+FR,2012_2.csv,36857,FR_98820,Ouvéa,Ouvéa,special_nouvelle_caledonie
+FR,2012_2.csv,36858,FR_98821,Païta,Païta,special_nouvelle_caledonie
+FR,2012_2.csv,36859,FR_98822,Poindimié,Poindimié,special_nouvelle_caledonie
+FR,2012_2.csv,36860,FR_98823,Ponérihouen,Ponérihouen,special_nouvelle_caledonie
+FR,2012_2.csv,36861,FR_98824,Pouébo,Pouébo,special_nouvelle_caledonie
+FR,2012_2.csv,36862,FR_98825,Pouembout,Pouembout,special_nouvelle_caledonie
+FR,2012_2.csv,36863,FR_98826,Poum,Poum,special_nouvelle_caledonie
+FR,2012_2.csv,36864,FR_98827,Poya,Poya,special_nouvelle_caledonie
+FR,2012_2.csv,36865,FR_98828,Sarraméa,Sarraméa,special_nouvelle_caledonie
+FR,2012_2.csv,36866,FR_98829,Thio,Thio,special_nouvelle_caledonie
+FR,2012_2.csv,36867,FR_98830,Touho,Touho,special_nouvelle_caledonie
+FR,2012_2.csv,36868,FR_98831,Voh,Voh,special_nouvelle_caledonie
+FR,2012_2.csv,36869,FR_98832,Yaté,Yaté,special_nouvelle_caledonie
+FR,2012_2.csv,36870,FR_98833,Kouaoua,Kouaoua,special_nouvelle_caledonie
+FR,2012_2.csv,36871,FR_98711,Anaa,Anaa,special_polynesie_francaise
+FR,2012_2.csv,36872,FR_98712,Arue,Arue,special_polynesie_francaise
+FR,2012_2.csv,36873,FR_98713,Arutua,Arutua,special_polynesie_francaise
+FR,2012_2.csv,36874,FR_98714,Bora-Bora,Bora-Bora,special_polynesie_francaise
+FR,2012_2.csv,36875,FR_98715,Faa a,Faa a,special_polynesie_francaise
+FR,2012_2.csv,36876,FR_98716,Fakarava,Fakarava,special_polynesie_francaise
+FR,2012_2.csv,36877,FR_98717,Fangatau,Fangatau,special_polynesie_francaise
+FR,2012_2.csv,36878,FR_98718,Fatu-Hiva,Fatu-Hiva,special_polynesie_francaise
+FR,2012_2.csv,36879,FR_98719,Gambier,Gambier,special_polynesie_francaise
+FR,2012_2.csv,36880,FR_98720,Hao,Hao,special_polynesie_francaise
+FR,2012_2.csv,36881,FR_98721,Hikueru,Hikueru,special_polynesie_francaise
+FR,2012_2.csv,36882,FR_98722,Hitiaa O Te Ra,Hitiaa O Te Ra,special_polynesie_francaise
+FR,2012_2.csv,36883,FR_98723,Hiva-Oa,Hiva-Oa,special_polynesie_francaise
+FR,2012_2.csv,36884,FR_98724,Huahine,Huahine,special_polynesie_francaise
+FR,2012_2.csv,36885,FR_98725,Mahina,Mahina,special_polynesie_francaise
+FR,2012_2.csv,36886,FR_98726,Makemo,Makemo,special_polynesie_francaise
+FR,2012_2.csv,36887,FR_98727,Manihi,Manihi,special_polynesie_francaise
+FR,2012_2.csv,36888,FR_98728,Maupiti,Maupiti,special_polynesie_francaise
+FR,2012_2.csv,36889,FR_98729,Moorea-Maiao,Moorea-Maiao,special_polynesie_francaise
+FR,2012_2.csv,36890,FR_98730,Napuka,Napuka,special_polynesie_francaise
+FR,2012_2.csv,36891,FR_98731,Nuku-Hiva,Nuku-Hiva,special_polynesie_francaise
+FR,2012_2.csv,36892,FR_98732,Nukutavake,Nukutavake,special_polynesie_francaise
+FR,2012_2.csv,36893,FR_98733,Paea,Paea,special_polynesie_francaise
+FR,2012_2.csv,36894,FR_98734,Papara,Papara,special_polynesie_francaise
+FR,2012_2.csv,36895,FR_98735,Papeete,Papeete,special_polynesie_francaise
+FR,2012_2.csv,36896,FR_98736,Pirae,Pirae,special_polynesie_francaise
+FR,2012_2.csv,36897,FR_98737,Puka Puka,Puka Puka,special_polynesie_francaise
+FR,2012_2.csv,36898,FR_98738,Punaauia,Punaauia,special_polynesie_francaise
+FR,2012_2.csv,36899,FR_98739,Raivavae,Raivavae,special_polynesie_francaise
+FR,2012_2.csv,36900,FR_98740,Rangiroa,Rangiroa,special_polynesie_francaise
+FR,2012_2.csv,36901,FR_98741,Rapa,Rapa,special_polynesie_francaise
+FR,2012_2.csv,36902,FR_98742,Reao,Reao,special_polynesie_francaise
+FR,2012_2.csv,36903,FR_98743,Rimatara,Rimatara,special_polynesie_francaise
+FR,2012_2.csv,36904,FR_98744,Rurutu,Rurutu,special_polynesie_francaise
+FR,2012_2.csv,36905,FR_98745,Tahaa,Tahaa,special_polynesie_francaise
+FR,2012_2.csv,36906,FR_98746,Tahuata,Tahuata,special_polynesie_francaise
+FR,2012_2.csv,36907,FR_98747,Taiarapu-Est,Taiarapu-Est,special_polynesie_francaise
+FR,2012_2.csv,36908,FR_98748,Taiarapu-Ouest,Taiarapu-Ouest,special_polynesie_francaise
+FR,2012_2.csv,36909,FR_98749,Takaroa,Takaroa,special_polynesie_francaise
+FR,2012_2.csv,36910,FR_98750,Taputapuatea,Taputapuatea,special_polynesie_francaise
+FR,2012_2.csv,36911,FR_98751,Tatakoto,Tatakoto,special_polynesie_francaise
+FR,2012_2.csv,36912,FR_98752,Teva I Uta,Teva I Uta,special_polynesie_francaise
+FR,2012_2.csv,36913,FR_98753,Tubuai,Tubuai,special_polynesie_francaise
+FR,2012_2.csv,36914,FR_98754,Tumaraa,Tumaraa,special_polynesie_francaise
+FR,2012_2.csv,36915,FR_98755,Tureia,Tureia,special_polynesie_francaise
+FR,2012_2.csv,36916,FR_98756,Ua-Huka,Ua-Huka,special_polynesie_francaise
+FR,2012_2.csv,36917,FR_98757,Ua-Pou,Ua-Pou,special_polynesie_francaise
+FR,2012_2.csv,36918,FR_98758,Uturoa,Uturoa,special_polynesie_francaise
+FR,2012_2.csv,36919,FR_97501,Miquelon-Langlade,Miquelon-Langlade,special_saint_pierre_et_miquelon
+FR,2012_2.csv,36920,FR_97502,Saint-Pierre,Saint-Pierre,special_saint_pierre_et_miquelon
+FR,2012_2.csv,36921,FR_98601,Ensemble du département ZW,Ensemble du département ZW,special_wallis_et_futuna
+FR,2012_2.csv,36922,FR_97701,Saint-Barthélémy,Saint-Barthélémy,special_saint_barthelemy
+FR,2012_2.csv,36923,FR_97801,Saint-Martin,Saint-Martin,special_saint_martin
+FR,2012_2.csv,36924,FR_FRZZ01,Amérique du Nord,Amérique du Nord,matched_foreign_country_name
+FR,2012_2.csv,36925,FR_FRZZ02,Amérique latine,Amérique latine,matched_foreign_country_name
+FR,2012_2.csv,36926,FR_FRZZ03,Europe du Nord,Europe du Nord,matched_foreign_country_name
+FR,2012_2.csv,36927,FR_FRZZ04,Benelux,Benelux,matched_foreign_country_name
+FR,2012_2.csv,36928,FR_FRZZ05,Péninsule ibérique et Monaco,Péninsule ibérique et Monaco,matched_foreign_country_name
+FR,2012_2.csv,36929,FR_FRZZ06,Suisse,Suisse,matched_foreign_country_name
+FR,2012_2.csv,36930,FR_FRZZ07,Europe centrale,Europe centrale,matched_foreign_country_name
+FR,2012_2.csv,36931,FR_FRZZ08,"Europe du Sud, Turquie, Israël","Europe du Sud, Turquie, Israël",matched_foreign_country_name
+FR,2012_2.csv,36932,FR_FRZZ09,Afrique Nord-Ouest,Afrique Nord-Ouest,matched_foreign_country_name
+FR,2012_2.csv,36933,FR_FRZZ10,"Afrique Centre, Sud et Est","Afrique Centre, Sud et Est",matched_foreign_country_name
+FR,2012_2.csv,36934,FR_FRZZ11,"Europe de l'est, Asie, Océanie","Europe de l'est, Asie, Océanie",matched_foreign_country_name

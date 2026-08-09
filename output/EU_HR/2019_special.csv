@@ -1,0 +1,49 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+HR,2019.csv,0,HR_HRZZAF,Afghanistan,Afghanistan,matched_foreign_country_name
+HR,2019.csv,1,HR_HRZZAL,Albania,Albania,matched_foreign_country_name
+HR,2019.csv,4,HR_HRZZAR,Argentina,Argentina,matched_foreign_country_name
+HR,2019.csv,5,HR_HRZZAU,Australia,Australia,matched_foreign_country_name
+HR,2019.csv,6,HR_HRZZAT,Austria,Austria,matched_foreign_country_name
+HR,2019.csv,18,HR_HRZZBE,Belgium,Belgium,matched_foreign_country_name
+HR,2019.csv,38,HR_HRZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+HR,2019.csv,40,HR_HRZZBR,Brazil,Brazil,matched_foreign_country_name
+HR,2019.csv,52,HR_HRZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+HR,2019.csv,65,HR_HRZZME,Montenegro,Montenegro,matched_foreign_country_name
+HR,2019.csv,67,HR_HRZZDK,Denmark,Denmark,matched_foreign_country_name
+HR,2019.csv,104,HR_HRZZEG,Egypt,Egypt,matched_foreign_country_name
+HR,2019.csv,112,HR_HRZZFI,Finland,Finland,matched_foreign_country_name
+HR,2019.csv,113,HR_HRZZFR,France,France,matched_foreign_country_name
+HR,2019.csv,140,HR_HRZZGR,Greece,Greece,matched_foreign_country_name
+HR,2019.csv,154,HR_HRZZIN,India,India,matched_foreign_country_name
+HR,2019.csv,155,HR_HRZZID,Indonesia,Indonesia,matched_foreign_country_name
+HR,2019.csv,156,HR_HRZZIE,Ireland,Ireland,matched_foreign_country_name
+HR,2019.csv,157,HR_HRZZIT,Italy,Italy,matched_foreign_country_name
+HR,2019.csv,162,HR_HRZZIL,Israel,Israel,matched_foreign_country_name
+HR,2019.csv,168,HR_HRZZJP,Japan,Japan,matched_foreign_country_name
+HR,2019.csv,177,HR_HRZZZA,South Africa,South Africa,matched_foreign_country_name
+HR,2019.csv,182,HR_HRZZCA,Canada,Canada,matched_foreign_country_name
+HR,2019.csv,190,HR_HRZZQA,Qatar,Qatar,matched_foreign_country_name
+HR,2019.csv,194,HR_HRZZCN,China,China,matched_foreign_country_name
+HR,2019.csv,215,HR_HRZZXK,Kosovo,Kosovo,matched_foreign_country_name
+HR,2019.csv,244,HR_HRZZLB,Lebanon,Lebanon,matched_foreign_country_name
+HR,2019.csv,281,HR_HRZZHU,Hungary,Hungary,matched_foreign_country_name
+HR,2019.csv,302,HR_HRZZNL,Netherlands,Netherlands,matched_foreign_country_name
+HR,2019.csv,303,HR_HRZZDE,Germany,Germany,matched_foreign_country_name
+HR,2019.csv,304,HR_HRZZNO,Norway,Norway,matched_foreign_country_name
+HR,2019.csv,372,HR_HRZZPL,Poland,Poland,matched_foreign_country_name
+HR,2019.csv,376,HR_HRZZPT,Portugal,Portugal,matched_foreign_country_name
+HR,2019.csv,413,HR_HRZZRO,Romania,Romania,matched_foreign_country_name
+HR,2019.csv,415,HR_HRZZRU,Russia,Russia,matched_foreign_country_name
+HR,2019.csv,418,HR_HRZZUS,United States,United States,matched_foreign_country_name
+HR,2019.csv,433,HR_HRZZMK,North Macedonia,North Macedonia,matched_foreign_country_name
+HR,2019.csv,440,HR_HRZZSK,Slovakia,Slovakia,matched_foreign_country_name
+HR,2019.csv,441,HR_HRZZSI,Slovenia,Slovenia,matched_foreign_country_name
+HR,2019.csv,449,HR_HRZZRS,Serbia,Serbia,matched_foreign_country_name
+HR,2019.csv,500,HR_HRZZTR,Turkey,Turkey,matched_foreign_country_name
+HR,2019.csv,503,HR_HRZZUA,Ukraine,Ukraine,matched_foreign_country_name
+HR,2019.csv,511,HR_HRZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+HR,2019.csv,577,HR_HRZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+HR,2019.csv,578,HR_HRZZCL,Chile,Chile,matched_foreign_country_name
+HR,2019.csv,592,HR_HRZZES,Spain,Spain,matched_foreign_country_name
+HR,2019.csv,597,HR_HRZZSE,Sweden,Sweden,matched_foreign_country_name
+HR,2019.csv,598,HR_HRZZCH,Switzerland,Switzerland,matched_foreign_country_name

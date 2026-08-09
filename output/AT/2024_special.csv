@@ -1,0 +1,134 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+AT,2024.csv,0,AT_10099,Wahlkarten - Burgenland,Wahlkarten - Burgenland,special_wahlkarten
+AT,2024.csv,2,AT_10199,Wahlkarten - Eisenstadt Stadt,Wahlkarten - Eisenstadt Stadt,special_wahlkarten
+AT,2024.csv,4,AT_10299,Wahlkarten - Rust Stadt,Wahlkarten - Rust Stadt,special_wahlkarten
+AT,2024.csv,28,AT_10399,Wahlkarten - Eisenstadt - Umgebung,Wahlkarten - Eisenstadt - Umgebung,special_wahlkarten
+AT,2024.csv,57,AT_10499,Wahlkarten - Güssing,Wahlkarten - Güssing,special_wahlkarten
+AT,2024.csv,70,AT_10599,Wahlkarten - Jennersdorf,Wahlkarten - Jennersdorf,special_wahlkarten
+AT,2024.csv,90,AT_10699,Wahlkarten - Mattersburg,Wahlkarten - Mattersburg,special_wahlkarten
+AT,2024.csv,118,AT_10799,Wahlkarten - Neusiedl am See,Wahlkarten - Neusiedl am See,special_wahlkarten
+AT,2024.csv,147,AT_10899,Wahlkarten - Oberpullendorf,Wahlkarten - Oberpullendorf,special_wahlkarten
+AT,2024.csv,180,AT_10999,Wahlkarten - Oberwart,Wahlkarten - Oberwart,special_wahlkarten
+AT,2024.csv,181,AT_1A099,Wahlkarten - Burgenland Nord,Wahlkarten - Burgenland Nord,special_wahlkarten
+AT,2024.csv,182,AT_1B099,Wahlkarten - Burgenland Süd,Wahlkarten - Burgenland Süd,special_wahlkarten
+AT,2024.csv,183,AT_20099,Wahlkarten - Kärnten,Wahlkarten - Kärnten,special_wahlkarten
+AT,2024.csv,185,AT_20199,Wahlkarten - Klagenfurt Stadt,Wahlkarten - Klagenfurt Stadt,special_wahlkarten
+AT,2024.csv,187,AT_20299,Wahlkarten - Villach Stadt,Wahlkarten - Villach Stadt,special_wahlkarten
+AT,2024.csv,195,AT_20399,Wahlkarten - Hermagor,Wahlkarten - Hermagor,special_wahlkarten
+AT,2024.csv,215,AT_20499,Wahlkarten - Klagenfurt-Land,Wahlkarten - Klagenfurt-Land,special_wahlkarten
+AT,2024.csv,236,AT_20599,Wahlkarten - Sankt Veit an der Glan,Wahlkarten - Sankt Veit an der Glan,special_wahlkarten
+AT,2024.csv,270,AT_20699,Wahlkarten - Spittal an der Drau,Wahlkarten - Spittal an der Drau,special_wahlkarten
+AT,2024.csv,290,AT_20799,Wahlkarten - Villach-Land,Wahlkarten - Villach-Land,special_wahlkarten
+AT,2024.csv,304,AT_20899,Wahlkarten - Völkermarkt,Wahlkarten - Völkermarkt,special_wahlkarten
+AT,2024.csv,314,AT_20999,Wahlkarten - Wolfsberg,Wahlkarten - Wolfsberg,special_wahlkarten
+AT,2024.csv,325,AT_21099,Wahlkarten - Feldkirchen,Wahlkarten - Feldkirchen,special_wahlkarten
+AT,2024.csv,326,AT_2A099,Wahlkarten - Klagenfurt,Wahlkarten - Klagenfurt,special_wahlkarten
+AT,2024.csv,327,AT_2B099,Wahlkarten - Villach,Wahlkarten - Villach,special_wahlkarten
+AT,2024.csv,328,AT_2C099,Wahlkarten - Kärnten West,Wahlkarten - Kärnten West,special_wahlkarten
+AT,2024.csv,329,AT_2D099,Wahlkarten - Kärnten Ost,Wahlkarten - Kärnten Ost,special_wahlkarten
+AT,2024.csv,330,AT_30099,Wahlkarten - Niederösterreich,Wahlkarten - Niederösterreich,special_wahlkarten
+AT,2024.csv,332,AT_30199,Wahlkarten - Krems an der Donau,Wahlkarten - Krems an der Donau,special_wahlkarten
+AT,2024.csv,334,AT_30299,Wahlkarten - Sankt Pölten Stadt,Wahlkarten - Sankt Pölten Stadt,special_wahlkarten
+AT,2024.csv,336,AT_30399,Wahlkarten - Waidhofen an der Ybbs Stadt,Wahlkarten - Waidhofen an der Ybbs Stadt,special_wahlkarten
+AT,2024.csv,338,AT_30499,Wahlkarten - Wiener Neustadt Stadt,Wahlkarten - Wiener Neustadt Stadt,special_wahlkarten
+AT,2024.csv,373,AT_30599,Wahlkarten - Amstetten,Wahlkarten - Amstetten,special_wahlkarten
+AT,2024.csv,404,AT_30699,Wahlkarten - Baden,Wahlkarten - Baden,special_wahlkarten
+AT,2024.csv,438,AT_30799,Wahlkarten - Bruck an der Leitha,Wahlkarten - Bruck an der Leitha,special_wahlkarten
+AT,2024.csv,483,AT_30899,Wahlkarten - Gänserndorf,Wahlkarten - Gänserndorf,special_wahlkarten
+AT,2024.csv,505,AT_30999,Wahlkarten - Gmünd,Wahlkarten - Gmünd,special_wahlkarten
+AT,2024.csv,530,AT_31099,Wahlkarten - Hollabrunn,Wahlkarten - Hollabrunn,special_wahlkarten
+AT,2024.csv,551,AT_31199,Wahlkarten - Horn,Wahlkarten - Horn,special_wahlkarten
+AT,2024.csv,572,AT_31299,Wahlkarten - Korneuburg,Wahlkarten - Korneuburg,special_wahlkarten
+AT,2024.csv,603,AT_31399,Wahlkarten - Krems Land,Wahlkarten - Krems Land,special_wahlkarten
+AT,2024.csv,618,AT_31499,Wahlkarten - Lilienfeld,Wahlkarten - Lilienfeld,special_wahlkarten
+AT,2024.csv,659,AT_31599,Wahlkarten - Melk,Wahlkarten - Melk,special_wahlkarten
+AT,2024.csv,696,AT_31699,Wahlkarten - Mistelbach,Wahlkarten - Mistelbach,special_wahlkarten
+AT,2024.csv,717,AT_31799,Wahlkarten - Mödling,Wahlkarten - Mödling,special_wahlkarten
+AT,2024.csv,762,AT_31899,Wahlkarten - Neunkirchen,Wahlkarten - Neunkirchen,special_wahlkarten
+AT,2024.csv,808,AT_31999,Wahlkarten - Sankt Pölten Land,Wahlkarten - Sankt Pölten Land,special_wahlkarten
+AT,2024.csv,827,AT_32099,Wahlkarten - Scheibbs,Wahlkarten - Scheibbs,special_wahlkarten
+AT,2024.csv,850,AT_32199,Wahlkarten - Tulln,Wahlkarten - Tulln,special_wahlkarten
+AT,2024.csv,866,AT_32299,Wahlkarten - Waidhofen an der Thaya,Wahlkarten - Waidhofen an der Thaya,special_wahlkarten
+AT,2024.csv,902,AT_32399,Wahlkarten - Wiener Neustadt Land,Wahlkarten - Wiener Neustadt Land,special_wahlkarten
+AT,2024.csv,927,AT_32599,Wahlkarten - Zwettl,Wahlkarten - Zwettl,special_wahlkarten
+AT,2024.csv,928,AT_3A099,Wahlkarten - Weinviertel,Wahlkarten - Weinviertel,special_wahlkarten
+AT,2024.csv,929,AT_3B099,Wahlkarten - Waldviertel,Wahlkarten - Waldviertel,special_wahlkarten
+AT,2024.csv,930,AT_3C099,Wahlkarten - Mostviertel,Wahlkarten - Mostviertel,special_wahlkarten
+AT,2024.csv,931,AT_3D099,Wahlkarten - Niederösterreich Mitte,Wahlkarten - Niederösterreich Mitte,special_wahlkarten
+AT,2024.csv,932,AT_3E099,Wahlkarten - Niederösterreich Süd,Wahlkarten - Niederösterreich Süd,special_wahlkarten
+AT,2024.csv,933,AT_3F099,Wahlkarten - Thermenregion,Wahlkarten - Thermenregion,special_wahlkarten
+AT,2024.csv,934,AT_3G099,Wahlkarten - Niederösterreich Ost,Wahlkarten - Niederösterreich Ost,special_wahlkarten
+AT,2024.csv,935,AT_40099,Wahlkarten - Oberösterreich,Wahlkarten - Oberösterreich,special_wahlkarten
+AT,2024.csv,937,AT_40199,Wahlkarten - Linz Stadt,Wahlkarten - Linz Stadt,special_wahlkarten
+AT,2024.csv,939,AT_40299,Wahlkarten - Steyr Stadt,Wahlkarten - Steyr Stadt,special_wahlkarten
+AT,2024.csv,941,AT_40399,Wahlkarten - Wels Stadt,Wahlkarten - Wels Stadt,special_wahlkarten
+AT,2024.csv,988,AT_40499,Wahlkarten - Braunau am Inn,Wahlkarten - Braunau am Inn,special_wahlkarten
+AT,2024.csv,1001,AT_40599,Wahlkarten - Eferding,Wahlkarten - Eferding,special_wahlkarten
+AT,2024.csv,1029,AT_40699,Wahlkarten - Freistadt,Wahlkarten - Freistadt,special_wahlkarten
+AT,2024.csv,1050,AT_40799,Wahlkarten - Gmunden,Wahlkarten - Gmunden,special_wahlkarten
+AT,2024.csv,1084,AT_40899,Wahlkarten - Grieskirchen,Wahlkarten - Grieskirchen,special_wahlkarten
+AT,2024.csv,1108,AT_40999,Wahlkarten - Kirchdorf an der Krems,Wahlkarten - Kirchdorf an der Krems,special_wahlkarten
+AT,2024.csv,1131,AT_41099,Wahlkarten - Linz-Land,Wahlkarten - Linz-Land,special_wahlkarten
+AT,2024.csv,1158,AT_41199,Wahlkarten - Perg,Wahlkarten - Perg,special_wahlkarten
+AT,2024.csv,1195,AT_41299,Wahlkarten - Ried im Innkreis,Wahlkarten - Ried im Innkreis,special_wahlkarten
+AT,2024.csv,1233,AT_41399,Wahlkarten - Rohrbach,Wahlkarten - Rohrbach,special_wahlkarten
+AT,2024.csv,1264,AT_41499,Wahlkarten - Schärding,Wahlkarten - Schärding,special_wahlkarten
+AT,2024.csv,1285,AT_41599,Wahlkarten - Steyr-Land,Wahlkarten - Steyr-Land,special_wahlkarten
+AT,2024.csv,1313,AT_41699,Wahlkarten - Urfahr-Umgebung,Wahlkarten - Urfahr-Umgebung,special_wahlkarten
+AT,2024.csv,1366,AT_41799,Wahlkarten - Vöcklabruck,Wahlkarten - Vöcklabruck,special_wahlkarten
+AT,2024.csv,1391,AT_41899,Wahlkarten - Wels-Land,Wahlkarten - Wels-Land,special_wahlkarten
+AT,2024.csv,1392,AT_4A099,Wahlkarten - Linz und Umgebung,Wahlkarten - Linz und Umgebung,special_wahlkarten
+AT,2024.csv,1393,AT_4B099,Wahlkarten - Innviertel,Wahlkarten - Innviertel,special_wahlkarten
+AT,2024.csv,1394,AT_4C099,Wahlkarten - Hausruckviertel,Wahlkarten - Hausruckviertel,special_wahlkarten
+AT,2024.csv,1395,AT_4D099,Wahlkarten - Traunviertel,Wahlkarten - Traunviertel,special_wahlkarten
+AT,2024.csv,1396,AT_4E099,Wahlkarten - Mühlviertel,Wahlkarten - Mühlviertel,special_wahlkarten
+AT,2024.csv,1397,AT_50099,Wahlkarten - Salzburg,Wahlkarten - Salzburg,special_wahlkarten
+AT,2024.csv,1399,AT_50199,Wahlkarten - Salzburg Stadt,Wahlkarten - Salzburg Stadt,special_wahlkarten
+AT,2024.csv,1413,AT_50299,Wahlkarten - Hallein,Wahlkarten - Hallein,special_wahlkarten
+AT,2024.csv,1451,AT_50399,Wahlkarten - Salzburg-Umgebung,Wahlkarten - Salzburg-Umgebung,special_wahlkarten
+AT,2024.csv,1477,AT_50499,Wahlkarten - Sankt Johann im Pongau,Wahlkarten - Sankt Johann im Pongau,special_wahlkarten
+AT,2024.csv,1493,AT_50599,Wahlkarten - Tamsweg,Wahlkarten - Tamsweg,special_wahlkarten
+AT,2024.csv,1522,AT_50699,Wahlkarten - Zell am See,Wahlkarten - Zell am See,special_wahlkarten
+AT,2024.csv,1523,AT_5A099,Wahlkarten - Salzburg Stadt,Wahlkarten - Salzburg Stadt,special_wahlkarten
+AT,2024.csv,1524,AT_5B099,Wahlkarten - Flachgau/Tennengau,Wahlkarten - Flachgau/Tennengau,special_wahlkarten
+AT,2024.csv,1525,AT_5C099,Wahlkarten - Lungau/Pinzgau/Pongau,Wahlkarten - Lungau/Pinzgau/Pongau,special_wahlkarten
+AT,2024.csv,1526,AT_60099,Wahlkarten - Steiermark,Wahlkarten - Steiermark,special_wahlkarten
+AT,2024.csv,1528,AT_60199,Wahlkarten - Graz Stadt,Wahlkarten - Graz Stadt,special_wahlkarten
+AT,2024.csv,1544,AT_60399,Wahlkarten - Deutschlandsberg,Wahlkarten - Deutschlandsberg,special_wahlkarten
+AT,2024.csv,1581,AT_60699,Wahlkarten - Graz-Umgebung,Wahlkarten - Graz-Umgebung,special_wahlkarten
+AT,2024.csv,1611,AT_61099,Wahlkarten - Leibnitz,Wahlkarten - Leibnitz,special_wahlkarten
+AT,2024.csv,1628,AT_61199,Wahlkarten - Leoben,Wahlkarten - Leoben,special_wahlkarten
+AT,2024.csv,1658,AT_61299,Wahlkarten - Liezen,Wahlkarten - Liezen,special_wahlkarten
+AT,2024.csv,1673,AT_61499,Wahlkarten - Murau,Wahlkarten - Murau,special_wahlkarten
+AT,2024.csv,1689,AT_61699,Wahlkarten - Voitsberg,Wahlkarten - Voitsberg,special_wahlkarten
+AT,2024.csv,1721,AT_61799,Wahlkarten - Weiz,Wahlkarten - Weiz,special_wahlkarten
+AT,2024.csv,1742,AT_62099,Wahlkarten - Murtal,Wahlkarten - Murtal,special_wahlkarten
+AT,2024.csv,1762,AT_62199,Wahlkarten - Bruck-Mürzzuschlag,Wahlkarten - Bruck-Mürzzuschlag,special_wahlkarten
+AT,2024.csv,1799,AT_62299,Wahlkarten - Hartberg-Fürstenfeld,Wahlkarten - Hartberg-Fürstenfeld,special_wahlkarten
+AT,2024.csv,1825,AT_62399,Wahlkarten - Südoststeiermark,Wahlkarten - Südoststeiermark,special_wahlkarten
+AT,2024.csv,1826,AT_6A099,Wahlkarten - Graz und Umgebung,Wahlkarten - Graz und Umgebung,special_wahlkarten
+AT,2024.csv,1827,AT_6B099,Wahlkarten - Oststeiermark,Wahlkarten - Oststeiermark,special_wahlkarten
+AT,2024.csv,1828,AT_6C099,Wahlkarten - Weststeiermark,Wahlkarten - Weststeiermark,special_wahlkarten
+AT,2024.csv,1829,AT_6D099,Wahlkarten - Obersteiermark,Wahlkarten - Obersteiermark,special_wahlkarten
+AT,2024.csv,1830,AT_70099,Wahlkarten - Tirol,Wahlkarten - Tirol,special_wahlkarten
+AT,2024.csv,1832,AT_70199,Wahlkarten - Innsbruck Stadt,Wahlkarten - Innsbruck Stadt,special_wahlkarten
+AT,2024.csv,1857,AT_70299,Wahlkarten - Imst,Wahlkarten - Imst,special_wahlkarten
+AT,2024.csv,1921,AT_70399,Wahlkarten - Innsbruck-Land,Wahlkarten - Innsbruck-Land,special_wahlkarten
+AT,2024.csv,1942,AT_70499,Wahlkarten - Kitzbühel,Wahlkarten - Kitzbühel,special_wahlkarten
+AT,2024.csv,1973,AT_70599,Wahlkarten - Kufstein,Wahlkarten - Kufstein,special_wahlkarten
+AT,2024.csv,2004,AT_70699,Wahlkarten - Landeck,Wahlkarten - Landeck,special_wahlkarten
+AT,2024.csv,2038,AT_70799,Wahlkarten - Lienz,Wahlkarten - Lienz,special_wahlkarten
+AT,2024.csv,2076,AT_70899,Wahlkarten - Reutte,Wahlkarten - Reutte,special_wahlkarten
+AT,2024.csv,2116,AT_70999,Wahlkarten - Schwaz,Wahlkarten - Schwaz,special_wahlkarten
+AT,2024.csv,2117,AT_7A099,Wahlkarten - Innsbruck,Wahlkarten - Innsbruck,special_wahlkarten
+AT,2024.csv,2118,AT_7B099,Wahlkarten - Innsbruck-Land,Wahlkarten - Innsbruck-Land,special_wahlkarten
+AT,2024.csv,2119,AT_7C099,Wahlkarten - Unterland,Wahlkarten - Unterland,special_wahlkarten
+AT,2024.csv,2120,AT_7D099,Wahlkarten - Oberland,Wahlkarten - Oberland,special_wahlkarten
+AT,2024.csv,2121,AT_7E099,Wahlkarten - Osttirol,Wahlkarten - Osttirol,special_wahlkarten
+AT,2024.csv,2122,AT_80099,Wahlkarten - Vorarlberg,Wahlkarten - Vorarlberg,special_wahlkarten
+AT,2024.csv,2152,AT_80199,Wahlkarten - Bludenz,Wahlkarten - Bludenz,special_wahlkarten
+AT,2024.csv,2193,AT_80299,Wahlkarten - Bregenz,Wahlkarten - Bregenz,special_wahlkarten
+AT,2024.csv,2197,AT_80399,Wahlkarten - Dornbirn,Wahlkarten - Dornbirn,special_wahlkarten
+AT,2024.csv,2222,AT_80499,Wahlkarten - Feldkirch,Wahlkarten - Feldkirch,special_wahlkarten
+AT,2024.csv,2223,AT_8A099,Wahlkarten - Vorarlberg Nord,Wahlkarten - Vorarlberg Nord,special_wahlkarten
+AT,2024.csv,2224,AT_8B099,Wahlkarten - Vorarlberg Süd,Wahlkarten - Vorarlberg Süd,special_wahlkarten

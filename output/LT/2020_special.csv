@@ -1,0 +1,42 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+LT,2020.csv,3,LT_LTZZIE,Ireland,Ireland,special_foreign_voter_lt
+LT,2020.csv,4,LT_LTZZAM,Armenia,Armenia,special_foreign_voter_lt
+LT,2020.csv,5,LT_LTZZAT,Austria,Austria,special_foreign_voter_lt
+LT,2020.csv,6,LT_LTZZAZ,Azerbaijan,Azerbaijan,special_foreign_voter_lt
+LT,2020.csv,7,LT_LTZZBY,Belarus,Belarus,special_foreign_voter_lt
+LT,2020.csv,8,LT_LTZZBE,Belgium,Belgium,special_foreign_voter_lt
+LT,2020.csv,9,LT_LTZZDK,Denmark,Denmark,special_foreign_voter_lt
+LT,2020.csv,10,LT_LTZZEG,Egypt,Egypt,special_foreign_voter_lt
+LT,2020.csv,11,LT_LTZZEE,Estonia,Estonia,special_foreign_voter_lt
+LT,2020.csv,12,LT_LTZZGR,Greece,Greece,special_foreign_voter_lt
+LT,2020.csv,13,LT_LTZZGE,Georgia,Georgia,special_foreign_voter_lt
+LT,2020.csv,14,LT_LTZZIN,India,India,special_foreign_voter_lt
+LT,2020.csv,15,LT_LTZZES,Spain,Spain,special_foreign_voter_lt
+LT,2020.csv,16,LT_LTZZIT,Italy,Italy,special_foreign_voter_lt
+LT,2020.csv,17,LT_LTZZIL,Israel,Israel,special_foreign_voter_lt
+LT,2020.csv,18,LT_LTZZJP,Japan,Japan,special_foreign_voter_lt
+LT,2020.csv,19,LT_LTZZAE,United Arab Emirates,United Arab Emirates,special_foreign_voter_lt
+LT,2020.csv,20,LT_LTZZGB,United Kingdom,United Kingdom,special_foreign_voter_lt
+LT,2020.csv,21,LT_LTZZUS,United States,United States,special_foreign_voter_lt
+LT,2020.csv,22,LT_LTZZCA,Canada,Canada,special_foreign_voter_lt
+LT,2020.csv,23,LT_LTZZKZ,Kazakhstan,Kazakhstan,special_foreign_voter_lt
+LT,2020.csv,24,LT_LTZZCN,China,China,special_foreign_voter_lt
+LT,2020.csv,25,LT_LTZZHR,Croatia,Croatia,special_foreign_voter_lt
+LT,2020.csv,26,LT_LTZZLV,Latvia,Latvia,special_foreign_voter_lt
+LT,2020.csv,27,LT_LTZZPL,Poland,Poland,special_foreign_voter_lt
+LT,2020.csv,28,LT_LTZZMD,Moldova,Moldova,special_foreign_voter_lt
+LT,2020.csv,29,LT_LTZZNO,Norway,Norway,special_foreign_voter_lt
+LT,2020.csv,30,LT_LTZZNL,Netherlands,Netherlands,special_foreign_voter_lt
+LT,2020.csv,31,LT_LTZZZA,South Africa,South Africa,special_foreign_voter_lt
+LT,2020.csv,32,LT_LTZZFR,France,France,special_foreign_voter_lt
+LT,2020.csv,33,LT_LTZZRO,Romania,Romania,special_foreign_voter_lt
+LT,2020.csv,34,LT_LTZZRU,Russia,Russia,special_foreign_voter_lt
+LT,2020.csv,35,LT_LTZZFI,Finland,Finland,special_foreign_voter_lt
+LT,2020.csv,36,LT_LTZZTR,Turkey,Turkey,special_foreign_voter_lt
+LT,2020.csv,37,LT_LTZZUA,Ukraine,Ukraine,special_foreign_voter_lt
+LT,2020.csv,38,LT_LTZZHU,Hungary,Hungary,special_foreign_voter_lt
+LT,2020.csv,39,LT_LTZZDE,Germany,Germany,special_foreign_voter_lt
+LT,2020.csv,40,LT_LTZZCZ,Czech Republic,Czech Republic,special_foreign_voter_lt
+LT,2020.csv,41,LT_LTZZSE,Sweden,Sweden,special_foreign_voter_lt
+LT,2020.csv,52,LT_LTZZBR,Brazil,Brazil,special_foreign_voter_lt
+LT,2020.csv,70,LT_LTZZCH,Switzerland,Switzerland,special_foreign_voter_lt

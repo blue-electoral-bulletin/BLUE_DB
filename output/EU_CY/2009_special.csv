@@ -1,0 +1,12 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CY,2009.csv,333,CY_CYZZBE,ΒΕΛΓΙΟ,ΒΕΛΓΙΟ,special_foreign_cy
+CY,2009.csv,334,CY_CYZZDE,ΓΕΡΜΑΝΙΑ,ΓΕΡΜΑΝΙΑ,special_foreign_cy
+CY,2009.csv,335,CY_CYZZIT,ΙΤΑΛΙΑ,ΙΤΑΛΙΑ,special_foreign_cy
+CY,2009.csv,336,CY_CYZZGB,ΗΝΩΜΕΝΟ ΒΑΣΙΛΕΙΟ,ΗΝΩΜΕΝΟ ΒΑΣΙΛΕΙΟ,special_foreign_cy
+CY,2009.csv,337,CY_CYZZEL,ΕΛΛΑΔΑ,ΕΛΛΑΔΑ,special_foreign_cy
+CY,2009.csv,338,CY_CYZZCZ,ΤΣΕΧΙΑ,ΤΣΕΧΙΑ,special_foreign_cy
+CY,2009.csv,339,CY_CYZZHU,ΟΥΓΓΑΡΙΑ,ΟΥΓΓΑΡΙΑ,special_foreign_cy
+CY,2009.csv,340,CY_CYZZBG,ΒΟΥΛΓΑΡΙΑ,ΒΟΥΛΓΑΡΙΑ,special_foreign_cy
+CY,2009.csv,341,CY_CYZZRU,ΡΩΣΙΑ,ΡΩΣΙΑ,special_foreign_cy
+CY,2009.csv,342,CY_CYZZQA,ΚΑΤΑΡ,ΚΑΤΑΡ,special_foreign_cy
+CY,2009.csv,343,CY_CYZZAE,ΗΝΩΜΕΝΑ ΑΡΑΒΙΚΑ ΕΜΙΡΑΤΑ,ΗΝΩΜΕΝΑ ΑΡΑΒΙΚΑ ΕΜΙΡΑΤΑ,special_foreign_cy

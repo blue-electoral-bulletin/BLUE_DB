@@ -1,0 +1,113 @@
+id,gisco_id,name_or,level,start_date,end_date,predecessors,parent,names
+AT1,AT1,Ostösterreich,NUTS 1,,,,AT,
+AT2,AT2,Südösterreich,NUTS 1,,,,AT,
+AT3,AT3,Westösterreich,NUTS 1,,,,AT,
+BE1,BE1,Région de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest,NUTS 1,,,,BE,
+BE2,BE2,Vlaams Gewest,NUTS 1,,,,BE,
+BE3,BE3,Région Wallonne,NUTS 1,,,,BE,
+BG3,BG3,Северна и Югоизточна България,NUTS 1,,,,BG,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Severna i Iztochna Bulgaria""}]"
+BG4,BG4,Югозападна и Южна централна България,NUTS 1,,,,BG,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Yugozapadna i Yuzhna Centralna Bulgaria""}]"
+CH0,CH0,Schweiz/Suisse/Svizzera,NUTS 1,,,,CH,
+CY0,CY0,Κύπρος,NUTS 1,,,,CY,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Kypros""}]"
+CZ0,CZ0,Česko,NUTS 1,,,,CZ,"[{""start_date"": """", ""end_date"": ""2021-01-01"", ""name"": ""Česká Republika""}]"
+DE1,DE1,Baden-Württemberg,NUTS 1,,,,DE,
+DE2,DE2,Bayern,NUTS 1,,,,DE,
+DE3,DE3,Berlin,NUTS 1,,,,DE,
+DE4,DE4,Brandenburg,NUTS 1,,,,DE,
+DE5,DE5,Bremen,NUTS 1,,,,DE,
+DE6,DE6,Hamburg,NUTS 1,,,,DE,
+DE7,DE7,Hessen,NUTS 1,,,,DE,
+DE8,DE8,Mecklenburg-Vorpommern,NUTS 1,,,,DE,
+DE9,DE9,Niedersachsen,NUTS 1,,,,DE,
+DEA,DEA,Nordrhein-Westfalen,NUTS 1,,,,DE,
+DEB,DEB,Rheinland-Pfalz,NUTS 1,,,,DE,
+DEC,DEC,Saarland,NUTS 1,,,,DE,
+DED,DED,Sachsen,NUTS 1,,,,DE,
+DEE,DEE,Sachsen-Anhalt,NUTS 1,,,,DE,
+DEF,DEF,Schleswig-Holstein,NUTS 1,,,,DE,
+DEG,DEG,Thüringen,NUTS 1,,,,DE,
+DK0,DK0,Danmark,NUTS 1,,,,DK,
+EE0,EE0,Eesti,NUTS 1,,,,EE,
+EL1,EL1,Βορεια Ελλαδα,NUTS 1,,2015-01-01,,EL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Voreia Ellada""}]"
+EL2,EL2,Κεντρικη Ελλαδα,NUTS 1,,2015-01-01,,EL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Kentriki Ellada""}]"
+EL3,EL3,Attikη,NUTS 1,,,,EL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Attiki""}]"
+EL4,EL4,"Nησια Αιγαιου, Kρητη",NUTS 1,,,,EL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Nisia Aigaiou, Kriti""}, {""start_date"": ""2008-01-01"", ""end_date"": ""2012-01-01"", ""name"": ""Nησια Αιγαιου, Kρητη""}, {""start_date"": ""2012-01-01"", ""end_date"": ""2015-01-01"", ""name"": ""Νήσοι Αιγαίου, Κρήτη""}]"
+ES1,ES1,Noroeste,NUTS 1,,,,ES,
+ES2,ES2,Noreste,NUTS 1,,,,ES,
+ES3,ES3,Comunidad de Madrid,NUTS 1,,,,ES,
+ES4,ES4,Centro (ES),NUTS 1,,,,ES,"[{""start_date"": """", ""end_date"": ""2012-01-01"", ""name"": ""Centro (E)""}]"
+ES5,ES5,Este,NUTS 1,,,,ES,
+ES6,ES6,Sur,NUTS 1,,,,ES,
+ES7,ES7,Canarias,NUTS 1,,,,ES,
+FI1,FI1,Manner-Suomi,NUTS 1,,,,FI,
+FI2,FI2,Åland,NUTS 1,,,,FI,
+FR1,FR1,Île De France,NUTS 1,,,,FR,
+FR2,FR2,Bassin Parisien,NUTS 1,,2019-01-01,,FR,
+FR3,FR3,Nord - Pas-de-Calais,NUTS 1,,2019-01-01,,FR,
+FR4,FR4,Est,NUTS 1,,2019-01-01,,FR,
+FR5,FR5,Ouest,NUTS 1,,2019-01-01,,FR,
+FR6,FR6,Sud-Ouest,NUTS 1,,2019-01-01,,FR,
+FR7,FR7,Centre-Est,NUTS 1,,2019-01-01,,FR,
+FR8,FR8,Méditerranée,NUTS 1,,2019-01-01,,FR,
+FR9,FR9,Départements D'Outre-Mer,NUTS 1,,2015-01-01,,FR,
+HR0,HR0,Hrvatska,NUTS 1,2012-01-01,,,HR,
+HU1,HU1,Közép-Magyarország,NUTS 1,,,,HU,
+HU2,HU2,Dunántúl,NUTS 1,,,,HU,
+HU3,HU3,Alföld És Észak,NUTS 1,,,,HU,
+IE0,IE0,Ireland,NUTS 1,,,,IE,
+IS0,IS0,Ísland,NUTS 1,,,,IS,
+ITC,ITC,Nord-Ovest,NUTS 1,,,,IT,
+ITD,ITD,Nord-Est,NUTS 1,,2012-01-01,,IT,
+ITE,ITE,Centro (I),NUTS 1,,2012-01-01,,IT,
+ITF,ITF,Sud,NUTS 1,,,,IT,
+ITG,ITG,Isole,NUTS 1,,,,IT,
+LI0,LI0,Liechtenstein,NUTS 1,,,,LI,
+LT0,LT0,Lietuva,NUTS 1,,,,LT,
+LU0,LU0,Luxembourg,NUTS 1,,,,LU,"[{""start_date"": """", ""end_date"": ""2012-01-01"", ""name"": ""Luxembourg (Grand-Duché)""}]"
+LV0,LV0,Latvija,NUTS 1,,,,LV,
+MT0,MT0,Malta,NUTS 1,,,,MT,
+NL1,NL1,Noord-Nederland,NUTS 1,,,,NL,
+NL2,NL2,Oost-Nederland,NUTS 1,,,,NL,
+NL3,NL3,West-Nederland,NUTS 1,,,,NL,
+NL4,NL4,Zuid-Nederland,NUTS 1,,,,NL,
+NO0,NO0,NORGE,NUTS 1,2019-01-01,2019-01-01,NO0,NO,
+PL1,PL1,Region Centralny,NUTS 1,,2019-01-01,,PL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Centralny""}]"
+PL2,PL2,Makroregion Południowy,NUTS 1,,,,PL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Południowy""}, {""start_date"": ""2008-01-01"", ""end_date"": ""2019-01-01"", ""name"": ""Region Poludniowy""}]"
+PL3,PL3,Region Wschodni,NUTS 1,,2019-01-01,,PL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Wschodni""}]"
+PL4,PL4,Makroregion Północno-Zachodni,NUTS 1,,,,PL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Północno-zachodni""}, {""start_date"": ""2008-01-01"", ""end_date"": ""2019-01-01"", ""name"": ""Region Pólnocno-Zachodni""}]"
+PL5,PL5,Makroregion Południowo-Zachodni,NUTS 1,,,,PL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Południowo-zachodni""}, {""start_date"": ""2008-01-01"", ""end_date"": ""2019-01-01"", ""name"": ""Region Poludniowo-Zachodni""}]"
+PL6,PL6,Makroregion Północny,NUTS 1,,,,PL,"[{""start_date"": """", ""end_date"": ""2008-01-01"", ""name"": ""Północny""}, {""start_date"": ""2008-01-01"", ""end_date"": ""2019-01-01"", ""name"": ""Region Pólnocny""}]"
+PT1,PT1,Continente,NUTS 1,,,,PT,
+PT2,PT2,Região Autónoma dos Açores,NUTS 1,,,,PT,
+PT3,PT3,Região Autónoma da Madeira,NUTS 1,,,,PT,
+RO1,RO1,Macroregiunea unu,NUTS 1,,,,RO,
+RO2,RO2,Macroregiunea doi,NUTS 1,,,,RO,
+RO3,RO3,Macroregiunea trei,NUTS 1,,,,RO,
+RO4,RO4,Macroregiunea patru,NUTS 1,,,,RO,
+SE0,SE0,Sverige,NUTS 1,,2008-01-01,,SE,
+SI0,SI0,Slovenija,NUTS 1,,,,SI,
+SK0,SK0,Slovensko,NUTS 1,,,,SK,"[{""start_date"": """", ""end_date"": ""2012-01-01"", ""name"": ""Slovenská Republika""}]"
+SE3,SE3,Norra Sverige,NUTS 1,2008-01-01,,SE0,SE,
+SE2,SE2,Södra Sverige,NUTS 1,2008-01-01,,,SE,
+SE1,SE1,Östra Sverige,NUTS 1,2008-01-01,,,SE,
+ITH,ITH,Nord-Est,NUTS 1,2012-01-01,,ITD,IT,
+ITI,ITI,Centro (IT),NUTS 1,2012-01-01,,ITE,IT,
+EL5,EL5,Βορεια Ελλαδα,NUTS 1,2015-01-01,,EL1,EL,
+EL6,EL6,Κεντρικη Ελλαδα,NUTS 1,2015-01-01,,"EL1,EL2",EL,
+FRA,FRA,Départements d'Outre-Mer,NUTS 1,2015-01-01,2019-01-01,FR9,FR,
+PL7,PL7,Makroregion Centralny,NUTS 1,2019-01-01,,PL1,PL,
+PL9,PL9,Makroregion Województwo Mazowieckie,NUTS 1,2019-01-01,,PL1,PL,
+PL8,PL8,Makroregion Wschodni,NUTS 1,2019-01-01,,PL3,PL,
+FRD,FRD,Normandie,NUTS 1,2019-01-01,,FR2,FR,
+FRY,FRY,Rup Fr - Régions Ultrapériphériques Françaises,NUTS 1,2019-01-01,,FRA,FR,
+FRJ,FRJ,Occitanie,NUTS 1,2019-01-01,,"FR6,FR8",FR,"[{""start_date"": ""2019-01-01"", ""end_date"": ""2021-01-01"", ""name"": ""Languedoc-Roussillon-Midi-Pyrénées""}]"
+FRM,FRM,Corse,NUTS 1,2019-01-01,,,FR,
+FRL,FRL,Provence-Alpes-Côte D’Azur,NUTS 1,2019-01-01,,FR8,FR,
+FRG,FRG,Pays de La Loire,NUTS 1,2019-01-01,,FR5,FR,
+FRB,FRB,Centre - Val de Loire,NUTS 1,2019-01-01,,FR2,FR,
+FRK,FRK,Auvergne-Rhône-Alpes,NUTS 1,2019-01-01,,FR7,FR,
+FRI,FRI,Nouvelle-Aquitaine,NUTS 1,2019-01-01,,"FR6,FR5",FR,"[{""start_date"": ""2019-01-01"", ""end_date"": ""2021-01-01"", ""name"": ""Aquitaine-Limousin-Poitou-Charentes""}]"
+FRF,FRF,Grand Est,NUTS 1,2019-01-01,,FR4,FR,"[{""start_date"": ""2019-01-01"", ""end_date"": ""2021-01-01"", ""name"": ""Alsace-Champagne-Ardenne-Lorraine""}]"
+FRH,FRH,Bretagne,NUTS 1,2019-01-01,,FR5,FR,
+FRE,FRE,Hauts-de-France,NUTS 1,2019-01-01,,FR3,FR,"[{""start_date"": ""2019-01-01"", ""end_date"": ""2021-01-01"", ""name"": ""Nord-Pas de Calais-Picardie""}]"
+FRC,FRC,Bourgogne-Franche-Comté,NUTS 1,2019-01-01,,"FR2,FR4",FR,

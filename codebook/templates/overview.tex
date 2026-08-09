@@ -1,0 +1,66 @@
+The distribution is organized into three top-level folders.
+
+\subsection{Geographic taxonomy files (\texttt{geo/})}
+
+Two files provide the geographic taxonomy of local units used in all results files.
+
+\subsubsection{\texttt{geo/laus.csv}}
+
+Lists municipality-level units defined by Eurostat's
+Geographic Information System of the Commission (GISCO).
+Each entry in this file corresponds to one Local Administrative Unit (LAU),
+the most fine-grained level of European
+administrative units. BLUE\_DB tracks vertical and horizontal dependencies between
+these units, recording both parent regions from the
+Nomenclature of Territorial Statistical Units (NUTS)
+and temporal predecessor/successor relationships resulting from municipality
+mergers and splits.
+
+\subsubsection{\texttt{geo/nuts.csv}}
+
+Lists regions-level units defined by Eurostat's GISCO.
+Each entry in this file corresponds to one NUTS region.
+As with municipalities, BLUE\_DB similarly tracks vertical and horizontal dependencies
+between regional units.
+
+\subsubsection{\texttt{geo/special.csv}}
+
+Contains special-purpose units that are needed to report election results
+but do not correspond to a standard LAU or NUTS region. Examples include postal-vote
+units covering multiple municipalities, overseas voter counts,
+various electoral constituencies above the municipal tier, and regional
+aggregate rows. Each row carries a \texttt{type} field.
+
+\subsection{Party taxonomy (\texttt{parties/})}
+
+\subsubsection{\texttt{parties/parties.csv}}
+
+Lists all parties, lists, coalitions, and independent candidates referenced across the dataset,
+providing its official name(s), dates of creation and dissolution, European
+affiliations to a European party or EP group, broad ideological position,
+and various identifiers.
+
+\subsubsection{\texttt{parties/eu\_parties.csv}}
+
+Lists all European parties referenced across the dataset, providing similar information
+as for national or regional parties.
+
+\subsubsection{\texttt{parties/ep\_groups.csv}}
+
+Lists all European Parliament groups references across the dataset, providing similar
+information as for national or regional parties.
+
+\subsection{Election files (\texttt{elections/})}
+
+This folder contains one subfolder by country covered, named by its country
+code. Each country folder contains a file
+\texttt{YEAR\_MONTH.csv} for national elections and \texttt{EU\_YEAR\_MONTH.csv} for
+European Parliament elections, with suffixes where multiple ballots, rounds of voting,
+or vote counts exist in one year.
+The special file \texttt{elections/index.csv} lists all available results files.
+
+Party columns are \textit{wide}: each distinct \texttt{party\_id} that
+appears in that election file occupies one column; cells are empty where the
+party did not stand.
+All vote figures are \textit{absolute vote counts} as published in official
+sources unless noted otherwise in the country-specific section.

@@ -1,0 +1,57 @@
+Votes cast by citizens residing abroad are tracked at the level of voter
+nationality, further broken down by host country where the official source
+reports it at that granularity.
+Except for Spain and Switzerland (see below), 
+abroad entries are coded \texttt{CC\_CCZZxx}, where
+\texttt{CC} is the country code of the voter nationality and \texttt{xx} is an
+country code of the host country
+(e.g.\ \texttt{BG\_BGZZDE} = Bulgarian voters in Germany,
+\texttt{FR\_FRZZUS} = French voters in the United States).
+Where the source does not break results down by host country, numerical
+codes are used in place of \texttt{xx}. The special code \texttt{99}
+indicates a country-level aggregate of abroad voters without host-country breakdown,
+while smaller codes (e.g.\ \texttt{01}, \texttt{02}) are used for multiple host-country 
+aggregates where the source provides some breakdown but not a full list of host countries.
+
+\paragraph{Ships at Sea.} Polish sailors voting at sea are also included in this category, as they cast
+ballots outside the country and cannot be attributed to a domestic commune.
+Their votes are aggregated into a single row (\texttt{PL\_PLZZ98},
+\textit{Statki}).
+
+\paragraph{Region-level aggregates.}
+Three countries report abroad votes broken down by the voters' \emph{domestic
+region of origin} rather than by country of residence.
+
+\textbf{Belgium --- foreign affairs cantons.}
+Belgian citizens abroad are counted against the province where they are enrolled,
+following the structure of Belgium's overseas electoral census.
+These are referred to as `foreign affairs cantons' (\emph{canton affaires étrangères} /
+\emph{speciaal kanton Buza} / \emph{Kanton Auswärtige Angelegenheiten})
+and carry a five-digit code of the form \texttt{BE\_KAENNN}.
+The \bluevar{parent} field is set to the NUTS~3 code of that province
+(e.g.\ \texttt{BE21} for Antwerp), if available, or to the country code \texttt{BE} otherwise.
+
+\textbf{Spain --- C.E.R.E.\ (Censo Electoral de Residentes en el Extranjero).}
+Spanish citizens registered abroad are counted against the province where they
+are enrolled, following the structure of Spain's overseas electoral census.
+Each entry carries a five-digit code (\texttt{ES\_NNNNN}, e.g.\
+\texttt{ES\_00028}) whose last two digits correspond to the province number
+(\texttt{01}--\texttt{52}).
+The \bluevar{parent} field is set to the NUTS~3 code of that province
+(e.g.\ \texttt{ES300} for Madrid).
+
+\textbf{Switzerland --- cantonal abroad aggregates.}
+Swiss cantons with a significant diaspora report separate counts for voters
+residing abroad (\textit{Auslandschweizer}).
+These entries carry codes in the \texttt{CH\_9xxx} or \texttt{CH\_19xxx} range
+(e.g.\ \texttt{CH\_9010} = Zurich abroad voters).
+The \bluevar{parent} field is set to the NUTS~3 code of the corresponding
+canton (e.g.\ \texttt{CH040} for Zurich).
+
+\paragraph{Other cases.} The following matrix shows which voter-nationality / host-country combinations
+have dedicated rows in the dataset.
+Columns are voter nationalities; rows are host countries.
+A filled circle ($\bullet$) indicates that at least one election file contains
+a row for that combination.
+Shaded rows correspond to countries that are themselves primary units of
+BLUE\_DB.

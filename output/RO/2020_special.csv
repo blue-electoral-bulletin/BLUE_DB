@@ -1,0 +1,95 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RO,2020.csv,0,ROZZAF,AFGANISTAN,AFGANISTAN,special_foreign_ro
+RO,2020.csv,1,ROZZRO,ROMANIA,ROMANIA,special_foreign_ro
+RO,2020.csv,3,ROZZZA,AFRICA DE SUD,AFRICA DE SUD,special_foreign_ro
+RO,2020.csv,6,ROZZAL,REPUBLICA ALBANIA,REPUBLICA ALBANIA,special_foreign_ro
+RO,2020.csv,7,ROZZDZ,ALGERIA,ALGERIA,special_foreign_ro
+RO,2020.csv,8,ROZZAO,ANGOLA,ANGOLA,special_foreign_ro
+RO,2020.csv,9,ROZZSA,REGATUL ARABIEI SAUDITE,REGATUL ARABIEI SAUDITE,special_foreign_ro
+RO,2020.csv,10,ROZZAR,ARGENTINA,ARGENTINA,special_foreign_ro
+RO,2020.csv,11,ROZZAM,ARMENIA,ARMENIA,special_foreign_ro
+RO,2020.csv,12,ROZZAU,Australia,Australia,matched_foreign_country_name
+RO,2020.csv,15,ROZZAT,AUSTRIA,AUSTRIA,special_foreign_ro
+RO,2020.csv,16,ROZZAZ,AZERBAIDJAN,AZERBAIDJAN,special_foreign_ro
+RO,2020.csv,17,ROZZBY,REPUBLICA BELARUS,REPUBLICA BELARUS,special_foreign_ro
+RO,2020.csv,18,ROZZBE,BELGIA,BELGIA,special_foreign_ro
+RO,2020.csv,19,ROZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+RO,2020.csv,20,ROZZBR,BRAZILIA,BRAZILIA,special_foreign_ro
+RO,2020.csv,22,ROZZBG,BULGARIA,BULGARIA,special_foreign_ro
+RO,2020.csv,23,ROZZCA,Canada,Canada,matched_foreign_country_name
+RO,2020.csv,27,ROZZCZ,REPUBLICA CEHA,REPUBLICA CEHA,special_foreign_ro
+RO,2020.csv,28,ROZZCL,CHILE,CHILE,special_foreign_ro
+RO,2020.csv,29,ROZZCN,CHINA,CHINA,special_foreign_ro
+RO,2020.csv,32,ROZZCY,CIPRU,CIPRU,special_foreign_ro
+RO,2020.csv,33,ROZZCO,COLUMBIA,COLUMBIA,special_foreign_ro
+RO,2020.csv,34,ROZZKR,REPUBLICA COREEA,REPUBLICA COREEA,special_foreign_ro
+RO,2020.csv,35,ROZZHR,CROATIA,CROATIA,special_foreign_ro
+RO,2020.csv,36,ROZZCU,CUBA,CUBA,special_foreign_ro
+RO,2020.csv,37,ROZZDK,DANEMARCA,DANEMARCA,special_foreign_ro
+RO,2020.csv,38,ROZZEG,EGIPT,EGIPT,special_foreign_ro
+RO,2020.csv,39,ROZZCH,Switzerland,Switzerland,matched_foreign_country_name
+RO,2020.csv,40,ROZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+RO,2020.csv,42,ROZZEE,ESTONIA,ESTONIA,special_foreign_ro
+RO,2020.csv,43,ROZZET,ETIOPIA,ETIOPIA,special_foreign_ro
+RO,2020.csv,44,ROZZPH,FILIPINE,FILIPINE,special_foreign_ro
+RO,2020.csv,45,ROZZFI,FINLANDA,FINLANDA,special_foreign_ro
+RO,2020.csv,46,ROZZFR,FRANTA,FRANTA,special_foreign_ro
+RO,2020.csv,50,ROZZGE,GEORGIA,GEORGIA,special_foreign_ro
+RO,2020.csv,51,ROZZDE,GERMANIA,GERMANIA,special_foreign_ro
+RO,2020.csv,55,ROZZGR,REPUBLICA ELENA,REPUBLICA ELENA,special_foreign_ro
+RO,2020.csv,57,ROZZIN,REPUBLICA INDIA,REPUBLICA INDIA,special_foreign_ro
+RO,2020.csv,58,ROZZID,REPUBLICA INDONEZIA,REPUBLICA INDONEZIA,special_foreign_ro
+RO,2020.csv,59,ROZZJO,REGATUL HASEMIT AL IORDANIEI,REGATUL HASEMIT AL IORDANIEI,special_foreign_ro
+RO,2020.csv,60,ROZZIQ,IRAK,IRAK,special_foreign_ro
+RO,2020.csv,62,ROZZIR,IRAN,IRAN,special_foreign_ro
+RO,2020.csv,63,ROZZIE,IRLANDA,IRLANDA,special_foreign_ro
+RO,2020.csv,64,ROZZIL,ISRAEL,ISRAEL,special_foreign_ro
+RO,2020.csv,66,ROZZIT,ITALIA,ITALIA,special_foreign_ro
+RO,2020.csv,73,ROZZJP,JAPONIA,JAPONIA,special_foreign_ro
+RO,2020.csv,74,ROZZKZ,KAZAHSTAN,KAZAHSTAN,special_foreign_ro
+RO,2020.csv,75,ROZZKE,KENYA,KENYA,special_foreign_ro
+RO,2020.csv,76,ROZZKW,KUWEIT,KUWEIT,special_foreign_ro
+RO,2020.csv,77,ROZZLB,LIBAN,LIBAN,special_foreign_ro
+RO,2020.csv,78,ROZZLT,LITUANIA,LITUANIA,special_foreign_ro
+RO,2020.csv,79,ROZZLU,LUXEMBURG,LUXEMBURG,special_foreign_ro
+RO,2020.csv,80,ROZZMK,REPUBLICA MACEDONIA DE NORD,REPUBLICA MACEDONIA DE NORD,special_foreign_ro
+RO,2020.csv,81,ROZZMY,MALAEZIA,MALAEZIA,special_foreign_ro
+RO,2020.csv,82,ROZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+RO,2020.csv,85,ROZZMA,REGATUL MAROC,REGATUL MAROC,special_foreign_ro
+RO,2020.csv,86,ROZZMX,MEXIC,MEXIC,special_foreign_ro
+RO,2020.csv,87,ROZZMD,REPUBLICA MOLDOVA,REPUBLICA MOLDOVA,special_foreign_ro
+RO,2020.csv,91,ROZZME,MUNTENEGRU,MUNTENEGRU,special_foreign_ro
+RO,2020.csv,92,ROZZNO,NORVEGIA,NORVEGIA,special_foreign_ro
+RO,2020.csv,93,ROZZNL,OLANDA,OLANDA,special_foreign_ro
+RO,2020.csv,94,ROZZOM,SULTANATUL OMAN,SULTANATUL OMAN,special_foreign_ro
+RO,2020.csv,95,ROZZPK,REPUBLICA ISLAMICA PAKISTAN,REPUBLICA ISLAMICA PAKISTAN,special_foreign_ro
+RO,2020.csv,96,ROZZPS,PALESTINA,PALESTINA,special_foreign_ro
+RO,2020.csv,97,ROZZPE,REPUBLICA PERU,REPUBLICA PERU,special_foreign_ro
+RO,2020.csv,98,ROZZPL,POLONIA,POLONIA,special_foreign_ro
+RO,2020.csv,99,ROZZPT,PORTUGALIA,PORTUGALIA,special_foreign_ro
+RO,2020.csv,100,ROZZQA,QATAR,QATAR,special_foreign_ro
+RO,2020.csv,101,ROZZRU,FEDERATIA RUSA,FEDERATIA RUSA,special_foreign_ro
+RO,2020.csv,104,ROZZSN,SENEGAL,SENEGAL,special_foreign_ro
+RO,2020.csv,105,ROZZRS,SERBIA,SERBIA,special_foreign_ro
+RO,2020.csv,109,ROZZSG,REPUBLICA SINGAPORE,REPUBLICA SINGAPORE,special_foreign_ro
+RO,2020.csv,110,ROZZSY,REPUBLICA ARABA SIRIANA,REPUBLICA ARABA SIRIANA,special_foreign_ro
+RO,2020.csv,111,ROZZSK,REPUBLICA SLOVACA,REPUBLICA SLOVACA,special_foreign_ro
+RO,2020.csv,112,ROZZSI,SLOVENIA,SLOVENIA,special_foreign_ro
+RO,2020.csv,113,ROZZES,SPANIA,SPANIA,special_foreign_ro
+RO,2020.csv,121,ROZZLK,SRI LANKA,SRI LANKA,special_foreign_ro
+RO,2020.csv,122,ROZZUS,STATELE UNITE ALE AMERICII,STATELE UNITE ALE AMERICII,special_foreign_ro
+RO,2020.csv,127,ROZZSD,SUDAN,SUDAN,special_foreign_ro
+RO,2020.csv,128,ROZZSE,SUEDIA,SUEDIA,special_foreign_ro
+RO,2020.csv,129,ROZZTH,REGATUL THAILANDEI,REGATUL THAILANDEI,special_foreign_ro
+RO,2020.csv,130,ROZZTN,TUNISIA,TUNISIA,special_foreign_ro
+RO,2020.csv,131,ROZZTR,TURCIA,TURCIA,special_foreign_ro
+RO,2020.csv,134,ROZZTM,TURKMENISTAN,TURKMENISTAN,special_foreign_ro
+RO,2020.csv,135,ROZZUA,UCRAINA,UCRAINA,special_foreign_ro
+RO,2020.csv,139,ROZZHU,UNGARIA,UNGARIA,special_foreign_ro
+RO,2020.csv,142,ROZZUY,REPUBLICA ORIENTALA A URUGUAYULUI,REPUBLICA ORIENTALA A URUGUAYULUI,special_foreign_ro
+RO,2020.csv,143,ROZZUZ,UZBEKISTAN,UZBEKISTAN,special_foreign_ro
+RO,2020.csv,144,ROZZVN,REPUBLICA SOCIALISTA VIETNAM,REPUBLICA SOCIALISTA VIETNAM,special_foreign_ro
+RO,2020.csv,145,ROZZZW,ZIMBABWE,ZIMBABWE,special_foreign_ro
+RO,2020.csv,276,ROZZIS,ISLANDA,ISLANDA,special_foreign_ro
+RO,2020.csv,283,ROZZLV,LETONIA,LETONIA,special_foreign_ro
+RO,2020.csv,291,ROZZNZ,NOUA ZEELANDA,NOUA ZEELANDA,special_foreign_ro

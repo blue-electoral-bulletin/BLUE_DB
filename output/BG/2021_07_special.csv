@@ -1,0 +1,69 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+BG,2021_07.csv,4209,BG_BGZZAU,Australia,Australia,matched_foreign_country_name
+BG,2021_07.csv,4215,BG_BGZZAT,Austria,Austria,matched_foreign_country_name
+BG,2021_07.csv,4224,BG_BGZZAZ,Azerbaijan,Azerbaijan,matched_foreign_country_name
+BG,2021_07.csv,4225,BG_BGZZAL,Albania,Albania,matched_foreign_country_name
+BG,2021_07.csv,4228,BG_BGZZDZ,Algeria,Algeria,matched_foreign_country_name
+BG,2021_07.csv,4229,BG_BGZZAR,Argentina,Argentina,matched_foreign_country_name
+BG,2021_07.csv,4230,BG_BGZZAM,Armenia,Armenia,matched_foreign_country_name
+BG,2021_07.csv,4231,BG_BGZZBY,Belarus,Belarus,matched_foreign_country_name
+BG,2021_07.csv,4232,BG_BGZZBE,Belgium,Belgium,matched_foreign_country_name
+BG,2021_07.csv,4245,BG_BGZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+BG,2021_07.csv,4246,BG_BGZZBR,Brazil,Brazil,matched_foreign_country_name
+BG,2021_07.csv,4248,BG_BGZZDE,Germany,Germany,matched_foreign_country_name
+BG,2021_07.csv,4331,BG_BGZZGE,Georgia,Georgia,matched_foreign_country_name
+BG,2021_07.csv,4332,BG_BGZZGR,Greece,Greece,matched_foreign_country_name
+BG,2021_07.csv,4359,BG_BGZZDK,Denmark,Denmark,matched_foreign_country_name
+BG,2021_07.csv,4369,BG_BGZZDO,Dominican Republic,Dominican Republic,matched_foreign_country_name
+BG,2021_07.csv,4370,BG_BGZZEG,Egypt,Egypt,matched_foreign_country_name
+BG,2021_07.csv,4371,BG_BGZZIL,Israel,Israel,matched_foreign_country_name
+BG,2021_07.csv,4372,BG_BGZZIR,Iran,Iran,matched_foreign_country_name
+BG,2021_07.csv,4373,BG_BGZZIE,Ireland,Ireland,matched_foreign_country_name
+BG,2021_07.csv,4377,BG_BGZZIS,Iceland,Iceland,matched_foreign_country_name
+BG,2021_07.csv,4378,BG_BGZZES,Spain,Spain,matched_foreign_country_name
+BG,2021_07.csv,4435,BG_BGZZIT,Italy,Italy,matched_foreign_country_name
+BG,2021_07.csv,4460,BG_BGZZJO,Jordan,Jordan,matched_foreign_country_name
+BG,2021_07.csv,4461,BG_BGZZCA,Canada,Canada,matched_foreign_country_name
+BG,2021_07.csv,4473,BG_BGZZQA,Qatar,Qatar,matched_foreign_country_name
+BG,2021_07.csv,4474,BG_BGZZCY,Cyprus,Cyprus,matched_foreign_country_name
+BG,2021_07.csv,4481,BG_BGZZCN,China,China,matched_foreign_country_name
+BG,2021_07.csv,4483,BG_BGZZXK,Kosovo,Kosovo,matched_foreign_country_name
+BG,2021_07.csv,4484,BG_BGZZKW,Kuwait,Kuwait,matched_foreign_country_name
+BG,2021_07.csv,4485,BG_BGZZCU,Cuba,Cuba,matched_foreign_country_name
+BG,2021_07.csv,4486,BG_BGZZLB,Lebanon,Lebanon,matched_foreign_country_name
+BG,2021_07.csv,4487,BG_BGZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+BG,2021_07.csv,4489,BG_BGZZMT,Malta,Malta,matched_foreign_country_name
+BG,2021_07.csv,4491,BG_BGZZMA,Morocco,Morocco,matched_foreign_country_name
+BG,2021_07.csv,4492,BG_BGZZMX,Mexico,Mexico,matched_foreign_country_name
+BG,2021_07.csv,4493,BG_BGZZMD,Moldova,Moldova,matched_foreign_country_name
+BG,2021_07.csv,4499,BG_BGZZNG,Nigeria,Nigeria,matched_foreign_country_name
+BG,2021_07.csv,4500,BG_BGZZNL,Netherlands,Netherlands,matched_foreign_country_name
+BG,2021_07.csv,4517,BG_BGZZNZ,New Zealand,New Zealand,matched_foreign_country_name
+BG,2021_07.csv,4519,BG_BGZZNO,Norway,Norway,matched_foreign_country_name
+BG,2021_07.csv,4529,BG_BGZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+BG,2021_07.csv,4531,BG_BGZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+BG,2021_07.csv,4634,BG_BGZZPL,Poland,Poland,matched_foreign_country_name
+BG,2021_07.csv,4636,BG_BGZZPT,Portugal,Portugal,matched_foreign_country_name
+BG,2021_07.csv,4639,BG_BGZZKR,South Korea,South Korea,matched_foreign_country_name
+BG,2021_07.csv,4640,BG_BGZZMK,North Macedonia,North Macedonia,matched_foreign_country_name
+BG,2021_07.csv,4646,BG_BGZZZA,South Africa,South Africa,matched_foreign_country_name
+BG,2021_07.csv,4649,BG_BGZZRO,Romania,Romania,matched_foreign_country_name
+BG,2021_07.csv,4650,BG_BGZZRU,Russia,Russia,matched_foreign_country_name
+BG,2021_07.csv,4654,BG_BGZZSA,Saudi Arabia,Saudi Arabia,matched_foreign_country_name
+BG,2021_07.csv,4655,BG_BGZZUS,United States,United States,matched_foreign_country_name
+BG,2021_07.csv,4708,BG_BGZZSG,Singapore,Singapore,matched_foreign_country_name
+BG,2021_07.csv,4709,BG_BGZZSK,Slovakia,Slovakia,matched_foreign_country_name
+BG,2021_07.csv,4710,BG_BGZZSI,Slovenia,Slovenia,matched_foreign_country_name
+BG,2021_07.csv,4711,BG_BGZZRS,Serbia,Serbia,matched_foreign_country_name
+BG,2021_07.csv,4716,BG_BGZZTN,Tunisia,Tunisia,matched_foreign_country_name
+BG,2021_07.csv,4717,BG_BGZZTR,Turkey,Turkey,matched_foreign_country_name
+BG,2021_07.csv,4746,BG_BGZZUA,Ukraine,Ukraine,matched_foreign_country_name
+BG,2021_07.csv,4748,BG_BGZZHU,Hungary,Hungary,matched_foreign_country_name
+BG,2021_07.csv,4749,BG_BGZZFI,Finland,Finland,matched_foreign_country_name
+BG,2021_07.csv,4753,BG_BGZZFR,France,France,matched_foreign_country_name
+BG,2021_07.csv,4770,BG_BGZZHR,Croatia,Croatia,matched_foreign_country_name
+BG,2021_07.csv,4771,BG_BGZZME,Montenegro,Montenegro,matched_foreign_country_name
+BG,2021_07.csv,4772,BG_BGZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+BG,2021_07.csv,4780,BG_BGZZCH,Switzerland,Switzerland,matched_foreign_country_name
+BG,2021_07.csv,4789,BG_BGZZSE,Sweden,Sweden,matched_foreign_country_name
+BG,2021_07.csv,4792,BG_BGZZJP,Japan,Japan,matched_foreign_country_name

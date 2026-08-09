@@ -1,0 +1,2 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+BG,2005.csv,11641,BG_BGZZ99,Citizens of Bulgaria living abroad,Citizens of Bulgaria living abroad,bg_2005_abroad

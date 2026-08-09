@@ -1,0 +1,28 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+IT,2014.csv,8057,IT_ITZZAT,Austria,Austria,matched_foreign_country_name
+IT,2014.csv,8058,IT_ITZZBE,Belgium,Belgium,matched_foreign_country_name
+IT,2014.csv,8059,IT_ITZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+IT,2014.csv,8060,IT_ITZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+IT,2014.csv,8061,IT_ITZZDK,Denmark,Denmark,matched_foreign_country_name
+IT,2014.csv,8062,IT_ITZZFI,Finland,Finland,matched_foreign_country_name
+IT,2014.csv,8063,IT_ITZZFR,France,France,matched_foreign_country_name
+IT,2014.csv,8064,IT_ITZZDE,Germany,Germany,matched_foreign_country_name
+IT,2014.csv,8065,IT_ITZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+IT,2014.csv,8066,IT_ITZZGR,Greece,Greece,matched_foreign_country_name
+IT,2014.csv,8067,IT_ITZZIE,Ireland,Ireland,matched_foreign_country_name
+IT,2014.csv,8068,IT_ITZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+IT,2014.csv,8069,IT_ITZZMT,Malta,Malta,matched_foreign_country_name
+IT,2014.csv,8070,IT_ITZZNL,Netherlands,Netherlands,matched_foreign_country_name
+IT,2014.csv,8071,IT_ITZZPL,Poland,Poland,matched_foreign_country_name
+IT,2014.csv,8072,IT_ITZZPT,Portugal,Portugal,matched_foreign_country_name
+IT,2014.csv,8073,IT_ITZZRO,Romania,Romania,matched_foreign_country_name
+IT,2014.csv,8074,IT_ITZZES,Spain,Spain,matched_foreign_country_name
+IT,2014.csv,8075,IT_ITZZSE,Sweden,Sweden,matched_foreign_country_name
+IT,2014.csv,8076,IT_ITZZHU,Hungary,Hungary,matched_foreign_country_name
+IT,2014.csv,8077,IT_ITZZLT,Lithuania,Lithuania,matched_foreign_country_name
+IT,2014.csv,8078,IT_ITZZLV,Latvia,Latvia,matched_foreign_country_name
+IT,2014.csv,8079,IT_ITZZEE,Estonia,Estonia,matched_foreign_country_name
+IT,2014.csv,8080,IT_ITZZHR,Croatia,Croatia,matched_foreign_country_name
+IT,2014.csv,8081,IT_ITZZCY,Cyprus,Cyprus,matched_foreign_country_name
+IT,2014.csv,8082,IT_ITZZSI,Slovenia,Slovenia,matched_foreign_country_name
+IT,2014.csv,8083,IT_ITZZSK,Slovakia,Slovakia,matched_foreign_country_name

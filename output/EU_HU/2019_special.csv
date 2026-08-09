@@ -1,0 +1,3 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+HU,2019.csv,0,HU_HUYY99,Foreign residents,Foreign residents,special_postal_hu
+HU,2019.csv,1,HU_HUYY99,Postal vote,Postal vote,special_postal_hu

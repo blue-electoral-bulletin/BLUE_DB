@@ -1,0 +1,7 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+IS,2013.csv,0,IS_NV,Norðvesturkjördæmi,Norðvesturkjördæmi,special_all_muni
+IS,2013.csv,1,IS_NA,Norðausturkjördæmi,Norðausturkjördæmi,special_all_muni
+IS,2013.csv,2,IS_SU,Suðurkjördæmi,Suðurkjördæmi,special_all_muni
+IS,2013.csv,3,IS_SV,Suðvesturkjördæmi,Suðvesturkjördæmi,special_all_muni
+IS,2013.csv,4,IS_RS,Reykjavíkurkjördæmi suður,Reykjavíkurkjördæmi suður,special_all_muni
+IS,2013.csv,5,IS_RN,Reykjavíkurkjördæmi norður,Reykjavíkurkjördæmi norður,special_all_muni

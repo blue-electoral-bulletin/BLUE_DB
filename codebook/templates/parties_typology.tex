@@ -1,0 +1,84 @@
+% ── Parties Taxonomy ─────────────────────────────────────────────────────────
+% Edit this file to customise the "Parties Taxonomy" section.
+
+The party catalogue records metadata for every party, electoral list, or
+individual candidate that appears in at least one election result file in
+BLUE\_DB.
+
+\paragraph{Diversity of entries.}
+The \texttt{parties/parties.csv} file contains several distinct types of
+entry.  Most rows represent organised parties or standing lists.  Rows where
+\bluevar{coalition\_members} is non-empty represent electoral coalitions whose
+member parties also appear as separate rows.  Rows where the field
+\bluevar{individual\_candidate} is \texttt{Y} represent independent
+candidates or candidate groups without a formal party structure.
+
+A special case arises for French elections, where the Ministry of the Interior
+assigns many small-party or independent candidates a \emph{nuance politique} (political shading) drawn from a
+fixed set of administrative labels rather than the name of a registered party.
+These nuances are included as distinct entries in the parties file (e.g.\
+\texttt{DVD} for \emph{divers droite}). However, they do not correspond to
+specific legal party entities.
+
+\subsection{European Parliament groups}
+
+Parties are classified into the European Parliament (EP) political group of
+their MEPs, or of the associated European-level party.  Because parties may
+switch groups across parliamentary terms, the \bluevar{ep\_group} field stores
+a JSON array of membership spells.  BLUE\_DB aggregates groups that share a
+direct institutional lineage (e.g.\ the \emph{Party of European Socialists}
+and its successor \emph{S\&D}) into a single row in
+\texttt{parties/ep\_groups.csv}.  The \textbf{Parties} column below
+counts the number of national parties affiliated with each group.
+
+\VAR{ep_groups_table}
+
+\subsection{European parties}
+
+The \bluevar{eu\_party} field records the European-level party (federation) to
+which a national party is affiliated.  BLUE\_DB considers only European
+political parties formally registered with the Authority for European
+Political Parties and European Political Foundations (APPF).  Some European
+parties have undergone name changes or mergers; former names are recorded in
+the \bluevar{other\_names} field of \texttt{parties/eu\_parties.csv}.
+The \textbf{Parties} column below counts the number of national parties that
+have held membership.
+
+\VAR{european_parties_table}
+
+\subsection{Ideology}
+
+The \bluevar{ideology} field assigns each party to a broad ideological family.
+The classification follows the EP group or European party affiliation where
+one is available, using the defaults in the table below.
+
+\begin{longtable}{p{6.5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{Ideology} & \textbf{EP groups} & \textbf{European parties} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+center, center-right or moderate right
+  & \textbf{EPP Group}, \textbf{Renew}
+  & \textbf{EPP}, \textbf{ALDE}, \textbf{EDP} \\
+left or center-left, incl.\ non-radical greens
+  & \textbf{S\&D}, \textbf{Greens/EFA}
+  & \textbf{PES}, \textbf{EGP} \\
+radical left
+  & \textbf{GUE/NGL}
+  & \textbf{PEL}, \textbf{ELA} \\
+radical right
+  & \textbf{PfE}, \textbf{ESN Group}, \textbf{UEN}
+  & \textbf{Patriots.eu}, \textbf{ESN}, \textbf{ECR}, \textbf{APF}, \textbf{AENM} \\
+individually assessed
+  & \textbf{ECR Group}, \textbf{EFDD}, \textbf{NI}
+  & \textbf{EFA}, \textbf{ECPP} \\
+\end{longtable}
+For parties whose group membership falls under \emph{individually assessed} (ECR Group,
+EFDD, NI), as well as for smaller parties, regional lists, and independent
+candidates not connected to a European-level structure, the classification
+relies on manual evaluation drawing primarily on Wikipedia sources.
+
+
+\VAR{ideology_table}

@@ -1,0 +1,73 @@
+% ── Geographic Taxonomy ───────────────────────────────────────────────────────
+% Edit this file to customise the "Geographic Taxonomy" section intro.
+
+\noindent
+Geographic units are identified by \textit{extended GISCO IDs}, a harmonised coding
+scheme derived from Eurostat's NUTS.
+Extended GISCO IDs can take three forms, corresponding to different geographic levels:
+\begin{itemize}
+\item \textbf{Country codes} are two-letter codes aligned with European Union
+conventions, which follow
+\href{https://www.iso.org/obp/ui/#search/code/}{ISO 3166-1 alpha-2}
+except for Greece (\texttt{EL}) and Kosovo (\texttt{XK}).
+This corresponds to the \texttt{NUTS 0} level.
+\item \textbf{Regional GISCO IDs} take the form
+\texttt{CCL} (\texttt{NUTS 1}),
+\texttt{CCLL} (\texttt{NUTS 2}),
+or \texttt{CCLLL} (\texttt{NUTS 3}),
+with \texttt{CC} a country code and each \texttt{L} alphanumeric.
+Prefixes identify parent units, e.g.\
+$\mathtt{PT10}$ is a subunit of $\mathtt{PT1}$, which is a subunit of
+$\mathtt{PT}$ (Portugal).
+\item \textbf{Local GISCO IDs} take the form \texttt{CC\_L\ldots L}.
+For standard LAU municipalities the local part matches the Eurostat LAU code
+(e.g.\ \texttt{AT\_10101} for Vienna's first district).
+Extended local IDs of the form \texttt{CC\_CCYYxx} or \texttt{CC\_CCZZxx}
+identify special aggregate units described in the subsections below.
+Municipality-level units constitute the \texttt{LAU 2} level; identifiable
+groups of municipalities are coded at \texttt{LAU 1}; other local units
+(constituencies, postal aggregates, etc.) have a special type.
+\end{itemize}
+
+\paragraph{Reporting units and Eurostat's LAU levels.}
+Each country section states the unit its results are reported in, under the
+name that country uses for it (\textit{Gemeinde}, \textit{община},
+\textit{gmina}, \textit{savivaldyb\.e}, etc.). For 24 of the 31 countries, this unit
+is exactly Eurostat's Local Administrative Unit, with an identical code.
+
+Six countries depart from this:
+
+\begin{itemize}\itemsep2pt
+  \item[\textbf{EL}] Results are reported for the 332 \textit{δήμοι}
+        (municipalities).  Greece's LAU is one level finer---the 6,142
+        \textit{δημοτικές} and \textit{κοινοτικές ενότητες}.
+        Before the 2011 Kallikratis reform,
+        the reporting unit was the 1,034 Kapodistrian municipalities, which
+        the current LAU preserves as its municipal units.
+  \item[\textbf{IE}] 43 D\'ail constituencies, not the 166 local electoral
+        areas.  Results are not published by local authority.
+  \item[\textbf{IS}] 6 \textit{kj\"ord\ae mi} (constituencies), not the
+        63 \textit{sveitarf\'el\"og}.
+  \item[\textbf{MT}] 13 electoral districts, not the 68 local councils
+        (\textit{kunsilli}).
+  \item[\textbf{SI}] 88 \textit{volilni okraji} (electoral districts), not
+        the 212 \textit{ob\v{c}ine}.
+  \item[\textbf{BE}] The level changes in 2014.  Elections from 2003 to 2010
+        are reported for the 219 electoral cantons only, with no municipal
+        breakdown published; from 2014 the 581
+        \textit{gemeenten}/\textit{communes} (the LAU) appear alongside them,
+        with registered voter counts only published at cantonal level.
+\end{itemize}
+
+Unit counts also move over time as municipalities merge, and BLUE\_DB follows
+the units in force at each election rather than back-casting a single
+geography: Denmark reports 271 \textit{kommuner} before the 2007 reform and 98
+after it, Portugal 4,260 \textit{freguesias} before the 2013 reform and
+3,092 after. Two countries (\textbf{BG}, \textbf{LT}) changed their main LAU level
+over time: until 2014, Bulgarian LAU used the smaller \emph{населни места}
+and until 2014, Lithuanian LAU used the smaller \emph{seni\=unijos}. BLUE\_DB
+uses municipalities throughout.
+
+The subsections below describe how BLUE\_DB extends the standard GISCO taxonomy
+to accommodate geographic units not present in the official NUTS/LAU
+classification.

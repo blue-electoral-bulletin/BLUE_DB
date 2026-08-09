@@ -1,0 +1,54 @@
+{
+  "name": "BLUE_DB",
+  "full_name": "Basic Local Units Election Database",
+  "tagline": "A local-level election database for 31 European countries (2001–2025).",
+  "description_short": "BLUE_DB is a Europe-wide database of municipality-level results of national parliamentary and European Parliament elections.",
+  "website": "https://electionatlas.eu",
+  "github": "https://github.com/blue-electoral-bulletin/BLUE_DB",
+  "zenodo_doi": "10.5281/zenodo.21434112",
+  "zenodo_url": "https://doi.org/10.5281/zenodo.21434112",
+  "zenodo_doi_pending": true,
+  "publisher": "Groupe d'études géopolitiques",
+  "publisher_url": "https://geopolitique.eu",
+  "authors": [
+    "François Hublet",
+    "Nicola Chiecchio"
+  ],
+  "year": 2026,
+  "citation": "Hublet, F., & Chiecchio, N. (2026). BLUE_DB — Basic Local Units Election Database. Paris: Groupe d'études géopolitiques. https://doi.org/10.5281/zenodo.21434112",
+  "license": {
+    "code": {
+      "name": "MIT License",
+      "holder": "François Hublet and Nicola Chiecchio",
+      "years": "2025–2026",
+      "url": "https://github.com/blue-electoral-bulletin/BLUE_DB/blob/main/LICENSE",
+      "applies_to": "The BLUE_DB code, the blue_maps library and this viewer."
+    },
+    "data": {
+      "name": "MIT License",
+      "applies_to": "The election results, party and geographic typology tables assembled by BLUE_DB, as published on Zenodo."
+    },
+    "third_party": [
+      {
+        "name": "Administrative boundaries — Eurostat GISCO",
+        "note": "© EuroGeographics for the administrative boundaries. GISCO boundaries are not redistributed by BLUE_DB: they carry their own licence and are downloaded on demand.",
+        "url": "https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units"
+      },
+      {
+        "name": "Basemap — OpenStreetMap and CARTO",
+        "note": "Map tiles © CARTO, map data © OpenStreetMap contributors (ODbL).",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "name": "Party colours and identifiers — Wikidata",
+        "note": "Party colours (P465) and identifiers are taken from Wikidata, released under CC0 1.0.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Licensing"
+      },
+      {
+        "name": "Party crosswalk — Party Facts",
+        "note": "Party Facts identifiers link BLUE_DB parties to other party datasets.",
+        "url": "https://partyfacts.herokuapp.com/"
+      }
+    ]
+  }
+}

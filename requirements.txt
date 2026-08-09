@@ -1,0 +1,9 @@
+# Default install (BlueDB data access, BlueGeo geometries, plotting)
+pandas>=2.0
+numpy>=1.24
+geopandas>=0.14
+shapely>=2.0
+requests>=2.28
+matplotlib>=3.7
+# eval_ned.py writes an .xlsx discrepancy workbook (the `eval` extra)
+openpyxl>=3.1

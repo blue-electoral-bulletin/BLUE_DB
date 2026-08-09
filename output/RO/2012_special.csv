@@ -1,0 +1,96 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RO,2012.csv,2637,ROZZAF,AFGANISTAN,AFGANISTAN,special_foreign_ro
+RO,2012.csv,2638,ROZZZA,AFRICA DE SUD,AFRICA DE SUD,special_foreign_ro
+RO,2012.csv,2639,ROZZAL,ALBANIA,ALBANIA,special_foreign_ro
+RO,2012.csv,2640,ROZZDZ,ALGERIA,ALGERIA,special_foreign_ro
+RO,2012.csv,2641,ROZZAO,ANGOLA,ANGOLA,special_foreign_ro
+RO,2012.csv,2642,ROZZSA,ARABIA SAUDITA,ARABIA SAUDITA,special_foreign_ro
+RO,2012.csv,2643,ROZZAR,ARGENTINA,ARGENTINA,special_foreign_ro
+RO,2012.csv,2644,ROZZAM,ARMENIA,ARMENIA,special_foreign_ro
+RO,2012.csv,2645,ROZZAU,Australia,Australia,matched_foreign_country_name
+RO,2012.csv,2646,ROZZAT,AUSTRIA,AUSTRIA,special_foreign_ro
+RO,2012.csv,2647,ROZZAZ,AZERBAIDJAN,AZERBAIDJAN,special_foreign_ro
+RO,2012.csv,2648,ROZZBY,BELARUS,BELARUS,special_foreign_ro
+RO,2012.csv,2649,ROZZBE,BELGIA,BELGIA,special_foreign_ro
+RO,2012.csv,2650,ROZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+RO,2012.csv,2651,ROZZBR,BRAZILIA,BRAZILIA,special_foreign_ro
+RO,2012.csv,2652,ROZZBG,BULGARIA,BULGARIA,special_foreign_ro
+RO,2012.csv,2653,ROZZCA,Canada,Canada,matched_foreign_country_name
+RO,2012.csv,2654,ROZZCZ,CEHIA,CEHIA,special_foreign_ro
+RO,2012.csv,2655,ROZZCL,CHILE,CHILE,special_foreign_ro
+RO,2012.csv,2656,ROZZCN,CHINA,CHINA,special_foreign_ro
+RO,2012.csv,2657,ROZZCY,CIPRU,CIPRU,special_foreign_ro
+RO,2012.csv,2658,ROZZCO,COLUMBIA,COLUMBIA,special_foreign_ro
+RO,2012.csv,2659,ROZZKP,COREEA DE NORD,COREEA DE NORD,special_foreign_ro
+RO,2012.csv,2660,ROZZKR,COREEA DE SUD,COREEA DE SUD,special_foreign_ro
+RO,2012.csv,2661,ROZZHR,CROATIA,CROATIA,special_foreign_ro
+RO,2012.csv,2662,ROZZCU,CUBA,CUBA,special_foreign_ro
+RO,2012.csv,2663,ROZZDK,DANEMARCA,DANEMARCA,special_foreign_ro
+RO,2012.csv,2664,ROZZEG,EGIPT,EGIPT,special_foreign_ro
+RO,2012.csv,2665,ROZZCH,Switzerland,Switzerland,matched_foreign_country_name
+RO,2012.csv,2666,ROZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+RO,2012.csv,2667,ROZZET,ETIOPIA,ETIOPIA,special_foreign_ro
+RO,2012.csv,2668,ROZZPH,FILIPINE,FILIPINE,special_foreign_ro
+RO,2012.csv,2669,ROZZFI,FINLANDA,FINLANDA,special_foreign_ro
+RO,2012.csv,2670,ROZZFR,FRANTA,FRANTA,special_foreign_ro
+RO,2012.csv,2671,ROZZGE,GEORGIA,GEORGIA,special_foreign_ro
+RO,2012.csv,2672,ROZZDE,GERMANIA,GERMANIA,special_foreign_ro
+RO,2012.csv,2673,ROZZGR,GRECIA,GRECIA,special_foreign_ro
+RO,2012.csv,2674,ROZZIN,INDIA,INDIA,special_foreign_ro
+RO,2012.csv,2675,ROZZID,INDONEZIA,INDONEZIA,special_foreign_ro
+RO,2012.csv,2676,ROZZJO,IORDANIA,IORDANIA,special_foreign_ro
+RO,2012.csv,2677,ROZZIQ,IRAK,IRAK,special_foreign_ro
+RO,2012.csv,2678,ROZZIR,IRAN,IRAN,special_foreign_ro
+RO,2012.csv,2679,ROZZIE,IRLANDA,IRLANDA,special_foreign_ro
+RO,2012.csv,2680,ROZZIL,ISRAEL,ISRAEL,special_foreign_ro
+RO,2012.csv,2681,ROZZIT,ITALIA,ITALIA,special_foreign_ro
+RO,2012.csv,2682,ROZZJP,JAPONIA,JAPONIA,special_foreign_ro
+RO,2012.csv,2683,ROZZKZ,KAZAHSTAN,KAZAHSTAN,special_foreign_ro
+RO,2012.csv,2684,ROZZKE,KENYA,KENYA,special_foreign_ro
+RO,2012.csv,2685,ROZZKW,KUWAIT,KUWAIT,special_foreign_ro
+RO,2012.csv,2686,ROZZLB,LIBAN,LIBAN,special_foreign_ro
+RO,2012.csv,2687,ROZZLY,LIBIA,LIBIA,special_foreign_ro
+RO,2012.csv,2688,ROZZLT,LITUANIA,LITUANIA,special_foreign_ro
+RO,2012.csv,2689,ROZZLU,LUXEMBURG,LUXEMBURG,special_foreign_ro
+RO,2012.csv,2690,ROZZMK,MACEDONIA,MACEDONIA,special_foreign_ro
+RO,2012.csv,2691,ROZZMY,MALAYEZIA,MALAYEZIA,special_foreign_ro
+RO,2012.csv,2692,ROZZMT,MALTA,MALTA,special_foreign_ro
+RO,2012.csv,2693,ROZZGB,MAREA BRITANIE,MAREA BRITANIE,special_foreign_ro
+RO,2012.csv,2694,ROZZMA,MAROC,MAROC,special_foreign_ro
+RO,2012.csv,2695,ROZZMX,MEXIC,MEXIC,special_foreign_ro
+RO,2012.csv,2696,ROZZME,MUNTENEGRU,MUNTENEGRU,special_foreign_ro
+RO,2012.csv,2697,ROZZNG,NIGERIA,NIGERIA,special_foreign_ro
+RO,2012.csv,2698,ROZZNO,NORVEGIA,NORVEGIA,special_foreign_ro
+RO,2012.csv,2699,ROZZNZ,NOUA ZEELANDA,NOUA ZEELANDA,special_foreign_ro
+RO,2012.csv,2700,ROZZNL,OLANDA,OLANDA,special_foreign_ro
+RO,2012.csv,2701,ROZZPK,PAKISTAN,PAKISTAN,special_foreign_ro
+RO,2012.csv,2702,ROZZPE,PERU,PERU,special_foreign_ro
+RO,2012.csv,2703,ROZZPL,POLONIA,POLONIA,special_foreign_ro
+RO,2012.csv,2704,ROZZPT,PORTUGALIA,PORTUGALIA,special_foreign_ro
+RO,2012.csv,2705,ROZZQA,QATAR,QATAR,special_foreign_ro
+RO,2012.csv,2706,ROZZMD,REP.MOLDOVA,REP.MOLDOVA,special_foreign_ro
+RO,2012.csv,2707,ROZZRU,RUSIA - FEDERATIE,RUSIA - FEDERATIE,special_foreign_ro
+RO,2012.csv,2708,ROZZUS,S.U.A.,S.U.A.,special_foreign_ro
+RO,2012.csv,2709,ROZZSM,SAN MARINO,SAN MARINO,special_foreign_ro
+RO,2012.csv,2710,ROZZSN,SENEGAL,SENEGAL,special_foreign_ro
+RO,2012.csv,2711,ROZZRS,SERBIA,SERBIA,special_foreign_ro
+RO,2012.csv,2712,ROZZSG,SINGAPORE,SINGAPORE,special_foreign_ro
+RO,2012.csv,2713,ROZZSY,SIRIA (Strainatate (CE. 43)),SIRIA (Strainatate (CE. 43)),special_foreign_ro
+RO,2012.csv,2714,ROZZSK,SLOVACIA,SLOVACIA,special_foreign_ro
+RO,2012.csv,2715,ROZZSI,SLOVENIA,SLOVENIA,special_foreign_ro
+RO,2012.csv,2716,ROZZES,SPANIA,SPANIA,special_foreign_ro
+RO,2012.csv,2717,ROZZLK,SRI LANKA,SRI LANKA,special_foreign_ro
+RO,2012.csv,2718,ROZZSD,SUDAN,SUDAN,special_foreign_ro
+RO,2012.csv,2719,ROZZSE,SUEDIA,SUEDIA,special_foreign_ro
+RO,2012.csv,2720,ROZZPS,TERITORIILE PALESTINIE,TERITORIILE PALESTINIE,special_foreign_ro
+RO,2012.csv,2721,ROZZTH,THAILANDA,THAILANDA,special_foreign_ro
+RO,2012.csv,2722,ROZZTN,TUNISIA,TUNISIA,special_foreign_ro
+RO,2012.csv,2723,ROZZTR,TURCIA,TURCIA,special_foreign_ro
+RO,2012.csv,2724,ROZZTM,TURKMENISTAN,TURKMENISTAN,special_foreign_ro
+RO,2012.csv,2725,ROZZUA,UCRAINA,UCRAINA,special_foreign_ro
+RO,2012.csv,2726,ROZZHU,UNGARIA,UNGARIA,special_foreign_ro
+RO,2012.csv,2727,ROZZUY,URUGUAY,URUGUAY,special_foreign_ro
+RO,2012.csv,2728,ROZZUZ,UZBEKISTAN,UZBEKISTAN,special_foreign_ro
+RO,2012.csv,2729,ROZZVE,VENEZUELA,VENEZUELA,special_foreign_ro
+RO,2012.csv,2730,ROZZVN,VIETNAM,VIETNAM,special_foreign_ro
+RO,2012.csv,2731,ROZZZW,ZIMBABWE,ZIMBABWE,special_foreign_ro

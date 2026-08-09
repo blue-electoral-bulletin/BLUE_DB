@@ -1,0 +1,14 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+MT,2022.csv,0,MT_01,DISTRICT 1,DISTRICT 1,special_all_muni
+MT,2022.csv,1,MT_02,DISTRICT 2,DISTRICT 2,special_all_muni
+MT,2022.csv,2,MT_03,DISTRICT 3,DISTRICT 3,special_all_muni
+MT,2022.csv,3,MT_04,DISTRICT 4,DISTRICT 4,special_all_muni
+MT,2022.csv,4,MT_05,DISTRICT 5,DISTRICT 5,special_all_muni
+MT,2022.csv,5,MT_06,DISTRICT 6,DISTRICT 6,special_all_muni
+MT,2022.csv,6,MT_07,DISTRICT 7,DISTRICT 7,special_all_muni
+MT,2022.csv,7,MT_08,DISTRICT 8,DISTRICT 8,special_all_muni
+MT,2022.csv,8,MT_09,DISTRICT 9,DISTRICT 9,special_all_muni
+MT,2022.csv,9,MT_10,DISTRICT 10,DISTRICT 10,special_all_muni
+MT,2022.csv,10,MT_11,DISTRICT 11,DISTRICT 11,special_all_muni
+MT,2022.csv,11,MT_12,DISTRICT 12,DISTRICT 12,special_all_muni
+MT,2022.csv,12,MT_13,DISTRICT 13,DISTRICT 13,special_all_muni

@@ -1,0 +1,46 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+LT,2009.csv,1942,LT_LTZZIE,Ireland,Ireland,special_foreign_voter_lt
+LT,2009.csv,1943,LT_LTZZAR,Argentina,Argentina,special_foreign_voter_lt
+LT,2009.csv,1944,LT_LTZZAM,Armenia,Armenia,special_foreign_voter_lt
+LT,2009.csv,1945,LT_LTZZAT,Austria,Austria,special_foreign_voter_lt
+LT,2009.csv,1946,LT_LTZZAZ,Azerbaijan,Azerbaijan,special_foreign_voter_lt
+LT,2009.csv,1947,LT_LTZZBE,Belgium,Belgium,special_foreign_voter_lt
+LT,2009.csv,1948,LT_LTZZBR,Brazil,Brazil,special_foreign_voter_lt
+LT,2009.csv,1949,LT_LTZZBG,Bulgaria,Bulgaria,special_foreign_voter_lt
+LT,2009.csv,1950,LT_LTZZCZ,Czech Republic,Czech Republic,special_foreign_voter_lt
+LT,2009.csv,1951,LT_LTZZDK,Denmark,Denmark,special_foreign_voter_lt
+LT,2009.csv,1952,LT_LTZZEG,Egypt,Egypt,special_foreign_voter_lt
+LT,2009.csv,1953,LT_LTZZEE,Estonia,Estonia,special_foreign_voter_lt
+LT,2009.csv,1954,LT_LTZZGR,Greece,Greece,special_foreign_voter_lt
+LT,2009.csv,1955,LT_LTZZGE,Georgia,Georgia,special_foreign_voter_lt
+LT,2009.csv,1956,LT_LTZZIT,Italy,Italy,special_foreign_voter_lt
+LT,2009.csv,1957,LT_LTZZIL,Israel,Israel,special_foreign_voter_lt
+LT,2009.csv,1958,LT_LTZZJP,Japan,Japan,special_foreign_voter_lt
+LT,2009.csv,1959,LT_LTZZKZ,Kazakhstan,Kazakhstan,special_foreign_voter_lt
+LT,2009.csv,1960,LT_LTZZCO,Kolumbijos Respublikai,Kolumbijos Respublikai,special_foreign_voter_lt
+LT,2009.csv,1961,LT_LTZZCN,China,China,special_foreign_voter_lt
+LT,2009.csv,1962,LT_LTZZLV,Latvia,Latvia,special_foreign_voter_lt
+LT,2009.csv,1963,LT_LTZZMD,Moldova,Moldova,special_foreign_voter_lt
+LT,2009.csv,1964,LT_LTZZNL,Netherlands,Netherlands,special_foreign_voter_lt
+LT,2009.csv,1965,LT_LTZZNO,Norway,Norway,special_foreign_voter_lt
+LT,2009.csv,1966,LT_LTZZPT,Portugal,Portugal,special_foreign_voter_lt
+LT,2009.csv,1967,LT_LTZZFR,France,France,special_foreign_voter_lt
+LT,2009.csv,1968,LT_LTZZRO,Romania,Romania,special_foreign_voter_lt
+LT,2009.csv,1969,LT_LTZZSI,Slovenia,Slovenia,special_foreign_voter_lt
+LT,2009.csv,1970,LT_LTZZFI,Finland,Finland,special_foreign_voter_lt
+LT,2009.csv,1971,LT_LTZZSE,Sweden,Sweden,special_foreign_voter_lt
+LT,2009.csv,1972,LT_LTZZCH,Switzerland,Switzerland,special_foreign_voter_lt
+LT,2009.csv,1973,LT_LTZZTR,Turkey,Turkey,special_foreign_voter_lt
+LT,2009.csv,1974,LT_LTZZUA,Ukraine,Ukraine,special_foreign_voter_lt
+LT,2009.csv,1975,LT_LTZZUY,Urugvajaus,Urugvajaus,special_foreign_voter_lt
+LT,2009.csv,1976,LT_LTZZHU,Hungary,Hungary,special_foreign_voter_lt
+LT,2009.csv,1977,LT_LTZZIN,India,India,special_foreign_voter_lt
+LT,2009.csv,1978,LT_LTZZAU,Australia,Australia,special_foreign_voter_lt
+LT,2009.csv,1979,LT_LTZZBY,Belarus,Belarus,special_foreign_voter_lt
+LT,2009.csv,1981,LT_LTZZES,Spain,Spain,special_foreign_voter_lt
+LT,2009.csv,1983,LT_LTZZUS,United States,United States,special_foreign_voter_lt
+LT,2009.csv,1989,LT_LTZZGB,United Kingdom,United Kingdom,special_foreign_voter_lt
+LT,2009.csv,1990,LT_LTZZCA,Canada,Canada,special_foreign_voter_lt
+LT,2009.csv,1991,LT_LTZZPL,Poland,Poland,special_foreign_voter_lt
+LT,2009.csv,1993,LT_LTZZRU,Russia,Russia,special_foreign_voter_lt
+LT,2009.csv,1997,LT_LTZZDE,Germany,Germany,special_foreign_voter_lt

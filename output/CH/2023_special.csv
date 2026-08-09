@@ -1,0 +1,13 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+CH,2023.csv,2131,CH_19010,ZH-Ausland-CH,ZH-Ausland-CH,special_ausland
+CH,2023.csv,2132,CH_19030,LU-Ausland-CH,LU-Ausland-CH,special_ausland
+CH,2023.csv,2133,CH_19040,UR-Ausland-CH,UR-Ausland-CH,special_ausland
+CH,2023.csv,2134,CH_19100,FR-CH de l'étranger,FR-CH de l'étranger,special_ausland
+CH,2023.csv,2135,CH_19120,BS-Ausland-CH,BS-Ausland-CH,special_ausland
+CH,2023.csv,2136,CH_19160,AI-Ausland-CH,AI-Ausland-CH,special_ausland
+CH,2023.csv,2137,CH_19170,SG-Ausland-CH,SG-Ausland-CH,special_ausland
+CH,2023.csv,2138,CH_19190,AG-Ausland-CH,AG-Ausland-CH,special_ausland
+CH,2023.csv,2139,CH_19200,TG-Ausland-CH,TG-Ausland-CH,special_ausland
+CH,2023.csv,2140,CH_19220,VD-CH de l'étranger,VD-CH de l'étranger,special_ausland
+CH,2023.csv,2141,CH_19230,VS-CH de l'étranger,VS-CH de l'étranger,special_ausland
+CH,2023.csv,2142,CH_19250,GE-CH de l'étranger,GE-CH de l'étranger,special_ausland

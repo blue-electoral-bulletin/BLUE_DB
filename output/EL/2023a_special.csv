@@ -1,0 +1,37 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+EL,2023a.csv,332,EL_ELZZEG,Egypt,Egypt,special_foreign_voter_el
+EL,2023a.csv,333,EL_ELZZAU,Australia,Australia,special_foreign_voter_el
+EL,2023a.csv,334,EL_ELZZAT,Austria,Austria,special_foreign_voter_el
+EL,2023a.csv,335,EL_ELZZBE,Belgium,Belgium,special_foreign_voter_el
+EL,2023a.csv,336,EL_ELZZBG,Bulgaria,Bulgaria,special_foreign_voter_el
+EL,2023a.csv,337,EL_ELZZFR,France,France,special_foreign_voter_el
+EL,2023a.csv,338,EL_ELZZDE,Germany,Germany,special_foreign_voter_el
+EL,2023a.csv,339,EL_ELZZDK,Denmark,Denmark,special_foreign_voter_el
+EL,2023a.csv,340,EL_ELZZCH,Switzerland,Switzerland,special_foreign_voter_el
+EL,2023a.csv,341,EL_ELZZAE,United Arab Emirates,United Arab Emirates,special_foreign_voter_el
+EL,2023a.csv,342,EL_ELZZGB,United Kingdom,United Kingdom,special_foreign_voter_el
+EL,2023a.csv,343,EL_ELZZUS,United States,United States,special_foreign_voter_el
+EL,2023a.csv,344,EL_ELZZIE,Ireland,Ireland,special_foreign_voter_el
+EL,2023a.csv,345,EL_ELZZES,Spain,Spain,special_foreign_voter_el
+EL,2023a.csv,346,EL_ELZZIT,Italy,Italy,special_foreign_voter_el
+EL,2023a.csv,347,EL_ELZZCA,Canada,Canada,special_foreign_voter_el
+EL,2023a.csv,348,EL_ELZZQA,Qatar,Qatar,special_foreign_voter_el
+EL,2023a.csv,349,EL_ELZZKR,South Korea,South Korea,special_foreign_voter_el
+EL,2023a.csv,350,EL_ELZZCY,Cyprus,Cyprus,special_foreign_voter_el
+EL,2023a.csv,351,EL_ELZZLT,Lithuania,Lithuania,special_foreign_voter_el
+EL,2023a.csv,352,EL_ELZZLU,Luxembourg,Luxembourg,special_foreign_voter_el
+EL,2023a.csv,353,EL_ELZZMT,Malta,Malta,special_foreign_voter_el
+EL,2023a.csv,354,EL_ELZZNO,Norway,Norway,special_foreign_voter_el
+EL,2023a.csv,355,EL_ELZZZA,South Africa,South Africa,special_foreign_voter_el
+EL,2023a.csv,356,EL_ELZZNL,Netherlands,Netherlands,special_foreign_voter_el
+EL,2023a.csv,357,EL_ELZZHU,Hungary,Hungary,special_foreign_voter_el
+EL,2023a.csv,358,EL_ELZZPL,Poland,Poland,special_foreign_voter_el
+EL,2023a.csv,359,EL_ELZZPT,Portugal,Portugal,special_foreign_voter_el
+EL,2023a.csv,360,EL_ELZZRO,Romania,Romania,special_foreign_voter_el
+EL,2023a.csv,361,EL_ELZZSA,Saudi Arabia,Saudi Arabia,special_foreign_voter_el
+EL,2023a.csv,362,EL_ELZZSG,Singapore,Singapore,special_foreign_voter_el
+EL,2023a.csv,363,EL_ELZZSE,Sweden,Sweden,special_foreign_voter_el
+EL,2023a.csv,364,EL_ELZZTR,Turkey,Turkey,special_foreign_voter_el
+EL,2023a.csv,365,EL_ELZZCZ,Czech Republic,Czech Republic,special_foreign_voter_el
+EL,2023a.csv,366,EL_ELZZFI,Finland,Finland,special_foreign_voter_el
+EL,2023a.csv,367,EL_ELYY99,Votes outside any municipality,Votes outside any municipality,special_outside_municipality

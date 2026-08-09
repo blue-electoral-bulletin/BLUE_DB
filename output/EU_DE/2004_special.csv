@@ -1,0 +1,440 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+DE,2004.csv,0,DEF01,"Flensburg, Stadt","Flensburg, Stadt",matched_de_landkreis
+DE,2004.csv,1,DEF02,"Kiel, Landeshauptstadt","Kiel, Landeshauptstadt",matched_de_landkreis
+DE,2004.csv,2,DEF03,"Lübeck, Hansestadt","Lübeck, Hansestadt",matched_de_landkreis
+DE,2004.csv,3,DEF04,"Neumünster, Stadt","Neumünster, Stadt",matched_de_landkreis
+DE,2004.csv,4,DEF05,Dithmarschen,Dithmarschen,matched_de_landkreis
+DE,2004.csv,5,DEF06,Herzogtum Lauenburg,Herzogtum Lauenburg,matched_de_landkreis
+DE,2004.csv,6,DEF07,Nordfriesland,Nordfriesland,matched_de_landkreis
+DE,2004.csv,7,DEF08,Ostholstein,Ostholstein,matched_de_landkreis
+DE,2004.csv,8,DEF09,Pinneberg,Pinneberg,matched_de_landkreis
+DE,2004.csv,9,DEF0A,Plön,Plön,matched_de_landkreis
+DE,2004.csv,10,DEF0B,Rendsburg-Eckernförde,Rendsburg-Eckernförde,matched_de_landkreis
+DE,2004.csv,11,DEF0C,Schleswig-Flensburg,Schleswig-Flensburg,matched_de_landkreis
+DE,2004.csv,12,DEF0D,Segeberg,Segeberg,matched_de_landkreis
+DE,2004.csv,13,DEF0E,Steinburg,Steinburg,matched_de_landkreis
+DE,2004.csv,14,DEF0F,Stormarn,Stormarn,matched_de_landkreis
+DE,2004.csv,15,DE600,"Hamburg, Freie und Hansestadt","Hamburg, Freie und Hansestadt",matched_de_landkreis
+DE,2004.csv,16,DE911,"Braunschweig, Stadt","Braunschweig, Stadt",matched_de_landkreis
+DE,2004.csv,17,DE912,"Salzgitter, Stadt","Salzgitter, Stadt",matched_de_landkreis
+DE,2004.csv,18,DE913,"Wolfsburg, Stadt","Wolfsburg, Stadt",matched_de_landkreis
+DE,2004.csv,19,DE914,Gifhorn,Gifhorn,matched_de_landkreis
+DE,2004.csv,20,DE915,Göttingen,Göttingen,matched_de_landkreis
+DE,2004.csv,21,DE916,Goslar,Goslar,matched_de_landkreis
+DE,2004.csv,22,DE917,Helmstedt,Helmstedt,matched_de_landkreis
+DE,2004.csv,23,DE918,Northeim,Northeim,matched_de_landkreis
+DE,2004.csv,24,DE919,Osterode am Harz,Osterode am Harz,matched_de_landkreis
+DE,2004.csv,25,DE91A,Peine,Peine,matched_de_landkreis
+DE,2004.csv,26,DE91B,Wolfenbüttel,Wolfenbüttel,matched_de_landkreis
+DE,2004.csv,27,DE929,Region Hannover,Region Hannover,matched_de_landkreis
+DE,2004.csv,28,DE922,Diepholz,Diepholz,matched_de_landkreis
+DE,2004.csv,29,DE923,Hameln-Pyrmont,Hameln-Pyrmont,matched_de_landkreis
+DE,2004.csv,30,DE925,Hildesheim,Hildesheim,matched_de_landkreis
+DE,2004.csv,31,DE926,Holzminden,Holzminden,matched_de_landkreis
+DE,2004.csv,32,DE927,Nienburg (Weser),Nienburg (Weser),matched_de_landkreis
+DE,2004.csv,33,DE928,Schaumburg,Schaumburg,matched_de_landkreis
+DE,2004.csv,34,DE931,Celle,Celle,matched_de_landkreis
+DE,2004.csv,35,DE932,Cuxhaven,Cuxhaven,matched_de_landkreis
+DE,2004.csv,36,DE933,Harburg,Harburg,matched_de_landkreis
+DE,2004.csv,37,DE934,Lüchow-Dannenberg,Lüchow-Dannenberg,matched_de_landkreis
+DE,2004.csv,38,DE935,Lüneburg,Lüneburg,matched_de_landkreis
+DE,2004.csv,39,DE936,Osterholz,Osterholz,matched_de_landkreis
+DE,2004.csv,40,DE937,Rotenburg (Wümme),Rotenburg (Wümme),matched_de_landkreis
+DE,2004.csv,41,DE938,Soltau-Fallingbostel,Soltau-Fallingbostel,matched_de_landkreis
+DE,2004.csv,42,DE939,Stade,Stade,matched_de_landkreis
+DE,2004.csv,43,DE93A,Uelzen,Uelzen,matched_de_landkreis
+DE,2004.csv,44,DE93B,Verden,Verden,matched_de_landkreis
+DE,2004.csv,45,DE941,"Delmenhorst, Stadt","Delmenhorst, Stadt",matched_de_landkreis
+DE,2004.csv,46,DE942,"Emden, Stadt","Emden, Stadt",matched_de_landkreis
+DE,2004.csv,47,DE943,"Oldenburg (Oldenburg), Stadt","Oldenburg (Oldenburg), Stadt",matched_de_landkreis
+DE,2004.csv,48,DE944,"Osnabrück, Stadt","Osnabrück, Stadt",matched_de_landkreis
+DE,2004.csv,49,DE945,"Wilhelmshaven, Stadt","Wilhelmshaven, Stadt",matched_de_landkreis
+DE,2004.csv,50,DE946,Ammerland,Ammerland,matched_de_landkreis
+DE,2004.csv,51,DE947,Aurich,Aurich,matched_de_landkreis
+DE,2004.csv,52,DE948,Cloppenburg,Cloppenburg,matched_de_landkreis
+DE,2004.csv,53,DE949,Emsland,Emsland,matched_de_landkreis
+DE,2004.csv,54,DE94A,Friesland,Friesland,matched_de_landkreis
+DE,2004.csv,55,DE94B,Grafschaft Bentheim,Grafschaft Bentheim,matched_de_landkreis
+DE,2004.csv,56,DE94C,Leer,Leer,matched_de_landkreis
+DE,2004.csv,57,DE94D,Oldenburg,Oldenburg,matched_de_landkreis
+DE,2004.csv,58,DE94E,Osnabrück,Osnabrück,matched_de_landkreis
+DE,2004.csv,59,DE94F,Vechta,Vechta,matched_de_landkreis
+DE,2004.csv,60,DE94G,Wesermarsch,Wesermarsch,matched_de_landkreis
+DE,2004.csv,61,DE94H,Wittmund,Wittmund,matched_de_landkreis
+DE,2004.csv,62,DE501,"Bremen, Stadt","Bremen, Stadt",matched_de_landkreis
+DE,2004.csv,63,DE502,"Bremerhaven, Stadt","Bremerhaven, Stadt",matched_de_landkreis
+DE,2004.csv,64,DEA11,"Düsseldorf, Stadt","Düsseldorf, Stadt",matched_de_landkreis
+DE,2004.csv,65,DEA12,"Duisburg, Stadt","Duisburg, Stadt",matched_de_landkreis
+DE,2004.csv,66,DEA13,"Essen, Stadt","Essen, Stadt",matched_de_landkreis
+DE,2004.csv,67,DEA14,"Krefeld, Stadt","Krefeld, Stadt",matched_de_landkreis
+DE,2004.csv,68,DEA15,"Mönchengladbach, Stadt","Mönchengladbach, Stadt",matched_de_landkreis
+DE,2004.csv,69,DEA16,"Mülheim an der Ruhr, Stadt","Mülheim an der Ruhr, Stadt",matched_de_landkreis
+DE,2004.csv,70,DEA17,"Oberhausen, Stadt","Oberhausen, Stadt",matched_de_landkreis
+DE,2004.csv,71,DEA18,"Remscheid, Stadt","Remscheid, Stadt",matched_de_landkreis
+DE,2004.csv,72,DEA19,"Solingen, Stadt","Solingen, Stadt",matched_de_landkreis
+DE,2004.csv,73,DEA1A,"Wuppertal, Stadt","Wuppertal, Stadt",matched_de_landkreis
+DE,2004.csv,74,DEA1B,Kleve,Kleve,matched_de_landkreis
+DE,2004.csv,75,DEA1C,Mettmann,Mettmann,matched_de_landkreis
+DE,2004.csv,76,DEA1D,Neuss,Neuss,matched_de_landkreis
+DE,2004.csv,77,DEA1E,Viersen,Viersen,matched_de_landkreis
+DE,2004.csv,78,DEA1F,Wesel,Wesel,matched_de_landkreis
+DE,2004.csv,79,DEA21,"Aachen, Stadt","Aachen, Stadt",matched_de_landkreis
+DE,2004.csv,80,DEA22,"Bonn, Stadt","Bonn, Stadt",matched_de_landkreis
+DE,2004.csv,81,DEA23,"Köln, Stadt","Köln, Stadt",matched_de_landkreis
+DE,2004.csv,82,DEA24,"Leverkusen, Stadt","Leverkusen, Stadt",matched_de_landkreis
+DE,2004.csv,83,DEA25,Aachen,Aachen,matched_de_landkreis
+DE,2004.csv,84,DEA26,Düren,Düren,matched_de_landkreis
+DE,2004.csv,85,DEA27,Erftkreis,Erftkreis,matched_de_landkreis
+DE,2004.csv,86,DEA28,Euskirchen,Euskirchen,matched_de_landkreis
+DE,2004.csv,87,DEA29,Heinsberg,Heinsberg,matched_de_landkreis
+DE,2004.csv,88,DEA2A,Oberbergischer Kreis,Oberbergischer Kreis,matched_de_landkreis
+DE,2004.csv,89,DEA2B,Rheinisch-Bergischer Kreis,Rheinisch-Bergischer Kreis,matched_de_landkreis
+DE,2004.csv,90,DEA2C,Rhein-Sieg-Kreis,Rhein-Sieg-Kreis,matched_de_landkreis
+DE,2004.csv,91,DEA31,"Bottrop, Stadt","Bottrop, Stadt",matched_de_landkreis
+DE,2004.csv,92,DEA32,"Gelsenkirchen, Stadt","Gelsenkirchen, Stadt",matched_de_landkreis
+DE,2004.csv,93,DEA33,"Münster, Stadt","Münster, Stadt",matched_de_landkreis
+DE,2004.csv,94,DEA34,Borken,Borken,matched_de_landkreis
+DE,2004.csv,95,DEA35,Coesfeld,Coesfeld,matched_de_landkreis
+DE,2004.csv,96,DEA36,Recklinghausen,Recklinghausen,matched_de_landkreis
+DE,2004.csv,97,DEA37,Steinfurt,Steinfurt,matched_de_landkreis
+DE,2004.csv,98,DEA38,Warendorf,Warendorf,matched_de_landkreis
+DE,2004.csv,99,DEA41,"Bielefeld, Stadt","Bielefeld, Stadt",matched_de_landkreis
+DE,2004.csv,100,DEA42,Gütersloh,Gütersloh,matched_de_landkreis
+DE,2004.csv,101,DEA43,Herford,Herford,matched_de_landkreis
+DE,2004.csv,102,DEA44,Höxter,Höxter,matched_de_landkreis
+DE,2004.csv,103,DEA45,Lippe,Lippe,matched_de_landkreis
+DE,2004.csv,104,DEA46,Minden-Lübbecke,Minden-Lübbecke,matched_de_landkreis
+DE,2004.csv,105,DEA47,Paderborn,Paderborn,matched_de_landkreis
+DE,2004.csv,106,DEA51,"Bochum, Stadt","Bochum, Stadt",matched_de_landkreis
+DE,2004.csv,107,DEA52,"Dortmund, Stadt","Dortmund, Stadt",matched_de_landkreis
+DE,2004.csv,108,DEA53,"Hagen, Stadt","Hagen, Stadt",matched_de_landkreis
+DE,2004.csv,109,DEA54,"Hamm, Stadt","Hamm, Stadt",matched_de_landkreis
+DE,2004.csv,110,DEA55,"Herne, Stadt","Herne, Stadt",matched_de_landkreis
+DE,2004.csv,111,DEA56,Ennepe-Ruhr-Kreis,Ennepe-Ruhr-Kreis,matched_de_landkreis
+DE,2004.csv,112,DEA57,Hochsauerlandkreis,Hochsauerlandkreis,matched_de_landkreis
+DE,2004.csv,113,DEA58,Märkischer Kreis,Märkischer Kreis,matched_de_landkreis
+DE,2004.csv,114,DEA59,Olpe,Olpe,matched_de_landkreis
+DE,2004.csv,115,DEA5A,Siegen-Wittgenstein,Siegen-Wittgenstein,matched_de_landkreis
+DE,2004.csv,116,DEA5B,Soest,Soest,matched_de_landkreis
+DE,2004.csv,117,DEA5C,Unna,Unna,matched_de_landkreis
+DE,2004.csv,118,DE711,"Darmstadt, Stadt","Darmstadt, Stadt",matched_de_landkreis
+DE,2004.csv,119,DE712,"Frankfurt am Main, Stadt","Frankfurt am Main, Stadt",matched_de_landkreis
+DE,2004.csv,120,DE713,"Offenbach am Main, Stadt","Offenbach am Main, Stadt",matched_de_landkreis
+DE,2004.csv,121,DE714,"Wiesbaden, Landeshauptstadt","Wiesbaden, Landeshauptstadt",matched_de_landkreis
+DE,2004.csv,122,DE715,Bergstraße,Bergstraße,matched_de_landkreis
+DE,2004.csv,123,DE716,Darmstadt-Dieburg,Darmstadt-Dieburg,matched_de_landkreis
+DE,2004.csv,124,DE717,Groß-Gerau,Groß-Gerau,matched_de_landkreis
+DE,2004.csv,125,DE718,Hochtaunuskreis,Hochtaunuskreis,matched_de_landkreis
+DE,2004.csv,126,DE719,Main-Kinzig-Kreis,Main-Kinzig-Kreis,matched_de_landkreis
+DE,2004.csv,127,DE71A,Main-Taunus-Kreis,Main-Taunus-Kreis,matched_de_landkreis
+DE,2004.csv,128,DE71B,Odenwaldkreis,Odenwaldkreis,matched_de_landkreis
+DE,2004.csv,129,DE71C,"Offenbach, Landkreis","Offenbach, Landkreis",matched_de_landkreis
+DE,2004.csv,130,DE71D,Rheingau-Taunus-Kreis,Rheingau-Taunus-Kreis,matched_de_landkreis
+DE,2004.csv,131,DE71E,Wetteraukreis,Wetteraukreis,matched_de_landkreis
+DE,2004.csv,132,DE721,Gießen,Gießen,matched_de_landkreis
+DE,2004.csv,133,DE722,Lahn-Dill-Kreis,Lahn-Dill-Kreis,matched_de_landkreis
+DE,2004.csv,134,DE723,Limburg-Weilburg,Limburg-Weilburg,matched_de_landkreis
+DE,2004.csv,135,DE724,Marburg-Biedenkopf,Marburg-Biedenkopf,matched_de_landkreis
+DE,2004.csv,136,DE725,Vogelsbergkreis,Vogelsbergkreis,matched_de_landkreis
+DE,2004.csv,137,DE731,"Kassel, Stadt","Kassel, Stadt",matched_de_landkreis
+DE,2004.csv,138,DE732,Fulda,Fulda,matched_de_landkreis
+DE,2004.csv,139,DE733,Hersfeld-Rotenburg,Hersfeld-Rotenburg,matched_de_landkreis
+DE,2004.csv,140,DE734,Kassel,Kassel,matched_de_landkreis
+DE,2004.csv,141,DE735,Schwalm-Eder-Kreis,Schwalm-Eder-Kreis,matched_de_landkreis
+DE,2004.csv,142,DE736,Waldeck-Frankenberg,Waldeck-Frankenberg,matched_de_landkreis
+DE,2004.csv,143,DE737,Werra-Meißner-Kreis,Werra-Meißner-Kreis,matched_de_landkreis
+DE,2004.csv,144,DEB11,"Koblenz, Stadt","Koblenz, Stadt",matched_de_landkreis
+DE,2004.csv,145,DEB12,Ahrweiler,Ahrweiler,matched_de_landkreis
+DE,2004.csv,146,DEB13,Altenkirchen (Westerwald),Altenkirchen (Westerwald),matched_de_landkreis
+DE,2004.csv,147,DEB14,Bad Kreuznach,Bad Kreuznach,matched_de_landkreis
+DE,2004.csv,148,DEB15,Birkenfeld,Birkenfeld,matched_de_landkreis
+DE,2004.csv,149,DEB16,Cochem-Zell,Cochem-Zell,matched_de_landkreis
+DE,2004.csv,150,DEB17,Mayen-Koblenz,Mayen-Koblenz,matched_de_landkreis
+DE,2004.csv,151,DEB18,Neuwied,Neuwied,matched_de_landkreis
+DE,2004.csv,152,DEB19,Rhein-Hunsrück-Kreis,Rhein-Hunsrück-Kreis,matched_de_landkreis
+DE,2004.csv,153,DEB1A,Rhein-Lahn-Kreis,Rhein-Lahn-Kreis,matched_de_landkreis
+DE,2004.csv,154,DEB1B,Westerwaldkreis,Westerwaldkreis,matched_de_landkreis
+DE,2004.csv,155,DEB21,"Trier, Stadt","Trier, Stadt",matched_de_landkreis
+DE,2004.csv,156,DEB22,Bernkastel-Wittlich,Bernkastel-Wittlich,matched_de_landkreis
+DE,2004.csv,157,DEB23,Bitburg-Prüm,Bitburg-Prüm,matched_de_landkreis
+DE,2004.csv,158,DEB24,Daun,Daun,matched_de_landkreis
+DE,2004.csv,159,DEB25,Trier-Saarburg,Trier-Saarburg,matched_de_landkreis
+DE,2004.csv,160,DEB31,"Frankenthal (Pfalz), Stadt","Frankenthal (Pfalz), Stadt",matched_de_landkreis
+DE,2004.csv,161,DEB32,"Kaiserslautern, Stadt","Kaiserslautern, Stadt",matched_de_landkreis
+DE,2004.csv,162,DEB33,"Landau in der Pfalz, Stadt","Landau in der Pfalz, Stadt",matched_de_landkreis
+DE,2004.csv,163,DEB34,"Ludwigshafen am Rhein, Stadt","Ludwigshafen am Rhein, Stadt",matched_de_landkreis
+DE,2004.csv,164,DEB35,"Mainz, Stadt","Mainz, Stadt",matched_de_landkreis
+DE,2004.csv,165,DEB36,"Neustadt an der Weinstraße, Stadt","Neustadt an der Weinstraße, Stadt",matched_de_landkreis
+DE,2004.csv,166,DEB37,"Pirmasens, Stadt","Pirmasens, Stadt",matched_de_landkreis
+DE,2004.csv,167,DEB38,"Speyer, Stadt","Speyer, Stadt",matched_de_landkreis
+DE,2004.csv,168,DEB39,"Worms, Stadt","Worms, Stadt",matched_de_landkreis
+DE,2004.csv,169,DEB3A,"Zweibrücken, Stadt","Zweibrücken, Stadt",matched_de_landkreis
+DE,2004.csv,170,DEB3B,Alzey-Worms,Alzey-Worms,matched_de_landkreis
+DE,2004.csv,171,DEB3C,Bad Dürkheim,Bad Dürkheim,matched_de_landkreis
+DE,2004.csv,172,DEB3D,Donnersbergkreis,Donnersbergkreis,matched_de_landkreis
+DE,2004.csv,173,DEB3E,Germersheim,Germersheim,matched_de_landkreis
+DE,2004.csv,174,DEB3F,Kaiserslautern,Kaiserslautern,matched_de_landkreis
+DE,2004.csv,175,DEB3G,Kusel,Kusel,matched_de_landkreis
+DE,2004.csv,176,DEB3H,Südliche Weinstraße,Südliche Weinstraße,matched_de_landkreis
+DE,2004.csv,177,DEB3I,"Ludwigshafen, Landkreis","Ludwigshafen, Landkreis",matched_de_landkreis
+DE,2004.csv,178,DEB3J,Mainz-Bingen,Mainz-Bingen,matched_de_landkreis
+DE,2004.csv,179,DEB3K,Südwestpfalz,Südwestpfalz,matched_de_landkreis
+DE,2004.csv,180,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis",matched_de_landkreis
+DE,2004.csv,181,DE112,Böblingen,Böblingen,matched_de_landkreis
+DE,2004.csv,182,DE113,Esslingen,Esslingen,matched_de_landkreis
+DE,2004.csv,183,DE114,Göppingen,Göppingen,matched_de_landkreis
+DE,2004.csv,184,DE115,Ludwigsburg,Ludwigsburg,matched_de_landkreis
+DE,2004.csv,185,DE116,Rems-Murr-Kreis,Rems-Murr-Kreis,matched_de_landkreis
+DE,2004.csv,186,DE117,"Heilbronn, Stadt","Heilbronn, Stadt",matched_de_landkreis
+DE,2004.csv,187,DE118,Heilbronn,Heilbronn,matched_de_landkreis
+DE,2004.csv,188,DE119,Hohenlohekreis,Hohenlohekreis,matched_de_landkreis
+DE,2004.csv,189,DE11A,Schwäbisch Hall,Schwäbisch Hall,matched_de_landkreis
+DE,2004.csv,190,DE11B,Main-Tauber-Kreis,Main-Tauber-Kreis,matched_de_landkreis
+DE,2004.csv,191,DE11C,Heidenheim,Heidenheim,matched_de_landkreis
+DE,2004.csv,192,DE11D,Ostalbkreis,Ostalbkreis,matched_de_landkreis
+DE,2004.csv,193,DE121,"Baden-Baden, Stadtkreis","Baden-Baden, Stadtkreis",matched_de_landkreis
+DE,2004.csv,194,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis",matched_de_landkreis
+DE,2004.csv,195,DE123,Karlsruhe,Karlsruhe,matched_de_landkreis
+DE,2004.csv,196,DE124,Rastatt,Rastatt,matched_de_landkreis
+DE,2004.csv,197,DE125,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis",matched_de_landkreis
+DE,2004.csv,198,DE126,"Mannheim, Stadtkreis","Mannheim, Stadtkreis",matched_de_landkreis
+DE,2004.csv,199,DE127,Neckar-Odenwald-Kreis,Neckar-Odenwald-Kreis,matched_de_landkreis
+DE,2004.csv,200,DE128,Rhein-Neckar-Kreis,Rhein-Neckar-Kreis,matched_de_landkreis
+DE,2004.csv,201,DE129,"Pforzheim, Stadtkreis","Pforzheim, Stadtkreis",matched_de_landkreis
+DE,2004.csv,202,DE12A,Calw,Calw,matched_de_landkreis
+DE,2004.csv,203,DE12B,Enzkreis,Enzkreis,matched_de_landkreis
+DE,2004.csv,204,DE12C,Freudenstadt,Freudenstadt,matched_de_landkreis
+DE,2004.csv,205,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis",matched_de_landkreis
+DE,2004.csv,206,DE132,Breisgau-Hochschwarzwald,Breisgau-Hochschwarzwald,matched_de_landkreis
+DE,2004.csv,207,DE133,Emmendingen,Emmendingen,matched_de_landkreis
+DE,2004.csv,208,DE134,Ortenaukreis,Ortenaukreis,matched_de_landkreis
+DE,2004.csv,209,DE135,Rottweil,Rottweil,matched_de_landkreis
+DE,2004.csv,210,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,matched_de_landkreis
+DE,2004.csv,211,DE137,Tuttlingen,Tuttlingen,matched_de_landkreis
+DE,2004.csv,212,DE138,Konstanz,Konstanz,matched_de_landkreis
+DE,2004.csv,213,DE139,Lörrach,Lörrach,matched_de_landkreis
+DE,2004.csv,214,DE13A,Waldshut,Waldshut,matched_de_landkreis
+DE,2004.csv,215,DE141,Reutlingen,Reutlingen,matched_de_landkreis
+DE,2004.csv,216,DE142,Tübingen,Tübingen,matched_de_landkreis
+DE,2004.csv,217,DE143,Zollernalbkreis,Zollernalbkreis,matched_de_landkreis
+DE,2004.csv,218,DE144,"Ulm, Stadtkreis","Ulm, Stadtkreis",matched_de_landkreis
+DE,2004.csv,219,DE145,Alb-Donau-Kreis,Alb-Donau-Kreis,matched_de_landkreis
+DE,2004.csv,220,DE146,Biberach,Biberach,matched_de_landkreis
+DE,2004.csv,221,DE147,Bodenseekreis,Bodenseekreis,matched_de_landkreis
+DE,2004.csv,222,DE148,Ravensburg,Ravensburg,matched_de_landkreis
+DE,2004.csv,223,DE149,Sigmaringen,Sigmaringen,matched_de_landkreis
+DE,2004.csv,224,DE211,"Ingolstadt, Stadt","Ingolstadt, Stadt",matched_de_landkreis
+DE,2004.csv,225,DE212,"München, Landeshauptstadt","München, Landeshauptstadt",matched_de_landkreis
+DE,2004.csv,226,DE213,"Rosenheim, Stadt","Rosenheim, Stadt",matched_de_landkreis
+DE,2004.csv,227,DE214,Altötting,Altötting,matched_de_landkreis
+DE,2004.csv,228,DE215,Berchtesgadener Land,Berchtesgadener Land,matched_de_landkreis
+DE,2004.csv,229,DE216,Bad Tölz-Wolfratshausen,Bad Tölz-Wolfratshausen,matched_de_landkreis
+DE,2004.csv,230,DE217,Dachau,Dachau,matched_de_landkreis
+DE,2004.csv,231,DE218,Ebersberg,Ebersberg,matched_de_landkreis
+DE,2004.csv,232,DE219,Eichstätt,Eichstätt,matched_de_landkreis
+DE,2004.csv,233,DE21A,Erding,Erding,matched_de_landkreis
+DE,2004.csv,234,DE21B,Freising,Freising,matched_de_landkreis
+DE,2004.csv,235,DE21C,Fürstenfeldbruck,Fürstenfeldbruck,matched_de_landkreis
+DE,2004.csv,236,DE21D,Garmisch-Partenkirchen,Garmisch-Partenkirchen,matched_de_landkreis
+DE,2004.csv,237,DE21E,Landsberg a. Lech,Landsberg a. Lech,matched_de_landkreis
+DE,2004.csv,238,DE21F,Miesbach,Miesbach,matched_de_landkreis
+DE,2004.csv,239,DE21G,Mühldorf a. Inn,Mühldorf a. Inn,matched_de_landkreis
+DE,2004.csv,240,DE21H,München,München,matched_de_landkreis
+DE,2004.csv,241,DE21I,Neuburg-Schrobenhausen,Neuburg-Schrobenhausen,matched_de_landkreis
+DE,2004.csv,242,DE21J,Pfaffenhofen a.d. Ilm,Pfaffenhofen a.d. Ilm,matched_de_landkreis
+DE,2004.csv,243,DE21K,Rosenheim,Rosenheim,matched_de_landkreis
+DE,2004.csv,244,DE21L,Starnberg,Starnberg,matched_de_landkreis
+DE,2004.csv,245,DE21M,Traunstein,Traunstein,matched_de_landkreis
+DE,2004.csv,246,DE21N,Weilheim-Schongau,Weilheim-Schongau,matched_de_landkreis
+DE,2004.csv,247,DE221,"Landshut, Stadt","Landshut, Stadt",matched_de_landkreis
+DE,2004.csv,248,DE222,"Passau, Stadt","Passau, Stadt",matched_de_landkreis
+DE,2004.csv,249,DE223,"Straubing, Stadt","Straubing, Stadt",matched_de_landkreis
+DE,2004.csv,250,DE224,Deggendorf,Deggendorf,matched_de_landkreis
+DE,2004.csv,251,DE225,Freyung-Grafenau,Freyung-Grafenau,matched_de_landkreis
+DE,2004.csv,252,DE226,Kelheim,Kelheim,matched_de_landkreis
+DE,2004.csv,253,DE227,Landshut,Landshut,matched_de_landkreis
+DE,2004.csv,254,DE228,Passau,Passau,matched_de_landkreis
+DE,2004.csv,255,DE229,Regen,Regen,matched_de_landkreis
+DE,2004.csv,256,DE22A,Rottal-Inn,Rottal-Inn,matched_de_landkreis
+DE,2004.csv,257,DE22B,Straubing-Bogen,Straubing-Bogen,matched_de_landkreis
+DE,2004.csv,258,DE22C,Dingolfing-Landau,Dingolfing-Landau,matched_de_landkreis
+DE,2004.csv,259,DE231,"Amberg, Stadt","Amberg, Stadt",matched_de_landkreis
+DE,2004.csv,260,DE232,"Regensburg, Stadt","Regensburg, Stadt",matched_de_landkreis
+DE,2004.csv,261,DE233,"Weiden i.d. OPf., Stadt","Weiden i.d. OPf., Stadt",matched_de_landkreis
+DE,2004.csv,262,DE234,Amberg-Sulzbach,Amberg-Sulzbach,matched_de_landkreis
+DE,2004.csv,263,DE235,Cham,Cham,matched_de_landkreis
+DE,2004.csv,264,DE236,Neumarkt i.d. OPf.,Neumarkt i.d. OPf.,matched_de_landkreis
+DE,2004.csv,265,DE237,Neustadt a.d. Waldnaab,Neustadt a.d. Waldnaab,matched_de_landkreis
+DE,2004.csv,266,DE238,Regensburg,Regensburg,matched_de_landkreis
+DE,2004.csv,267,DE239,Schwandorf,Schwandorf,matched_de_landkreis
+DE,2004.csv,268,DE23A,Tirschenreuth,Tirschenreuth,matched_de_landkreis
+DE,2004.csv,269,DE241,"Bamberg, Stadt","Bamberg, Stadt",matched_de_landkreis
+DE,2004.csv,270,DE242,"Bayreuth, Stadt","Bayreuth, Stadt",matched_de_landkreis
+DE,2004.csv,271,DE243,"Coburg, Stadt","Coburg, Stadt",matched_de_landkreis
+DE,2004.csv,272,DE244,"Hof, Stadt","Hof, Stadt",matched_de_landkreis
+DE,2004.csv,273,DE245,Bamberg,Bamberg,matched_de_landkreis
+DE,2004.csv,274,DE246,Bayreuth,Bayreuth,matched_de_landkreis
+DE,2004.csv,275,DE247,Coburg,Coburg,matched_de_landkreis
+DE,2004.csv,276,DE248,Forchheim,Forchheim,matched_de_landkreis
+DE,2004.csv,277,DE249,Hof,Hof,matched_de_landkreis
+DE,2004.csv,278,DE24A,Kronach,Kronach,matched_de_landkreis
+DE,2004.csv,279,DE24B,Kulmbach,Kulmbach,matched_de_landkreis
+DE,2004.csv,280,DE24C,Lichtenfels,Lichtenfels,matched_de_landkreis
+DE,2004.csv,281,DE24D,Wunsiedel i. Fichtelgebirge,Wunsiedel i. Fichtelgebirge,matched_de_landkreis
+DE,2004.csv,282,DE251,"Ansbach, Stadt","Ansbach, Stadt",matched_de_landkreis
+DE,2004.csv,283,DE252,"Erlangen, Stadt","Erlangen, Stadt",matched_de_landkreis
+DE,2004.csv,284,DE253,"Fürth, Stadt","Fürth, Stadt",matched_de_landkreis
+DE,2004.csv,285,DE254,"Nürnberg, Stadt","Nürnberg, Stadt",matched_de_landkreis
+DE,2004.csv,286,DE255,"Schwabach, Stadt","Schwabach, Stadt",matched_de_landkreis
+DE,2004.csv,287,DE256,Ansbach,Ansbach,matched_de_landkreis
+DE,2004.csv,288,DE257,Erlangen-Höchstadt,Erlangen-Höchstadt,matched_de_landkreis
+DE,2004.csv,289,DE258,Fürth,Fürth,matched_de_landkreis
+DE,2004.csv,290,DE259,Nürnberger Land,Nürnberger Land,matched_de_landkreis
+DE,2004.csv,291,DE25A,Neustadt a.d. Aisch-Bad Windsheim,Neustadt a.d. Aisch-Bad Windsheim,matched_de_landkreis
+DE,2004.csv,292,DE25B,Roth,Roth,matched_de_landkreis
+DE,2004.csv,293,DE25C,Weißenburg-Gunzenhausen,Weißenburg-Gunzenhausen,matched_de_landkreis
+DE,2004.csv,294,DE261,"Aschaffenburg, Stadt","Aschaffenburg, Stadt",matched_de_landkreis
+DE,2004.csv,295,DE262,"Schweinfurt, Stadt","Schweinfurt, Stadt",matched_de_landkreis
+DE,2004.csv,296,DE263,"Würzburg, Stadt","Würzburg, Stadt",matched_de_landkreis
+DE,2004.csv,297,DE264,Aschaffenburg,Aschaffenburg,matched_de_landkreis
+DE,2004.csv,298,DE265,Bad Kissingen,Bad Kissingen,matched_de_landkreis
+DE,2004.csv,299,DE266,Rhön-Grabfeld,Rhön-Grabfeld,matched_de_landkreis
+DE,2004.csv,300,DE267,Haßberge,Haßberge,matched_de_landkreis
+DE,2004.csv,301,DE268,Kitzingen,Kitzingen,matched_de_landkreis
+DE,2004.csv,302,DE269,Miltenberg,Miltenberg,matched_de_landkreis
+DE,2004.csv,303,DE26A,Main-Spessart,Main-Spessart,matched_de_landkreis
+DE,2004.csv,304,DE26B,Schweinfurt,Schweinfurt,matched_de_landkreis
+DE,2004.csv,305,DE26C,Würzburg,Würzburg,matched_de_landkreis
+DE,2004.csv,306,DE271,"Augsburg, Stadt","Augsburg, Stadt",matched_de_landkreis
+DE,2004.csv,307,DE272,"Kaufbeuren, Stadt","Kaufbeuren, Stadt",matched_de_landkreis
+DE,2004.csv,308,DE273,"Kempten (Allgäu), Stadt","Kempten (Allgäu), Stadt",matched_de_landkreis
+DE,2004.csv,309,DE274,"Memmingen, Stadt","Memmingen, Stadt",matched_de_landkreis
+DE,2004.csv,310,DE275,Aichach-Friedberg,Aichach-Friedberg,matched_de_landkreis
+DE,2004.csv,311,DE276,Augsburg,Augsburg,matched_de_landkreis
+DE,2004.csv,312,DE277,Dillingen a.d. Donau,Dillingen a.d. Donau,matched_de_landkreis
+DE,2004.csv,313,DE278,Günzburg,Günzburg,matched_de_landkreis
+DE,2004.csv,314,DE279,Neu-Ulm,Neu-Ulm,matched_de_landkreis
+DE,2004.csv,315,DE27A,Lindau (Bodensee),Lindau (Bodensee),matched_de_landkreis
+DE,2004.csv,316,DE27B,Ostallgäu,Ostallgäu,matched_de_landkreis
+DE,2004.csv,317,DE27C,Unterallgäu,Unterallgäu,matched_de_landkreis
+DE,2004.csv,318,DE27D,Donau-Ries,Donau-Ries,matched_de_landkreis
+DE,2004.csv,319,DE27E,Oberallgäu,Oberallgäu,matched_de_landkreis
+DE,2004.csv,320,DEC01,Stadtverband Saarbrücken,Stadtverband Saarbrücken,matched_de_landkreis
+DE,2004.csv,321,DEC02,Merzig-Wadern,Merzig-Wadern,matched_de_landkreis
+DE,2004.csv,322,DEC03,Neunkirchen,Neunkirchen,matched_de_landkreis
+DE,2004.csv,323,DEC04,Saarlouis,Saarlouis,matched_de_landkreis
+DE,2004.csv,324,DEC05,Saarpfalz-Kreis,Saarpfalz-Kreis,matched_de_landkreis
+DE,2004.csv,325,DEC06,St. Wendel,St. Wendel,matched_de_landkreis
+DE,2004.csv,326,DE300,"Berlin, Stadt","Berlin, Stadt",matched_de_landkreis
+DE,2004.csv,327,DE421,"Brandenburg an der Havel, Stadt","Brandenburg an der Havel, Stadt",matched_de_landkreis
+DE,2004.csv,328,DE422,"Cottbus, Stadt","Cottbus, Stadt",matched_de_landkreis
+DE,2004.csv,329,DE411,"Frankfurt (Oder), Stadt","Frankfurt (Oder), Stadt",matched_de_landkreis
+DE,2004.csv,330,DE423,"Potsdam, Stadt","Potsdam, Stadt",matched_de_landkreis
+DE,2004.csv,331,DE412,Barnim,Barnim,matched_de_landkreis
+DE,2004.csv,332,DE424,Dahme-Spreewald,Dahme-Spreewald,matched_de_landkreis
+DE,2004.csv,333,DE425,Elbe-Elster,Elbe-Elster,matched_de_landkreis
+DE,2004.csv,334,DE426,Havelland,Havelland,matched_de_landkreis
+DE,2004.csv,335,DE413,Märkisch-Oderland,Märkisch-Oderland,matched_de_landkreis
+DE,2004.csv,336,DE414,Oberhavel,Oberhavel,matched_de_landkreis
+DE,2004.csv,337,DE427,Oberspreewald-Lausitz,Oberspreewald-Lausitz,matched_de_landkreis
+DE,2004.csv,338,DE415,Oder-Spree,Oder-Spree,matched_de_landkreis
+DE,2004.csv,339,DE416,Ostprignitz-Ruppin,Ostprignitz-Ruppin,matched_de_landkreis
+DE,2004.csv,340,DE428,Potsdam-Mittelmark,Potsdam-Mittelmark,matched_de_landkreis
+DE,2004.csv,341,DE417,Prignitz,Prignitz,matched_de_landkreis
+DE,2004.csv,342,DE429,Spree-Neiße,Spree-Neiße,matched_de_landkreis
+DE,2004.csv,343,DE42A,Teltow-Fläming,Teltow-Fläming,matched_de_landkreis
+DE,2004.csv,344,DE418,Uckermark,Uckermark,matched_de_landkreis
+DE,2004.csv,345,DE801,"Greifswald, Hansestadt","Greifswald, Hansestadt",matched_de_landkreis
+DE,2004.csv,346,DE802,"Neubrandenburg, Stadt","Neubrandenburg, Stadt",matched_de_landkreis
+DE,2004.csv,347,DE803,"Rostock, Hansestadt","Rostock, Hansestadt",matched_de_landkreis
+DE,2004.csv,348,DE804,"Schwerin, Landeshauptstadt","Schwerin, Landeshauptstadt",matched_de_landkreis
+DE,2004.csv,349,DE805,"Stralsund, Hansestadt","Stralsund, Hansestadt",matched_de_landkreis
+DE,2004.csv,350,DE806,"Wismar, Hansestadt","Wismar, Hansestadt",matched_de_landkreis
+DE,2004.csv,351,DE807,Bad Doberan,Bad Doberan,matched_de_landkreis
+DE,2004.csv,352,DE808,Demmin,Demmin,matched_de_landkreis
+DE,2004.csv,353,DE809,Güstrow,Güstrow,matched_de_landkreis
+DE,2004.csv,354,DE80A,Ludwigslust,Ludwigslust,matched_de_landkreis
+DE,2004.csv,355,DE80B,Mecklenburg-Strelitz,Mecklenburg-Strelitz,matched_de_landkreis
+DE,2004.csv,356,DE80C,Müritz,Müritz,matched_de_landkreis
+DE,2004.csv,357,DE80D,Nordvorpommern,Nordvorpommern,matched_de_landkreis
+DE,2004.csv,358,DE80E,Nordwestmecklenburg,Nordwestmecklenburg,matched_de_landkreis
+DE,2004.csv,359,DE80F,Ostvorpommern,Ostvorpommern,matched_de_landkreis
+DE,2004.csv,360,DE80G,Parchim,Parchim,matched_de_landkreis
+DE,2004.csv,361,DE80H,Rügen,Rügen,matched_de_landkreis
+DE,2004.csv,362,DE80I,Uecker-Randow,Uecker-Randow,matched_de_landkreis
+DE,2004.csv,363,DED11,"Chemnitz, Stadt","Chemnitz, Stadt",matched_de_landkreis
+DE,2004.csv,364,DED12,"Plauen, Stadt","Plauen, Stadt",matched_de_landkreis
+DE,2004.csv,365,DED13,"Zwickau, Stadt","Zwickau, Stadt",matched_de_landkreis
+DE,2004.csv,366,DED14,Annaberg,Annaberg,matched_de_landkreis
+DE,2004.csv,367,DED15,Chemnitzer Land,Chemnitzer Land,matched_de_landkreis
+DE,2004.csv,368,DED16,Freiberg,Freiberg,matched_de_landkreis
+DE,2004.csv,369,DED17,Vogtlandkreis,Vogtlandkreis,matched_de_landkreis
+DE,2004.csv,370,DED18,Mittlerer Erzgebirgskreis,Mittlerer Erzgebirgskreis,matched_de_landkreis
+DE,2004.csv,371,DED19,Mittweida,Mittweida,matched_de_landkreis
+DE,2004.csv,372,DED1A,Stollberg,Stollberg,matched_de_landkreis
+DE,2004.csv,373,DED1B,Aue-Schwarzenberg,Aue-Schwarzenberg,matched_de_landkreis
+DE,2004.csv,374,DED1C,Zwickauer Land,Zwickauer Land,matched_de_landkreis
+DE,2004.csv,375,DED21,"Dresden, Stadt","Dresden, Stadt",matched_de_landkreis
+DE,2004.csv,376,DED22,"Görlitz, Stadt","Görlitz, Stadt",matched_de_landkreis
+DE,2004.csv,377,DED23,"Hoyerswerda, Stadt","Hoyerswerda, Stadt",matched_de_landkreis
+DE,2004.csv,378,DED24,Bautzen,Bautzen,matched_de_landkreis
+DE,2004.csv,379,DED25,Meißen,Meißen,matched_de_landkreis
+DE,2004.csv,380,DED26,Niederschlesischer Oberlausitzkreis,Niederschlesischer Oberlausitzkreis,matched_de_landkreis
+DE,2004.csv,381,DED27,Riesa-Großenhain,Riesa-Großenhain,matched_de_landkreis
+DE,2004.csv,382,DED28,Löbau-Zittau,Löbau-Zittau,matched_de_landkreis
+DE,2004.csv,383,DED29,Sächsische Schweiz,Sächsische Schweiz,matched_de_landkreis
+DE,2004.csv,384,DED2A,Weißeritzkreis,Weißeritzkreis,matched_de_landkreis
+DE,2004.csv,385,DED2B,Kamenz,Kamenz,matched_de_landkreis
+DE,2004.csv,386,DED31,"Leipzig, Stadt","Leipzig, Stadt",matched_de_landkreis
+DE,2004.csv,387,DED32,Delitzsch,Delitzsch,matched_de_landkreis
+DE,2004.csv,388,DED33,Döbeln,Döbeln,matched_de_landkreis
+DE,2004.csv,389,DED34,Leipziger Land,Leipziger Land,matched_de_landkreis
+DE,2004.csv,390,DED35,Muldentalkreis,Muldentalkreis,matched_de_landkreis
+DE,2004.csv,391,DED36,Torgau-Oschatz,Torgau-Oschatz,matched_de_landkreis
+DE,2004.csv,392,DEE11,"Dessau, Stadt","Dessau, Stadt",matched_de_landkreis
+DE,2004.csv,393,DEE12,Anhalt-Zerbst,Anhalt-Zerbst,matched_de_landkreis
+DE,2004.csv,394,DEE13,Bernburg,Bernburg,matched_de_landkreis
+DE,2004.csv,395,DEE14,Bitterfeld,Bitterfeld,matched_de_landkreis
+DE,2004.csv,396,DEE15,Köthen,Köthen,matched_de_landkreis
+DE,2004.csv,397,DEE16,Wittenberg,Wittenberg,matched_de_landkreis
+DE,2004.csv,398,DEE21,"Halle (Saale), Stadt","Halle (Saale), Stadt",matched_de_landkreis
+DE,2004.csv,399,DEE22,Burgenlandkreis,Burgenlandkreis,matched_de_landkreis
+DE,2004.csv,400,DEE23,Mansfelder Land,Mansfelder Land,matched_de_landkreis
+DE,2004.csv,401,DEE24,Merseburg-Querfurt,Merseburg-Querfurt,matched_de_landkreis
+DE,2004.csv,402,DEE25,Saalkreis,Saalkreis,matched_de_landkreis
+DE,2004.csv,403,DEE26,Sangerhausen,Sangerhausen,matched_de_landkreis
+DE,2004.csv,404,DEE27,Weißenfels,Weißenfels,matched_de_landkreis
+DE,2004.csv,405,DEE31,"Magdeburg, Landeshauptstadt","Magdeburg, Landeshauptstadt",matched_de_landkreis
+DE,2004.csv,406,DEE32,Aschersleben-Staßfurt,Aschersleben-Staßfurt,matched_de_landkreis
+DE,2004.csv,407,DEE33,Bördekreis,Bördekreis,matched_de_landkreis
+DE,2004.csv,408,DEE34,Halberstadt,Halberstadt,matched_de_landkreis
+DE,2004.csv,409,DEE35,Jerichower Land,Jerichower Land,matched_de_landkreis
+DE,2004.csv,410,DEE36,Ohrekreis,Ohrekreis,matched_de_landkreis
+DE,2004.csv,411,DEE37,Stendal,Stendal,matched_de_landkreis
+DE,2004.csv,412,DEE38,Quedlinburg,Quedlinburg,matched_de_landkreis
+DE,2004.csv,413,DEE39,Schönebeck,Schönebeck,matched_de_landkreis
+DE,2004.csv,414,DEE3A,Wernigerode,Wernigerode,matched_de_landkreis
+DE,2004.csv,415,DEE3B,Altmarkkreis Salzwedel,Altmarkkreis Salzwedel,matched_de_landkreis
+DE,2004.csv,416,DEG01,"Erfurt, Stadt","Erfurt, Stadt",matched_de_landkreis
+DE,2004.csv,417,DEG02,"Gera, Stadt","Gera, Stadt",matched_de_landkreis
+DE,2004.csv,418,DEG03,"Jena, Stadt","Jena, Stadt",matched_de_landkreis
+DE,2004.csv,419,DEG04,"Suhl, Stadt","Suhl, Stadt",matched_de_landkreis
+DE,2004.csv,420,DEG05,"Weimar, Stadt","Weimar, Stadt",matched_de_landkreis
+DE,2004.csv,421,DEG0N,"Eisenach, Stadt","Eisenach, Stadt",matched_de_landkreis
+DE,2004.csv,422,DEG06,Eichsfeld,Eichsfeld,matched_de_landkreis
+DE,2004.csv,423,DEG07,Nordhausen,Nordhausen,matched_de_landkreis
+DE,2004.csv,424,DEG0P,Wartburgkreis,Wartburgkreis,matched_de_landkreis
+DE,2004.csv,425,DEG09,Unstrut-Hainich-Kreis,Unstrut-Hainich-Kreis,matched_de_landkreis
+DE,2004.csv,426,DEG0A,Kyffhäuserkreis,Kyffhäuserkreis,matched_de_landkreis
+DE,2004.csv,427,DEG0B,Schmalkalden-Meiningen,Schmalkalden-Meiningen,matched_de_landkreis
+DE,2004.csv,428,DEG0C,Gotha,Gotha,matched_de_landkreis
+DE,2004.csv,429,DEG0D,Sömmerda,Sömmerda,matched_de_landkreis
+DE,2004.csv,430,DEG0E,Hildburghausen,Hildburghausen,matched_de_landkreis
+DE,2004.csv,431,DEG0F,Ilm-Kreis,Ilm-Kreis,matched_de_landkreis
+DE,2004.csv,432,DEG0G,Weimarer Land,Weimarer Land,matched_de_landkreis
+DE,2004.csv,433,DEG0H,Sonneberg,Sonneberg,matched_de_landkreis
+DE,2004.csv,434,DEG0I,Saalfeld-Rudolstadt,Saalfeld-Rudolstadt,matched_de_landkreis
+DE,2004.csv,435,DEG0J,Saale-Holzland-Kreis,Saale-Holzland-Kreis,matched_de_landkreis
+DE,2004.csv,436,DEG0K,Saale-Orla-Kreis,Saale-Orla-Kreis,matched_de_landkreis
+DE,2004.csv,437,DEG0L,Greiz,Greiz,matched_de_landkreis
+DE,2004.csv,438,DEG0M,Altenburger Land,Altenburger Land,matched_de_landkreis

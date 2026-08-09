@@ -1,0 +1,93 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+PL,2009.csv,0,PL_PLZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+PL,2009.csv,1,PL_PLZZAF,Afghanistan,Afghanistan,matched_foreign_country_name
+PL,2009.csv,2,PL_PLZZAL,Albania,Albania,matched_foreign_country_name
+PL,2009.csv,3,PL_PLZZAM,Armenia,Armenia,matched_foreign_country_name
+PL,2009.csv,4,PL_PLZZAO,AO,AO,matched_foreign_country_name
+PL,2009.csv,5,PL_PLZZAR,Argentina,Argentina,matched_foreign_country_name
+PL,2009.csv,6,PL_PLZZAT,Austria,Austria,matched_foreign_country_name
+PL,2009.csv,7,PL_PLZZAU,Australia,Australia,matched_foreign_country_name
+PL,2009.csv,8,PL_PLZZAZ,Azerbaijan,Azerbaijan,matched_foreign_country_name
+PL,2009.csv,9,PL_PLZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+PL,2009.csv,10,PL_PLZZBE,Belgium,Belgium,matched_foreign_country_name
+PL,2009.csv,11,PL_PLZZBG,Bulgaria,Bulgaria,matched_foreign_country_name
+PL,2009.csv,12,PL_PLZZBR,Brazil,Brazil,matched_foreign_country_name
+PL,2009.csv,13,PL_PLZZBY,Belarus,Belarus,matched_foreign_country_name
+PL,2009.csv,14,PL_PLZZCA,Canada,Canada,matched_foreign_country_name
+PL,2009.csv,15,PL_PLZZCH,Switzerland,Switzerland,matched_foreign_country_name
+PL,2009.csv,16,PL_PLZZCL,Chile,Chile,matched_foreign_country_name
+PL,2009.csv,17,PL_PLZZCN,China,China,matched_foreign_country_name
+PL,2009.csv,18,PL_PLZZCO,CO,CO,matched_foreign_country_name
+PL,2009.csv,19,PL_PLZZCU,Cuba,Cuba,matched_foreign_country_name
+PL,2009.csv,20,PL_PLZZCY,Cyprus,Cyprus,matched_foreign_country_name
+PL,2009.csv,21,PL_PLZZCZ,Czech Republic,Czech Republic,matched_foreign_country_name
+PL,2009.csv,22,PL_PLZZDE,Germany,Germany,matched_foreign_country_name
+PL,2009.csv,23,PL_PLZZDK,Denmark,Denmark,matched_foreign_country_name
+PL,2009.csv,24,PL_PLZZDZ,Algeria,Algeria,matched_foreign_country_name
+PL,2009.csv,25,PL_PLZZEE,Estonia,Estonia,matched_foreign_country_name
+PL,2009.csv,26,PL_PLZZEG,Egypt,Egypt,matched_foreign_country_name
+PL,2009.csv,27,PL_PLZZES,Spain,Spain,matched_foreign_country_name
+PL,2009.csv,28,PL_PLZZFI,Finland,Finland,matched_foreign_country_name
+PL,2009.csv,29,PL_PLZZFR,France,France,matched_foreign_country_name
+PL,2009.csv,30,PL_PLZZGB,United Kingdom,United Kingdom,matched_foreign_country_name
+PL,2009.csv,31,PL_PLZZGE,Georgia,Georgia,matched_foreign_country_name
+PL,2009.csv,32,PL_PLZZGR,Greece,Greece,matched_foreign_country_name
+PL,2009.csv,33,PL_PLZZHR,Croatia,Croatia,matched_foreign_country_name
+PL,2009.csv,34,PL_PLZZHU,Hungary,Hungary,matched_foreign_country_name
+PL,2009.csv,35,PL_PLZZID,Indonesia,Indonesia,matched_foreign_country_name
+PL,2009.csv,36,PL_PLZZIE,Ireland,Ireland,matched_foreign_country_name
+PL,2009.csv,37,PL_PLZZIL,Israel,Israel,matched_foreign_country_name
+PL,2009.csv,38,PL_PLZZIN,India,India,matched_foreign_country_name
+PL,2009.csv,39,PL_PLZZIQ,IQ,IQ,matched_foreign_country_name
+PL,2009.csv,40,PL_PLZZIR,Iran,Iran,matched_foreign_country_name
+PL,2009.csv,41,PL_PLZZIS,Iceland,Iceland,matched_foreign_country_name
+PL,2009.csv,43,PL_PLZZJO,Jordan,Jordan,matched_foreign_country_name
+PL,2009.csv,44,PL_PLZZJP,Japan,Japan,matched_foreign_country_name
+PL,2009.csv,45,PL_PLZZKE,KE,KE,matched_foreign_country_name
+PL,2009.csv,46,PL_PLZZKP,North Korea,North Korea,matched_foreign_country_name
+PL,2009.csv,47,PL_PLZZKR,South Korea,South Korea,matched_foreign_country_name
+PL,2009.csv,48,PL_PLZZKW,Kuwait,Kuwait,matched_foreign_country_name
+PL,2009.csv,49,PL_PLZZKZ,Kazakhstan,Kazakhstan,matched_foreign_country_name
+PL,2009.csv,50,PL_PLZZLB,Lebanon,Lebanon,matched_foreign_country_name
+PL,2009.csv,51,PL_PLZZLT,Lithuania,Lithuania,matched_foreign_country_name
+PL,2009.csv,52,PL_PLZZLU,Luxembourg,Luxembourg,matched_foreign_country_name
+PL,2009.csv,53,PL_PLZZLV,Latvia,Latvia,matched_foreign_country_name
+PL,2009.csv,54,PL_PLZZLY,Libya,Libya,matched_foreign_country_name
+PL,2009.csv,55,PL_PLZZMA,Morocco,Morocco,matched_foreign_country_name
+PL,2009.csv,56,PL_PLZZMD,Moldova,Moldova,matched_foreign_country_name
+PL,2009.csv,57,PL_PLZZMK,North Macedonia,North Macedonia,matched_foreign_country_name
+PL,2009.csv,58,PL_PLZZMX,Mexico,Mexico,matched_foreign_country_name
+PL,2009.csv,59,PL_PLZZMY,Malaysia,Malaysia,matched_foreign_country_name
+PL,2009.csv,60,PL_PLZZNG,Nigeria,Nigeria,matched_foreign_country_name
+PL,2009.csv,61,PL_PLZZNL,Netherlands,Netherlands,matched_foreign_country_name
+PL,2009.csv,62,PL_PLZZNO,Norway,Norway,matched_foreign_country_name
+PL,2009.csv,63,PL_PLZZNZ,New Zealand,New Zealand,matched_foreign_country_name
+PL,2009.csv,64,PL_PLZZOM,Oman,Oman,matched_foreign_country_name
+PL,2009.csv,65,PL_PLZZPE,PE,PE,matched_foreign_country_name
+PL,2009.csv,66,PL_PLZZPK,PK,PK,matched_foreign_country_name
+PL,2009.csv,67,PL_PLZZPT,Portugal,Portugal,matched_foreign_country_name
+PL,2009.csv,68,PL_PLZZQA,Qatar,Qatar,matched_foreign_country_name
+PL,2009.csv,69,PL_PLZZRO,Romania,Romania,matched_foreign_country_name
+PL,2009.csv,70,PL_PLZZRU,Russia,Russia,matched_foreign_country_name
+PL,2009.csv,71,PL_PLZZSA,Saudi Arabia,Saudi Arabia,matched_foreign_country_name
+PL,2009.csv,72,PL_PLZZSE,Sweden,Sweden,matched_foreign_country_name
+PL,2009.csv,73,PL_PLZZSG,Singapore,Singapore,matched_foreign_country_name
+PL,2009.csv,74,PL_PLZZSI,Slovenia,Slovenia,matched_foreign_country_name
+PL,2009.csv,75,PL_PLZZSK,Slovakia,Slovakia,matched_foreign_country_name
+PL,2009.csv,76,PL_PLZZSY,Syria,Syria,matched_foreign_country_name
+PL,2009.csv,77,PL_PLZZTD,TD,TD,matched_foreign_country_name
+PL,2009.csv,78,PL_PLZZTH,Thailand,Thailand,matched_foreign_country_name
+PL,2009.csv,79,PL_PLZZTM,TM,TM,matched_foreign_country_name
+PL,2009.csv,80,PL_PLZZTN,Tunisia,Tunisia,matched_foreign_country_name
+PL,2009.csv,81,PL_PLZZTR,Turkey,Turkey,matched_foreign_country_name
+PL,2009.csv,82,PL_PLZZTW,Taiwan,Taiwan,matched_foreign_country_name
+PL,2009.csv,83,PL_PLZZUA,Ukraine,Ukraine,matched_foreign_country_name
+PL,2009.csv,84,PL_PLZZUS,United States,United States,matched_foreign_country_name
+PL,2009.csv,85,PL_PLZZUZ,Uzbekistan,Uzbekistan,matched_foreign_country_name
+PL,2009.csv,86,PL_PLZZVE,VE,VE,matched_foreign_country_name
+PL,2009.csv,87,PL_PLZZVN,Vietnam,Vietnam,matched_foreign_country_name
+PL,2009.csv,88,PL_PLZZYE,YE,YE,matched_foreign_country_name
+PL,2009.csv,89,PL_PLZZZA,South Africa,South Africa,matched_foreign_country_name
+PL,2009.csv,90,PL_PLZZRS,Serbia,Serbia,matched_foreign_country_name
+PL,2009.csv,91,PL_PLZZXK,Kosovo,Kosovo,matched_foreign_country_name
+PL,2009.csv,1862,PL_PLZZ98,Statki,Statki,special_ships_pl
