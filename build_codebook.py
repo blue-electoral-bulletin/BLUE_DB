@@ -1107,7 +1107,7 @@ def _load_country_template(cc: str) -> str:
 
 
 # ── LaTeX generation ─────────────────────────────────────────────────────────
-REVISION_ID = 2
+REVISION_ID = 1
 
 # \setmainfont{TeX Gyre Termes}
 #\setsansfont[Scale=0.92]{TeX Gyre Heros}
