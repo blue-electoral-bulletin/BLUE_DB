@@ -1,0 +1,3 @@
+#!/usr/bin/env Rscript
+# blue-db: BLUE_DB command line (R).  See `blue-db --help`.
+quit(status = bluedb::cli_main(commandArgs(trailingOnly = TRUE)))

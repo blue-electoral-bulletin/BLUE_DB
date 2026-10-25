@@ -32,7 +32,7 @@ groups of municipalities are coded at \texttt{LAU 1}; other local units
 \paragraph{Reporting units and Eurostat's LAU levels.}
 Each country section states the unit its results are reported in, under the
 name that country uses for it (\textit{Gemeinde}, \textit{община},
-\textit{gmina}, \textit{savivaldyb\.e}, etc.). For 24 of the 31 countries, this unit
+\textit{gmina}, \textit{savivaldyb\.e}, etc.). For 24 of the 31 EU and EFTA countries, this unit
 is exactly Eurostat's Local Administrative Unit, with an identical code.
 
 Six countries depart from this:
@@ -58,6 +58,26 @@ Six countries depart from this:
         \textit{gemeenten}/\textit{communes} (the LAU) appear alongside them,
         with registered voter counts only published at cantonal level.
 \end{itemize}
+
+\paragraph{Countries outside the LAU framework.}
+Eurostat's LAU file covers Albania, North Macedonia and Serbia, whose
+municipalities are used with their LAU codes.  For the other non-EU countries,
+the reporting unit is the lowest level at which official results are
+published, coded \texttt{CC\_nnnn} in a registry kept alongside the LAU
+(\texttt{resources/extra\_communes.csv}). The boundaries
+for these units are sourced from geoBoundaries and OpenStreetMap.
+Their NUTS parents
+are the NUTS 2024 regions where Eurostat defines them (Albania, Kosovo,
+Montenegro, North Macedonia, Serbia, Türkiye); Bosnia and Herzegovina gets a
+pseudo-NUTS hierarchy from its entities and cantons (see its country note),
+Ukraine one from its oblasts and raions, Armenia and Georgia one with the
+country at NUTS~1 and~2 and the marzer and regions at NUTS~3
+(\texttt{AM111} {\caucasusfont Արագածոտնի մարզ} \ldots, \texttt{GE111} \ldots), as Eurostat
+does for Estonia, and the other countries a single region repeated at every
+level (\texttt{AD}, \texttt{AD0}, \texttt{AD00}, \texttt{AD000}).
+Table~\ref{tab:nuts_extension} summarises the resulting hierarchy.
+
+\VAR{nuts_extension_table}
 
 Unit counts also move over time as municipalities merge, and BLUE\_DB follows
 the units in force at each election rather than back-casting a single

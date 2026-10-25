@@ -49,6 +49,9 @@ except Exception:  # pragma: no cover
 
 # ── paths ──────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent
+META = json.loads((ROOT / "blue_db_meta.json").read_text(encoding="utf-8"))
+# Countries whose results are outside CC BY 4.0 and the Zenodo record.
+EXTERNAL = META.get("external", {}).get("countries", {})
 OUTPUT = ROOT / "output"
 RESOURCES = ROOT / "resources"
 CODEBOOK_DIR = ROOT / "codebook"
@@ -103,6 +106,19 @@ _COUNTRY_NAMES: dict[str, str] = {
     "SI": "Slovenia",
     "SK": "Slovakia",
     "UK": "United Kingdom",
+    "FO": "Faroe Islands",
+    "GE": "Georgia",
+    "GL": "Greenland",
+    "IM": "Isle of Man",
+    "JE": "Jersey",
+    "MD": "Moldova",
+    "ME": "Montenegro",
+    "MK": "North Macedonia",
+    "RS": "Serbia",
+    "SM": "San Marino",
+    "TR": "Türkiye",
+    "UA": "Ukraine",
+    "XK": "Kosovo",
 }
 
 # The unit each country's results are reported in, under its own name.  These
@@ -141,7 +157,33 @@ _MAIN_LOCAL_LEVEL: dict[str, tuple[str, str]] = {
     "SE": ("Kommun", "municipality"),
     "SI": ("Volilni okraj", "electoral district"),
     "SK": ("Obec", "municipality"),
+    "AD": ("Parròquia", "parish"),
+    "AL": ("Bashki", "municipality"),
+    "AM": ("Համայնք", "community"),
+    "BA": ("Općina / Opština / Grad", "municipality or city"),
+    "FO": ("Kommuna", "municipality"),
+    "GE": ("მუნიციპალიტეტი / თვითმმართველი ქალაქი", "municipality or self-governing city"),
+    "GG": ("Electoral district", "electoral district"),
+    "GI": ("Gibraltar", "whole territory"),
+    "GL": ("Kommuneqarfik", "municipality"),
+    "IM": ("Constituency", "constituency"),
+    "JE": ("Constituency", "constituency"),
+    "MC": ("Monaco", "whole territory"),
+    "MD": ("Raion / municipiu", "district or municipality"),
+    "ME": ("Opština", "municipality"),
+    "MK": ("Општина", "municipality"),
+    "RS": ("Општина / Град", "municipality or city"),
+    "SM": ("Castello", "castello (municipality)"),
+    "TR": ("İl", "province"),
+    "XK": ("Komuna / Opština", "municipality"),
+    "UK": ("Parliamentary constituency", "Westminster constituency"),
+    "UA": ("Територіальна громада", "hromada (2012--2019); territorial constituency (2006, 2007)"),
 }
+
+
+_CAUCASUS_RUN = re.compile(
+    r"[\u0530-\u058F\u10A0-\u10FF\u1C90-\u1CBF]+"
+    r"(?:[\s\-–—,.«»„“”()]+[\u0530-\u058F\u10A0-\u10FF\u1C90-\u1CBF]+)*")
 
 
 def _tex_escape(s: str, max_length: int | None = None) -> str:
@@ -165,17 +207,19 @@ def _tex_escape(s: str, max_length: int | None = None) -> str:
     ]
     for old, new in replacements:
         s = s.replace(old, new)
+    # Georgian and Armenian runs need a font that has the glyphs (see preamble).
+    s = _CAUCASUS_RUN.sub(lambda m: "{\\caucasusfont " + m.group(0) + "}", s)
     return s
 
 
 # ── data sources ─────────────────────────────────────────────────────────────
 # (parliament_name, source_office, url)
 _DATA_SOURCES: dict[str, tuple[str, str, str]] = {
-    "AD": ("Consell General",        "Govern d'Andorra",                          "https://www.govern.ad"),
-    "AL": ("Kuvendi",                 "Komisioni Qendror i Zgjedhjeve",             "https://www.kqz.gov.al"),
-    "AM": ("Ազգային ժողով",           "Կենտրոնական ընտրական հանձնաժողով",            "https://www.elections.am"),
+    "AD": ("Consell General", "Govern d'Andorra", "https://www.eleccions.ad"),
+    "AL": ("Kuvendi i Shqipërisë", "Komisioni Qendror i Zgjedhjeve", "https://cec.org.al"),
+    "AM": ("Ազգային ժողով", "Կենտրոնական ընտրական հանձնաժողով", "https://www.elections.am"),
     "AT": ("Nationalrat",             "Bundesministerium des Innern",               "https://www.bmi.gv.at/wahlen"),
-    "BA": ("Parlamentarna skupština", "Izborna komisija BiH",                       "https://www.izbori.ba"),
+    "BA": ("Predstavnički dom Parlamentarne skupštine BiH", "Centralna izborna komisija BiH", "https://www.izbori.ba"),
     "BE": ("Chambre des Représentants","IBZ",                                       "https://wahlergebnisse.belgium.be"),
     "BG": ("Народно събрание",         "Централна избирателна комисия",              "https://results.cik.bg"),
     "CH": ("Nationalrat",             "Bundeskanzlei",                              "https://www.bk.admin.ch/wahlen"),
@@ -187,29 +231,42 @@ _DATA_SOURCES: dict[str, tuple[str, str, str]] = {
     "EL": ("Βουλή των Ελλήνων",        "Υπουργείο Εσωτερικών",                        "https://www.ypes.gr/ekloges"),
     "ES": ("Congreso de los Diputados","Infoelectoral (Ministerio del Interior)",   "https://infoelectoral.interior.gob.es"),
     "FI": ("Eduskunta",               "Vaalit (Oikeusministeriö)",                  "https://tulospalvelu.vaalit.fi"),
+    "FO": ("Løgtingið", "Valurslit", "https://www.valurslit.fo"),
     "FR": ("Assemblée nationale",     "Ministère de l'Intérieur",                  "https://www.resultats-elections.interieur.gouv.fr"),
-    "GG": ("States of Deliberation",  "States of Guernsey",                         "https://www.gov.gg"),
-    "GI": ("Gibraltar Parliament",    "Gibraltar Electoral Office",                  "https://www.gibraltar.gov.gi"),
+    "GE": ("საქართველოს პარლამენტი", "Georgia Elections Data Archive (GEDA), from CEC results", "https://electionsdata.ge"),
+    "GG": ("States of Deliberation", "Secondary sources, checked against the official results of the States of Guernsey", "https://www.gov.gg"),
+    "GI": ("Gibraltar Parliament", "Gibraltar Parliament", "https://www.parliament.gi"),
+    "GL": ("Inatsisartut", "Qinersineq (Valgsekretariatet)", "https://www.qinersineq.gl"),
     "HR": ("Hrvatski sabor",          "Državno izborno povjerenstvo",               "https://www.izbori.hr"),
     "HU": ("Országgyűlés",            "Nemzeti Választási Iroda",                   "https://www.valasztas.hu"),
-    "IE": ("Dáil Éireann",            "National Electoral Commission",               "https://www.electoralcommission.ie"),
+    "IE": ("Dáil Éireann",            "ElectionsIreland.org; IrelandElection.com",   "https://electionsireland.org"),
+    "IM": ("House of Keys", "Isle of Man Government", "https://www.elections.gov.im"),
     "IS": ("Alþingi",                 "Landskjörstjórn",                            "https://www.landskjor.is"),
     "IT": ("Camera dei Deputati",     "Eligendo (Ministero dell'Interno)",          "https://elezionistorico.interno.gov.it"),
+    "JE": ("States Assembly", "Secondary sources, checked against the official results of the States Greffe", "https://www.vote.je"),
     "LI": ("Landtag",                 "Amt für Statistik Liechtenstein",            "https://www.llv.li/wahlen"),
     "LT": ("Seimas",                  "Vyriausioji rinkimų komisija",               "https://www.vrk.lt"),
     "LU": ("Chambre des Députés",     "Gouvernement du Grand-Duché",                "https://elections.public.lu"),
     "LV": ("Saeima",                  "Centrālā vēlēšanu komisija",                 "https://www.cvk.lv"),
-    "MC": ("Conseil national",        "Gouvernement de Monaco",                     "https://www.gouv.mc"),
+    "MC": ("Conseil national", "Gouvernement de Monaco", "https://www.gouv.mc"),
+    "MD": ("Parlamentul Republicii Moldova", "Comisia Electorală Centrală", "https://cec.md"),
+    "ME": ("Skupština Crne Gore", "Državna izborna komisija", "https://dik.co.me"),
+    "MK": ("Собрание на Република Северна Македонија", "Државна изборна комисија", "https://ep.sec.mk"),
     "MT": ("Parlament ta' Malta",     "Electoral Commission of Malta",               "https://electoral.gov.mt"),
     "NL": ("Tweede Kamer",            "Kiesraad",                                   "https://www.verkiezingsuitslagen.nl"),
     "NO": ("Storting",                "Valgdirektoratet",                           "https://valgresultat.no"),
     "PL": ("Sejm",                    "Państwowa Komisja Wyborcza",                 "https://wybory.gov.pl"),
     "PT": ("Assembleia da República", "Secretaria-Geral da Administração Interna",  "https://www.eleicoes.mai.gov.pt"),
     "RO": ("Camera Deputaților",      "Biroul Electoral Central",                   "https://prezenta.roaep.ro"),
+    "RS": ("Народна скупштина", "Републички завод за статистику", "https://www.stat.gov.rs"),
     "SE": ("Riksdagen",               "Valmyndigheten",                             "https://www.val.se"),
     "SI": ("Državni zbor",            "Državna volilna komisija",                   "https://www.dvk-rs.si"),
     "SK": ("Národná rada",            "Štatistický úrad Slovenskej republiky",      "https://volby.statistics.sk"),
-    "UK": ("House of Commons",        "Electoral Commission (UK)",                  "https://www.electoralcommission.org.uk"),
+    "SM": ("Consiglio Grande e Generale", "Ufficio Elettorale di Stato", "https://www.elezioni.sm"),
+    "TR": ("Türkiye Büyük Millet Meclisi", "Yüksek Seçim Kurulu", "https://acikveri.ysk.gov.tr"),
+    "UA": ("Верховна Рада України", "Центральна виборча комісія", "https://www.cvk.gov.ua"),
+    "UK": ("House of Commons", "UK Parliament election results", "https://electionresults.parliament.uk"),
+    "XK": ("Kuvendi i Republikës së Kosovës", "Komisioni Qendror i Zgjedhjeve", "https://kqz-ks.org"),
 }
 
 
@@ -233,7 +290,7 @@ def build_data_sources_table(active_countries: set[str]) -> str:
         )
         rows.append("\\texttt{{{}}} & {} & {} & {} \\\\".format(cc, e_name, e_parl, source_block))
     header = (
-        "\\begin{longtable}{@{}llp{4.8cm}p{6.6cm}@{}}\n"
+        "\\begin{longtable}{@{}l>{\\raggedright\\arraybackslash}p{2.8cm}>{\\raggedright\\arraybackslash}p{4.6cm}>{\\raggedright\\arraybackslash}p{6.3cm}@{}}\n"
         "\\toprule\n"
         "\\textbf{CC} & \\textbf{Country} & \\textbf{Parliament} & "
         "\\textbf{Data source (with URL)} \\\\\n"
@@ -340,12 +397,13 @@ def build_abroad_matrix(active_countries: set[str]) -> str:
 
     n_cols = len(voter_cols)
     # Wide enough for code + name column
-    col_spec = "@{}lp{5cm}" + "c" * n_cols + "@{}"
+    col_spec = "@{}l>{\\raggedright\\arraybackslash}p{3.4cm}" + "c" * n_cols + "@{}"
     header_cells = " & ".join(f"\\rotatebox{{90}}{{\\texttt{{{vc}}}}}" for vc in voter_cols)
 
     lines = [
         "\\begin{center}",
         "\\footnotesize",
+        "\\setlength{\\tabcolsep}{3pt}",
         f"\\begin{{longtable}}{{{col_spec}}}",
         "\\toprule",
         f"\\textbf{{CC}} & \\textbf{{Host country}} & {header_cells} \\\\",
@@ -363,6 +421,105 @@ def build_abroad_matrix(active_countries: set[str]) -> str:
         lines.append(" & ".join(cells) + " \\\\")
     lines += ["\\end{longtable}", "\\end{center}"]
     return "\n".join(lines) + "\n"
+
+
+# NUTS-like hierarchy of the countries outside Eurostat's NUTS / LAU frame (or
+# outside it since 2021), in the style of Eurostat's "NUTS - overview" table:
+# per level the national term (in the country's own language) and the number
+# of regions.  Basis: "NUTS 2024" / "NUTS 2021" (Eurostat), "pseudo" (BLUE_DB,
+# from administrative divisions) or "single" (one region at every level).
+# A level that only repeats the one above is "—".
+_NUTS_EXTENSION: dict[str, tuple[str, str, str, str]] = {
+    "AL": ("NUTS 2024", "—", "Rajone", "Qarqe"),
+    "ME": ("NUTS 2024", "—", "—", "—"),
+    "MK": ("NUTS 2024", "—", "—", "Плански региони"),
+    "RS": ("NUTS 2024", "Србија — север / југ", "Региони", "Области / Град Београд"),
+    "TR": ("NUTS 2024", "Bölgeler", "Alt bölgeler", "İller"),
+    "XK": ("NUTS 2024", "—", "—", "Rajone"),
+    "UK": ("NUTS 2021", "Regions / nations", "Counties (grouped)", "Local authorities (grouped)"),
+    "BA": ("pseudo", "Entiteti / Brčko distrikt", "—", "Kantoni / Republika Srpska / Brčko distrikt"),
+    "UA": ("pseudo", "Області / АР Крим / Київ / Севастополь", "—", "Райони (2020)"),
+    "AM": ("pseudo", "—", "—", "Մարզեր / Երևան"),
+    "GE": ("pseudo", "—", "—", "მხარეები / ავტონომიური რესპუბლიკები / თბილისი"),
+    **{cc: ("single", "—", "—", "—")
+       for cc in ("AD", "FO", "GG", "GI", "GL", "IM", "JE", "MC", "MD", "SM")},
+}
+
+
+def build_nuts_extension_table(country_stats: dict[str, dict]) -> str:
+    """Eurostat-style overview of the NUTS levels and local units of the
+    countries outside the NUTS / LAU typology."""
+    non_local = build_coverage_non_municipal_flags(country_stats)
+    counts: dict[tuple[str, int], int] = {}
+    for lvl in (1, 2, 3):
+        src = RESOURCES / f"nuts_{lvl}.csv"
+        df = pd.read_csv(src, dtype=str, usecols=["id"], na_values=[""], keep_default_na=False)
+        for cc in _NUTS_EXTENSION:
+            counts[(cc, lvl)] = int(df["id"].str.startswith(cc).sum())
+    # voters abroad, postal / aggregate rows (CC_CCZZxx, CC_CCYYxx, CC_000nn)
+    special = re.compile(r"^[A-Z]{2}_([A-Z]{2}(ZZ|YY)|000\d\d$)")
+
+    def local_units(cc: str) -> tuple[int, str]:
+        files = sorted(p for p in (OUTPUT / cc).glob("*.csv")
+                       if _YEAR_PREFIX_RE.match(p.name) and "_special" not in p.name
+                       and "_errors" not in p.name)
+        if not files:
+            return 0, ""
+        ids = pd.read_csv(files[-1], dtype=str, usecols=["gisco_id"], na_values=[""],
+                          keep_default_na=False)["gisco_id"]
+        ids = {g for g in ids if g and not special.match(g)}
+        return len(ids), files[-1].name[:4]
+
+    def cell(term: str, n: int) -> str:
+        return f"{n:,} {{\\footnotesize {_tex_escape(term)}}}" if term != "—" else f"{n:,} {{\\footnotesize ---}}"
+
+    order = sorted((cc for cc in _NUTS_EXTENSION if cc in country_stats),
+                   key=lambda cc: ({"NUTS 2024": 0, "NUTS 2021": 1, "pseudo": 2, "single": 3}[_NUTS_EXTENSION[cc][0]],
+                                   country_stats[cc]["name"]))
+    rows, last_basis = [], None
+    for cc in order:
+        basis, t1, t2, t3 = _NUTS_EXTENSION[cc]
+        if basis != last_basis:
+            label = {"NUTS 2024": "Eurostat NUTS 2024", "NUTS 2021": "Eurostat NUTS 2021",
+                     "pseudo": "Pseudo-NUTS (BLUE\\_DB, from administrative divisions)",
+                     "single": "Single region (\\texttt{CC}, \\texttt{CC0}, \\texttt{CC00}, \\texttt{CC000})"}[basis]
+            if last_basis is not None:
+                rows.append("\\midrule")
+            rows.append(f"\\multicolumn{{6}}{{@{{}}l}}{{\\textit{{{label}}}}} \\\\")
+            last_basis = basis
+        n_local, year = local_units(cc)
+        native, _gloss = _MAIN_LOCAL_LEVEL.get(cc, ("", ""))
+        if year and ("national", int(year)) in non_local.get(cc, {}):
+            # starred in the coverage table: results are not by local unit
+            local = (f"--- {{\\footnotesize results by {_tex_escape(native)}}}"
+                     f" {{\\scriptsize ({n_local:,}, {year})}}")
+        else:
+            local = f"{n_local:,} {{\\footnotesize {_tex_escape(native)}}}" + (f" {{\\scriptsize ({year})}}" if year else "")
+        rows.append(
+            f"\\texttt{{{cc}}} & {_tex_escape(country_stats[cc]['name'])} & "
+            f"{cell(t1, counts[(cc, 1)])} & {cell(t2, counts[(cc, 2)])} & "
+            f"{cell(t3, counts[(cc, 3)])} & {local} \\\\"
+        )
+    header = ("\\toprule\n\\textbf{CC} & \\textbf{Country} & \\textbf{NUTS 1} & "
+              "\\textbf{NUTS 2} & \\textbf{NUTS 3} & \\textbf{Local units} \\\\\n\\midrule")
+    return "\n".join([
+        "{\\small",
+        "\\begin{longtable}{@{}l>{\\raggedright\\arraybackslash}p{2.2cm}"
+        ">{\\raggedright\\arraybackslash}p{2.7cm}>{\\raggedright\\arraybackslash}p{2.0cm}"
+        ">{\\raggedright\\arraybackslash}p{3.2cm}>{\\raggedright\\arraybackslash}p{2.9cm}@{}}",
+        "\\caption{NUTS levels and local units of the countries outside the NUTS / LAU "
+        "typology.}\\label{tab:nuts_extension}\\\\",
+        header,
+        "\\endfirsthead",
+        "\\multicolumn{6}{@{}l}{\\small\\textit{Table~\\ref{tab:nuts_extension} (continued)}} \\\\",
+        header,
+        "\\endhead",
+        "\\bottomrule",
+        "\\endlastfoot",
+        *rows,
+        "\\end{longtable}",
+        "}",
+    ])
 
 
 def build_overseas_extra_nuts_table() -> str:
@@ -715,10 +872,10 @@ def build_country_special_units_table(cc: str) -> str:
 
     # Fixed-width column specs: (csv_col, tex_width, max_chars, header_label)
     _COL_DEFS = [
-        ("gisco_id", "p{2cm}",   None, "Code"),
-        ("name_or",  "p{6cm}",   36,   "Name"),
-        ("type",     "p{4.5cm}", 28,   "Type"),
-        ("parent",   "p{2cm}",   None, "Parent"),
+        ("gisco_id", "p{3cm}",   None, "Code"),
+        ("name_or",  "p{5.8cm}", 36,   "Name"),
+        ("type",     "p{4cm}",   28,   "Type"),
+        ("parent",   "p{1.6cm}", None, "Parent"),
     ]
     show = [(col, width, mx, lbl) for col, width, mx, lbl in _COL_DEFS if col in sub.columns]
     show_cols = [col for col, *_ in show]
@@ -806,6 +963,12 @@ def _classify_election_file_level(
     return "higher"
 
 
+# Ukraine's registry units are hromadas (2012-2019); its 2006/2007 territorial
+# constituencies (UA_Tnnn) are typed as constituencies in special_raw.csv.
+_EXTRA_MUNICIPAL = {"AD", "AL", "AM", "BA", "FO", "GE", "GI", "GL", "MC", "ME", "MK", "RS", "SM", "UA", "XK"}
+_EXTRA_CONSTITUENCY = {"GG", "IM", "JE"}
+
+
 def build_coverage_non_municipal_flags(country_stats: dict[str, dict]) -> dict[str, dict[tuple[str, int], str]]:
     """Return CC -> {(election_type, year): level} for non-municipal availability.
 
@@ -823,11 +986,29 @@ def build_coverage_non_municipal_flags(country_stats: dict[str, dict]) -> dict[s
         mask = cdf["level"].astype(str).str.upper().str.startswith("LAU", na=False)
         lau_codes = set(cdf.loc[mask, "gisco_id"].dropna().astype(str).str.strip())
 
+    # Extra (non-LAU) countries keep their units in extra_communes.csv.  Most are
+    # municipalities or their equivalent and count as municipal; Moldova's
+    # raions and Türkiye's provinces are a higher level, and the Channel
+    # Islands' and Isle of Man's electoral districts are constituencies.
+    extra_src = RESOURCES / "extra_communes.csv"
+    extra_constituency: set[str] = set()
+    if extra_src.exists():
+        edf = pd.read_csv(extra_src, dtype=str, low_memory=False, usecols=["gisco_id"], na_values=[''], keep_default_na=False)
+        for gid in edf["gisco_id"].dropna().astype(str).str.strip():
+            cc = gid.split("_", 1)[0]
+            if cc in _EXTRA_MUNICIPAL:
+                lau_codes.add(gid)
+            elif cc in _EXTRA_CONSTITUENCY:
+                extra_constituency.add(gid)
+
     if special_src.exists():
         sdf = pd.read_csv(special_src, dtype=str, low_memory=False, na_values=[''], keep_default_na=False)
         if "gisco_id" in sdf.columns and "type" in sdf.columns:
             for _, r in sdf[["gisco_id", "type"]].dropna(subset=["gisco_id"]).iterrows():
                 special_type_by_code[str(r["gisco_id"]).strip()] = str(r.get("type") or "")
+
+    for gid in extra_constituency:
+        special_type_by_code.setdefault(gid, "electoral constituency")
 
     def _iter_country_files(cc: str):
         dom = OUTPUT / cc
@@ -995,7 +1176,8 @@ def compute_stats() -> dict:
     """Compute dataset-wide and per-country statistics."""
     all_countries: set[str] = set()
     for p in OUTPUT.iterdir():
-        if p.is_dir():
+        # DK_FO / DK_GL are part of the Danish elections, not countries
+        if p.is_dir() and p.name not in ("DK_FO", "DK_GL"):
             cc = p.name[3:] if p.name.startswith("EU_") else p.name
             all_countries.add(cc)
 
@@ -1107,7 +1289,7 @@ def _load_country_template(cc: str) -> str:
 
 
 # ── LaTeX generation ─────────────────────────────────────────────────────────
-REVISION_ID = 1
+REVISION_ID = 2
 
 # \setmainfont{TeX Gyre Termes}
 #\setsansfont[Scale=0.92]{TeX Gyre Heros}
@@ -1118,6 +1300,11 @@ MAIN_TEMPLATE = r"""
 \usepackage{fontspec}
 \tracinglostchars=2 
 \setmainfont{Tempora}[Ligatures=TeX]
+% Tempora has no Georgian or Armenian glyphs (party and parliament names of
+% GE and AM); _tex_escape wraps runs of those scripts in \\caucasusfont.
+\newfontfamily\caucasusfont{DejaVu Serif}[Scale=MatchLowercase]
+% Long unhyphenatable names (URLs, Armenian/Georgian) otherwise overrun the margin.
+\setlength{\emergencystretch}{3em}
 \usepackage[english]{babel}
 \usepackage{geometry}
 \geometry{margin=2.5cm}
@@ -1230,6 +1417,31 @@ the \href{https://partyfacts.herokuapp.com/}{Party Facts} database,
 and the European Parliament's \href{https://www.europarl.europa.eu/meps/en/full-list/all}{Database of MEPs}.
 
 % =====================================================================
+%  LICENCE AND ATTRIBUTION
+% =====================================================================
+\section{Licence and Attribution}
+\label{sec:licence}
+
+BLUE\_DB is released under the Creative Commons Attribution 4.0
+International licence
+(\href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}). It contains
+data from the official sources of Table~\ref{tab:sources}, several of which
+require an attribution. The file \texttt{ATTRIBUTION.md}, distributed with the
+dataset, lists every source with the attribution it requires; users can credit
+the dataset with the following line and a link to that file:
+
+\begin{quote}
+\VAR{attribution_line}
+\end{quote}
+
+\VAR{external_paragraph}
+
+Map geometries are not part of the dataset. The libraries download them from
+Eurostat/GISCO on demand, under Eurostat's licence, which requires attribution
+and restricts commercial reuse; the boundary files shipped in the GitHub
+repository (\texttt{maps/}) keep their own licences.
+
+% =====================================================================
 %  8. COVERAGE TABLE
 % =====================================================================
 \section{Country Coverage}
@@ -1239,7 +1451,7 @@ The following table summarizes the elections included per country.
 An asterisk (*) marks elections not primarily available at municipal level
 (e.g. constituency-level, higher-level, or mixed geographic coverage).
 
-\begin{longtable}{llp{5.5cm}p{5.5cm}}
+\begin{longtable}{@{}l>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{6.5cm}>{\raggedright\arraybackslash}p{4.8cm}@{}}
 \toprule
 	\textbf{CC} & \textbf{Country} & \textbf{National elections} & \textbf{EP elections} \\
 \midrule
@@ -1249,10 +1461,15 @@ An asterisk (*) marks elections not primarily available at municipal level
 \VAR{coverage_rows}
 \end{longtable}
 
-Results in \textbf{IE}, \textbf{IS}, \textbf{MT}, and \textbf{SI} are only available at the constituency level.
+\VAR{external_coverage_note}
+
+Results in \textbf{GG}, \textbf{IE}, \textbf{IM}, \textbf{IS}, \textbf{JE},
+\textbf{MT}, \textbf{SI} and \textbf{UK}, and in \textbf{UA} in 2006 and 2007,
+are only available at the constituency level.
 Early elections in \textbf{BE} are available at the level of \emph{electoral cantons}.
-Results of the 2004 European Parliament election in \textbf{DE} are only reported for 
-\emph{Landkreise} (NUTS 3).
+Results of the 2004 European Parliament election in \textbf{DE} are only reported for
+\emph{Landkreise} (NUTS 3), results in \textbf{TR} for provinces (\emph{il}, NUTS 3)
+and results in \textbf{MD} for \emph{raions} and \emph{municipii}.
 
 \label{tab:coverage}
 
@@ -1456,6 +1673,37 @@ def _apply_stats(text: str, stats: dict) -> str:
     return text
 
 
+def _external_names() -> str:
+    names = [c["name"] for c in EXTERNAL.values()]
+    return " and ".join(names) if len(names) < 3 else ", ".join(names)
+
+
+def build_external_paragraph() -> str:
+    """The results outside CC BY 4.0 (Jersey, Guernsey) and their terms."""
+    if not EXTERNAL:
+        return ""
+    items = "\n".join(
+        f"\\item \\textbf{{{_tex_escape(c['name'])}}}: {_tex_escape(c['notice'])} "
+        f"\\url{{{c['terms_url']}}}"
+        for c in EXTERNAL.values())
+    return (
+        f"The {_tex_escape(_external_names())} results are \\emph{{not}} part of the "
+        "Zenodo record and are not covered by CC~BY~4.0: their publishers restrict "
+        "reuse to research and non-commercial purposes. They are kept in the GitHub "
+        "repository, with each publisher's notice, and the Python and R libraries "
+        "fetch them on demand; \\texttt{elections/index.csv} lists them with "
+        "\\texttt{distribution = external}.\n"
+        f"\\begin{{itemize}}\n{items}\n\\end{{itemize}}")
+
+
+def build_external_coverage_note() -> str:
+    if not EXTERNAL:
+        return ""
+    return ("\\textsuperscript{\\dag}~Not part of the Zenodo record; "
+            "distributed through the GitHub repository under the publisher's terms "
+            "(Section~\\ref{sec:licence}).")
+
+
 def render_tex(stats: dict) -> str:
     """Fill in the main LaTeX template with computed stats and fragments."""
 
@@ -1467,7 +1715,8 @@ def render_tex(stats: dict) -> str:
         flags = non_municipal_flags.get(cc, {})
         nat = _tex_escape(_marked_years_str(cs["national_years"], "national", flags, cs.get("national_year_months")))
         eu = _tex_escape(_marked_years_str(cs["european_years"], "european", flags, cs.get("european_year_months")))
-        rows.append("\\texttt{{{}}} & {} & {} & {} \\\\".format(cc, name, nat, eu))
+        mark = "\\textsuperscript{\\dag}" if cc in EXTERNAL else ""
+        rows.append("\\texttt{{{}}}{} & {} & {} & {} \\\\".format(cc, mark, name, nat, eu))
     coverage_rows = "\n".join(rows)
 
     # --- per-country sections ---
@@ -1529,6 +1778,7 @@ def render_tex(stats: dict) -> str:
     geo_abroad = (
         _load_template_fragment("special_units_abroad.tex")
         + "\n\n" + build_abroad_matrix(active_countries)
+
     )
 
     parties_typology = _load_template_fragment("parties_typology.tex")
@@ -1543,7 +1793,8 @@ def render_tex(stats: dict) -> str:
         "fragment_variables_geo": _load_template_fragment("variables_geo.tex"),
         "fragment_variables_elections": _load_template_fragment("variables_elections.tex"),
         "fragment_variables_parties": _load_template_fragment("variables_parties.tex"),
-        "fragment_geo_typology": _load_template_fragment("geo_typology.tex"),
+        "fragment_geo_typology": _load_template_fragment("geo_typology.tex").replace(
+            "\\VAR{nuts_extension_table}", build_nuts_extension_table(stats["country_stats"])),
         "fragment_geo_oct": geo_oct,
         "fragment_geo_abroad": geo_abroad,
         "fragment_geo_yy": _load_template_fragment("special_units_yy.tex"),
@@ -1553,6 +1804,9 @@ def render_tex(stats: dict) -> str:
         "data_sources_table": build_data_sources_table(active_countries),
         "coverage_rows": coverage_rows,
         "country_sections": country_sections,
+        "attribution_line": _tex_escape(META["license"]["data"]["attribution"]),
+        "external_paragraph": build_external_paragraph(),
+        "external_coverage_note": build_external_coverage_note(),
     }
 
     # --- Substitute into main template (stats first, then fragments) ---

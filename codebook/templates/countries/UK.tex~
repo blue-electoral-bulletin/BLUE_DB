@@ -1,0 +1,20 @@
+The United Kingdom elects the House of Commons by first-past-the-post in
+single-member constituencies; results are reported by Westminster
+constituency.  Constituencies carry
+their ONS code (\texttt{UK\_E14000530}).  British seats of the 1997 set, which
+predate those codes, keep their number in the ONS boundary file with a
+\texttt{P} prefix (\texttt{UK\_P024}, Bedford); England and Wales kept these
+seats and numbers in 2005, Scotland's new seats take their later S14 codes.  Four boundary sets are
+used: 1997 (2001 election), 2005 (Scotland redrawn to 59 seats), 2010 (2010--2019)
+and 2024.
+
+Boundaries come from the ONS Open Geography Portal (Open Government Licence).
+The 2001 and 2005 ONS files cover Great Britain only; Northern Ireland's 18
+seats are drawn from the 2010 set for those elections.  Its boundaries changed
+slightly in 2008, so these two maps are an approximation for Northern Ireland.
+
+The NUTS hierarchy is that of the last NUTS vintage including the UK (2021).
+Constituencies do not nest in NUTS~3 regions: each is assigned to the NUTS~3
+region holding the largest share of its area.  The median seat lies at
+least 99\% in that region, and the NUTS~1 regions are exact up to one seat per
+boundary set.

@@ -1,0 +1,31 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+XK,2025_02.csv,0,XK_XKZZDE,Ambasada e Republikës së Kosovës - Berlin,Ambasada e Republikës së Kosovës - Berlin,matched_foreign_city_name
+XK,2025_02.csv,1,XK_XKZZCH,Ambasada e Republikës së Kosovës - Bern,Ambasada e Republikës së Kosovës - Bern,matched_foreign_city_name
+XK,2025_02.csv,2,XK_XKZZBE,Ambasada e Republikës së Kosovës - Bruksel,Ambasada e Republikës së Kosovës - Bruksel,matched_foreign_city_name
+XK,2025_02.csv,3,XK_XKZZHU,Ambasada e Republikës së Kosovës - Budapest,Ambasada e Republikës së Kosovës - Budapest,matched_foreign_city_name
+XK,2025_02.csv,4,XK_XKZZNL,Ambasada e Republikës së Kosovës - Hagë,Ambasada e Republikës së Kosovës - Hagë,matched_foreign_city_name
+XK,2025_02.csv,5,XK_XKZZGB,Ambasada e Republikës së Kosovës - Londër,Ambasada e Republikës së Kosovës - Londër,matched_foreign_city_name
+XK,2025_02.csv,6,XK_XKZZSI,Ambasada e Republikës së Kosovës - Lubljanë,Ambasada e Republikës së Kosovës - Lubljanë,matched_foreign_city_name
+XK,2025_02.csv,7,XK_XKZZNO,Ambasada e Republikës së Kosovës - Oslo,Ambasada e Republikës së Kosovës - Oslo,matched_foreign_city_name
+XK,2025_02.csv,8,XK_XKZZCA,Ambasada e Republikës së Kosovës - Ottawa,Ambasada e Republikës së Kosovës - Ottawa,matched_foreign_city_name
+XK,2025_02.csv,9,XK_XKZZFR,Ambasada e Republikës së Kosovës - Paris,Ambasada e Republikës së Kosovës - Paris,matched_foreign_city_name
+XK,2025_02.csv,10,XK_XKZZCZ,Ambasada e Republikës së Kosovës - Pragë,Ambasada e Republikës së Kosovës - Pragë,matched_foreign_city_name
+XK,2025_02.csv,11,XK_XKZZIT,Ambasada e Republikës së Kosovës - Romë,Ambasada e Republikës së Kosovës - Romë,matched_foreign_city_name
+XK,2025_02.csv,12,XK_XKZZMK,Ambasada e Republikës së Kosovës - Shkup,Ambasada e Republikës së Kosovës - Shkup,matched_foreign_city_name
+XK,2025_02.csv,13,XK_XKZZSE,Ambasada e Republikës së Kosovës - Stokholm,Ambasada e Republikës së Kosovës - Stokholm,matched_foreign_city_name
+XK,2025_02.csv,14,XK_XKZZAT,Ambasada e Republikës së Kosovës - Vjenë,Ambasada e Republikës së Kosovës - Vjenë,matched_foreign_city_name
+XK,2025_02.csv,15,XK_XKZZUS,Ambasada e Republikës së Kosovës - Washington,Ambasada e Republikës së Kosovës - Washington,matched_foreign_city_name
+XK,2025_02.csv,16,XK_XKZZHR,Ambasada e Republikës së Kosovës - Zagreb,Ambasada e Republikës së Kosovës - Zagreb,matched_foreign_city_name
+XK,2025_02.csv,32,XK_XKZZCH,Konsullata e Republikës se Kosovës - Cyrih,Konsullata e Republikës se Kosovës - Cyrih,matched_foreign_city_name
+XK,2025_02.csv,33,XK_XKZZDE,Konsullata e Republikës së Kosovës - Düsseldorf,Konsullata e Republikës së Kosovës - Düsseldorf,matched_foreign_city_name
+XK,2025_02.csv,34,XK_XKZZDE,Konsullata e Republikës së Kosovës - Frankfurt,Konsullata e Republikës së Kosovës - Frankfurt,matched_foreign_city_name
+XK,2025_02.csv,35,XK_XKZZCH,Konsullata e Republikës së Kosovës - Gjenevë,Konsullata e Republikës së Kosovës - Gjenevë,matched_foreign_city_name
+XK,2025_02.csv,36,XK_XKZZDE,Konsullata e Republikës së Kosovës - Hamburg,Konsullata e Republikës së Kosovës - Hamburg,matched_foreign_city_name
+XK,2025_02.csv,37,XK_XKZZDK,Konsullata e Republikës së Kosovës - Kopenhage,Konsullata e Republikës së Kosovës - Kopenhage,matched_foreign_city_name
+XK,2025_02.csv,38,XK_XKZZIT,Konsullata e Republikës së Kosovës - Milano,Konsullata e Republikës së Kosovës - Milano,matched_foreign_city_name
+XK,2025_02.csv,39,XK_XKZZDE,Konsullata e Republikës së Kosovës - Munchen,Konsullata e Republikës së Kosovës - Munchen,matched_foreign_city_name
+XK,2025_02.csv,40,XK_XKZZUS,Konsullata e Republikës së Kosovës - New York,Konsullata e Republikës së Kosovës - New York,matched_foreign_city_name
+XK,2025_02.csv,41,XK_XKZZTR,Konsullata e Republikës së Kosovës - Stamboll,Konsullata e Republikës së Kosovës - Stamboll,matched_foreign_city_name
+XK,2025_02.csv,42,XK_XKZZFR,Konsullata e Republikës së Kosovës - Strasburg,Konsullata e Republikës së Kosovës - Strasburg,matched_foreign_city_name
+XK,2025_02.csv,43,XK_XKZZDE,Konsullata e Republikës së Kosovës - Stuttgart,Konsullata e Republikës së Kosovës - Stuttgart,matched_foreign_city_name
+XK,2025_02.csv,44,XK_XKZZCA,Konsullata e Republikës së Kosovës - Toronto,Konsullata e Republikës së Kosovës - Toronto,matched_foreign_city_name

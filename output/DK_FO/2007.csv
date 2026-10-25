@@ -1,0 +1,31 @@
+gisco_id,name,registered,turnout,invalid,blank,Fólkaflokkurin,Sambandsflokkurin,Javnaðarflokkurin,Sjálvstýrisflokkurin,Tjóðveldisflokkurin,Miðflokkurin
+FO_0025,Tórshavnar kommuna,0,9347,0,41,1695,2053,1736,347,2897,556
+FO_0023,Sørvágs kommuna,0,561,0,1,198,170,70,10,85,26
+FO_0009,Húsavíkar kommuna,0,85,0,0,44,6,29,0,6,0
+FO_0001,Eiðis kommuna,0,300,0,0,52,66,47,15,87,30
+FO_0015,Runavíkar kommuna,0,1732,0,6,340,470,214,130,362,208
+FO_0008,Hvannasunds kommuna,0,201,0,0,50,40,30,6,32,43
+FO_0003,Fuglafjarðar kommuna,0,743,0,3,166,183,151,17,189,26
+FO_0005,Fámjins kommuna,0,62,0,0,4,21,22,0,15,0
+FO_0022,Sunda kommuna,0,739,0,4,170,215,130,24,173,20
+FO_0002,Eysturkommuna,0,923,0,0,209,150,216,47,203,96
+FO_0011,Kunoyar kommuna,0,103,0,1,7,6,24,0,56,9
+FO_0004,Fugloyar kommuna,0,19,0,0,5,2,1,4,5,2
+FO_0006,Hovs kommuna,0,63,0,0,6,21,29,0,6,1
+FO_0007,Hvalbiar kommuna,0,369,0,0,89,94,115,3,49,19
+FO_0010,Klaksvíkar kommuna,0,2419,0,15,706,389,434,92,509,268
+FO_0012,Kvívíkar kommuna,0,275,0,0,25,86,41,9,105,8
+FO_0021,Sumbiar kommuna,0,221,0,0,42,32,82,4,57,4
+FO_0028,Vága kommuna,0,939,0,5,223,279,140,26,205,60
+FO_0014,Porkeris kommuna,0,187,0,3,31,22,114,0,8,9
+FO_0016,Sands kommuna,0,289,0,0,83,17,72,2,104,10
+FO_0017,Sjóvar kommuna,0,451,0,1,70,198,52,18,66,45
+FO_0018,Skopunar kommuna,0,211,0,1,21,12,117,2,42,14
+FO_0019,Skálavíkar kommuna,0,93,0,0,20,8,31,6,28,0
+FO_0020,Skúvoyar kommuna,0,30,0,0,5,5,10,0,10,0
+FO_0013,Nes kommuna,0,585,0,2,67,317,58,7,100,34
+FO_0024,Tvøroyrar kommuna,0,846,0,3,133,162,401,5,111,29
+FO_0026,Vestmanna kommuna,0,591,0,4,89,178,116,15,170,18
+FO_0027,Viðareiðis kommuna,0,166,0,0,64,18,44,8,14,18
+FO_0029,Vágs kommuna,0,664,0,2,114,194,176,2,155,20
+FO_FOYY98,Føroyar (valrætt),34529,0,0,0,0,0,0,0,0,0

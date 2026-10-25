@@ -31,7 +31,9 @@ Quick start
 from __future__ import annotations
 
 import io
+import os
 import re
+from collections import defaultdict
 import csv
 import json
 import warnings
@@ -45,10 +47,16 @@ import pandas as pd
 import requests
 
 try:  # installed as a package
+    from ._derived import derived_glob as _derived_glob
+    from ._derived import maps_path as _maps_path
     from ._paths import cache_dir as _resolve_cache_dir
+    from ._paths import dist_dir as _resolve_dist_dir
     from ._paths import maps_dir as _resolve_maps_dir
 except ImportError:  # run straight from lib/ (sys.path hack, see demo/)
+    from _derived import derived_glob as _derived_glob  # type: ignore[no-redef]
+    from _derived import maps_path as _maps_path  # type: ignore[no-redef]
     from _paths import cache_dir as _resolve_cache_dir  # type: ignore[no-redef]
+    from _paths import dist_dir as _resolve_dist_dir  # type: ignore[no-redef]
     from _paths import maps_dir as _resolve_maps_dir  # type: ignore[no-redef]
 
 
@@ -106,6 +114,25 @@ _MUNI_YEARS = _COMM_YEARS + _LAU_YEARS
 # Dataset year helpers
 # ---------------------------------------------------------------------------
 
+def _resource_bases() -> list[Path]:
+    """Folders whose ``resources/`` (and ``dist/geo/``) the resolver reads.
+
+    In order: the source checkout the package lives in, ``$BLUE_DB_HOME``, the
+    folder holding the located ``dist/``, and the working directory -- so an
+    installed package finds the overrides shipped with the data, not only a
+    checkout does.
+    """
+    bases = [Path(__file__).resolve().parent.parent]
+    if os.environ.get("BLUE_DB_HOME"):
+        bases.append(Path(os.environ["BLUE_DB_HOME"]).expanduser())
+    try:
+        bases.append(Path(_resolve_dist_dir()).resolve().parent)
+    except Exception:                                  # no dist/ located
+        pass
+    bases.append(Path.cwd())
+    return list(dict.fromkeys(bases))
+
+
 def _best_year(requested: int, available: list[int]) -> int:
     """Return the largest available year that is ≤ *requested*."""
     candidates = [y for y in available if y <= requested]
@@ -123,7 +150,7 @@ def _maps_national(cc: str, year: int | None = None) -> Path | None:
     year ≤ *year*), then falls back to ``maps/{CC}.shp``.
     """
     if year is not None:
-        candidates = sorted(_MAPS.glob(f"{cc}_[0-9][0-9][0-9][0-9].shp"))
+        candidates = _derived_glob(_MAPS, _CACHE, f"{cc}_[0-9][0-9][0-9][0-9].shp")
         if candidates:
             selected = None
             for p in candidates:
@@ -132,13 +159,13 @@ def _maps_national(cc: str, year: int | None = None) -> Path | None:
                     selected = p
             if selected:
                 return selected
-    p = _MAPS / f"{cc}.shp"
+    p = _maps_path(_MAPS, _CACHE, f"{cc}.shp")
     return p if p.exists() else None
 
 
 def _maps_eu(cc: str, year: int) -> Path | None:
     """Return the maps/EU_{CC}_{YEAR}.shp closest to *year* if it exists."""
-    candidates = sorted(_MAPS.glob(f"EU_{cc}_*.shp"))
+    candidates = _derived_glob(_MAPS, _CACHE, f"EU_{cc}_*.shp")
     if not candidates:
         return None
     # pick the latest one whose year ≤ requested year
@@ -187,7 +214,7 @@ def _load_vintage_floors() -> dict[str, int]:
     if _vintage_floors is not None:
         return _vintage_floors
     floors: dict[str, int] = {}
-    for base in (Path(__file__).resolve().parent.parent, Path.cwd()):
+    for base in _resource_bases():
         path = base / "resources" / _CORRECTIONS_FILE
         if not path.exists():
             continue
@@ -277,7 +304,7 @@ def _load_geo_overrides() -> dict[str, list[tuple]]:
     if _overrides is not None:
         return _overrides
     table: dict[str, list[tuple]] = {}
-    for base in (Path(__file__).resolve().parent.parent, Path.cwd()):
+    for base in _resource_bases():
         path = base / "resources" / _OVERRIDES_FILE
         if not path.exists():
             continue
@@ -338,7 +365,7 @@ _regions: dict[str, str] | None = None
 
 
 def _resource(name: str) -> Path | None:
-    for base in (Path(__file__).resolve().parent.parent, Path.cwd()):
+    for base in _resource_bases():
         path = base / "resources" / name
         if path.exists():
             return path
@@ -447,7 +474,7 @@ def _bg_obshtina_of_ekatte(ekatte: str) -> str | None:
     global _bg_ekatte
     if _bg_ekatte is None:
         _bg_ekatte = {}
-        for base in (Path(__file__).resolve().parent.parent, Path.cwd()):
+        for base in _resource_bases():
             path = base / "resources" / "bg_ekatte.json"
             if not path.exists():
                 continue
@@ -493,7 +520,7 @@ def _special_parent(gisco_id: str) -> str | None:
     global _special_parents
     if _special_parents is None:
         _special_parents = {}
-        for base in (Path(__file__).resolve().parent.parent, Path.cwd()):
+        for base in _resource_bases():
             path = base / "dist" / "geo" / "special.csv"
             if not path.exists():
                 continue
@@ -1109,6 +1136,20 @@ class BlueGeo:
             remaining = self._resolve_from_lau(
                 remaining, resolved, effective_vintage(country_code, year))
 
+        # 2b. units of another territory reported with this election -- the
+        #     Faroe Islands and Greenland in the Danish Folketing elections --
+        #     are drawn from that territory's own sources
+        if remaining and country_code:
+            foreign = defaultdict(list)
+            for gid in remaining:
+                if len(gid) > 3 and gid[2] == "_" and gid[:2] != country_code:
+                    foreign[gid[:2]].append(gid)
+            for cc, gids in foreign.items():
+                for gid, ref in self.resolve_sources(gids, year, election_type, cc).items():
+                    if ref is not None:
+                        resolved[gid] = ref
+                        remaining.discard(gid)
+
         # 3. GISCO NUTS (levels 3 → 0)
         if remaining:
             remaining = self._resolve_from_nuts(remaining, resolved, year)
@@ -1137,7 +1178,7 @@ class BlueGeo:
         """
         try:
             if ref.kind == "maps":
-                path = self.maps_dir / ref.layer
+                path = _maps_path(self.maps_dir, self.cache_dir, ref.layer)
                 if not path.exists():
                     return None
                 gdf = _read_maps_shp(path)
@@ -1146,7 +1187,7 @@ class BlueGeo:
             if ref.kind == "mapsset":
                 # Several features of one shapefile drawn as one unit, for a
                 # constituency that merged two of its predecessors.
-                path = self.maps_dir / ref.layer
+                path = _maps_path(self.maps_dir, self.cache_dir, ref.layer)
                 if not path.exists():
                     return None
                 gdf = _read_maps_shp(path)
@@ -1222,25 +1263,28 @@ class BlueGeo:
         # (higher priority than GISCO, e.g. IS, MT, SI, IE).
         maps_ccs: set[str] = set()
         if election_type == "european":
-            pattern = f"EU_??_*.shp"
-            for shp in sorted(self.maps_dir.glob(pattern)):
+            best_eu: dict[str, Path] = {}
+            for shp in _derived_glob(self.maps_dir, self.cache_dir, "EU_??_*.shp"):
                 m = re.match(r"EU_([A-Z]{2})_(\d{4})\.shp$", shp.name)
                 if not m:
                     continue
                 cc, syear = m.group(1), int(m.group(2))
                 if cc_set is not None and cc not in cc_set:
                     continue
-                # Pick the best year ≤ requested; will be overwritten by a
-                # later (closer) match since glob is sorted ascending.
+                # The latest file whose year ≤ requested: glob is sorted
+                # ascending, so a later (closer) match replaces an earlier one.
                 if syear <= year:
-                    gdf = _read_maps_shp(shp)
-                    gdf["country_code"] = cc
-                    parts.append(gdf)
-                    maps_ccs.add(cc)
+                    best_eu[cc] = shp
+            for cc, shp in sorted(best_eu.items()):
+                gdf = _read_maps_shp(shp).copy()
+                gdf["country_code"] = cc
+                parts.append(gdf)
+                maps_ccs.add(cc)
         else:
             # Collect best year-specific file per CC (pattern: {CC}_{YEAR}.shp)
             best_versioned: dict[str, Path] = {}
-            for shp in sorted(self.maps_dir.glob("[A-Z][A-Z]_[0-9][0-9][0-9][0-9].shp")):
+            for shp in _derived_glob(self.maps_dir, self.cache_dir,
+                                     "[A-Z][A-Z]_[0-9][0-9][0-9][0-9].shp"):
                 m = re.match(r"([A-Z]{2})_(\d{4})\.shp$", shp.name)
                 if not m:
                     continue
@@ -1250,14 +1294,14 @@ class BlueGeo:
                 if syear <= year:
                     best_versioned[cc] = shp  # sorted ascending → last ≤ year wins
             # Fall back to plain {CC}.shp for countries not covered above
-            for shp in sorted(self.maps_dir.glob("[A-Z][A-Z].shp")):
+            for shp in _derived_glob(self.maps_dir, self.cache_dir, "[A-Z][A-Z].shp"):
                 cc = shp.stem
                 if cc_set is not None and cc not in cc_set:
                     continue
                 if cc not in best_versioned:
                     best_versioned[cc] = shp
             for cc, shp in sorted(best_versioned.items()):
-                gdf = _read_maps_shp(shp)
+                gdf = _read_maps_shp(shp).copy()
                 gdf["country_code"] = cc
                 parts.append(gdf)
                 maps_ccs.add(cc)
@@ -1349,7 +1393,9 @@ class BlueGeo:
         cc_col = "country_code" if "country_code" in df.columns else None
         keys = [k for k in (year_col, et_col, cc_col) if k]
 
-        geom_by_id: dict[str, object] = {}
+        # Geometry per row of its own group: a unit present in elections of
+        # different vintages keeps each election's boundary.
+        df["geometry"] = None
         groups = df.groupby(keys, sort=False) if keys else [((), df)]
         for gk, sub in groups:
             info = dict(zip(keys, gk if isinstance(gk, tuple) else (gk,)))
@@ -1358,9 +1404,8 @@ class BlueGeo:
             cc = str(info[cc_col]) if cc_col else None
             g = self.geometries(sub[id_col].astype(str), year=int(yr),
                                 election_type=et, country_code=cc)
-            geom_by_id.update(zip(g["gisco_id"], g["geometry"]))
-
-        df["geometry"] = df[id_col].astype(str).map(geom_by_id)
+            geom_by_id = dict(zip(g["gisco_id"], g["geometry"]))
+            df.loc[sub.index, "geometry"] = sub[id_col].astype(str).map(geom_by_id)
         missing = int(df["geometry"].isna().sum())
         if missing:
             warnings.warn(f"attach: could not resolve geometry for {missing} "

@@ -1,0 +1,33 @@
+country,gisco_id,mode,members,note
+FR,FR_FRZZ01,list,CA;US,1e circonscription des Français de l'étranger — Amérique du Nord
+FR,FR_FRZZ02,list,AG;AR;BB;BO;BR;BS;BZ;CL;CO;CR;CU;DM;DO;EC;GD;GT;GY;HN;HT;JM;KN;LC;MX;NI;PA;PE;PY;SR;SV;TT;UY;VC;VE,2e circonscription des Français de l'étranger — Amérique latine
+FR,FR_FRZZ03,list,DK;EE;FI;IE;IS;LT;LV;NO;SE;UK,3e circonscription des Français de l'étranger — Europe du Nord
+FR,FR_FRZZ04,list,BE;LU;NL,4e circonscription des Français de l'étranger — Benelux
+FR,FR_FRZZ05,list,AD;ES;MC;PT,5e circonscription des Français de l'étranger — Péninsule ibérique et Monaco
+FR,FR_FRZZ06,list,CH;LI,6e circonscription des Français de l'étranger — Suisse
+FR,FR_FRZZ07,list,AL;AT;BA;BG;CZ;DE;HR;HU;ME;MK;PL;RO;RS;SI;SK;XK,7e circonscription des Français de l'étranger — Europe centrale
+FR,FR_FRZZ08,list,CY;EL;IL;IT;MT;SM;TR;VA,"8e circonscription des Français de l'étranger — Europe du Sud, Turquie, Israël"
+FR,FR_FRZZ09,list,BF;CI;CV;DZ;GM;GN;GW;LR;LY;MA;ML;MR;NE;SL;SN;TN,9e circonscription des Français de l'étranger — Afrique Nord-Ouest
+FR,FR_FRZZ10,list,AE;AO;BH;BI;BJ;BW;CD;CF;CG;CM;DJ;EG;ER;ET;GA;GH;GQ;IQ;JO;KE;KM;KW;LB;LS;MG;MU;MW;MZ;NA;NG;OM;QA;RW;SA;SC;SD;SO;SS;ST;SY;SZ;TD;TG;TZ;UG;YE;ZA;ZM;ZW,"10e circonscription des Français de l'étranger — Afrique Centre, Sud et Est"
+FR,FR_FRZZ11,list,AF;AM;AU;AZ;BD;BN;BY;CN;FJ;FM;GE;ID;IN;IR;JP;KG;KH;KI;KR;KZ;LA;LK;MD;MH;MM;MN;MV;MY;NP;NR;NZ;PG;PH;PK;PW;RU;SB;SG;TH;TJ;TL;TO;TV;TW;UA;UZ;VN;VU;WS,"11e circonscription des Français de l'étranger — Europe de l'est, Asie, Océanie"
+PT,PT_PTZZ90,rest,EU,Restantes países da Europa
+PT,PT_PTZZ91,rest,NA;SA,Restantes países da América
+PT,PT_PTZZ92,rest,AS;OC,Países da Ásia e Oceânia
+PT,PT_PTZZ93,rest,AF,Países de África
+PT,PT_PTZZ94,rest,NA;SA;AF,Países de América e África (used in 2009 only)
+EL,EL_ELZZ99,rest,WORLD,Εξωτερικού — all countries abroad
+PL,PL_PLZZ99,rest,WORLD,Zagranica — all countries abroad
+LV,LV_LVZZ99,rest,WORLD,Ārzemes — all countries abroad
+EE,EE_EEZZ99,rest,WORLD,välisriigid — all countries abroad
+IT,IT_ITZZ99,rest,WORLD,Circoscrizione autonoma — remaining countries abroad
+HR,HR_HRYYDI,rest,WORLD,Dijaspora — all countries abroad
+LT,LT_LTZZ99,rest,WORLD,All countries abroad
+FR,FR_FRZZ99,rest,WORLD,Ensemble des Français établis hors de France — used when the EP result is reported for all expatriates as one unit
+RO,RO_ROZZ99,rest,WORLD,Romanian votes abroad pooled outside the individually reported countries
+HU,HU_HUZZ99,rest,WORLD,Foreign representations — Hungarian votes cast abroad
+SK,SK_SKZZ99,rest,WORLD,Zahraničie — Slovak votes cast abroad
+CH,CH_9000,rest,WORLD,Auslandschweizer in Kantonen mit separater Auszählung
+GE,GE_GEZZ99,rest,WORLD,[extra_geo] Abroad — all countries abroad
+MD,MD_MDZZ99,rest,WORLD,[extra_geo] Peste hotare — all countries abroad
+RS,RS_RSZZ99,rest,WORLD,[extra_geo] Иностранство — all countries abroad
+UA,UA_UAZZ99,rest,WORLD,[extra_geo] Закордонний виборчий округ — all countries abroad

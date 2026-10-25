@@ -1,0 +1,44 @@
+Ukraine elected half of the Verkhovna Rada by party list in all six elections
+(the whole of it in 2006 and 2007); BLUE\_DB reports the party-list vote.
+
+\paragraph{2012, 2014, 2019: hromadas.}  The Central Election Commission (CVK)
+publishes the party-list vote of each polling station, with the station's
+address.  Each station is placed in the settlement its address names, matched
+against the settlement layer of the OCHA administrative boundaries (COD-AB
+v05, 2025), and so in the \textit{hromada} that settlement belongs to today:
+the hromadas are Ukraine's municipalities since the 2020 reform, and the three
+elections are expressed in this one current geography (\texttt{UA\_0502003},
+from the KATOTTH-based code \texttt{UA0502003}).  Settlements named more than
+once in an oblast are resolved by the other stations of the same old raion;
+settlements renamed since (the 2016 decommunisation, the 2021--24 renamings)
+by the hromadas' former names, the same station number in a later election, a
+short table of renamed cities, or the postcode.  Crimea, which voted only in
+2012, keeps its village councils in the boundary file.  Votes abroad are
+\texttt{UA\_UAZZ99}, votes on ships and at the polar station \texttt{UA\_UAYY99};
+in 2012 and 2014 the CVK publishes the abroad vote only as a total, so its
+party votes are the national result less the stations at home, and its
+registered voters and turnout are not available.  In 2012 the stations report
+registered voters and valid votes only, so turnout is the valid vote.
+
+\paragraph{2006, 2007: territorial constituencies.}  These elections are
+published by territorial constituency (ТВО, \texttt{UA\_T001}--\texttt{UA\_T225}),
+each a union of pre-2020 raions, cities of oblast significance and city
+districts.  None of these units survives in today's boundaries, so they are
+rebuilt: every settlement takes the old raion or city of its polling stations'
+addresses in 2012, settlements without a station that of their nearest
+neighbour, and each hromada is shared out among its settlements (whole, or in
+Voronoi cells around them).  The districts of the eleven cities split between
+constituencies come from OpenStreetMap, matched to their 2006 names through
+the \texttt{old\_name} tags and Wikidata.  The constituency outlines are
+therefore an approximation where old raion borders cut through today's
+hromadas.
+
+\paragraph{2002.}  The 2002 party-list vote is published by single-member
+constituency only, and 134 of the 225 constituencies are drawn through
+raions and city districts by street; it is not yet part of the distribution.
+
+\paragraph{Regions.}  Ukraine is outside NUTS.  BLUE\_DB uses a pseudo-NUTS
+hierarchy: NUTS~1 = NUTS~2 = the 27 oblast-level regions (\texttt{UA1}/\texttt{UA11}
+\ldots), NUTS~3 = the 2020 raions (\texttt{UA111} \ldots; Kyiv and Sevastopol
+are their own raion).  A territorial constituency is placed in the raion
+holding most of its area.

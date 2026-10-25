@@ -22,6 +22,7 @@ from ._paths import (
     BlueDataNotFound,
     cache_dir,
     dist_dir,
+    external_dir,
     maps_dir,
     user_data_dir,
 )
@@ -53,6 +54,7 @@ def _cmd_info(args: argparse.Namespace) -> int:
     maps = maps_dir()
     print(f"maps     {maps}{'' if maps.is_dir() else '  (missing; GISCO only)'}")
     print(f"cache    {cache_dir()}")
+    print(f"external {external_dir()}  (Jersey and Guernsey results, fetched on demand)")
     print(f"\nenv      {ENV_HOME}, {ENV_DIST}, {ENV_MAPS}, {ENV_CACHE}")
     print(f"unpack the Zenodo archive into {user_data_dir()} to install the data")
     if dist is not None:
@@ -68,7 +70,7 @@ def _cmd_info(args: argparse.Namespace) -> int:
 
 
 def _cmd_elections(args: argparse.Namespace) -> int:
-    db = BlueDB(args.dist)
+    db = BlueDB(args.dist, external=not args.no_external)
     df = db.elections(
         countries=args.country,
         election_type=args.type,
@@ -81,7 +83,7 @@ def _cmd_elections(args: argparse.Namespace) -> int:
 
 
 def _cmd_results(args: argparse.Namespace) -> int:
-    db = BlueDB(args.dist)
+    db = BlueDB(args.dist, external=not args.no_external)
     df = db.results(
         countries=args.country,
         election_type=args.type,
@@ -117,6 +119,9 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--version", action="version", version=f"blue-db {__version__}")
     parser.add_argument("--dist", help="path to the dist/ folder (overrides lookup)")
+    parser.add_argument("--no-external", action="store_true",
+                        help="leave out the Jersey and Guernsey results, which are "
+                             "not under CC BY 4.0")
     sub = parser.add_subparsers(dest="command", required=True)
 
     info = sub.add_parser("info", help="show version, data locations and dataset size")

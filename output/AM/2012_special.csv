@@ -1,0 +1,2 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+AM,2012.csv,0,AM_AMYY99,E-voting,E-voting,special_e_voting

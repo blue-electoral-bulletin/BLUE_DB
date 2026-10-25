@@ -574,7 +574,8 @@ def run_comparison(db: BlueDB, election_type: str, ned_path: Path,
     # (country, year) match key never lines up and every Greek election is
     # silently dropped from the comparison. Normalise to `EL` at load so the
     # keys, the NUTS joins, and the coverage report are all consistent.
-    ned_raw["country_code"] = ned_raw["country_code"].replace({"GR": "EL"})
+    # The United Kingdom likewise: ISO `GB` in EU-NED, `UK` in BLUE_DB.
+    ned_raw["country_code"] = ned_raw["country_code"].replace({"GR": "EL", "GB": "UK"})
     ned_raw["nuts_id"] = ned_raw["nuts2016"].str.strip()
 
     # Deepest NUTS level available per election (the level BLUE_DB is aggregated
@@ -671,8 +672,8 @@ def run_comparison(db: BlueDB, election_type: str, ned_path: Path,
     # against); `ned_only` = in EU-NED but not (yet) in BLUE_DB.
     #
     # A raw list of the missing keys is dominated by structural scope
-    # differences (EU-NED starts in the 1980s and covers GB/TR; BLUE_DB starts
-    # in 2001 and omits both), which are expected rather than gaps. We therefore
+    # differences (EU-NED starts in the 1980s; BLUE_DB starts in 2001), which
+    # are expected rather than gaps. We therefore
     # tag every missing election with the *reason* it is missing, so the report
     # separates the genuinely surprising gaps (a country/year both datasets are
     # meant to cover) from the structural ones.
@@ -828,12 +829,15 @@ def run_comparison(db: BlueDB, election_type: str, ned_path: Path,
            .agg(registered=("registered", "sum"), turnout=("turnout", "sum"),
                 valid=("valid", "sum"), blu_invbl=("blu_invbl", "sum"))
     )
+    # min_count=1: a figure EU-NED does not report (UK turnout) stays missing
+    # instead of summing to 0 and being compared as a 100% gap.
+    _sum = lambda s: s.sum(min_count=1)
     ned_admin_g = (
         ned_admin.groupby(GRP, as_index=False)
-                 .agg(ned_registered=("ned_registered", "sum"),
-                      ned_turnout=("ned_turnout", "sum"),
-                      ned_validvote=("ned_validvote", "sum"),
-                      ned_invbl=("ned_invbl", "sum"))
+                 .agg(ned_registered=("ned_registered", _sum),
+                      ned_turnout=("ned_turnout", _sum),
+                      ned_validvote=("ned_validvote", _sum),
+                      ned_invbl=("ned_invbl", _sum))
     )
     adm = blu_admin.merge(ned_admin_g, on=GRP, how="inner") \
                    .rename(columns={"nuts_grp": "nuts_id"})
@@ -877,10 +881,11 @@ def run_comparison(db: BlueDB, election_type: str, ned_path: Path,
     blu_dom = blu_dom.drop(columns=["ab_registered", "ab_turnout",
                                     "ab_invbl", "ab_valid"])
 
+    _sum = lambda s: s.sum(min_count=1)          # missing stays missing
     ned_nat = (ned_admin.groupby(["country_code", "year"], as_index=False)
-               .agg(ned_registered=("ned_registered", "sum"),
-                    ned_turnout=("ned_turnout", "sum"),
-                    ned_invbl=("ned_invbl", "sum")))
+               .agg(ned_registered=("ned_registered", _sum),
+                    ned_turnout=("ned_turnout", _sum),
+                    ned_invbl=("ned_invbl", _sum)))
 
     nat = (blu_nat.merge(blu_dom, on=["country_code", "year"], how="left")
                   .merge(ned_nat, on=["country_code", "year"], how="inner"))

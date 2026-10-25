@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "blue_db"
 version = "1.0.0"
-description = "Python API for BLUE_DB, a local-level election database for 31 European countries (2001-2025)."
+description = "Python API for BLUE_DB, a local-level election database for European countries."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -45,7 +45,7 @@ dev = ["pytest>=7.0", "build>=1.0", "twine>=5.0"]
 [project.urls]
 Homepage = "https://electionatlas.eu"
 Repository = "https://github.com/blue-electoral-bulletin/BLUE_DB"
-Dataset = "https://doi.org/10.5281/zenodo.21434112"
+Dataset = "https://doi.org/10.5281/zenodo.21434111"
 
 [project.scripts]
 blue-db = "blue_db.cli:main"

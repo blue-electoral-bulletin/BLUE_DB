@@ -1,101 +1,101 @@
 gisco_id,name,registered,turnout,invalid,blank,TS-LKD,LVŽS,LSDP,LRLS,TTS,LLRA-KŠS,TT,DP,LLS,LŽP,PPLS,LLP,JL-LTS,DK
-LT_13,Vilniaus miesto savivaldybė,430681,226686,5777,0,6531,1656,1834,2677,609,1058,527,569,758,274,345,133,114,32
-LT_LTZZIE,Citizens of Lithuania living in Ireland,946,798,13,0,150,83,25,64,18,2,10,6,6,10,24,44,3,1
-LT_LTZZAM,Citizens of Lithuania living in Armenia,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-LT_LTZZAT,Citizens of Lithuania living in Austria,229,208,2,0,37,6,6,15,1,0,0,0,4,10,4,1,0,0
-LT_LTZZAZ,Citizens of Lithuania living in Azerbaijan,29,29,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-LT_LTZZBE,Citizens of Lithuania living in Belgium,1168,1084,10,0,258,19,38,97,2,0,1,3,10,14,3,6,0,0
-LT_LTZZCZ,Citizens of Lithuania living in Czechia,119,106,1,0,13,0,1,8,0,0,0,0,1,0,0,0,0,0
-LT_LTZZDK,Citizens of Lithuania living in Denmark,1061,922,7,0,188,42,11,102,7,2,1,1,12,18,16,7,0,0
-LT_LTZZEG,Citizens of Lithuania living in Egypt,50,30,0,0,8,0,0,6,1,0,0,0,1,0,1,1,1,0
-LT_LTZZEE,Citizens of Lithuania living in Estonia,123,115,0,0,11,2,1,6,2,0,1,0,1,0,0,1,0,0
-LT_LTZZEL,Citizens of Lithuania living in Greece,88,57,0,0,16,2,1,10,1,0,0,0,1,1,0,0,0,0
-LT_LTZZGE,Citizens of Lithuania living in Georgia,110,98,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-LT_LTZZIT,Citizens of Lithuania living in Italy,300,220,2,0,71,9,8,30,2,2,3,1,2,5,3,0,0,0
-LT_LTZZIL,Citizens of Lithuania living in Israel,45,41,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0
-LT_LTZZJP,Citizens of Lithuania living in Japan,247,181,0,0,75,5,7,36,2,0,1,2,4,8,4,2,3,1
-LT_LTZZKZ,Citizens of Lithuania living in Kazakhstan,59,57,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-LT_LTZZCN,Citizens of Lithuania living in China,42,42,0,0,7,1,0,4,0,0,0,0,0,2,0,0,0,0
-LT_LTZZLV,Citizens of Lithuania living in Latvia,241,212,2,0,46,0,5,15,0,0,3,0,0,0,0,1,0,0
-LT_LTZZMD,"Citizens of Lithuania living in Moldova, Republic of",27,21,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-LT_LTZZNL,Citizens of Lithuania living in Netherlands,699,614,5,0,153,22,7,121,11,1,7,0,9,10,10,2,1,0
-LT_LTZZNO,Citizens of Lithuania living in Norway,1463,1246,12,0,249,95,23,93,35,2,8,2,4,16,30,30,4,3
-LT_LTZZFR,Citizens of Lithuania living in France,401,338,4,0,81,11,18,51,2,0,1,0,5,6,7,4,4,0
-LT_LTZZRO,Citizens of Lithuania living in Romania,46,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-LT_LTZZFI,Citizens of Lithuania living in Finland,196,186,6,0,39,1,3,13,1,1,1,1,5,1,7,0,2,0
-LT_LTZZSE,Citizens of Lithuania living in Sweden,624,549,1,0,126,20,12,73,7,0,4,1,0,11,12,8,0,0
-LT_LTZZCH,Citizens of Lithuania living in Switzerland,328,300,6,0,98,14,13,72,4,3,2,1,7,3,7,1,2,0
-LT_LTZZTR,Citizens of Lithuania living in Türkiye,91,77,1,0,18,5,25,12,1,0,0,1,0,2,2,0,0,0
-LT_LTZZUA,Citizens of Lithuania living in Ukraine,116,107,2,0,1,0,0,2,2,0,0,0,0,0,0,1,0,0
-LT_LTZZHU,Citizens of Lithuania living in Hungary,83,71,1,0,7,0,0,3,0,0,0,0,0,0,0,0,0,0
-LT_LTZZIN,Citizens of Lithuania living in India,18,16,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0
-LT_LTZZBR,Citizens of Lithuania living in Brazil,37,26,1,0,5,0,2,1,1,0,0,0,0,0,0,1,0,0
-LT_LTZZZA,Citizens of Lithuania living in South Africa,26,23,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0
-LT_LTZZUS,Citizens of Lithuania living in United States,1929,1624,31,0,571,70,50,146,36,1,6,6,23,15,17,21,8,0
-LT_LTZZBY,Citizens of Lithuania living in Belarus,108,90,4,0,1,0,3,0,0,7,6,3,1,0,0,0,0,0
-LT_LTZZES,Citizens of Lithuania living in Spain,390,277,9,0,67,7,6,41,7,0,0,3,4,6,5,1,1,0
-LT_LTZZGB,Citizens of Lithuania living in United Kingdom,5473,4635,39,0,1354,256,134,802,99,10,44,33,72,98,69,131,22,7
-LT_LTZZCA,Citizens of Lithuania living in Canada,157,124,1,0,61,3,5,22,1,0,0,0,0,2,5,6,2,0
-LT_LTZZPL,Citizens of Lithuania living in Poland,241,208,1,0,14,6,0,11,0,7,0,0,5,1,1,1,0,0
-LT_LTZZRU,Citizens of Lithuania living in Russian Federation,548,487,17,0,6,1,4,4,0,1,11,6,2,2,1,9,0,0
-LT_LTZZDE,Citizens of Lithuania living in Germany,1332,1151,8,0,422,81,38,194,28,7,14,1,23,25,33,25,13,0
+LT_13,Vilniaus miesto savivaldybė,430681,226686,5777,0,68424,26980,24107,31726,7467,23640,6970,7249,10834,4260,5717,2157,1059,301
+LT_LTZZIE,Citizens of Lithuania living in Ireland,946,798,13,0,282,130,41,116,44,5,21,11,12,12,30,73,7,1
+LT_LTZZAM,Citizens of Lithuania living in Armenia,17,17,0,0,6,1,4,3,0,0,0,0,0,0,1,2,0,0
+LT_LTZZAT,Citizens of Lithuania living in Austria,229,208,2,0,107,10,16,38,2,0,0,0,6,17,7,2,1,0
+LT_LTZZAZ,Citizens of Lithuania living in Azerbaijan,29,29,2,0,15,1,3,3,0,0,0,0,1,1,0,2,1,0
+LT_LTZZBE,Citizens of Lithuania living in Belgium,1168,1084,10,0,578,46,94,260,8,3,3,14,18,23,14,7,6,0
+LT_LTZZCZ,Citizens of Lithuania living in Czechia,119,106,1,0,57,5,3,30,0,0,1,1,3,1,2,2,0,0
+LT_LTZZDK,Citizens of Lithuania living in Denmark,1061,922,7,0,444,87,27,238,14,3,4,4,28,25,32,9,0,0
+LT_LTZZEG,Citizens of Lithuania living in Egypt,50,30,0,0,15,1,1,8,1,0,0,0,1,0,1,1,1,0
+LT_LTZZEE,Citizens of Lithuania living in Estonia,123,115,0,0,54,9,7,27,3,1,3,0,6,4,0,1,0,0
+LT_LTZZEL,Citizens of Lithuania living in Greece,88,57,0,0,29,3,6,12,1,0,0,1,1,2,1,0,1,0
+LT_LTZZGE,Citizens of Lithuania living in Georgia,110,98,2,0,44,8,11,24,2,1,0,0,2,2,2,0,0,0
+LT_LTZZIT,Citizens of Lithuania living in Italy,300,220,2,0,130,11,12,38,3,2,3,1,4,6,4,3,0,1
+LT_LTZZIL,Citizens of Lithuania living in Israel,45,41,0,0,14,5,4,15,0,0,0,0,0,1,2,0,0,0
+LT_LTZZJP,Citizens of Lithuania living in Japan,247,181,0,0,90,7,10,45,2,0,1,2,4,8,4,4,3,1
+LT_LTZZKZ,Citizens of Lithuania living in Kazakhstan,59,57,1,0,20,2,12,15,0,2,1,3,1,0,0,0,0,0
+LT_LTZZCN,Citizens of Lithuania living in China,42,42,0,0,16,1,8,8,1,0,0,3,0,4,1,0,0,0
+LT_LTZZLV,Citizens of Lithuania living in Latvia,241,212,2,0,90,24,11,36,8,1,23,4,2,4,0,4,2,1
+LT_LTZZMD,"Citizens of Lithuania living in Moldova, Republic of",27,21,0,0,9,0,1,1,0,1,2,3,2,1,1,0,0,0
+LT_LTZZNL,Citizens of Lithuania living in Netherlands,699,614,5,0,268,39,18,200,14,1,8,3,16,18,13,8,3,0
+LT_LTZZNO,Citizens of Lithuania living in Norway,1463,1246,12,0,571,188,43,199,47,3,12,13,17,40,48,45,5,3
+LT_LTZZFR,Citizens of Lithuania living in France,401,338,4,0,151,19,26,93,3,2,1,0,11,9,11,4,4,0
+LT_LTZZRO,Citizens of Lithuania living in Romania,46,24,0,0,9,2,1,7,0,0,0,0,5,0,0,0,0,0
+LT_LTZZFI,Citizens of Lithuania living in Finland,196,186,6,0,101,6,10,29,1,2,4,1,11,2,11,0,2,0
+LT_LTZZSE,Citizens of Lithuania living in Sweden,624,549,1,0,265,44,23,140,11,3,5,3,6,20,14,13,0,1
+LT_LTZZCH,Citizens of Lithuania living in Switzerland,328,300,6,0,143,18,15,77,6,4,2,1,12,5,8,1,2,0
+LT_LTZZTR,Citizens of Lithuania living in Türkiye,91,77,1,0,23,6,27,14,1,0,0,1,0,2,2,0,0,0
+LT_LTZZUA,Citizens of Lithuania living in Ukraine,116,107,2,0,46,8,10,23,2,1,0,1,6,1,1,1,5,0
+LT_LTZZHU,Citizens of Lithuania living in Hungary,83,71,1,0,46,2,3,14,1,0,1,1,0,0,2,0,0,0
+LT_LTZZIN,Citizens of Lithuania living in India,18,16,0,0,10,0,0,4,0,0,0,0,0,0,1,1,0,0
+LT_LTZZBR,Citizens of Lithuania living in Brazil,37,26,1,0,11,0,3,5,2,0,0,1,1,1,0,1,0,0
+LT_LTZZZA,Citizens of Lithuania living in South Africa,26,23,1,0,10,1,2,7,0,0,0,0,2,0,0,0,0,0
+LT_LTZZUS,Citizens of Lithuania living in United States,1929,1624,31,0,892,118,96,233,64,3,13,12,46,31,26,39,18,2
+LT_LTZZBY,Citizens of Lithuania living in Belarus,108,90,4,0,14,6,17,6,1,11,14,9,3,1,1,0,2,1
+LT_LTZZES,Citizens of Lithuania living in Spain,390,277,9,0,111,13,13,80,8,0,1,6,12,11,11,1,1,0
+LT_LTZZGB,Citizens of Lithuania living in United Kingdom,5473,4635,39,0,2040,368,191,1170,142,11,57,53,114,131,100,178,31,10
+LT_LTZZCA,Citizens of Lithuania living in Canada,157,124,1,0,73,3,5,23,1,1,0,0,0,2,7,6,2,0
+LT_LTZZPL,Citizens of Lithuania living in Poland,241,208,1,0,86,13,14,38,2,29,3,0,9,4,7,1,1,0
+LT_LTZZRU,Citizens of Lithuania living in Russian Federation,548,487,17,0,106,47,79,51,9,13,41,43,33,19,4,19,5,1
+LT_LTZZDE,Citizens of Lithuania living in Germany,1332,1151,8,0,542,97,52,260,29,7,15,1,31,29,39,25,13,3
 LT_LTZZ99,/Vilniaus m./Balsavimas LR diplomatinėse atstovybėse,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-LT_19,Kauno miesto savivaldybė,252529,134994,4973,0,3556,1774,1276,1043,533,39,462,335,178,175,168,96,78,58
-LT_21,Klaipėdos miesto savivaldybė,131999,58296,2692,0,1570,636,505,978,403,164,251,156,79,69,74,48,23,19
-LT_23,Neringos savivaldybė,2220,1176,59,0,146,48,79,108,17,1,5,5,8,5,7,4,1,0
-LT_56,Kretingos rajono savivaldybė,35996,17161,906,0,658,432,462,257,192,6,176,130,23,57,20,23,16,5
-LT_55,Klaipėdos rajono savivaldybė,44226,21683,995,0,702,531,318,328,146,14,563,92,36,40,28,15,18,4
-LT_29,Šiaulių miesto savivaldybė,87612,46011,1802,0,1121,999,617,522,273,13,193,230,58,101,64,63,26,4
-LT_27,Panevėžio miesto savivaldybė,80654,42486,1994,0,1412,985,639,465,235,7,131,159,90,104,54,41,17,10
-LT_66,Panevėžio rajono savivaldybė,35433,17181,707,0,535,640,334,170,93,3,112,125,42,35,24,20,12,3
-LT_18,Marijampolės savivaldybė,51548,24655,972,0,845,744,679,209,214,11,178,182,35,48,36,36,16,16
-LT_11,Alytaus miesto savivaldybė,42935,20869,1114,0,553,311,288,224,207,5,89,150,33,33,27,21,10,10
-LT_88,Šilutės rajono savivaldybė,37885,17542,1123,0,544,551,341,189,161,5,380,93,71,37,15,20,14,4
-LT_87,Šilalės rajono savivaldybė,22971,11889,739,0,573,273,289,114,79,5,513,90,72,20,14,10,18,8
-LT_74,Rietavo savivaldybė,5144,2489,120,0,125,61,88,48,43,0,69,47,7,5,5,7,4,0
-LT_77,Tauragės rajono savivaldybė,39020,18755,909,0,651,588,823,288,128,9,192,95,37,52,32,37,15,6
-LT_68,Plungės rajono savivaldybė,32339,15417,747,0,582,442,300,240,113,4,164,96,29,38,27,15,11,8
-LT_25,Palangos miesto savivaldybė,14243,7419,344,0,351,178,153,163,80,0,40,39,10,21,19,10,1,2
-LT_75,Skuodo rajono savivaldybė,17005,7578,383,0,369,301,212,78,106,3,180,128,6,23,13,9,12,5
-LT_61,Mažeikių rajono savivaldybė,50059,22764,1095,0,674,545,458,270,167,5,273,113,31,36,28,19,18,4
-LT_32,Akmenės rajono savivaldybė,15494,7928,456,0,197,331,302,178,81,3,86,60,19,17,9,6,12,6
-LT_78,Telšių rajono savivaldybė,38226,17959,797,0,546,547,456,180,161,3,346,369,83,33,37,13,18,8
-LT_54,Kelmės rajono savivaldybė,23538,11227,497,0,283,738,530,141,75,4,156,101,62,29,11,20,25,6
-LT_91,Šiaulių rajono savivaldybė,38474,18645,768,0,418,959,366,159,94,3,134,111,32,32,19,15,16,5
-LT_53,Kėdainių rajono savivaldybė,46756,24028,1132,0,653,838,485,225,197,64,206,822,54,73,28,36,36,11
-LT_72,Raseinių rajono savivaldybė,30332,17626,1088,0,574,752,665,140,138,2,294,412,17,69,27,37,18,14
-LT_71,Radviliškio rajono savivaldybė,32924,16075,810,0,607,741,477,128,146,4,179,164,20,36,35,22,19,7
-LT_46,Jonavos rajono savivaldybė,37123,17018,730,0,388,393,572,248,90,7,117,160,26,43,32,23,19,10
-LT_47,Joniškio rajono savivaldybė,20781,10068,465,0,292,461,387,401,86,2,214,157,59,29,20,19,13,10
-LT_65,Pakruojo rajono savivaldybė,18518,9005,409,0,253,544,463,141,74,2,131,137,56,23,14,8,15,6
-LT_67,Pasvalio rajono savivaldybė,23394,11687,512,0,698,547,342,158,127,4,121,123,20,44,26,20,17,6
-LT_36,Biržų rajono savivaldybė,24141,12214,484,0,491,636,532,325,129,6,137,343,57,34,23,21,12,8
-LT_57,Kupiškio rajono savivaldybė,18652,9171,409,0,462,499,355,93,104,4,83,124,28,26,40,7,14,4
-LT_34,Anykščių rajono savivaldybė,24002,12182,558,0,655,619,408,213,99,8,99,259,57,35,27,24,12,8
-LT_73,Rokiškio rajono savivaldybė,24099,12408,542,0,520,368,456,134,128,3,183,234,140,35,21,18,13,6
-LT_81,Ukmergės rajono savivaldybė,31173,15905,775,0,551,686,505,138,154,8,215,289,60,65,44,45,18,9
-LT_82,Utenos rajono savivaldybė,35811,19211,780,0,766,614,706,231,121,4,115,102,47,76,26,18,12,5
-LT_30,Visagino savivaldybė,16623,5444,235,0,67,53,66,48,17,66,208,56,34,4,16,7,3,3
-LT_43,Zarasų rajono savivaldybė,16157,7826,335,0,281,344,326,144,83,86,210,269,62,21,21,8,12,8
-LT_86,Švenčionių rajono savivaldybė,22433,10949,569,0,232,364,241,115,73,383,106,276,322,32,12,26,20,4
-LT_45,Ignalinos rajono savivaldybė,15203,7991,312,0,289,992,324,72,79,98,161,163,33,28,15,27,15,3
-LT_89,Širvintų rajono savivaldybė,14539,7638,361,0,215,223,201,57,65,74,44,618,24,20,11,10,5,6
-LT_62,Molėtų rajono savivaldybė,17573,8888,325,0,542,288,289,103,61,22,72,246,46,42,15,8,16,7
-LT_59,Lazdijų rajono savivaldybė,24396,12786,619,0,673,528,404,129,107,194,327,145,19,44,11,19,14,4
-LT_41,Vilniaus rajono savivaldybė,69006,36951,1172,0,348,162,201,183,51,4248,157,153,50,37,19,31,12,11
-LT_85,Šalčininkų rajono savivaldybė,29840,15954,758,0,91,54,67,50,36,2452,93,123,21,15,13,8,19,7
-LT_79,Trakų rajono savivaldybė,28211,12932,639,0,282,251,356,260,76,479,131,186,50,21,36,17,17,5
-LT_42,Elektrėnų savivaldybė,15994,6709,282,0,113,143,102,69,48,35,77,78,17,13,13,6,9,4
-LT_49,Kaišiadorių rajono savivaldybė,37917,18129,770,0,662,637,660,308,247,23,174,201,74,57,74,24,22,11
-LT_94,Jurbarko rajono savivaldybė,25211,12064,547,0,571,451,482,234,171,5,169,122,45,26,13,15,9,4
-LT_63,Pagėgių savivaldybė,9068,4630,287,0,77,147,72,63,38,1,303,82,4,7,7,9,7,7
-LT_48,Kalvarijos savivaldybė,9632,4450,216,0,184,185,148,68,58,1,125,83,5,16,9,7,7,2
-LT_58,Kazlų Rūdos savivaldybė,10429,4786,258,0,179,221,131,63,52,0,55,80,7,13,14,3,11,2
-LT_84,Šakių rajono savivaldybė,26423,12834,712,0,641,544,507,113,236,4,116,117,102,52,13,30,23,4
-LT_39,Vilkaviškio rajono savivaldybė,34797,16496,898,0,457,684,797,146,196,2,126,122,24,50,30,25,19,9
-LT_52,Kauno rajono savivaldybė,75484,40992,1572,0,866,562,754,229,154,12,160,148,32,41,34,18,17,25
-LT_12,Birštono savivaldybė,4304,2475,105,0,69,76,194,29,28,0,34,3,5,6,18,5,3,0
-LT_69,Prienų rajono savivaldybė,24511,12281,604,0,409,414,637,103,100,6,362,84,48,36,74,18,22,20
-LT_33,Alytaus rajono savivaldybė,30394,15608,922,0,905,473,398,159,103,33,171,193,36,58,20,27,15,10
-LT_38,Varėnos rajono savivaldybė,20897,10866,572,0,489,490,633,333,108,20,151,199,64,46,17,25,18,6
-LT_15,Druskininkų savivaldybė,18471,9929,544,0,339,257,345,117,41,9,78,60,11,42,22,7,8,2
+LT_19,Kauno miesto savivaldybė,252529,134994,4973,0,38450,32685,16858,11715,9155,631,4868,3790,1620,3288,2972,1896,1276,815
+LT_21,Klaipėdos miesto savivaldybė,131999,58296,2692,0,11911,9334,5812,8146,7031,4522,3003,1898,693,936,1185,635,331,167
+LT_23,Neringos savivaldybė,2220,1176,59,0,270,166,235,250,59,7,19,22,24,19,31,14,1,0
+LT_56,Kretingos rajono savivaldybė,35996,17161,906,0,3578,3632,2833,1591,1672,52,917,857,181,389,246,186,84,43
+LT_55,Klaipėdos rajono savivaldybė,44226,21683,995,0,4262,4843,2235,2650,1744,160,2925,552,215,421,314,221,111,35
+LT_29,Šiaulių miesto savivaldybė,87612,46011,1802,0,8047,15087,7157,3766,3670,233,1861,1380,507,888,701,593,213,108
+LT_27,Panevėžio miesto savivaldybė,80654,42486,1994,0,10400,11885,6093,3173,3076,116,1443,1302,582,798,752,551,234,87
+LT_66,Panevėžio rajono savivaldybė,35433,17181,707,0,3671,5819,2660,1020,858,40,682,684,226,276,231,192,87,28
+LT_18,Marijampolės savivaldybė,51548,24655,972,0,4724,7760,4850,1213,1749,27,1143,877,215,468,258,221,105,73
+LT_11,Alytaus miesto savivaldybė,42935,20869,1114,0,4219,5073,3332,1467,2073,47,965,1083,236,548,378,162,111,61
+LT_88,Šilutės rajono savivaldybė,37885,17542,1123,0,3273,4311,2211,1254,1275,29,2494,520,348,308,146,126,87,35
+LT_87,Šilalės rajono savivaldybė,22971,11889,739,0,2455,1991,1693,452,527,12,2871,394,393,147,67,62,66,20
+LT_74,Rietavo savivaldybė,5144,2489,120,0,439,552,351,165,177,2,353,196,20,28,40,33,11,2
+LT_77,Tauragės rajono savivaldybė,39020,18755,909,0,3188,4412,4854,1801,1139,31,1017,496,156,291,189,166,69,37
+LT_68,Plungės rajono savivaldybė,32339,15417,747,0,3004,4241,2037,1662,1261,17,932,554,211,266,217,145,67,56
+LT_25,Palangos miesto savivaldybė,14243,7419,344,0,1937,1361,1234,753,730,39,338,190,80,151,144,73,32,13
+LT_75,Skuodo rajono savivaldybė,17005,7578,383,0,1473,1928,896,329,737,12,934,532,36,137,78,60,31,12
+LT_61,Mažeikių rajono savivaldybė,50059,22764,1095,0,3755,5711,3929,1394,2471,80,2196,758,190,399,357,235,146,48
+LT_32,Akmenės rajono savivaldybė,15494,7928,456,0,795,2241,1738,881,559,24,442,343,95,128,73,49,76,28
+LT_78,Telšių rajono savivaldybė,38226,17959,797,0,2593,3978,2992,877,1360,20,1834,2136,341,307,503,92,101,27
+LT_54,Kelmės rajono savivaldybė,23538,11227,497,0,1190,4114,2385,709,474,30,613,379,375,203,63,104,73,18
+LT_91,Šiaulių rajono savivaldybė,38474,18645,768,0,2472,8207,2539,1203,996,23,779,671,203,314,189,168,73,40
+LT_53,Kėdainių rajono savivaldybė,46756,24028,1132,0,3897,5946,3001,1687,1652,417,936,3877,241,511,295,220,152,64
+LT_72,Raseinių rajono savivaldybė,30332,17626,1088,0,2562,4856,3222,710,844,18,1401,1926,81,417,131,257,58,55
+LT_71,Radviliškio rajono savivaldybė,32924,16075,810,0,2891,4676,2970,817,1214,58,927,831,109,268,231,160,69,44
+LT_46,Jonavos rajono savivaldybė,37123,17018,730,0,2808,3679,4374,1554,1024,118,674,902,198,327,290,215,86,39
+LT_47,Joniškio rajono savivaldybė,20781,10068,465,0,1062,2575,1844,1684,532,15,702,516,285,141,94,76,58,19
+LT_65,Pakruojo rajono savivaldybė,18518,9005,409,0,1089,2996,1813,698,427,12,526,402,236,187,90,54,47,19
+LT_67,Pasvalio rajono savivaldybė,23394,11687,512,0,2971,3305,1810,548,715,21,567,482,91,283,136,134,98,14
+LT_36,Biržų rajono savivaldybė,24141,12214,484,0,1914,3092,2162,1264,724,17,485,1362,182,167,124,111,54,16
+LT_57,Kupiškio rajono savivaldybė,18652,9171,409,0,1794,2694,1643,449,581,18,335,626,115,142,209,96,41,19
+LT_34,Anykščių rajono savivaldybė,24002,12182,558,0,2503,3424,1846,1180,683,18,408,839,196,213,142,100,48,24
+LT_73,Rokiškio rajono savivaldybė,24099,12408,542,0,2300,2572,2427,552,745,27,1002,1254,432,230,120,110,65,30
+LT_81,Ukmergės rajono savivaldybė,31173,15905,775,0,2967,3973,2576,785,1152,64,866,1529,272,337,313,176,84,36
+LT_82,Utenos rajono savivaldybė,35811,19211,780,0,4377,4559,3927,1643,1250,38,704,452,248,636,312,159,75,51
+LT_30,Visagino savivaldybė,16623,5444,235,0,277,402,443,150,103,840,2383,182,196,35,85,31,19,63
+LT_43,Zarasų rajono savivaldybė,16157,7826,335,0,1011,1582,1231,526,355,281,882,998,323,115,70,43,37,37
+LT_86,Švenčionių rajono savivaldybė,22433,10949,569,0,1132,2051,1197,517,345,1754,518,1198,1200,209,56,120,69,14
+LT_45,Ignalinos rajono savivaldybė,15203,7991,312,0,1042,3322,1108,308,287,216,468,535,103,116,59,63,40,12
+LT_89,Širvintų rajono savivaldybė,14539,7638,361,0,1043,1263,944,329,359,342,191,2380,164,101,74,37,36,14
+LT_62,Molėtų rajono savivaldybė,17573,8888,325,0,2145,1718,1425,628,456,78,284,1092,237,233,100,74,72,21
+LT_59,Lazdijų rajono savivaldybė,24396,12786,619,0,2690,2653,1671,674,516,1473,1141,604,169,292,124,89,50,21
+LT_41,Vilniaus rajono savivaldybė,69006,36951,1172,0,4540,2398,2200,2313,520,19073,1436,1456,754,392,319,240,88,49
+LT_85,Šalčininkų rajono savivaldybė,29840,15954,758,0,479,439,536,332,186,11236,679,866,141,96,51,85,48,22
+LT_79,Trakų rajono savivaldybė,28211,12932,639,0,1797,1635,1780,1638,449,2536,544,846,442,200,239,116,54,17
+LT_42,Elektrėnų savivaldybė,15994,6709,282,0,1073,1294,800,699,379,613,459,524,210,149,123,57,36,11
+LT_49,Kaišiadorių rajono savivaldybė,37917,18129,770,0,3499,4268,3551,1586,1221,167,802,707,332,353,572,162,94,45
+LT_94,Jurbarko rajono savivaldybė,25211,12064,547,0,2577,2742,2279,1140,920,17,657,520,237,174,95,101,44,14
+LT_63,Pagėgių savivaldybė,9068,4630,287,0,442,1055,421,249,240,6,1359,378,30,49,36,47,22,8
+LT_48,Kalvarijos savivaldybė,9632,4450,216,0,723,1099,633,323,247,2,624,388,23,84,43,28,11,6
+LT_58,Kazlų Rūdos savivaldybė,10429,4786,258,0,810,1454,752,327,315,2,276,294,37,109,64,48,31,9
+LT_84,Šakių rajono savivaldybė,26423,12834,712,0,2778,3261,2252,522,1266,16,485,457,482,289,120,102,67,25
+LT_39,Vilkaviškio rajono savivaldybė,34797,16496,898,0,2334,4670,4429,867,1294,18,604,467,113,335,222,122,95,28
+LT_52,Kauno rajono savivaldybė,75484,40992,1572,0,10302,9801,7461,3347,2549,108,1361,1318,440,976,767,421,219,350
+LT_69,Prienų rajono savivaldybė,24511,12281,604,0,2007,2654,2748,589,660,23,1330,351,234,250,534,97,72,128
+LT_12,Birštono savivaldybė,4304,2475,105,0,407,402,904,125,165,2,146,31,28,41,78,23,13,5
+LT_33,Alytaus rajono savivaldybė,30394,15608,922,0,4179,3578,2271,796,1013,91,849,1016,147,359,155,117,66,49
+LT_38,Varėnos rajono savivaldybė,20897,10866,572,0,1801,2137,2507,1390,548,54,527,638,236,203,75,110,52,16
+LT_15,Druskininkų savivaldybė,18471,9929,544,0,2004,2223,2489,628,485,117,441,317,103,301,159,56,37,25

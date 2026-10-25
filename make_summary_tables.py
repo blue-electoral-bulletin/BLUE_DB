@@ -40,6 +40,16 @@ COUNTRY_NAMES = {
     "SE": "Sweden", "SI": "Slovenia", "SK": "Slovakia",
 }
 
+# Countries and territories outside the EU and EFTA, listed in a second block.
+OTHER_NAMES = {
+    "AD": "Andorra", "AL": "Albania", "AM": "Armenia",
+    "BA": "Bosnia and Herzegovina", "FO": "Faroe Islands", "GE": "Georgia",
+    "GG": "Guernsey", "GI": "Gibraltar", "GL": "Greenland", "IM": "Isle of Man",
+    "JE": "Jersey", "MC": "Monaco", "MD": "Moldova", "ME": "Montenegro",
+    "MK": "North Macedonia", "RS": "Serbia", "SM": "San Marino",
+    "TR": "T\\\"{u}rkiye", "UA": "Ukraine", "UK": "United Kingdom", "XK": "Kosovo",
+}
+
 
 def _year(row: pd.Series) -> str | None:
     """Election year from the date, or parsed from the filename when the index
@@ -52,7 +62,7 @@ def _year(row: pd.Series) -> str | None:
 
 def counts() -> pd.DataFrame:
     laus = pd.read_csv(DIST / "geo" / "laus.csv", dtype=str, low_memory=False)
-    parties = pd.read_csv(DIST / "parties" / "parties.csv", dtype=str, low_memory=False)
+    parties = pd.read_csv(DIST / "parties" / "parties.csv", dtype=str, low_memory=False, keep_default_na=False, na_values=[""])
     idx = pd.read_csv(DIST / "elections" / "index.csv", dtype=str)
 
     n_munic = laus["gisco_id"].str[:2].value_counts()
@@ -72,9 +82,10 @@ def counts() -> pd.DataFrame:
     n_nat = nat["country_code"].value_counts()
 
     rows = []
-    for cc in sorted(COUNTRY_NAMES):
+    for cc in sorted(COUNTRY_NAMES) + sorted(OTHER_NAMES):
         rows.append({
-            "country": COUNTRY_NAMES[cc],
+            "group": "EU/EFTA" if cc in COUNTRY_NAMES else "other",
+            "country": COUNTRY_NAMES.get(cc) or OTHER_NAMES[cc],
             "munic": int(n_munic.get(cc, 0)),
             "parties": int(n_party.get(cc, 0)),
             "national": int(n_nat.get(cc, 0)),
@@ -84,27 +95,38 @@ def counts() -> pd.DataFrame:
 
 
 def to_latex(df: pd.DataFrame) -> str:
+    """Two tables side by side (EU/EFTA, then the rest), so that the 52 rows
+    fit on one page; the grand total closes the second one."""
     def fmt(n: int) -> str:
         return f"{n:,}"
 
-    lines = [
-        r"\begin{tabular}{lrrrr}",
-        r"\toprule",
-        r"Country & Municipalities & Parties & National & EP \\",
-        r"\midrule",
-    ]
-    for _, r in df.iterrows():
-        lines.append(
-            f"{r['country']} & {fmt(r['munic'])} & {fmt(r['parties'])} "
-            f"& {r['national']} & {r['ep']} \\\\")
-    lines += [
-        r"\midrule",
-        (f"\\textbf{{Total}} & \\textbf{{{fmt(df['munic'].sum())}}} & "
-         f"\\textbf{{{fmt(df['parties'].sum())}}} & "
-         f"\\textbf{{{df['national'].sum()}}} & \\textbf{{{df['ep'].sum()}}} \\\\"),
-        r"\bottomrule",
-        r"\end{tabular}",
-    ]
+    def total(label, d):
+        return (f"\\textbf{{{label}}} & \\textbf{{{fmt(d['munic'].sum())}}} & "
+                f"\\textbf{{{fmt(d['parties'].sum())}}} & "
+                f"\\textbf{{{d['national'].sum()}}} & \\textbf{{{d['ep'].sum()}}} \\\\")
+
+    def block(d, title, totals):
+        lines = [
+            r"\begin{tabular}[t]{@{}lrrrr@{}}",
+            r"\multicolumn{5}{@{}l}{\emph{" + title + r"}} \\",
+            r"\toprule",
+            r"Country & Munic. & Parties & Nat. & EP \\",
+            r"\midrule",
+        ]
+        for _, r in d.iterrows():
+            lines.append(f"{r['country']} & {fmt(r['munic'])} & {fmt(r['parties'])} "
+                         f"& {r['national']} & {r['ep']} \\\\")
+        lines.append(r"\midrule")
+        lines += [total(label, t) for label, t in totals]
+        lines += [r"\bottomrule", r"\end{tabular}"]
+        return lines
+
+    groups = list(dict.fromkeys(df["group"]))
+    eu, other = (df[df["group"] == g] for g in groups)
+    lines = (block(eu, "EU and EFTA", [("Subtotal", eu)])
+             + [r"\hspace{2em}"]
+             + block(other, "Outside the EU and EFTA",
+                     [("Subtotal", other), ("Total", df)]))
     return "\n".join(lines) + "\n"
 
 

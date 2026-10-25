@@ -1,0 +1,3 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+UA,2014.csv,1431,UA_UAYY99,Виборчі дільниці на суднах і полярній станції,Виборчі дільниці на суднах і полярній станції,special_ships_ua
+UA,2014.csv,1432,UA_UAZZ99,Закордонний виборчий округ,Закордонний виборчий округ,special_abroad_aggregate

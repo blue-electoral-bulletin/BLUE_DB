@@ -56,6 +56,11 @@ For countries with multiple separate ballots in the same year
 (e.g. Germany: Erststimme / Zweitstimme), files are named
 `{YEAR}_1.csv`, `{YEAR}_2.csv`, etc.
 
+`elections/index.csv` lists every election file. Its `distribution` column is
+`included` for files in this record and `external` for the Jersey and Guernsey
+results, which are not part of it (see *Licence and attribution* below); its
+`licence` column gives the terms each file is under.
+
 ## Geographic files
 
 All geo files share the columns: `gisco_id`, `id`, `name_or`, `level`,
@@ -121,3 +126,21 @@ The `eu_party` and `ep_group` fields are JSON-encoded lists; the
 `ep_groups.csv` columns: `group_id`, `name`, `abbreviation`, `start_year`,
 `end_year`, `eu_party`, `parties_key`, `colors`, `wikipedia_page`,
 `wikidata_id`.
+
+## Licence and attribution
+
+The dataset is released under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0). It contains data from official sources,
+listed with their required attributions in `ATTRIBUTION.md`. Credit it as:
+
+> Data: BLUE_DB (Hublet & Chiecchio 2026), https://doi.org/10.5281/zenodo.21434111, CC BY 4.0, modified from official sources listed in ATTRIBUTION.md. Contains Parliamentary information licensed under the Open Parliament Licence v3.0 and public sector information licensed under the Open Government Licence.
+
+The Jersey and Guernsey results are not part of this record and are not
+covered by CC BY 4.0: their publishers restrict reuse to research and
+non-commercial purposes. They are kept in the GitHub repository
+(https://github.com/blue-electoral-bulletin/BLUE_DB), each folder with a `NOTICE.md`, and the Python and R libraries
+fetch them on demand.
+
+Map geometries are not part of the dataset. The libraries download them from
+Eurostat/GISCO on demand, under Eurostat's licence, which requires attribution
+and restricts commercial reuse.

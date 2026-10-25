@@ -1,4 +1,20 @@
 country_code,parliament_name,election_date,round,vote_type,file_type,file_path
+AD,Consell General,2011-04-03,,national,main,output/AD/2011.csv
+AD,Consell General,2011-04-03,,parish,main,output/AD/2011_p.csv
+AD,Consell General,2015-03-01,,national,main,output/AD/2015.csv
+AD,Consell General,2015-03-01,,parish,main,output/AD/2015_p.csv
+AD,Consell General,2019-04-07,,national,main,output/AD/2019.csv
+AD,Consell General,2019-04-07,,parish,main,output/AD/2019_p.csv
+AD,Consell General,2023-04-02,,national,main,output/AD/2023.csv
+AD,Consell General,2023-04-02,,parish,main,output/AD/2023_p.csv
+AL,Kuvendi i Shqipërisë,2021-04-25,,,main,output/AL/2021.csv
+AL,Kuvendi i Shqipërisë,2025-05-11,,,main,output/AL/2025.csv
+AM,Ազգային ժողով,2007-05-12,,,main,output/AM/2007.csv
+AM,Ազգային ժողով,2012-05-06,,,main,output/AM/2012.csv
+AM,Ազգային ժողով,2017-04-02,,,main,output/AM/2017.csv
+AM,Ազգային ժողով,2018-12-09,,,main,output/AM/2018.csv
+AM,Ազգային ժողով,2021-06-20,,,main,output/AM/2021.csv
+AM,Ազգային ժողով,2026-06-07,,,main,output/AM/2026.csv
 AT,Nationalrat,2002-11-24,,,main,output/AT/2002.csv
 AT,Nationalrat,2006-10-01,,,main,output/AT/2006.csv
 AT,Nationalrat,2008-09-28,,,main,output/AT/2008.csv
@@ -6,6 +22,12 @@ AT,Nationalrat,2013-09-29,,,main,output/AT/2013.csv
 AT,Nationalrat,2017-10-15,,,main,output/AT/2017.csv
 AT,Nationalrat,2019-09-29,,,main,output/AT/2019.csv
 AT,Nationalrat,2024-09-29,,,main,output/AT/2024.csv
+BA,Predstavnički dom Parlamentarne skupštine BiH,2006-10-01,,,main,output/BA/2006.csv
+BA,Predstavnički dom Parlamentarne skupštine BiH,2010-10-03,,,main,output/BA/2010.csv
+BA,Predstavnički dom Parlamentarne skupštine BiH,2014-10-12,,,main,output/BA/2014.csv
+BA,Predstavnički dom Parlamentarne skupštine BiH,2018-10-07,,,main,output/BA/2018.csv
+BA,Predstavnički dom Parlamentarne skupštine BiH,2022-10-02,,,main,output/BA/2022.csv
+BA,Predstavnički dom Parlamentarne skupštine BiH,2026-10-04,,,main,output/BA/2026.csv
 BE,Chambre des Représentants,2003-05-18,,,main,output/BE/2003.csv
 BE,Chambre des Représentants,2007-06-10,,,main,output/BE/2007.csv
 BE,Chambre des Représentants,2010-06-13,,,main,output/BE/2010.csv
@@ -230,6 +252,14 @@ FI,Eduskunta,2011-04-17,,,main,output/FI/2011.csv
 FI,Eduskunta,2015-04-19,,,main,output/FI/2015.csv
 FI,Eduskunta,2019-04-14,,,main,output/FI/2019.csv
 FI,Eduskunta,2023-04-02,,,main,output/FI/2023.csv
+FO,Løgtingið,2002-04-30,,,main,output/FO/2002.csv
+FO,Løgtingið,2004-01-20,,,main,output/FO/2004.csv
+FO,Løgtingið,2008-01-19,,,main,output/FO/2008.csv
+FO,Løgtingið,2011-10-29,,,main,output/FO/2011.csv
+FO,Løgtingið,2015-09-01,,,main,output/FO/2015.csv
+FO,Løgtingið,2019-08-31,,,main,output/FO/2019.csv
+FO,Løgtingið,2022-12-08,,,main,output/FO/2022.csv
+FO,Løgtingið,2026-03-26,,,main,output/FO/2026.csv
 FR,Assemblée nationale,2002-06-09,1,,main,output/FR/2002_1.csv
 FR,Assemblée nationale,2002-06-16,2,,main,output/FR/2002_2.csv
 FR,Assemblée nationale,2007-06-10,1,,main,output/FR/2007_1.csv
@@ -242,6 +272,30 @@ FR,Assemblée nationale,2022-06-12,1,,main,output/FR/2022_1.csv
 FR,Assemblée nationale,2022-06-19,2,,main,output/FR/2022_2.csv
 FR,Assemblée nationale,2024-06-30,1,,main,output/FR/2024_1.csv
 FR,Assemblée nationale,2024-07-07,2,,main,output/FR/2024_2.csv
+GE,საქართველოს პარლამენტი,2008-05-21,,,main,output/GE/2008.csv
+GE,საქართველოს პარლამენტი,2012-10-01,,,main,output/GE/2012.csv
+GE,საქართველოს პარლამენტი,2016-10-08,,,main,output/GE/2016.csv
+GE,საქართველოს პარლამენტი,2020-10-31,,,main,output/GE/2020.csv
+GE,საქართველოს პარლამენტი,2024-10-26,,,main,output/GE/2024.csv
+GG,States of Deliberation,2004-04-21,,,main,output/GG/2004.csv
+GG,States of Deliberation,2008-04-23,,,main,output/GG/2008.csv
+GG,States of Deliberation,2012-04-18,,,main,output/GG/2012.csv
+GG,States of Deliberation,2016-04-27,,,main,output/GG/2016.csv
+GG,States of Deliberation,2020-10-07,,,main,output/GG/2020.csv
+GG,States of Deliberation,2025-06-18,,,main,output/GG/2025.csv
+GI,Gibraltar Parliament,2003-11-28,,,main,output/GI/2003.csv
+GI,Gibraltar Parliament,2007-10-11,,,main,output/GI/2007.csv
+GI,Gibraltar Parliament,2011-12-08,,,main,output/GI/2011.csv
+GI,Gibraltar Parliament,2015-11-26,,,main,output/GI/2015.csv
+GI,Gibraltar Parliament,2019-10-17,,,main,output/GI/2019.csv
+GI,Gibraltar Parliament,2023-10-12,,,main,output/GI/2023.csv
+GL,Inatsisartut,2005-11-22,,,main,output/GL/2005.csv
+GL,Inatsisartut,2009-06-02,,,main,output/GL/2009.csv
+GL,Inatsisartut,2013-03-12,,,main,output/GL/2013.csv
+GL,Inatsisartut,2014-11-28,,,main,output/GL/2014.csv
+GL,Inatsisartut,2018-04-24,,,main,output/GL/2018.csv
+GL,Inatsisartut,2021-04-06,,,main,output/GL/2021.csv
+GL,Inatsisartut,2025-03-11,,,main,output/GL/2025.csv
 HR,Hrvatski sabor,2003-11-23,,,main,output/HR/2003.csv
 HR,Hrvatski sabor,2007-11-25,,,main,output/HR/2007.csv
 HR,Hrvatski sabor,2011-12-04,,,main,output/HR/2011.csv
@@ -272,6 +326,12 @@ IE,Dáil Éireann,2011-02-25,,,main,output/IE/2011.csv
 IE,Dáil Éireann,2016-02-26,,,main,output/IE/2016.csv
 IE,Dáil Éireann,2020-02-08,,,main,output/IE/2020.csv
 IE,Dáil Éireann,2024-11-29,,,main,output/IE/2024.csv
+IM,House of Keys,2001-11-22,,,main,output/IM/2001.csv
+IM,House of Keys,2006-11-23,,,main,output/IM/2006.csv
+IM,House of Keys,2011-09-29,,,main,output/IM/2011.csv
+IM,House of Keys,2016-09-22,,,main,output/IM/2016.csv
+IM,House of Keys,2021-09-23,,,main,output/IM/2021.csv
+IM,House of Keys,2026-09-24,,,main,output/IM/2026.csv
 IS,Alþingi,2003-05-10,,,main,output/IS/2003.csv
 IS,Alþingi,2007-05-12,,,main,output/IS/2007.csv
 IS,Alþingi,2009-04-25,,,main,output/IS/2009.csv
@@ -286,6 +346,14 @@ IT,Camera dei Deputati,2008-04-14,,,main,output/IT/2008.csv
 IT,Camera dei Deputati,2013-02-25,,,main,output/IT/2013.csv
 IT,Camera dei Deputati,2018-03-04,,,main,output/IT/2018.csv
 IT,Camera dei Deputati,2022-09-25,,,main,output/IT/2022.csv
+JE,States Assembly,2002-11-27,,,main,output/JE/2002.csv
+JE,States Assembly,2005-11-23,,,main,output/JE/2005.csv
+JE,States Assembly,2008-11-26,,,main,output/JE/2008.csv
+JE,States Assembly,2011-10-19,,,main,output/JE/2011.csv
+JE,States Assembly,2014-10-15,,,main,output/JE/2014.csv
+JE,States Assembly,2018-05-16,,,main,output/JE/2018.csv
+JE,States Assembly,2022-06-22,,,main,output/JE/2022.csv
+JE,States Assembly,2026-06-07,,,main,output/JE/2026.csv
 LI,Landtag,2001-02-11,,,main,output/LI/2001.csv
 LI,Landtag,2005-03-13,,,main,output/LI/2005.csv
 LI,Landtag,2009-02-08,,,main,output/LI/2009.csv
@@ -307,6 +375,26 @@ LU,Chambre des Députés,2023-10-08,,,main,output/LU/2023.csv
 LV,Saeima,2014-10-04,,,main,output/LV/2014.csv
 LV,Saeima,2018-10-06,,,main,output/LV/2018.csv
 LV,Saeima,2022-10-01,,,main,output/LV/2022.csv
+LV,Saeima,2026-10-03,,,main,output/LV/2026.csv
+MC,Conseil national,2003-02-09,,,main,output/MC/2003.csv
+MC,Conseil national,2008-02-03,,,main,output/MC/2008.csv
+MC,Conseil national,2013-02-10,,,main,output/MC/2013.csv
+MC,Conseil national,2018-02-11,,,main,output/MC/2018.csv
+MC,Conseil national,2023-02-05,,,main,output/MC/2023.csv
+MD,Parlamentul Republicii Moldova,2009-04-05,,,main,output/MD/2009_04.csv
+MD,Parlamentul Republicii Moldova,2009-07-29,,,main,output/MD/2009_07.csv
+MD,Parlamentul Republicii Moldova,2014-11-30,,,main,output/MD/2014.csv
+MD,Parlamentul Republicii Moldova,2019-02-24,,,main,output/MD/2019.csv
+MD,Parlamentul Republicii Moldova,2021-07-11,,,main,output/MD/2021.csv
+MD,Parlamentul Republicii Moldova,2025-09-28,,,main,output/MD/2025.csv
+ME,Skupština Crne Gore,2006-12-10,,,main,output/ME/2006.csv
+ME,Skupština Crne Gore,2009-03-29,,,main,output/ME/2009.csv
+ME,Skupština Crne Gore,2012-10-14,,,main,output/ME/2012.csv
+ME,Skupština Crne Gore,2016-10-16,,,main,output/ME/2016.csv
+ME,Skupština Crne Gore,2020-08-30,,,main,output/ME/2020.csv
+ME,Skupština Crne Gore,2023-06-11,,,main,output/ME/2023.csv
+MK,Собрание на Република Северна Македонија,2016-12-11,,,main,output/MK/2016.csv
+MK,Собрание на Република Северна Македонија,2024-05-08,,,main,output/MK/2024.csv
 MT,Parlament ta' Malta,2003-04-12,,,main,output/MT/2003.csv
 MT,Parlament ta' Malta,2008-03-08,,,main,output/MT/2008.csv
 MT,Parlament ta' Malta,2013-03-09,,,main,output/MT/2013.csv
@@ -347,11 +435,19 @@ RO,Camera Deputaților,2012-12-09,,,main,output/RO/2012.csv
 RO,Camera Deputaților,2016-12-11,,,main,output/RO/2016.csv
 RO,Camera Deputaților,2020-12-06,,,main,output/RO/2020.csv
 RO,Camera Deputaților,2024-12-01,,,main,output/RO/2024.csv
+RS,Народна скупштина,2003-12-28,,,main,output/RS/2003.csv
+RS,Народна скупштина,2007-01-21,,,main,output/RS/2007.csv
+RS,Народна скупштина,2008-05-11,,,main,output/RS/2008.csv
+RS,Народна скупштина,2014-03-16,,,main,output/RS/2014.csv
+RS,Народна скупштина,2016-04-24,,,main,output/RS/2016.csv
+RS,Народна скупштина,2020-06-21,,,main,output/RS/2020.csv
+RS,Народна скупштина,2022-04-03,,,main,output/RS/2022.csv
 SE,Riksdagen,2006-09-17,,,main,output/SE/2006.csv
 SE,Riksdagen,2010-09-19,,,main,output/SE/2010.csv
 SE,Riksdagen,2014-09-14,,,main,output/SE/2014.csv
 SE,Riksdagen,2018-09-09,,,main,output/SE/2018.csv
 SE,Riksdagen,2022-09-11,,,main,output/SE/2022.csv
+SE,Riksdagen,2026-09-13,,,main,output/SE/2026.csv
 SI,Državni zbor,2004-10-03,,,main,output/SI/2004.csv
 SI,Državni zbor,2008-09-21,,,main,output/SI/2008.csv
 SI,Državni zbor,2011-12-04,,,main,output/SI/2011.csv
@@ -362,3 +458,33 @@ SI,Državni zbor,2026-03-22,,,main,output/SI/2026.csv
 SK,Národná rada,2016-03-05,,,main,output/SK/2016.csv
 SK,Národná rada,2020-02-29,,,main,output/SK/2020.csv
 SK,Národná rada,2023-09-30,,,main,output/SK/2023.csv
+SM,Consiglio Grande e Generale,2001-06-10,,,main,output/SM/2001.csv
+SM,Consiglio Grande e Generale,2006-06-04,,,main,output/SM/2006.csv
+SM,Consiglio Grande e Generale,2008-11-09,,,main,output/SM/2008.csv
+SM,Consiglio Grande e Generale,2012-11-11,,,main,output/SM/2012.csv
+SM,Consiglio Grande e Generale,2016-11-20,,,main,output/SM/2016.csv
+SM,Consiglio Grande e Generale,2019-12-08,,,main,output/SM/2019.csv
+SM,Consiglio Grande e Generale,2024-06-09,,,main,output/SM/2024.csv
+TR,Türkiye Büyük Millet Meclisi,2011-06-12,,,main,output/TR/2011.csv
+TR,Türkiye Büyük Millet Meclisi,2015-06-07,,,main,output/TR/2015_06.csv
+TR,Türkiye Büyük Millet Meclisi,2015-11-01,,,main,output/TR/2015_11.csv
+TR,Türkiye Büyük Millet Meclisi,2018-06-24,,,main,output/TR/2018.csv
+TR,Türkiye Büyük Millet Meclisi,2023-05-14,,,main,output/TR/2023.csv
+UA,Верховна Рада України,2006-03-26,,,main,output/UA/2006.csv
+UA,Верховна Рада України,2007-09-30,,,main,output/UA/2007.csv
+UA,Верховна Рада України,2012-10-28,,,main,output/UA/2012.csv
+UA,Верховна Рада України,2014-10-26,,,main,output/UA/2014.csv
+UA,Верховна Рада України,2019-07-21,,,main,output/UA/2019.csv
+UK,House of Commons,2001-06-07,,,main,output/UK/2001.csv
+UK,House of Commons,2005-05-05,,,main,output/UK/2005.csv
+UK,House of Commons,2010-05-06,,,main,output/UK/2010.csv
+UK,House of Commons,2015-05-07,,,main,output/UK/2015.csv
+UK,House of Commons,2017-06-08,,,main,output/UK/2017.csv
+UK,House of Commons,2019-12-12,,,main,output/UK/2019.csv
+UK,House of Commons,2024-07-04,,,main,output/UK/2024.csv
+XK,Kuvendi i Republikës së Kosovës,2017-06-11,,,main,output/XK/2017.csv
+XK,Kuvendi i Republikës së Kosovës,2019-10-06,,,main,output/XK/2019.csv
+XK,Kuvendi i Republikës së Kosovës,2021-02-14,,,main,output/XK/2021.csv
+XK,Kuvendi i Republikës së Kosovës,2025-02-09,,,main,output/XK/2025_02.csv
+XK,Kuvendi i Republikës së Kosovës,2025-12-28,,,main,output/XK/2025_12.csv
+XK,Kuvendi i Republikës së Kosovës,2026-06-07,,,main,output/XK/2026.csv

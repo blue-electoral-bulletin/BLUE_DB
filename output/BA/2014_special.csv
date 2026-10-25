@@ -1,0 +1,2 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+BA,2014.csv,143,BA_BAYY98,Bosna i Hercegovina (birači ukupno),Bosna i Hercegovina (birači ukupno),special_national_aggregate

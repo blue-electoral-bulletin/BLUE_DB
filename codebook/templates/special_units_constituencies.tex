@@ -5,19 +5,32 @@ These entries are stored in \bluepath{geo/special.csv} with
 \texttt{type = Electoral Constituency} and replace LAU-level rows in the
 election files.
 
-Electoral constituencies are used in 10 countries. In four, they are the
+Electoral constituencies are used in 19 countries. In six, they are the
 most fine-grained reporting units for which data is available:
 
 \begin{description}[leftmargin=1.5cm, style=sameline]
   \item[IE] 43 D\'ail constituencies and 3--4 European Parliament constituencies.
   \item[IS] 6 Icelandic constituencies (\textit{kjörd\ae mi}).
-  \item[MT] 10 electoral districts for Parliamentary election and a single 
+  \item[MT] 10 electoral districts for Parliamentary election and a single
   European Parliament constituency.
   \item[SI] 88 Slovenian electoral units (\textit{volilne enote}).
+  \item[UK] 650 Westminster constituencies (659 in 2001, 646 in 2005) in four
+            boundary sets (1997, 2005, 2010, 2024), coded by their ONS code
+            (\texttt{UK\_E14000530}) or, for the British seats of the 1997
+            set, by their number in the ONS boundary file
+            (\texttt{UK\_P024}).  A seat's \texttt{start\_year} and
+            \texttt{end\_year} are the first elections fought on its boundary
+            set and on the set that replaced it; its \texttt{predecessors} are
+            the seats of the previous set covering at least 5\% of its area.
+  \item[UA] 225 territorial constituencies (\textit{ТВО}, \texttt{UA\_T001}
+            \ldots) for 2006 and 2007, the only level at which the CVK
+            published those elections.  Their outlines are rebuilt from the
+            pre-2020 raions, cities and city districts they were made of (see
+            the country note).  From 2012 on, Ukraine is reported by hromada.
 \end{description}
 
-In another six countries, electoral constituencies are used alongside standard LAUs to
-report part of the results:
+In another 13 countries, electoral constituencies are used alongside standard
+LAUs to report part of the results:
 
 \begin{description}[leftmargin=1.5cm, style=sameline]
   \item[BE] Electoral cantons (\textit{cantons \'electoraux / kieskantonen})
@@ -34,4 +47,25 @@ report part of the results:
             unavailable.
   \item[PT] Two units used for a grouping of two municipalities and votes
             not attributable to any municipality, respectively.
+  \item[IT] The \textit{fuori sede} votes, cast away from home and counted
+            in each regional capital (\texttt{IT\_FS01}--\texttt{IT\_FS20}),
+            and the autonomous constituency abroad (\texttt{IT\_ITZZ99}).
+  \item[BG] The vote abroad as a single unit (\texttt{BG\_BGZZ99}).
+  \item[BA] Votes counted per electoral unit rather than per municipality
+            (\texttt{BA\_BAYY11}--\texttt{BA\_BAYY15} in the Federation,
+            \texttt{BA\_BAYY21}--\texttt{BA\_BAYY23} in Republika Srpska) and
+            the national register total (\texttt{BA\_BAYY98}).
+  \item[GE] The two districts for voters from the occupied territories:
+            Liakhvi (\texttt{GE\_GEYY85}) and Upper Abkhazia
+            (\texttt{GE\_GEYY86}).
+  \item[RS] Polls the Serbian electoral commission ran in the municipalities
+            of Kosovo (\texttt{RS\_RSKMnn}, \textit{nn} the Kosovo municipality),
+            for internally displaced voters (\texttt{RS\_RSKM99},
+            \texttt{RS\_RSYY98}) and in prisons (\texttt{RS\_RSYY99}).
+            The last three are cast across the country and have no geometry,
+            like postal votes (\texttt{resources/no\_geometry.csv}).
+  \item[ME] Votes outside any municipality (\texttt{ME\_MEYY99}), cast in
+            prisons (ZIKS, UIKS) and otherwise not attributed to one; no
+            geometry.
+  \item[FO] The national register total (\texttt{FO\_FOYY98}).
 \end{description}

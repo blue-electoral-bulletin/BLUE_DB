@@ -1,7 +1,7 @@
 {
   "name": "BLUE_DB",
   "full_name": "Basic Local Units Election Database",
-  "tagline": "A local-level election database for 31 European countries (2001–2025).",
+  "tagline": "A local-level election database for 52 European countries and territories (2001–2026).",
   "description_short": "BLUE_DB is a Europe-wide database of municipality-level results of national parliamentary and European Parliament elections.",
   "website": "https://electionatlas.eu",
   "github": "https://github.com/blue-electoral-bulletin/BLUE_DB",
@@ -14,7 +14,7 @@
     "Nicola Chiecchio"
   ],
   "year": 2026,
-  "citation": "Hublet, F., & Chiecchio, N. (2026). BLUE_DB — Basic Local Units Election Database. Paris: Groupe d'études géopolitiques. https://doi.org/10.5281/zenodo.21434112",
+  "citation": "Hublet, F., & Chiecchio, N. (2026). BLUE_DB — Basic Local Units Election Database. Paris: Groupe d'études géopolitiques. https://doi.org/10.5281/zenodo.21434111",
   "license": {
     "code": {
       "name": "MIT License",
@@ -24,19 +24,47 @@
       "applies_to": "The BLUE_DB code, the blue_maps library and this viewer."
     },
     "data": {
-      "name": "MIT License",
-      "applies_to": "The election results, party and geographic typology tables assembled by BLUE_DB, as published on Zenodo."
+      "name": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "applies_to": "The election results, party and geographic typology tables assembled by BLUE_DB, as published on Zenodo. The Jersey and Guernsey results are not part of the Zenodo record and are not covered by this licence.",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Data: BLUE_DB (Hublet & Chiecchio 2026), https://doi.org/10.5281/zenodo.21434111, CC BY 4.0, modified from official sources listed in ATTRIBUTION.md. Contains Parliamentary information licensed under the Open Parliament Licence v3.0 and public sector information licensed under the Open Government Licence.",
+      "attribution_file": "ATTRIBUTION.md"
     },
     "third_party": [
       {
         "name": "Administrative boundaries — Eurostat GISCO",
-        "note": "© EuroGeographics for the administrative boundaries. GISCO boundaries are not redistributed by BLUE_DB: they carry their own licence and are downloaded on demand.",
+        "note": "© EuroGeographics for the administrative boundaries. Boundaries are not part of the BLUE_DB dataset; this viewer displays simplified GISCO boundaries for non-commercial use, under Eurostat's terms.",
         "url": "https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units"
       },
       {
-        "name": "Basemap — OpenStreetMap and CARTO",
-        "note": "Map tiles © CARTO, map data © OpenStreetMap contributors (ODbL).",
+        "name": "Boundaries — OpenStreetMap",
+        "note": "© OpenStreetMap contributors. Boundaries for Armenia, the Faroe Islands, Guernsey, the Isle of Man, Jersey and the Georgian cities, and the sources of several geoBoundaries layers, are derived from OpenStreetMap data, available under the Open Database License (ODbL 1.0).",
         "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "name": "Boundaries — geoBoundaries",
+        "note": "Runfola et al. (2020), PLoS ONE 15(4): e0231866. Boundaries for Andorra, Bosnia and Herzegovina, Georgia, Gibraltar, Greenland, Kosovo, Moldova, Monaco, Montenegro, San Marino and Türkiye, each under the licence geoBoundaries records for its source (public domain, CC BY, CC BY-SA, CC BY 3.0 IGO or ODbL).",
+        "url": "https://www.geoboundaries.org/"
+      },
+      {
+        "name": "Westminster constituencies — Office for National Statistics",
+        "note": "Source: Office for National Statistics licensed under the Open Government Licence v.3.0. Contains OS data © Crown copyright and database right.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "name": "Ukrainian hromadas — OCHA / HDX",
+        "note": "Ukraine Subnational Administrative Boundaries (COD-AB), OCHA FISS, source SSPE \"Kartographia\", CC BY-IGO.",
+        "url": "https://data.humdata.org/dataset/cod-ab-ukr"
+      },
+      {
+        "name": "Malta localities — Malta Spatial Data Infrastructure",
+        "note": "© Planning Authority, Malta (MSDI), CC BY-NC-ND. The locality boundaries are shared unmodified; Malta's electoral districts are merged from them in your browser and are not distributed by BLUE_DB.",
+        "url": "https://msdi.data.gov.mt/"
+      },
+      {
+        "name": "Basemap — Natural Earth",
+        "note": "World land outline, 1:50m scale, simplified. Natural Earth is public domain; no permission or attribution is required to use it.",
+        "url": "https://www.naturalearthdata.com/about/terms-of-use/"
       },
       {
         "name": "Party colours and identifiers — Wikidata",
@@ -45,9 +73,27 @@
       },
       {
         "name": "Party crosswalk — Party Facts",
-        "note": "Party Facts identifiers link BLUE_DB parties to other party datasets.",
+        "note": "Party Facts identifiers link BLUE_DB parties to other party datasets. Döring, H. & Regel, S. (2019), Party Politics 25(2): 97–109.",
         "url": "https://partyfacts.herokuapp.com/"
       }
     ]
+  },
+  "external": {
+    "ref": "v2026.2",
+    "base_url": "https://raw.githubusercontent.com/blue-electoral-bulletin/BLUE_DB/{ref}/dist/",
+    "countries": {
+      "JE": {
+        "name": "Jersey",
+        "licence": "© States of Jersey; research and non-commercial use",
+        "notice": "Jersey election results © States of Jersey, compiled from secondary sources and checked against the official results published by the States Greffe (https://www.vote.je). Reuse is permitted for research, reporting, and personal or non-commercial purposes only; any other reuse requires the permission of the States Greffe (contact@vote.je). These files are not covered by BLUE_DB's CC BY 4.0 licence or by the MIT License.",
+        "terms_url": "https://www.vote.je/terms-and-conditions/"
+      },
+      "GG": {
+        "name": "Guernsey",
+        "licence": "© States of Guernsey; research and private study",
+        "notice": "Guernsey election results © States of Guernsey, compiled from secondary sources and checked against the official results published on https://www.gov.gg; reproduced for research and private study, accurately and with the source and copyright acknowledged; any other reuse requires the permission of the States of Guernsey. These files are not covered by BLUE_DB's CC BY 4.0 licence or by the MIT License.",
+        "terms_url": "https://www.gov.gg/TsCs"
+      }
+    }
   }
 }

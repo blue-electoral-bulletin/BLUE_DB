@@ -1,0 +1,31 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+XK,2026.csv,0,XK_XKZZAT,AT01 - Ambasada e Republikës së Kosovës-Vjenë,AT01 - Ambasada e Republikës së Kosovës-Vjenë,matched_foreign_city_name
+XK,2026.csv,1,XK_XKZZBE,BE01 - Ambasada e Republikës së Kosovës-Bruksel,BE01 - Ambasada e Republikës së Kosovës-Bruksel,matched_foreign_city_name
+XK,2026.csv,2,XK_XKZZCA,CA01 - Ambasada e Republikës së Kosovës-Otavë,CA01 - Ambasada e Republikës së Kosovës-Otavë,matched_foreign_city_name
+XK,2026.csv,3,XK_XKZZCA,CA02 - Konsullata e Republikës së Kosovës-Toronto,CA02 - Konsullata e Republikës së Kosovës-Toronto,matched_foreign_city_name
+XK,2026.csv,4,XK_XKZZCH,CH01 - Ambasada e Republikës së Kosovës-Bernë,CH01 - Ambasada e Republikës së Kosovës-Bernë,matched_foreign_city_name
+XK,2026.csv,5,XK_XKZZCH,CH02 - Konsullata e Republikës së Kosovës-Gjenevë,CH02 - Konsullata e Republikës së Kosovës-Gjenevë,matched_foreign_city_name
+XK,2026.csv,6,XK_XKZZCH,CH03 - Konsullata e Republikës së Kosovës-Cyrih,CH03 - Konsullata e Republikës së Kosovës-Cyrih,matched_foreign_city_name
+XK,2026.csv,7,XK_XKZZCZ,CZ01 - Ambasada e Republikës së Kosovës-Pragë,CZ01 - Ambasada e Republikës së Kosovës-Pragë,matched_foreign_city_name
+XK,2026.csv,8,XK_XKZZDE,DE01 - Ambasada e Republikës së Kosovës-Berlin,DE01 - Ambasada e Republikës së Kosovës-Berlin,matched_foreign_city_name
+XK,2026.csv,9,XK_XKZZDE,DE02 - Konsullata e Republikës së Kosovës-Dyseldorf,DE02 - Konsullata e Republikës së Kosovës-Dyseldorf,matched_foreign_city_name
+XK,2026.csv,10,XK_XKZZDE,DE03 - Konsullata e Republikës së Kosovës-Frankfurt,DE03 - Konsullata e Republikës së Kosovës-Frankfurt,matched_foreign_city_name
+XK,2026.csv,11,XK_XKZZDE,DE04 - Konsullata e Republikës së Kosovës-Hamburg,DE04 - Konsullata e Republikës së Kosovës-Hamburg,matched_foreign_city_name
+XK,2026.csv,12,XK_XKZZDE,DE05 - Konsullata e Republikës së Kosovës-Mynih,DE05 - Konsullata e Republikës së Kosovës-Mynih,matched_foreign_city_name
+XK,2026.csv,13,XK_XKZZDE,DE06 - Konsullata e Republikës së Kosovës-Shtutgart,DE06 - Konsullata e Republikës së Kosovës-Shtutgart,matched_foreign_city_name
+XK,2026.csv,14,XK_XKZZDK,DK01 - Konsullata e Republikës së Kosovës-Kopenhagë,DK01 - Konsullata e Republikës së Kosovës-Kopenhagë,matched_foreign_city_name
+XK,2026.csv,17,XK_XKZZFR,FR01 - Ambasada e Republikës së Kosovës-Paris,FR01 - Ambasada e Republikës së Kosovës-Paris,matched_foreign_city_name
+XK,2026.csv,18,XK_XKZZFR,FR02 - Konsullata e Republikës së Kosovës-Strasburg,FR02 - Konsullata e Republikës së Kosovës-Strasburg,matched_foreign_city_name
+XK,2026.csv,25,XK_XKZZHR,HR01 - Ambasada e Republikës së Kosovës-Zagreb,HR01 - Ambasada e Republikës së Kosovës-Zagreb,matched_foreign_city_name
+XK,2026.csv,26,XK_XKZZHU,HU01 - Ambasada e Republikës së Kosovës-Budapest,HU01 - Ambasada e Republikës së Kosovës-Budapest,matched_foreign_city_name
+XK,2026.csv,28,XK_XKZZIT,IT01 - Ambasada e Republikës së Kosovës-Romë,IT01 - Ambasada e Republikës së Kosovës-Romë,matched_foreign_city_name
+XK,2026.csv,29,XK_XKZZIT,IT02 - Konsullata e Republikës së Kosovës-Milano,IT02 - Konsullata e Republikës së Kosovës-Milano,matched_foreign_city_name
+XK,2026.csv,42,XK_XKZZNL,NL01 - Ambasada e Republikës së Kosovës-Hagë,NL01 - Ambasada e Republikës së Kosovës-Hagë,matched_foreign_city_name
+XK,2026.csv,43,XK_XKZZNO,NO01 - Ambasada e Republikës së Kosovës-Oslo,NO01 - Ambasada e Republikës së Kosovës-Oslo,matched_foreign_city_name
+XK,2026.csv,53,XK_XKZZSE,SE01 - Ambasada e Republikës së Kosovës-Stokholm,SE01 - Ambasada e Republikës së Kosovës-Stokholm,matched_foreign_city_name
+XK,2026.csv,54,XK_XKZZSI,SL01 - Ambasada e Republikës së Kosovës-Lubjanë,SL01 - Ambasada e Republikës së Kosovës-Lubjanë,matched_foreign_city_name
+XK,2026.csv,59,XK_XKZZTR,TR01 - Ambasada e Republikës së Kosovës-Ankara,TR01 - Ambasada e Republikës së Kosovës-Ankara,matched_foreign_city_name
+XK,2026.csv,60,XK_XKZZTR,TR02 - Konsullata e Republikës së Kosovës-Stamboll,TR02 - Konsullata e Republikës së Kosovës-Stamboll,matched_foreign_city_name
+XK,2026.csv,61,XK_XKZZGB,UK01 - Ambasada e Republikës së Kosovës-Londër,UK01 - Ambasada e Republikës së Kosovës-Londër,matched_foreign_city_name
+XK,2026.csv,62,XK_XKZZUS,US01 - Ambasada e Republikës së Kosovës-Uashington,US01 - Ambasada e Republikës së Kosovës-Uashington,matched_foreign_city_name
+XK,2026.csv,63,XK_XKZZUS,US03 - Konsullata e Republikës së Kosovës-Nju Jork,US03 - Konsullata e Republikës së Kosovës-Nju Jork,matched_foreign_city_name

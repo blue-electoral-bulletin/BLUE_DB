@@ -1,0 +1,28 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RS,2008.csv,36,RS_RSKM35,Витина (Косово),Витина (Косово),special_kosovo_municipality
+RS,2008.csv,46,RS_RSKM36,Вучитрн (Косово),Вучитрн (Косово),special_kosovo_municipality
+RS,2008.csv,49,RS_RSKM02,Гора (Косово),Гора (Косово),special_kosovo_municipality
+RS,2008.csv,52,RS_RSKM07,Гњилане (Косово),Гњилане (Косово),special_kosovo_municipality
+RS,2008.csv,61,RS_RSYY99,Заводи за извршење заводских санкција,Заводи за извршење заводских санкција,special_outside_municipality
+RS,2008.csv,64,RS_RSKM38,Звечан (Косово),Звечан (Косово),special_kosovo_municipality
+RS,2008.csv,67,RS_RSKM37,Зубин Поток (Косово),Зубин Поток (Косово),special_kosovo_municipality
+RS,2008.csv,69,RS_RSZZ99,Иностранство,Иностранство,special_abroad_aggregate
+RS,2008.csv,70,RS_RSYY98,Интерно расељени бирачи са КиМ,Интерно расељени бирачи са КиМ,special_outside_municipality
+RS,2008.csv,71,RS_RSKM99,Интерно расељени бирачи унутар КиМ,Интерно расељени бирачи унутар КиМ,special_kosovo_municipality
+RS,2008.csv,74,RS_RSKM10,Исток (Косово),Исток (Косово),special_kosovo_municipality
+RS,2008.csv,78,RS_RSKM14,Клина (Косово),Клина (Косово),special_kosovo_municipality
+RS,2008.csv,82,RS_RSKM05,Косово Поље (Косово),Косово Поље (Косово),special_kosovo_municipality
+RS,2008.csv,83,RS_RSKM12,Косовска Каменица (Косово),Косовска Каменица (Косово),special_kosovo_municipality
+RS,2008.csv,84,RS_RSKM20,Косовска Митровица (Косово),Косовска Митровица (Косово),special_kosovo_municipality
+RS,2008.csv,99,RS_RSKM16,Лепосавић (Косово),Лепосавић (Косово),special_kosovo_municipality
+RS,2008.csv,101,RS_RSKM17,Липљан (Косово),Липљан (Косово),special_kosovo_municipality
+RS,2008.csv,121,RS_RSKM22,Ново Брдо (Косово),Ново Брдо (Косово),special_kosovo_municipality
+RS,2008.csv,122,RS_RSKM23,Обилић (Косово),Обилић (Косово),special_kosovo_municipality
+RS,2008.csv,125,RS_RSKM29,Ораховац (Косово),Ораховац (Косово),special_kosovo_municipality
+RS,2008.csv,132,RS_RSKM25,Пећ (Косово),Пећ (Косово),special_kosovo_municipality
+RS,2008.csv,136,RS_RSKM26,Подујево (Косово),Подујево (Косово),special_kosovo_municipality
+RS,2008.csv,141,RS_RSKM28,Призрен (Косово),Призрен (Косово),special_kosovo_municipality
+RS,2008.csv,142,RS_RSKM27,Приштина (Косово),Приштина (Косово),special_kosovo_municipality
+RS,2008.csv,161,RS_RSKM33,Србица (Косово),Србица (Косово),special_kosovo_municipality
+RS,2008.csv,179,RS_RSKM04,Урошевац (Косово),Урошевац (Косово),special_kosovo_municipality
+RS,2008.csv,187,RS_RSKM32,Штрпце (Косово),Штрпце (Косово),special_kosovo_municipality

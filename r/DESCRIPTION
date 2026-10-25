@@ -1,0 +1,30 @@
+Package: bluedb
+Type: Package
+Title: Access the BLUE_DB Local-Level European Election Database
+Version: 1.0.0
+Authors@R: c(
+    person("François", "Hublet", email = "francois.hublet@protonmail.ch",
+           role = c("aut", "cre")),
+    person("Nicola", "Chiecchio", role = "aut"))
+Description: R interface to BLUE_DB (Basic Local Units Election Database):
+    municipality-level results of national parliamentary and European
+    Parliament elections across Europe, joinable to Eurostat geodata via
+    GISCO identifiers and to the party-politics literature via Party Facts
+    identifiers.  Loads and filters elections, aggregates results to NUTS
+    levels and party families, and resolves the boundary polygon of every
+    reporting unit.  Functionally identical to the 'blue_db' Python package.
+License: MIT + file LICENSE
+URL: https://electionatlas.eu, https://github.com/blue-electoral-bulletin/BLUE_DB
+BugReports: https://github.com/blue-electoral-bulletin/BLUE_DB/issues
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports:
+    jsonlite,
+    utils,
+    stats
+Suggests:
+    sf (>= 1.0),
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0

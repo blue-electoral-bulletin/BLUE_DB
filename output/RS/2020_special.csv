@@ -1,0 +1,34 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RS,2020.csv,12,RS_RSZZAT,Аустрија,Аустрија,matched_foreign_country_name
+RS,2020.csv,23,RS_RSZZBE,Белгија,Белгија,matched_foreign_country_name
+RS,2020.csv,30,RS_RSZZBA,Босна и Херцеговина,Босна и Херцеговина,matched_foreign_country_name
+RS,2020.csv,39,RS_RSKM35,Витина (Косово),Витина (Косово),special_kosovo_municipality
+RS,2020.csv,50,RS_RSKM36,Вучитрн (Косово),Вучитрн (Косово),special_kosovo_municipality
+RS,2020.csv,53,RS_RSKM02,Гора (Косово),Гора (Косово),special_kosovo_municipality
+RS,2020.csv,56,RS_RSKM07,Гњилане (Косово),Гњилане (Косово),special_kosovo_municipality
+RS,2020.csv,57,RS_RSZZDK,Данска,Данска,matched_foreign_country_name
+RS,2020.csv,66,RS_RSYY99,Заводи за извршење заводских санкција,Заводи за извршење заводских санкција,special_outside_municipality
+RS,2020.csv,69,RS_RSKM38,Звечан (Косово),Звечан (Косово),special_kosovo_municipality
+RS,2020.csv,72,RS_RSKM37,Зубин Поток (Косово),Зубин Поток (Косово),special_kosovo_municipality
+RS,2020.csv,76,RS_RSZZIT,Италија,Италија,matched_foreign_country_name
+RS,2020.csv,79,RS_RSZZCY,Кипар,Кипар,matched_foreign_country_name
+RS,2020.csv,84,RS_RSKM05,Косово Поље (Косово),Косово Поље (Косово),special_kosovo_municipality
+RS,2020.csv,85,RS_RSKM12,Косовска Каменица (Косово),Косовска Каменица (Косово),special_kosovo_municipality
+RS,2020.csv,86,RS_RSKM20,Косовска Митровица (Косово),Косовска Митровица (Косово),special_kosovo_municipality
+RS,2020.csv,102,RS_RSKM16,Лепосавић (Косово),Лепосавић (Косово),special_kosovo_municipality
+RS,2020.csv,104,RS_RSKM17,Липљан (Косово),Липљан (Косово),special_kosovo_municipality
+RS,2020.csv,110,RS_RSZZHU,Мађарска,Мађарска,matched_foreign_country_name
+RS,2020.csv,118,RS_RSZZDE,Немачка,Немачка,matched_foreign_country_name
+RS,2020.csv,127,RS_RSKM22,Ново Брдо (Косово),Ново Брдо (Косово),special_kosovo_municipality
+RS,2020.csv,138,RS_RSKM25,Пећ (Косово),Пећ (Косово),special_kosovo_municipality
+RS,2020.csv,146,RS_RSKM27,Приштина (Косово),Приштина (Косово),special_kosovo_municipality
+RS,2020.csv,155,RS_RSZZRU,Русија,Русија,matched_foreign_country_name
+RS,2020.csv,159,RS_RSZZMK,Северна Македонија,Северна Македонија,matched_foreign_country_name
+RS,2020.csv,163,RS_RSZZSI,Словенија,Словенија,matched_foreign_country_name
+RS,2020.csv,177,RS_RSZZUS,Сједињене Америчке Државе,Сједињене Америчке Државе,matched_foreign_country_name
+RS,2020.csv,187,RS_RSZZFR,Француска,Француска,matched_foreign_country_name
+RS,2020.csv,188,RS_RSZZHR,Хрватска,Хрватска,matched_foreign_country_name
+RS,2020.csv,191,RS_RSZZME,Црна гора,Црна гора,matched_foreign_country_name
+RS,2020.csv,194,RS_RSZZCZ,Чешка,Чешка,matched_foreign_country_name
+RS,2020.csv,198,RS_RSZZCH,Швајцарска,Швајцарска,matched_foreign_country_name
+RS,2020.csv,200,RS_RSKM32,Штрпце (Косово),Штрпце (Косово),special_kosovo_municipality

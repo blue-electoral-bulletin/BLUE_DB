@@ -21,6 +21,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Note: this license covers the *code* in this repository. The BLUE_DB dataset
-(the dist/ folder and the Zenodo record) is released separately; map geometries
-retrieved from Eurostat/GISCO are subject to Eurostat's data licence, which
-requires attribution and restricts commercial reuse.
+(the dist/ folder and the Zenodo record) is released separately under CC BY 4.0;
+see ATTRIBUTION.md. The Jersey and Guernsey results (dist/elections/JE/,
+dist/elections/GG/, output/JE/, output/GG/) are covered by neither license:
+they are reproduced under their publishers' terms, given in the NOTICE.md in
+each of those folders. Map geometries retrieved from Eurostat/GISCO are subject
+to Eurostat's data licence, which requires attribution and restricts commercial
+reuse, and the shapefiles in maps/ keep their sources' licences (maps/README.md).

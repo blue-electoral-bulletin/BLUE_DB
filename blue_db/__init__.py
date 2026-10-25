@@ -2,8 +2,7 @@
 BLUE_DB — Basic Local Units Election Database
 =============================================
 Python API for the BLUE_DB electoral database: municipality-level results of
-national parliamentary and European Parliament elections in 31 European
-countries, 2001–2025.
+national parliamentary and European Parliament elections across Europe.
 
     from blue_db import BlueDB
 
@@ -24,7 +23,9 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
-from ._paths import BlueDataNotFound, cache_dir, dist_dir, maps_dir, user_data_dir
+from ._external import BlueExternalDataNotice
+from ._paths import (BlueDataNotFound, cache_dir, dist_dir, external_dir, maps_dir,
+                     user_data_dir)
 from .blue_db import BlueDB
 
 # Keep in sync with the version in pyproject.toml (tests/test_packaging.py checks).
@@ -33,13 +34,13 @@ __version__ = "1.0.0"
 # Kept in sync with blue_db_meta.json at the repository root (see
 # tests/test_packaging.py, which asserts they agree in a source checkout).
 __author__ = "François Hublet, Nicola Chiecchio"
-DOI = "10.5281/zenodo.21434112"
+DOI = "10.5281/zenodo.21434111"
 WEBSITE = "https://electionatlas.eu"
 GITHUB = "https://github.com/blue-electoral-bulletin/BLUE_DB"
 CITATION = (
     "Hublet, F., & Chiecchio, N. (2026). BLUE_DB — Basic Local Units Election "
     "Database. Paris: Groupe d'études géopolitiques. "
-    "https://doi.org/10.5281/zenodo.21434112"
+    "https://doi.org/10.5281/zenodo.21434111"
 )
 
 if TYPE_CHECKING:  # pragma: no cover
@@ -48,6 +49,7 @@ if TYPE_CHECKING:  # pragma: no cover
 __all__ = [
     "BlueDB",
     "BlueDataNotFound",
+    "BlueExternalDataNotice",
     "BlueGeo",
     "CITATION",
     "DOI",
@@ -56,6 +58,7 @@ __all__ = [
     "__version__",
     "cache_dir",
     "dist_dir",
+    "external_dir",
     "maps_dir",
     "user_data_dir",
 ]

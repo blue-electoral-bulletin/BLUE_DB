@@ -13,8 +13,9 @@
                           (integer, empty if unknown). \\
 \texttt{end\_year}     & Year in which the unit ceased to exist
                           (integer, empty if still active). \\
-\texttt{predecessors}  & JSON array of \texttt{gisco\_id} values that merged
-                          into this unit. \\
+\texttt{predecessors}  & Comma-separated \texttt{gisco\_id} values of the
+                          units this one replaced (merged municipalities,
+                          the seats of the previous boundary set). \\
 \texttt{parent}        & \texttt{gisco\_id} (or NUTS code) of the containing
                           higher-level unit. \\
 \texttt{names}         & JSON array of historical name variants, each with
@@ -128,19 +129,3 @@ made for any single unit.
 \bottomrule
 \end{longtable}
 
-Two properties of this file are deliberate and worth stating.  First, the same
-unit may be drawn from different layers in different years: that is how boundary
-changes are preserved, so an election held before a merger is mapped with the
-municipalities that existed at the time.  Second, unresolved units are kept
-rather than dropped, with empty source columns, so the file documents what is
-\emph{not} covered as well as what is.  A \texttt{status} of
-\texttt{no geometry (postal vote)}, \texttt{no geometry (ships at sea)} or
-\texttt{no geometry (e-voting)} is not a gap in the data: those units have no
-territory to draw, by their nature.
-In this release the crosswalk has no holes: every unit of every election that
-can have a polygon has one.  The per-election summary used to check this is
-kept with the project's working files, in \texttt{resources/geo\_coverage.csv},
-and any unit that failed to resolve would be listed in
-\texttt{resources/geo\_missing.csv} in the format of the overrides file, so that
-filling in one row reroutes it everywhere — in the maps, in the viewer, and in
-this crosswalk.

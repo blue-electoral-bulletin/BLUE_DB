@@ -1,0 +1,651 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+UK,2019.csv,0,UK_W07000049,Aberavon,Aberavon,special_all_muni
+UK,2019.csv,1,UK_W07000058,Aberconwy,Aberconwy,special_all_muni
+UK,2019.csv,2,UK_S14000001,Aberdeen North,Aberdeen North,special_all_muni
+UK,2019.csv,3,UK_S14000002,Aberdeen South,Aberdeen South,special_all_muni
+UK,2019.csv,4,UK_S14000003,Airdrie and Shotts,Airdrie and Shotts,special_all_muni
+UK,2019.csv,5,UK_E14000530,Aldershot,Aldershot,special_all_muni
+UK,2019.csv,6,UK_E14000531,Aldridge-Brownhills,Aldridge-Brownhills,special_all_muni
+UK,2019.csv,7,UK_E14000532,Altrincham and Sale West,Altrincham and Sale West,special_all_muni
+UK,2019.csv,8,UK_W07000043,Alyn and Deeside,Alyn and Deeside,special_all_muni
+UK,2019.csv,9,UK_E14000533,Amber Valley,Amber Valley,special_all_muni
+UK,2019.csv,10,UK_S14000004,Angus,Angus,special_all_muni
+UK,2019.csv,11,UK_W07000057,Arfon,Arfon,special_all_muni
+UK,2019.csv,12,UK_S14000005,Argyll and Bute,Argyll and Bute,special_all_muni
+UK,2019.csv,13,UK_E14000534,Arundel and South Downs,Arundel and South Downs,special_all_muni
+UK,2019.csv,14,UK_E14000535,Ashfield,Ashfield,special_all_muni
+UK,2019.csv,15,UK_E14000536,Ashford,Ashford,special_all_muni
+UK,2019.csv,16,UK_E14000537,Ashton-under-Lyne,Ashton-under-Lyne,special_all_muni
+UK,2019.csv,17,UK_E14000538,Aylesbury,Aylesbury,special_all_muni
+UK,2019.csv,18,UK_S14000006,"Ayr, Carrick and Cumnock","Ayr, Carrick and Cumnock",special_all_muni
+UK,2019.csv,19,UK_E14000539,Banbury,Banbury,special_all_muni
+UK,2019.csv,20,UK_S14000007,Banff and Buchan,Banff and Buchan,special_all_muni
+UK,2019.csv,21,UK_E14000540,Barking,Barking,special_all_muni
+UK,2019.csv,22,UK_E14000541,Barnsley Central,Barnsley Central,special_all_muni
+UK,2019.csv,23,UK_E14000542,Barnsley East,Barnsley East,special_all_muni
+UK,2019.csv,24,UK_E14000543,Barrow and Furness,Barrow and Furness,special_all_muni
+UK,2019.csv,25,UK_E14000544,Basildon and Billericay,Basildon and Billericay,special_all_muni
+UK,2019.csv,26,UK_E14000545,Basingstoke,Basingstoke,special_all_muni
+UK,2019.csv,27,UK_E14000546,Bassetlaw,Bassetlaw,special_all_muni
+UK,2019.csv,28,UK_E14000547,Bath,Bath,special_all_muni
+UK,2019.csv,29,UK_E14000548,Batley and Spen,Batley and Spen,special_all_muni
+UK,2019.csv,30,UK_E14000549,Battersea,Battersea,special_all_muni
+UK,2019.csv,31,UK_E14000550,Beaconsfield,Beaconsfield,special_all_muni
+UK,2019.csv,32,UK_E14000551,Beckenham,Beckenham,special_all_muni
+UK,2019.csv,33,UK_E14000552,Bedford,Bedford,special_all_muni
+UK,2019.csv,34,UK_N06000001,Belfast East,Belfast East,special_all_muni
+UK,2019.csv,35,UK_N06000002,Belfast North,Belfast North,special_all_muni
+UK,2019.csv,36,UK_N06000003,Belfast South,Belfast South,special_all_muni
+UK,2019.csv,37,UK_N06000004,Belfast West,Belfast West,special_all_muni
+UK,2019.csv,38,UK_E14000553,Bermondsey and Old Southwark,Bermondsey and Old Southwark,special_all_muni
+UK,2019.csv,39,UK_S14000008,"Berwickshire, Roxburgh and Selkirk","Berwickshire, Roxburgh and Selkirk",special_all_muni
+UK,2019.csv,40,UK_E14000554,Berwick-upon-Tweed,Berwick-upon-Tweed,special_all_muni
+UK,2019.csv,41,UK_E14000555,Bethnal Green and Bow,Bethnal Green and Bow,special_all_muni
+UK,2019.csv,42,UK_E14000556,Beverley and Holderness,Beverley and Holderness,special_all_muni
+UK,2019.csv,43,UK_E14000557,Bexhill and Battle,Bexhill and Battle,special_all_muni
+UK,2019.csv,44,UK_E14000558,Bexleyheath and Crayford,Bexleyheath and Crayford,special_all_muni
+UK,2019.csv,45,UK_E14000559,Birkenhead,Birkenhead,special_all_muni
+UK,2019.csv,46,UK_E14000560,"Birmingham, Edgbaston","Birmingham, Edgbaston",special_all_muni
+UK,2019.csv,47,UK_E14000561,"Birmingham, Erdington","Birmingham, Erdington",special_all_muni
+UK,2019.csv,48,UK_E14000562,"Birmingham, Hall Green","Birmingham, Hall Green",special_all_muni
+UK,2019.csv,49,UK_E14000563,"Birmingham, Hodge Hill","Birmingham, Hodge Hill",special_all_muni
+UK,2019.csv,50,UK_E14000564,"Birmingham, Ladywood","Birmingham, Ladywood",special_all_muni
+UK,2019.csv,51,UK_E14000565,"Birmingham, Northfield","Birmingham, Northfield",special_all_muni
+UK,2019.csv,52,UK_E14000566,"Birmingham, Perry Barr","Birmingham, Perry Barr",special_all_muni
+UK,2019.csv,53,UK_E14000567,"Birmingham, Selly Oak","Birmingham, Selly Oak",special_all_muni
+UK,2019.csv,54,UK_E14000568,"Birmingham, Yardley","Birmingham, Yardley",special_all_muni
+UK,2019.csv,55,UK_E14000569,Bishop Auckland,Bishop Auckland,special_all_muni
+UK,2019.csv,56,UK_E14000570,Blackburn,Blackburn,special_all_muni
+UK,2019.csv,57,UK_E14000571,Blackley and Broughton,Blackley and Broughton,special_all_muni
+UK,2019.csv,58,UK_E14000572,Blackpool North and Cleveleys,Blackpool North and Cleveleys,special_all_muni
+UK,2019.csv,59,UK_E14000573,Blackpool South,Blackpool South,special_all_muni
+UK,2019.csv,60,UK_W07000072,Blaenau Gwent,Blaenau Gwent,special_all_muni
+UK,2019.csv,61,UK_E14000574,Blaydon,Blaydon,special_all_muni
+UK,2019.csv,62,UK_E14000575,Blyth Valley,Blyth Valley,special_all_muni
+UK,2019.csv,63,UK_E14000576,Bognor Regis and Littlehampton,Bognor Regis and Littlehampton,special_all_muni
+UK,2019.csv,64,UK_E14000577,Bolsover,Bolsover,special_all_muni
+UK,2019.csv,65,UK_E14000578,Bolton North East,Bolton North East,special_all_muni
+UK,2019.csv,66,UK_E14000579,Bolton South East,Bolton South East,special_all_muni
+UK,2019.csv,67,UK_E14000580,Bolton West,Bolton West,special_all_muni
+UK,2019.csv,68,UK_E14000581,Bootle,Bootle,special_all_muni
+UK,2019.csv,69,UK_E14000582,Boston and Skegness,Boston and Skegness,special_all_muni
+UK,2019.csv,70,UK_E14000583,Bosworth,Bosworth,special_all_muni
+UK,2019.csv,71,UK_E14000584,Bournemouth East,Bournemouth East,special_all_muni
+UK,2019.csv,72,UK_E14000585,Bournemouth West,Bournemouth West,special_all_muni
+UK,2019.csv,73,UK_E14000586,Bracknell,Bracknell,special_all_muni
+UK,2019.csv,74,UK_E14000587,Bradford East,Bradford East,special_all_muni
+UK,2019.csv,75,UK_E14000588,Bradford South,Bradford South,special_all_muni
+UK,2019.csv,76,UK_E14000589,Bradford West,Bradford West,special_all_muni
+UK,2019.csv,77,UK_E14000590,Braintree,Braintree,special_all_muni
+UK,2019.csv,78,UK_W07000068,Brecon and Radnorshire,Brecon and Radnorshire,special_all_muni
+UK,2019.csv,79,UK_E14000591,Brent Central,Brent Central,special_all_muni
+UK,2019.csv,80,UK_E14000593,Brentford and Isleworth,Brentford and Isleworth,special_all_muni
+UK,2019.csv,81,UK_E14000592,Brent North,Brent North,special_all_muni
+UK,2019.csv,82,UK_E14000594,Brentwood and Ongar,Brentwood and Ongar,special_all_muni
+UK,2019.csv,83,UK_W07000073,Bridgend,Bridgend,special_all_muni
+UK,2019.csv,84,UK_E14000595,Bridgwater and West Somerset,Bridgwater and West Somerset,special_all_muni
+UK,2019.csv,85,UK_E14000596,Brigg and Goole,Brigg and Goole,special_all_muni
+UK,2019.csv,86,UK_E14000597,"Brighton, Kemptown","Brighton, Kemptown",special_all_muni
+UK,2019.csv,87,UK_E14000598,"Brighton, Pavilion","Brighton, Pavilion",special_all_muni
+UK,2019.csv,88,UK_E14000599,Bristol East,Bristol East,special_all_muni
+UK,2019.csv,89,UK_E14000600,Bristol North West,Bristol North West,special_all_muni
+UK,2019.csv,90,UK_E14000601,Bristol South,Bristol South,special_all_muni
+UK,2019.csv,91,UK_E14000602,Bristol West,Bristol West,special_all_muni
+UK,2019.csv,92,UK_E14000603,Broadland,Broadland,special_all_muni
+UK,2019.csv,93,UK_E14000604,Bromley and Chislehurst,Bromley and Chislehurst,special_all_muni
+UK,2019.csv,94,UK_E14000605,Bromsgrove,Bromsgrove,special_all_muni
+UK,2019.csv,95,UK_E14000606,Broxbourne,Broxbourne,special_all_muni
+UK,2019.csv,96,UK_E14000607,Broxtowe,Broxtowe,special_all_muni
+UK,2019.csv,97,UK_E14000608,Buckingham,Buckingham,special_all_muni
+UK,2019.csv,98,UK_E14000609,Burnley,Burnley,special_all_muni
+UK,2019.csv,99,UK_E14000610,Burton,Burton,special_all_muni
+UK,2019.csv,100,UK_E14000611,Bury North,Bury North,special_all_muni
+UK,2019.csv,101,UK_E14000612,Bury South,Bury South,special_all_muni
+UK,2019.csv,102,UK_E14000613,Bury St Edmunds,Bury St Edmunds,special_all_muni
+UK,2019.csv,103,UK_W07000076,Caerphilly,Caerphilly,special_all_muni
+UK,2019.csv,104,UK_S14000009,"Caithness, Sutherland and Easter Ross","Caithness, Sutherland and Easter Ross",special_all_muni
+UK,2019.csv,105,UK_E14000614,Calder Valley,Calder Valley,special_all_muni
+UK,2019.csv,106,UK_E14000615,Camberwell and Peckham,Camberwell and Peckham,special_all_muni
+UK,2019.csv,107,UK_E14000616,Camborne and Redruth,Camborne and Redruth,special_all_muni
+UK,2019.csv,108,UK_E14000617,Cambridge,Cambridge,special_all_muni
+UK,2019.csv,109,UK_E14000618,Cannock Chase,Cannock Chase,special_all_muni
+UK,2019.csv,110,UK_E14000619,Canterbury,Canterbury,special_all_muni
+UK,2019.csv,111,UK_W07000050,Cardiff Central,Cardiff Central,special_all_muni
+UK,2019.csv,112,UK_W07000051,Cardiff North,Cardiff North,special_all_muni
+UK,2019.csv,113,UK_W07000080,Cardiff South and Penarth,Cardiff South and Penarth,special_all_muni
+UK,2019.csv,114,UK_W07000079,Cardiff West,Cardiff West,special_all_muni
+UK,2019.csv,115,UK_E14000620,Carlisle,Carlisle,special_all_muni
+UK,2019.csv,116,UK_W07000067,Carmarthen East and Dinefwr,Carmarthen East and Dinefwr,special_all_muni
+UK,2019.csv,117,UK_W07000066,Carmarthen West and South Pembrokeshire,Carmarthen West and South Pembrokeshire,special_all_muni
+UK,2019.csv,118,UK_E14000621,Carshalton and Wallington,Carshalton and Wallington,special_all_muni
+UK,2019.csv,119,UK_E14000622,Castle Point,Castle Point,special_all_muni
+UK,2019.csv,120,UK_S14000010,Central Ayrshire,Central Ayrshire,special_all_muni
+UK,2019.csv,121,UK_E14000623,Central Devon,Central Devon,special_all_muni
+UK,2019.csv,122,UK_E14000624,Central Suffolk and North Ipswich,Central Suffolk and North Ipswich,special_all_muni
+UK,2019.csv,123,UK_W07000064,Ceredigion,Ceredigion,special_all_muni
+UK,2019.csv,124,UK_E14000625,Charnwood,Charnwood,special_all_muni
+UK,2019.csv,125,UK_E14000626,Chatham and Aylesford,Chatham and Aylesford,special_all_muni
+UK,2019.csv,126,UK_E14000627,Cheadle,Cheadle,special_all_muni
+UK,2019.csv,127,UK_E14000628,Chelmsford,Chelmsford,special_all_muni
+UK,2019.csv,128,UK_E14000629,Chelsea and Fulham,Chelsea and Fulham,special_all_muni
+UK,2019.csv,129,UK_E14000630,Cheltenham,Cheltenham,special_all_muni
+UK,2019.csv,130,UK_E14000631,Chesham and Amersham,Chesham and Amersham,special_all_muni
+UK,2019.csv,131,UK_E14000632,Chesterfield,Chesterfield,special_all_muni
+UK,2019.csv,132,UK_E14000633,Chichester,Chichester,special_all_muni
+UK,2019.csv,133,UK_E14000634,Chingford and Woodford Green,Chingford and Woodford Green,special_all_muni
+UK,2019.csv,134,UK_E14000635,Chippenham,Chippenham,special_all_muni
+UK,2019.csv,135,UK_E14000636,Chipping Barnet,Chipping Barnet,special_all_muni
+UK,2019.csv,136,UK_E14000637,Chorley,Chorley,special_all_muni
+UK,2019.csv,137,UK_E14000638,Christchurch,Christchurch,special_all_muni
+UK,2019.csv,138,UK_E14000639,Cities of London and Westminster,Cities of London and Westminster,special_all_muni
+UK,2019.csv,139,UK_E14000640,City of Chester,City of Chester,special_all_muni
+UK,2019.csv,140,UK_E14000641,City of Durham,City of Durham,special_all_muni
+UK,2019.csv,141,UK_E14000642,Clacton,Clacton,special_all_muni
+UK,2019.csv,142,UK_E14000643,Cleethorpes,Cleethorpes,special_all_muni
+UK,2019.csv,143,UK_W07000062,Clwyd South,Clwyd South,special_all_muni
+UK,2019.csv,144,UK_W07000059,Clwyd West,Clwyd West,special_all_muni
+UK,2019.csv,145,UK_S14000011,"Coatbridge, Chryston and Bellshill","Coatbridge, Chryston and Bellshill",special_all_muni
+UK,2019.csv,146,UK_E14000644,Colchester,Colchester,special_all_muni
+UK,2019.csv,147,UK_E14000645,Colne Valley,Colne Valley,special_all_muni
+UK,2019.csv,148,UK_E14000646,Congleton,Congleton,special_all_muni
+UK,2019.csv,149,UK_E14000647,Copeland,Copeland,special_all_muni
+UK,2019.csv,150,UK_E14000648,Corby,Corby,special_all_muni
+UK,2019.csv,151,UK_E14000649,Coventry North East,Coventry North East,special_all_muni
+UK,2019.csv,152,UK_E14000650,Coventry North West,Coventry North West,special_all_muni
+UK,2019.csv,153,UK_E14000651,Coventry South,Coventry South,special_all_muni
+UK,2019.csv,154,UK_E14000652,Crawley,Crawley,special_all_muni
+UK,2019.csv,155,UK_E14000653,Crewe and Nantwich,Crewe and Nantwich,special_all_muni
+UK,2019.csv,156,UK_E14000654,Croydon Central,Croydon Central,special_all_muni
+UK,2019.csv,157,UK_E14000655,Croydon North,Croydon North,special_all_muni
+UK,2019.csv,158,UK_E14000656,Croydon South,Croydon South,special_all_muni
+UK,2019.csv,159,UK_S14000012,"Cumbernauld, Kilsyth and Kirkintilloch East","Cumbernauld, Kilsyth and Kirkintilloch East",special_all_muni
+UK,2019.csv,160,UK_W07000070,Cynon Valley,Cynon Valley,special_all_muni
+UK,2019.csv,161,UK_E14000657,Dagenham and Rainham,Dagenham and Rainham,special_all_muni
+UK,2019.csv,162,UK_E14000658,Darlington,Darlington,special_all_muni
+UK,2019.csv,163,UK_E14000659,Dartford,Dartford,special_all_muni
+UK,2019.csv,164,UK_E14000660,Daventry,Daventry,special_all_muni
+UK,2019.csv,165,UK_W07000042,Delyn,Delyn,special_all_muni
+UK,2019.csv,166,UK_E14000661,Denton and Reddish,Denton and Reddish,special_all_muni
+UK,2019.csv,167,UK_E14000662,Derby North,Derby North,special_all_muni
+UK,2019.csv,168,UK_E14000664,Derbyshire Dales,Derbyshire Dales,special_all_muni
+UK,2019.csv,169,UK_E14000663,Derby South,Derby South,special_all_muni
+UK,2019.csv,170,UK_E14000665,Devizes,Devizes,special_all_muni
+UK,2019.csv,171,UK_E14000666,Dewsbury,Dewsbury,special_all_muni
+UK,2019.csv,172,UK_E14000668,Doncaster Central,Doncaster Central,special_all_muni
+UK,2019.csv,173,UK_E14000669,Doncaster North,Doncaster North,special_all_muni
+UK,2019.csv,174,UK_E14000667,Don Valley,Don Valley,special_all_muni
+UK,2019.csv,175,UK_E14000670,Dover,Dover,special_all_muni
+UK,2019.csv,176,UK_E14000671,Dudley North,Dudley North,special_all_muni
+UK,2019.csv,177,UK_E14000672,Dudley South,Dudley South,special_all_muni
+UK,2019.csv,178,UK_E14000673,Dulwich and West Norwood,Dulwich and West Norwood,special_all_muni
+UK,2019.csv,179,UK_S14000013,Dumfries and Galloway,Dumfries and Galloway,special_all_muni
+UK,2019.csv,180,UK_S14000014,"Dumfriesshire, Clydesdale and Tweeddale","Dumfriesshire, Clydesdale and Tweeddale",special_all_muni
+UK,2019.csv,181,UK_S14000015,Dundee East,Dundee East,special_all_muni
+UK,2019.csv,182,UK_S14000016,Dundee West,Dundee West,special_all_muni
+UK,2019.csv,183,UK_S14000017,Dunfermline and West Fife,Dunfermline and West Fife,special_all_muni
+UK,2019.csv,184,UK_W07000061,Dwyfor Meirionnydd,Dwyfor Meirionnydd,special_all_muni
+UK,2019.csv,185,UK_E14000674,Ealing Central and Acton,Ealing Central and Acton,special_all_muni
+UK,2019.csv,186,UK_E14000675,Ealing North,Ealing North,special_all_muni
+UK,2019.csv,187,UK_E14000676,"Ealing, Southall","Ealing, Southall",special_all_muni
+UK,2019.csv,188,UK_E14000677,Easington,Easington,special_all_muni
+UK,2019.csv,189,UK_N06000005,East Antrim,East Antrim,special_all_muni
+UK,2019.csv,190,UK_E14000684,Eastbourne,Eastbourne,special_all_muni
+UK,2019.csv,191,UK_E14000678,East Devon,East Devon,special_all_muni
+UK,2019.csv,192,UK_S14000018,East Dunbartonshire,East Dunbartonshire,special_all_muni
+UK,2019.csv,193,UK_E14000679,East Ham,East Ham,special_all_muni
+UK,2019.csv,194,UK_E14000680,East Hampshire,East Hampshire,special_all_muni
+UK,2019.csv,195,UK_S14000019,"East Kilbride, Strathaven and Lesmahagow","East Kilbride, Strathaven and Lesmahagow",special_all_muni
+UK,2019.csv,196,UK_E14000685,Eastleigh,Eastleigh,special_all_muni
+UK,2019.csv,197,UK_N06000006,East Londonderry,East Londonderry,special_all_muni
+UK,2019.csv,198,UK_S14000020,East Lothian,East Lothian,special_all_muni
+UK,2019.csv,199,UK_S14000021,East Renfrewshire,East Renfrewshire,special_all_muni
+UK,2019.csv,200,UK_E14000681,East Surrey,East Surrey,special_all_muni
+UK,2019.csv,201,UK_E14000682,East Worthing and Shoreham,East Worthing and Shoreham,special_all_muni
+UK,2019.csv,202,UK_E14000683,East Yorkshire,East Yorkshire,special_all_muni
+UK,2019.csv,203,UK_E14000686,Eddisbury,Eddisbury,special_all_muni
+UK,2019.csv,204,UK_S14000022,Edinburgh East,Edinburgh East,special_all_muni
+UK,2019.csv,205,UK_S14000023,Edinburgh North and Leith,Edinburgh North and Leith,special_all_muni
+UK,2019.csv,206,UK_S14000024,Edinburgh South,Edinburgh South,special_all_muni
+UK,2019.csv,207,UK_S14000025,Edinburgh South West,Edinburgh South West,special_all_muni
+UK,2019.csv,208,UK_S14000026,Edinburgh West,Edinburgh West,special_all_muni
+UK,2019.csv,209,UK_E14000687,Edmonton,Edmonton,special_all_muni
+UK,2019.csv,210,UK_E14000688,Ellesmere Port and Neston,Ellesmere Port and Neston,special_all_muni
+UK,2019.csv,211,UK_E14000689,Elmet and Rothwell,Elmet and Rothwell,special_all_muni
+UK,2019.csv,212,UK_E14000690,Eltham,Eltham,special_all_muni
+UK,2019.csv,213,UK_E14000691,Enfield North,Enfield North,special_all_muni
+UK,2019.csv,214,UK_E14000692,"Enfield, Southgate","Enfield, Southgate",special_all_muni
+UK,2019.csv,215,UK_E14000693,Epping Forest,Epping Forest,special_all_muni
+UK,2019.csv,216,UK_E14000694,Epsom and Ewell,Epsom and Ewell,special_all_muni
+UK,2019.csv,217,UK_E14000695,Erewash,Erewash,special_all_muni
+UK,2019.csv,218,UK_E14000696,Erith and Thamesmead,Erith and Thamesmead,special_all_muni
+UK,2019.csv,219,UK_E14000697,Esher and Walton,Esher and Walton,special_all_muni
+UK,2019.csv,220,UK_E14000698,Exeter,Exeter,special_all_muni
+UK,2019.csv,221,UK_S14000028,Falkirk,Falkirk,special_all_muni
+UK,2019.csv,222,UK_E14000699,Fareham,Fareham,special_all_muni
+UK,2019.csv,223,UK_E14000700,Faversham and Mid Kent,Faversham and Mid Kent,special_all_muni
+UK,2019.csv,224,UK_E14000701,Feltham and Heston,Feltham and Heston,special_all_muni
+UK,2019.csv,225,UK_N06000007,Fermanagh and South Tyrone,Fermanagh and South Tyrone,special_all_muni
+UK,2019.csv,226,UK_E14000702,Filton and Bradley Stoke,Filton and Bradley Stoke,special_all_muni
+UK,2019.csv,227,UK_E14000703,Finchley and Golders Green,Finchley and Golders Green,special_all_muni
+UK,2019.csv,228,UK_E14000704,Folkestone and Hythe,Folkestone and Hythe,special_all_muni
+UK,2019.csv,229,UK_E14000705,Forest of Dean,Forest of Dean,special_all_muni
+UK,2019.csv,230,UK_N06000008,Foyle,Foyle,special_all_muni
+UK,2019.csv,231,UK_E14000706,Fylde,Fylde,special_all_muni
+UK,2019.csv,232,UK_E14000707,Gainsborough,Gainsborough,special_all_muni
+UK,2019.csv,233,UK_E14000708,Garston and Halewood,Garston and Halewood,special_all_muni
+UK,2019.csv,234,UK_E14000709,Gateshead,Gateshead,special_all_muni
+UK,2019.csv,235,UK_E14000710,Gedling,Gedling,special_all_muni
+UK,2019.csv,236,UK_E14000711,Gillingham and Rainham,Gillingham and Rainham,special_all_muni
+UK,2019.csv,237,UK_S14000029,Glasgow Central,Glasgow Central,special_all_muni
+UK,2019.csv,238,UK_S14000030,Glasgow East,Glasgow East,special_all_muni
+UK,2019.csv,239,UK_S14000031,Glasgow North,Glasgow North,special_all_muni
+UK,2019.csv,240,UK_S14000032,Glasgow North East,Glasgow North East,special_all_muni
+UK,2019.csv,241,UK_S14000033,Glasgow North West,Glasgow North West,special_all_muni
+UK,2019.csv,242,UK_S14000034,Glasgow South,Glasgow South,special_all_muni
+UK,2019.csv,243,UK_S14000035,Glasgow South West,Glasgow South West,special_all_muni
+UK,2019.csv,244,UK_S14000036,Glenrothes,Glenrothes,special_all_muni
+UK,2019.csv,245,UK_E14000712,Gloucester,Gloucester,special_all_muni
+UK,2019.csv,246,UK_S14000037,Gordon,Gordon,special_all_muni
+UK,2019.csv,247,UK_E14000713,Gosport,Gosport,special_all_muni
+UK,2019.csv,248,UK_W07000046,Gower,Gower,special_all_muni
+UK,2019.csv,249,UK_E14000714,Grantham and Stamford,Grantham and Stamford,special_all_muni
+UK,2019.csv,250,UK_E14000715,Gravesham,Gravesham,special_all_muni
+UK,2019.csv,251,UK_E14000716,Great Grimsby,Great Grimsby,special_all_muni
+UK,2019.csv,252,UK_E14000717,Great Yarmouth,Great Yarmouth,special_all_muni
+UK,2019.csv,253,UK_E14000718,Greenwich and Woolwich,Greenwich and Woolwich,special_all_muni
+UK,2019.csv,254,UK_E14000719,Guildford,Guildford,special_all_muni
+UK,2019.csv,255,UK_E14000720,Hackney North and Stoke Newington,Hackney North and Stoke Newington,special_all_muni
+UK,2019.csv,256,UK_E14000721,Hackney South and Shoreditch,Hackney South and Shoreditch,special_all_muni
+UK,2019.csv,257,UK_E14000722,Halesowen and Rowley Regis,Halesowen and Rowley Regis,special_all_muni
+UK,2019.csv,258,UK_E14000723,Halifax,Halifax,special_all_muni
+UK,2019.csv,259,UK_E14000724,Haltemprice and Howden,Haltemprice and Howden,special_all_muni
+UK,2019.csv,260,UK_E14000725,Halton,Halton,special_all_muni
+UK,2019.csv,261,UK_E14000726,Hammersmith,Hammersmith,special_all_muni
+UK,2019.csv,262,UK_E14000727,Hampstead and Kilburn,Hampstead and Kilburn,special_all_muni
+UK,2019.csv,263,UK_E14000728,Harborough,Harborough,special_all_muni
+UK,2019.csv,264,UK_E14000729,Harlow,Harlow,special_all_muni
+UK,2019.csv,265,UK_E14000730,Harrogate and Knaresborough,Harrogate and Knaresborough,special_all_muni
+UK,2019.csv,266,UK_E14000731,Harrow East,Harrow East,special_all_muni
+UK,2019.csv,267,UK_E14000732,Harrow West,Harrow West,special_all_muni
+UK,2019.csv,268,UK_E14000733,Hartlepool,Hartlepool,special_all_muni
+UK,2019.csv,269,UK_E14000734,Harwich and North Essex,Harwich and North Essex,special_all_muni
+UK,2019.csv,270,UK_E14000735,Hastings and Rye,Hastings and Rye,special_all_muni
+UK,2019.csv,271,UK_E14000736,Havant,Havant,special_all_muni
+UK,2019.csv,272,UK_E14000737,Hayes and Harlington,Hayes and Harlington,special_all_muni
+UK,2019.csv,273,UK_E14000738,Hazel Grove,Hazel Grove,special_all_muni
+UK,2019.csv,274,UK_E14000739,Hemel Hempstead,Hemel Hempstead,special_all_muni
+UK,2019.csv,275,UK_E14000740,Hemsworth,Hemsworth,special_all_muni
+UK,2019.csv,276,UK_E14000741,Hendon,Hendon,special_all_muni
+UK,2019.csv,277,UK_E14000742,Henley,Henley,special_all_muni
+UK,2019.csv,278,UK_E14000743,Hereford and South Herefordshire,Hereford and South Herefordshire,special_all_muni
+UK,2019.csv,279,UK_E14000744,Hertford and Stortford,Hertford and Stortford,special_all_muni
+UK,2019.csv,280,UK_E14000745,Hertsmere,Hertsmere,special_all_muni
+UK,2019.csv,281,UK_E14000746,Hexham,Hexham,special_all_muni
+UK,2019.csv,282,UK_E14000747,Heywood and Middleton,Heywood and Middleton,special_all_muni
+UK,2019.csv,283,UK_E14000748,High Peak,High Peak,special_all_muni
+UK,2019.csv,284,UK_E14000749,Hitchin and Harpenden,Hitchin and Harpenden,special_all_muni
+UK,2019.csv,285,UK_E14000750,Holborn and St Pancras,Holborn and St Pancras,special_all_muni
+UK,2019.csv,286,UK_E14000751,Hornchurch and Upminster,Hornchurch and Upminster,special_all_muni
+UK,2019.csv,287,UK_E14000752,Hornsey and Wood Green,Hornsey and Wood Green,special_all_muni
+UK,2019.csv,288,UK_E14000753,Horsham,Horsham,special_all_muni
+UK,2019.csv,289,UK_E14000754,Houghton and Sunderland South,Houghton and Sunderland South,special_all_muni
+UK,2019.csv,290,UK_E14000755,Hove,Hove,special_all_muni
+UK,2019.csv,291,UK_E14000756,Huddersfield,Huddersfield,special_all_muni
+UK,2019.csv,292,UK_E14000757,Huntingdon,Huntingdon,special_all_muni
+UK,2019.csv,293,UK_E14000758,Hyndburn,Hyndburn,special_all_muni
+UK,2019.csv,294,UK_E14000759,Ilford North,Ilford North,special_all_muni
+UK,2019.csv,295,UK_E14000760,Ilford South,Ilford South,special_all_muni
+UK,2019.csv,296,UK_S14000038,Inverclyde,Inverclyde,special_all_muni
+UK,2019.csv,297,UK_S14000039,"Inverness, Nairn, Badenoch and Strathspey","Inverness, Nairn, Badenoch and Strathspey",special_all_muni
+UK,2019.csv,298,UK_E14000761,Ipswich,Ipswich,special_all_muni
+UK,2019.csv,299,UK_E14000762,Isleof Wight,Isleof Wight,special_all_muni
+UK,2019.csv,300,UK_E14000763,Islington North,Islington North,special_all_muni
+UK,2019.csv,301,UK_E14000764,Islington South and Finsbury,Islington South and Finsbury,special_all_muni
+UK,2019.csv,302,UK_W07000077,Islwyn,Islwyn,special_all_muni
+UK,2019.csv,303,UK_E14000765,Jarrow,Jarrow,special_all_muni
+UK,2019.csv,304,UK_E14000766,Keighley,Keighley,special_all_muni
+UK,2019.csv,305,UK_E14000767,Kenilworth and Southam,Kenilworth and Southam,special_all_muni
+UK,2019.csv,306,UK_E14000768,Kensington,Kensington,special_all_muni
+UK,2019.csv,307,UK_E14000769,Kettering,Kettering,special_all_muni
+UK,2019.csv,308,UK_S14000040,Kilmarnock and Loudoun,Kilmarnock and Loudoun,special_all_muni
+UK,2019.csv,309,UK_E14000770,Kingston and Surbiton,Kingston and Surbiton,special_all_muni
+UK,2019.csv,310,UK_E14000771,Kingston upon Hull East,Kingston upon Hull East,special_all_muni
+UK,2019.csv,311,UK_E14000772,Kingston upon Hull North,Kingston upon Hull North,special_all_muni
+UK,2019.csv,312,UK_E14000773,Kingston upon Hull West and Hessle,Kingston upon Hull West and Hessle,special_all_muni
+UK,2019.csv,313,UK_E14000774,Kingswood,Kingswood,special_all_muni
+UK,2019.csv,314,UK_S14000041,Kirkcaldy and Cowdenbeath,Kirkcaldy and Cowdenbeath,special_all_muni
+UK,2019.csv,315,UK_E14000775,Knowsley,Knowsley,special_all_muni
+UK,2019.csv,316,UK_N06000009,Lagan Valley,Lagan Valley,special_all_muni
+UK,2019.csv,317,UK_S14000042,Lanark and Hamilton East,Lanark and Hamilton East,special_all_muni
+UK,2019.csv,318,UK_E14000776,Lancaster and Fleetwood,Lancaster and Fleetwood,special_all_muni
+UK,2019.csv,319,UK_E14000777,Leeds Central,Leeds Central,special_all_muni
+UK,2019.csv,320,UK_E14000778,Leeds East,Leeds East,special_all_muni
+UK,2019.csv,321,UK_E14000779,Leeds North East,Leeds North East,special_all_muni
+UK,2019.csv,322,UK_E14000780,Leeds North West,Leeds North West,special_all_muni
+UK,2019.csv,323,UK_E14000781,Leeds West,Leeds West,special_all_muni
+UK,2019.csv,324,UK_E14000782,Leicester East,Leicester East,special_all_muni
+UK,2019.csv,325,UK_E14000783,Leicester South,Leicester South,special_all_muni
+UK,2019.csv,326,UK_E14000784,Leicester West,Leicester West,special_all_muni
+UK,2019.csv,327,UK_E14000785,Leigh,Leigh,special_all_muni
+UK,2019.csv,328,UK_E14000786,Lewes,Lewes,special_all_muni
+UK,2019.csv,329,UK_E14000789,"Lewisham, Deptford","Lewisham, Deptford",special_all_muni
+UK,2019.csv,330,UK_E14000787,Lewisham East,Lewisham East,special_all_muni
+UK,2019.csv,331,UK_E14000788,Lewisham West and Penge,Lewisham West and Penge,special_all_muni
+UK,2019.csv,332,UK_E14000790,Leyton and Wanstead,Leyton and Wanstead,special_all_muni
+UK,2019.csv,333,UK_E14000791,Lichfield,Lichfield,special_all_muni
+UK,2019.csv,334,UK_E14000792,Lincoln,Lincoln,special_all_muni
+UK,2019.csv,335,UK_S14000043,Linlithgow and East Falkirk,Linlithgow and East Falkirk,special_all_muni
+UK,2019.csv,336,UK_E14000793,"Liverpool, Riverside","Liverpool, Riverside",special_all_muni
+UK,2019.csv,337,UK_E14000794,"Liverpool, Walton","Liverpool, Walton",special_all_muni
+UK,2019.csv,338,UK_E14000795,"Liverpool, Wavertree","Liverpool, Wavertree",special_all_muni
+UK,2019.csv,339,UK_E14000796,"Liverpool, West Derby","Liverpool, West Derby",special_all_muni
+UK,2019.csv,340,UK_S14000044,Livingston,Livingston,special_all_muni
+UK,2019.csv,341,UK_W07000045,Llanelli,Llanelli,special_all_muni
+UK,2019.csv,342,UK_E14000797,Loughborough,Loughborough,special_all_muni
+UK,2019.csv,343,UK_E14000798,Louth and Horncastle,Louth and Horncastle,special_all_muni
+UK,2019.csv,344,UK_E14000799,Ludlow,Ludlow,special_all_muni
+UK,2019.csv,345,UK_E14000800,Luton North,Luton North,special_all_muni
+UK,2019.csv,346,UK_E14000801,Luton South,Luton South,special_all_muni
+UK,2019.csv,347,UK_E14000802,Macclesfield,Macclesfield,special_all_muni
+UK,2019.csv,348,UK_E14000803,Maidenhead,Maidenhead,special_all_muni
+UK,2019.csv,349,UK_E14000804,Maidstone and The Weald,Maidstone and The Weald,special_all_muni
+UK,2019.csv,350,UK_E14000805,Makerfield,Makerfield,special_all_muni
+UK,2019.csv,351,UK_E14000806,Maldon,Maldon,special_all_muni
+UK,2019.csv,352,UK_E14000807,Manchester Central,Manchester Central,special_all_muni
+UK,2019.csv,353,UK_E14000808,"Manchester, Gorton","Manchester, Gorton",special_all_muni
+UK,2019.csv,354,UK_E14000809,"Manchester, Withington","Manchester, Withington",special_all_muni
+UK,2019.csv,355,UK_E14000810,Mansfield,Mansfield,special_all_muni
+UK,2019.csv,356,UK_E14000811,Meon Valley,Meon Valley,special_all_muni
+UK,2019.csv,357,UK_E14000812,Meriden,Meriden,special_all_muni
+UK,2019.csv,358,UK_W07000071,Merthyr Tydfil and Rhymney,Merthyr Tydfil and Rhymney,special_all_muni
+UK,2019.csv,359,UK_E14000813,Mid Bedfordshire,Mid Bedfordshire,special_all_muni
+UK,2019.csv,360,UK_E14000814,Mid Derbyshire,Mid Derbyshire,special_all_muni
+UK,2019.csv,361,UK_E14000819,Middlesbrough,Middlesbrough,special_all_muni
+UK,2019.csv,362,UK_E14000820,Middlesbrough South and East Cleveland,Middlesbrough South and East Cleveland,special_all_muni
+UK,2019.csv,363,UK_E14000815,Mid Dorset and North Poole,Mid Dorset and North Poole,special_all_muni
+UK,2019.csv,364,UK_S14000045,Midlothian,Midlothian,special_all_muni
+UK,2019.csv,365,UK_E14000816,Mid Norfolk,Mid Norfolk,special_all_muni
+UK,2019.csv,366,UK_E14000817,Mid Sussex,Mid Sussex,special_all_muni
+UK,2019.csv,367,UK_N06000010,Mid Ulster,Mid Ulster,special_all_muni
+UK,2019.csv,368,UK_E14000818,Mid Worcestershire,Mid Worcestershire,special_all_muni
+UK,2019.csv,369,UK_E14000821,Milton Keynes North,Milton Keynes North,special_all_muni
+UK,2019.csv,370,UK_E14000822,Milton Keynes South,Milton Keynes South,special_all_muni
+UK,2019.csv,371,UK_E14000823,Mitcham and Morden,Mitcham and Morden,special_all_muni
+UK,2019.csv,372,UK_E14000824,Mole Valley,Mole Valley,special_all_muni
+UK,2019.csv,373,UK_W07000054,Monmouth,Monmouth,special_all_muni
+UK,2019.csv,374,UK_W07000063,Montgomeryshire,Montgomeryshire,special_all_muni
+UK,2019.csv,375,UK_S14000046,Moray,Moray,special_all_muni
+UK,2019.csv,376,UK_E14000825,Morecambe and Lunesdale,Morecambe and Lunesdale,special_all_muni
+UK,2019.csv,377,UK_E14000826,Morley and Outwood,Morley and Outwood,special_all_muni
+UK,2019.csv,378,UK_S14000047,Motherwell and Wishaw,Motherwell and Wishaw,special_all_muni
+UK,2019.csv,379,UK_S14000027,Na h-Eileanan an Iar,Na h-Eileanan an Iar,special_all_muni
+UK,2019.csv,380,UK_W07000069,Neath,Neath,special_all_muni
+UK,2019.csv,381,UK_E14000829,Newark,Newark,special_all_muni
+UK,2019.csv,382,UK_E14000830,Newbury,Newbury,special_all_muni
+UK,2019.csv,383,UK_E14000834,Newcastle-under-Lyme,Newcastle-under-Lyme,special_all_muni
+UK,2019.csv,384,UK_E14000831,Newcastle upon Tyne Central,Newcastle upon Tyne Central,special_all_muni
+UK,2019.csv,385,UK_E14000832,Newcastle upon Tyne East,Newcastle upon Tyne East,special_all_muni
+UK,2019.csv,386,UK_E14000833,Newcastle upon Tyne North,Newcastle upon Tyne North,special_all_muni
+UK,2019.csv,387,UK_E14000827,New Forest East,New Forest East,special_all_muni
+UK,2019.csv,388,UK_E14000828,New Forest West,New Forest West,special_all_muni
+UK,2019.csv,389,UK_W07000055,Newport East,Newport East,special_all_muni
+UK,2019.csv,390,UK_W07000056,Newport West,Newport West,special_all_muni
+UK,2019.csv,391,UK_N06000011,Newry and Armagh,Newry and Armagh,special_all_muni
+UK,2019.csv,392,UK_E14000835,Newton Abbot,Newton Abbot,special_all_muni
+UK,2019.csv,393,UK_E14000836,"Normanton, Pontefract and Castleford","Normanton, Pontefract and Castleford",special_all_muni
+UK,2019.csv,394,UK_E14000861,Northampton North,Northampton North,special_all_muni
+UK,2019.csv,395,UK_E14000862,Northampton South,Northampton South,special_all_muni
+UK,2019.csv,396,UK_N06000012,North Antrim,North Antrim,special_all_muni
+UK,2019.csv,397,UK_S14000048,North Ayrshire and Arran,North Ayrshire and Arran,special_all_muni
+UK,2019.csv,398,UK_E14000837,North Cornwall,North Cornwall,special_all_muni
+UK,2019.csv,399,UK_E14000838,North Devon,North Devon,special_all_muni
+UK,2019.csv,400,UK_E14000839,North Dorset,North Dorset,special_all_muni
+UK,2019.csv,401,UK_N06000013,North Down,North Down,special_all_muni
+UK,2019.csv,402,UK_E14000840,North Durham,North Durham,special_all_muni
+UK,2019.csv,403,UK_E14000841,North East Bedfordshire,North East Bedfordshire,special_all_muni
+UK,2019.csv,404,UK_E14000842,North East Cambridgeshire,North East Cambridgeshire,special_all_muni
+UK,2019.csv,405,UK_E14000843,North East Derbyshire,North East Derbyshire,special_all_muni
+UK,2019.csv,406,UK_S14000049,North East Fife,North East Fife,special_all_muni
+UK,2019.csv,407,UK_E14000844,North East Hampshire,North East Hampshire,special_all_muni
+UK,2019.csv,408,UK_E14000845,North East Hertfordshire,North East Hertfordshire,special_all_muni
+UK,2019.csv,409,UK_E14000846,North East Somerset,North East Somerset,special_all_muni
+UK,2019.csv,410,UK_E14000847,North Herefordshire,North Herefordshire,special_all_muni
+UK,2019.csv,411,UK_E14000848,North Norfolk,North Norfolk,special_all_muni
+UK,2019.csv,412,UK_E14000849,North Shropshire,North Shropshire,special_all_muni
+UK,2019.csv,413,UK_E14000850,North Somerset,North Somerset,special_all_muni
+UK,2019.csv,414,UK_E14000851,North Swindon,North Swindon,special_all_muni
+UK,2019.csv,415,UK_E14000852,North Thanet,North Thanet,special_all_muni
+UK,2019.csv,416,UK_E14000853,North Tyneside,North Tyneside,special_all_muni
+UK,2019.csv,417,UK_E14000854,North Warwickshire,North Warwickshire,special_all_muni
+UK,2019.csv,418,UK_E14000855,North West Cambridgeshire,North West Cambridgeshire,special_all_muni
+UK,2019.csv,419,UK_E14000856,North West Durham,North West Durham,special_all_muni
+UK,2019.csv,420,UK_E14000857,North West Hampshire,North West Hampshire,special_all_muni
+UK,2019.csv,421,UK_E14000858,North West Leicestershire,North West Leicestershire,special_all_muni
+UK,2019.csv,422,UK_E14000859,North West Norfolk,North West Norfolk,special_all_muni
+UK,2019.csv,423,UK_E14000860,North Wiltshire,North Wiltshire,special_all_muni
+UK,2019.csv,424,UK_E14000863,Norwich North,Norwich North,special_all_muni
+UK,2019.csv,425,UK_E14000864,Norwich South,Norwich South,special_all_muni
+UK,2019.csv,426,UK_E14000865,Nottingham East,Nottingham East,special_all_muni
+UK,2019.csv,427,UK_E14000866,Nottingham North,Nottingham North,special_all_muni
+UK,2019.csv,428,UK_E14000867,Nottingham South,Nottingham South,special_all_muni
+UK,2019.csv,429,UK_E14000868,Nuneaton,Nuneaton,special_all_muni
+UK,2019.csv,430,UK_S14000050,Ochil and South Perthshire,Ochil and South Perthshire,special_all_muni
+UK,2019.csv,431,UK_W07000074,Ogmore,Ogmore,special_all_muni
+UK,2019.csv,432,UK_E14000869,Old Bexley and Sidcup,Old Bexley and Sidcup,special_all_muni
+UK,2019.csv,433,UK_E14000870,Oldham East and Saddleworth,Oldham East and Saddleworth,special_all_muni
+UK,2019.csv,434,UK_E14000871,Oldham West and Royton,Oldham West and Royton,special_all_muni
+UK,2019.csv,435,UK_S14000051,Orkney and Shetland,Orkney and Shetland,special_all_muni
+UK,2019.csv,436,UK_E14000872,Orpington,Orpington,special_all_muni
+UK,2019.csv,437,UK_E14000873,Oxford East,Oxford East,special_all_muni
+UK,2019.csv,438,UK_E14000874,Oxford West and Abingdon,Oxford West and Abingdon,special_all_muni
+UK,2019.csv,439,UK_S14000052,Paisley and Renfrewshire North,Paisley and Renfrewshire North,special_all_muni
+UK,2019.csv,440,UK_S14000053,Paisley and Renfrewshire South,Paisley and Renfrewshire South,special_all_muni
+UK,2019.csv,441,UK_E14000875,Pendle,Pendle,special_all_muni
+UK,2019.csv,442,UK_E14000876,Penistone and Stocksbridge,Penistone and Stocksbridge,special_all_muni
+UK,2019.csv,443,UK_E14000877,Penrith and The Border,Penrith and The Border,special_all_muni
+UK,2019.csv,444,UK_S14000054,Perth and North Perthshire,Perth and North Perthshire,special_all_muni
+UK,2019.csv,445,UK_E14000878,Peterborough,Peterborough,special_all_muni
+UK,2019.csv,446,UK_E14000879,"Plymouth, Moor View","Plymouth, Moor View",special_all_muni
+UK,2019.csv,447,UK_E14000880,"Plymouth, Sutton and Devonport","Plymouth, Sutton and Devonport",special_all_muni
+UK,2019.csv,448,UK_W07000075,Pontypridd,Pontypridd,special_all_muni
+UK,2019.csv,449,UK_E14000881,Poole,Poole,special_all_muni
+UK,2019.csv,450,UK_E14000882,Poplar and Limehouse,Poplar and Limehouse,special_all_muni
+UK,2019.csv,451,UK_E14000883,Portsmouth North,Portsmouth North,special_all_muni
+UK,2019.csv,452,UK_E14000884,Portsmouth South,Portsmouth South,special_all_muni
+UK,2019.csv,453,UK_W07000065,Preseli Pembrokeshire,Preseli Pembrokeshire,special_all_muni
+UK,2019.csv,454,UK_E14000885,Preston,Preston,special_all_muni
+UK,2019.csv,455,UK_E14000886,Pudsey,Pudsey,special_all_muni
+UK,2019.csv,456,UK_E14000887,Putney,Putney,special_all_muni
+UK,2019.csv,457,UK_E14000888,Rayleigh and Wickford,Rayleigh and Wickford,special_all_muni
+UK,2019.csv,458,UK_E14000889,Reading East,Reading East,special_all_muni
+UK,2019.csv,459,UK_E14000890,Reading West,Reading West,special_all_muni
+UK,2019.csv,460,UK_E14000891,Redcar,Redcar,special_all_muni
+UK,2019.csv,461,UK_E14000892,Redditch,Redditch,special_all_muni
+UK,2019.csv,462,UK_E14000893,Reigate,Reigate,special_all_muni
+UK,2019.csv,463,UK_W07000052,Rhondda,Rhondda,special_all_muni
+UK,2019.csv,464,UK_E14000894,Ribble Valley,Ribble Valley,special_all_muni
+UK,2019.csv,465,UK_E14000896,Richmond Park,Richmond Park,special_all_muni
+UK,2019.csv,466,UK_E14000895,Richmond (Yorks),Richmond (Yorks),special_all_muni
+UK,2019.csv,467,UK_E14000897,Rochdale,Rochdale,special_all_muni
+UK,2019.csv,468,UK_E14000898,Rochester and Strood,Rochester and Strood,special_all_muni
+UK,2019.csv,469,UK_E14000899,Rochford and Southend East,Rochford and Southend East,special_all_muni
+UK,2019.csv,470,UK_E14000900,Romford,Romford,special_all_muni
+UK,2019.csv,471,UK_E14000901,Romsey and Southampton North,Romsey and Southampton North,special_all_muni
+UK,2019.csv,472,UK_E14000902,Rossendale and Darwen,Rossendale and Darwen,special_all_muni
+UK,2019.csv,473,UK_S14000055,"Ross, Skye and Lochaber","Ross, Skye and Lochaber",special_all_muni
+UK,2019.csv,474,UK_E14000904,Rotherham,Rotherham,special_all_muni
+UK,2019.csv,475,UK_E14000903,Rother Valley,Rother Valley,special_all_muni
+UK,2019.csv,476,UK_E14000905,Rugby,Rugby,special_all_muni
+UK,2019.csv,477,UK_E14000906,"Ruislip, Northwood and Pinner","Ruislip, Northwood and Pinner",special_all_muni
+UK,2019.csv,478,UK_E14000907,Runnymede and Weybridge,Runnymede and Weybridge,special_all_muni
+UK,2019.csv,479,UK_E14000908,Rushcliffe,Rushcliffe,special_all_muni
+UK,2019.csv,480,UK_S14000056,Rutherglen and Hamilton West,Rutherglen and Hamilton West,special_all_muni
+UK,2019.csv,481,UK_E14000909,Rutland and Melton,Rutland and Melton,special_all_muni
+UK,2019.csv,482,UK_E14000910,Saffron Walden,Saffron Walden,special_all_muni
+UK,2019.csv,483,UK_E14000911,Salford and Eccles,Salford and Eccles,special_all_muni
+UK,2019.csv,484,UK_E14000912,Salisbury,Salisbury,special_all_muni
+UK,2019.csv,485,UK_E14000913,Scarborough and Whitby,Scarborough and Whitby,special_all_muni
+UK,2019.csv,486,UK_E14000914,Scunthorpe,Scunthorpe,special_all_muni
+UK,2019.csv,487,UK_E14000915,Sedgefield,Sedgefield,special_all_muni
+UK,2019.csv,488,UK_E14000916,Sefton Central,Sefton Central,special_all_muni
+UK,2019.csv,489,UK_E14000917,Selby and Ainsty,Selby and Ainsty,special_all_muni
+UK,2019.csv,490,UK_E14000918,Sevenoaks,Sevenoaks,special_all_muni
+UK,2019.csv,491,UK_E14000921,"Sheffield, Brightside and Hillsborough","Sheffield, Brightside and Hillsborough",special_all_muni
+UK,2019.csv,492,UK_E14000919,Sheffield Central,Sheffield Central,special_all_muni
+UK,2019.csv,493,UK_E14000922,"Sheffield, Hallam","Sheffield, Hallam",special_all_muni
+UK,2019.csv,494,UK_E14000923,"Sheffield, Heeley","Sheffield, Heeley",special_all_muni
+UK,2019.csv,495,UK_E14000920,Sheffield South East,Sheffield South East,special_all_muni
+UK,2019.csv,496,UK_E14000924,Sherwood,Sherwood,special_all_muni
+UK,2019.csv,497,UK_E14000925,Shipley,Shipley,special_all_muni
+UK,2019.csv,498,UK_E14000926,Shrewsbury and Atcham,Shrewsbury and Atcham,special_all_muni
+UK,2019.csv,499,UK_E14000927,Sittingbourne and Sheppey,Sittingbourne and Sheppey,special_all_muni
+UK,2019.csv,500,UK_E14000928,Skipton and Ripon,Skipton and Ripon,special_all_muni
+UK,2019.csv,501,UK_E14000929,Sleaford and North Hykeham,Sleaford and North Hykeham,special_all_muni
+UK,2019.csv,502,UK_E14000930,Slough,Slough,special_all_muni
+UK,2019.csv,503,UK_E14000931,Solihull,Solihull,special_all_muni
+UK,2019.csv,504,UK_E14000932,Somerton and Frome,Somerton and Frome,special_all_muni
+UK,2019.csv,505,UK_E14000955,"Southampton, Itchen","Southampton, Itchen",special_all_muni
+UK,2019.csv,506,UK_E14000956,"Southampton, Test","Southampton, Test",special_all_muni
+UK,2019.csv,507,UK_N06000014,South Antrim,South Antrim,special_all_muni
+UK,2019.csv,508,UK_E14000933,South Basildon and East Thurrock,South Basildon and East Thurrock,special_all_muni
+UK,2019.csv,509,UK_E14000934,South Cambridgeshire,South Cambridgeshire,special_all_muni
+UK,2019.csv,510,UK_E14000935,South Derbyshire,South Derbyshire,special_all_muni
+UK,2019.csv,511,UK_E14000936,South Dorset,South Dorset,special_all_muni
+UK,2019.csv,512,UK_N06000015,South Down,South Down,special_all_muni
+UK,2019.csv,513,UK_E14000937,South East Cambridgeshire,South East Cambridgeshire,special_all_muni
+UK,2019.csv,514,UK_E14000938,South East Cornwall,South East Cornwall,special_all_muni
+UK,2019.csv,515,UK_E14000957,Southend West,Southend West,special_all_muni
+UK,2019.csv,516,UK_E14000939,South Holland and The Deepings,South Holland and The Deepings,special_all_muni
+UK,2019.csv,517,UK_E14000940,South Leicestershire,South Leicestershire,special_all_muni
+UK,2019.csv,518,UK_E14000941,South Norfolk,South Norfolk,special_all_muni
+UK,2019.csv,519,UK_E14000942,South Northamptonshire,South Northamptonshire,special_all_muni
+UK,2019.csv,520,UK_E14000958,Southport,Southport,special_all_muni
+UK,2019.csv,521,UK_E14000943,South Ribble,South Ribble,special_all_muni
+UK,2019.csv,522,UK_E14000944,South Shields,South Shields,special_all_muni
+UK,2019.csv,523,UK_E14000945,South Staffordshire,South Staffordshire,special_all_muni
+UK,2019.csv,524,UK_E14000946,South Suffolk,South Suffolk,special_all_muni
+UK,2019.csv,525,UK_E14000947,South Swindon,South Swindon,special_all_muni
+UK,2019.csv,526,UK_E14000948,South Thanet,South Thanet,special_all_muni
+UK,2019.csv,527,UK_E14000949,South West Bedfordshire,South West Bedfordshire,special_all_muni
+UK,2019.csv,528,UK_E14000950,South West Devon,South West Devon,special_all_muni
+UK,2019.csv,529,UK_E14000951,South West Hertfordshire,South West Hertfordshire,special_all_muni
+UK,2019.csv,530,UK_E14000952,South West Norfolk,South West Norfolk,special_all_muni
+UK,2019.csv,531,UK_E14000953,South West Surrey,South West Surrey,special_all_muni
+UK,2019.csv,532,UK_E14000954,South West Wiltshire,South West Wiltshire,special_all_muni
+UK,2019.csv,533,UK_E14000959,Spelthorne,Spelthorne,special_all_muni
+UK,2019.csv,534,UK_E14000965,Stafford,Stafford,special_all_muni
+UK,2019.csv,535,UK_E14000966,Staffordshire Moorlands,Staffordshire Moorlands,special_all_muni
+UK,2019.csv,536,UK_E14000960,St Albans,St Albans,special_all_muni
+UK,2019.csv,537,UK_E14000967,Stalybridge and Hyde,Stalybridge and Hyde,special_all_muni
+UK,2019.csv,538,UK_E14000961,St Austell and Newquay,St Austell and Newquay,special_all_muni
+UK,2019.csv,539,UK_E14000968,Stevenage,Stevenage,special_all_muni
+UK,2019.csv,540,UK_E14000962,St Helens North,St Helens North,special_all_muni
+UK,2019.csv,541,UK_E14000963,St Helens South and Whiston,St Helens South and Whiston,special_all_muni
+UK,2019.csv,542,UK_S14000057,Stirling,Stirling,special_all_muni
+UK,2019.csv,543,UK_E14000964,St Ives,St Ives,special_all_muni
+UK,2019.csv,544,UK_E14000969,Stockport,Stockport,special_all_muni
+UK,2019.csv,545,UK_E14000970,Stockton North,Stockton North,special_all_muni
+UK,2019.csv,546,UK_E14000971,Stockton South,Stockton South,special_all_muni
+UK,2019.csv,547,UK_E14000972,Stoke-on-Trent Central,Stoke-on-Trent Central,special_all_muni
+UK,2019.csv,548,UK_E14000973,Stoke-on-Trent North,Stoke-on-Trent North,special_all_muni
+UK,2019.csv,549,UK_E14000974,Stoke-on-Trent South,Stoke-on-Trent South,special_all_muni
+UK,2019.csv,550,UK_E14000975,Stone,Stone,special_all_muni
+UK,2019.csv,551,UK_E14000976,Stourbridge,Stourbridge,special_all_muni
+UK,2019.csv,552,UK_N06000016,Strangford,Strangford,special_all_muni
+UK,2019.csv,553,UK_E14000977,Stratford-On-Avon,Stratford-On-Avon,special_all_muni
+UK,2019.csv,554,UK_E14000978,Streatham,Streatham,special_all_muni
+UK,2019.csv,555,UK_E14000979,Stretford and Urmston,Stretford and Urmston,special_all_muni
+UK,2019.csv,556,UK_E14000980,Stroud,Stroud,special_all_muni
+UK,2019.csv,557,UK_E14000981,Suffolk Coastal,Suffolk Coastal,special_all_muni
+UK,2019.csv,558,UK_E14000982,Sunderland Central,Sunderland Central,special_all_muni
+UK,2019.csv,559,UK_E14000983,Surrey Heath,Surrey Heath,special_all_muni
+UK,2019.csv,560,UK_E14000984,Sutton and Cheam,Sutton and Cheam,special_all_muni
+UK,2019.csv,561,UK_E14000985,Sutton Coldfield,Sutton Coldfield,special_all_muni
+UK,2019.csv,562,UK_W07000048,Swansea East,Swansea East,special_all_muni
+UK,2019.csv,563,UK_W07000047,Swansea West,Swansea West,special_all_muni
+UK,2019.csv,564,UK_E14000986,Tamworth,Tamworth,special_all_muni
+UK,2019.csv,565,UK_E14000987,Tatton,Tatton,special_all_muni
+UK,2019.csv,566,UK_E14000988,Taunton Deane,Taunton Deane,special_all_muni
+UK,2019.csv,567,UK_E14000989,Telford,Telford,special_all_muni
+UK,2019.csv,568,UK_E14000990,Tewkesbury,Tewkesbury,special_all_muni
+UK,2019.csv,569,UK_E14000991,The Cotswolds,The Cotswolds,special_all_muni
+UK,2019.csv,570,UK_E14000992,The Wrekin,The Wrekin,special_all_muni
+UK,2019.csv,571,UK_E14000993,Thirsk and Malton,Thirsk and Malton,special_all_muni
+UK,2019.csv,572,UK_E14000994,Thornbury and Yate,Thornbury and Yate,special_all_muni
+UK,2019.csv,573,UK_E14000995,Thurrock,Thurrock,special_all_muni
+UK,2019.csv,574,UK_E14000996,Tiverton and Honiton,Tiverton and Honiton,special_all_muni
+UK,2019.csv,575,UK_E14000997,Tonbridge and Malling,Tonbridge and Malling,special_all_muni
+UK,2019.csv,576,UK_E14000998,Tooting,Tooting,special_all_muni
+UK,2019.csv,577,UK_E14000999,Torbay,Torbay,special_all_muni
+UK,2019.csv,578,UK_W07000053,Torfaen,Torfaen,special_all_muni
+UK,2019.csv,579,UK_E14001000,Torridge and West Devon,Torridge and West Devon,special_all_muni
+UK,2019.csv,580,UK_E14001001,Totnes,Totnes,special_all_muni
+UK,2019.csv,581,UK_E14001002,Tottenham,Tottenham,special_all_muni
+UK,2019.csv,582,UK_E14001003,Truro and Falmouth,Truro and Falmouth,special_all_muni
+UK,2019.csv,583,UK_E14001004,Tunbridge Wells,Tunbridge Wells,special_all_muni
+UK,2019.csv,584,UK_E14001005,Twickenham,Twickenham,special_all_muni
+UK,2019.csv,585,UK_E14001006,Tynemouth,Tynemouth,special_all_muni
+UK,2019.csv,586,UK_N06000017,Upper Bann,Upper Bann,special_all_muni
+UK,2019.csv,587,UK_E14001007,Uxbridge and South Ruislip,Uxbridge and South Ruislip,special_all_muni
+UK,2019.csv,588,UK_W07000060,Vale of Clwyd,Vale of Clwyd,special_all_muni
+UK,2019.csv,589,UK_W07000078,Vale of Glamorgan,Vale of Glamorgan,special_all_muni
+UK,2019.csv,590,UK_E14001008,Vauxhall,Vauxhall,special_all_muni
+UK,2019.csv,591,UK_E14001009,Wakefield,Wakefield,special_all_muni
+UK,2019.csv,592,UK_E14001010,Wallasey,Wallasey,special_all_muni
+UK,2019.csv,593,UK_E14001011,Walsall North,Walsall North,special_all_muni
+UK,2019.csv,594,UK_E14001012,Walsall South,Walsall South,special_all_muni
+UK,2019.csv,595,UK_E14001013,Walthamstow,Walthamstow,special_all_muni
+UK,2019.csv,596,UK_E14001014,Wansbeck,Wansbeck,special_all_muni
+UK,2019.csv,597,UK_E14001015,Wantage,Wantage,special_all_muni
+UK,2019.csv,598,UK_E14001016,Warley,Warley,special_all_muni
+UK,2019.csv,599,UK_E14001017,Warrington North,Warrington North,special_all_muni
+UK,2019.csv,600,UK_E14001018,Warrington South,Warrington South,special_all_muni
+UK,2019.csv,601,UK_E14001019,Warwick and Leamington,Warwick and Leamington,special_all_muni
+UK,2019.csv,602,UK_E14001020,Washington and Sunderland West,Washington and Sunderland West,special_all_muni
+UK,2019.csv,603,UK_E14001021,Watford,Watford,special_all_muni
+UK,2019.csv,604,UK_E14001022,Waveney,Waveney,special_all_muni
+UK,2019.csv,605,UK_E14001023,Wealden,Wealden,special_all_muni
+UK,2019.csv,606,UK_E14001024,Weaver Vale,Weaver Vale,special_all_muni
+UK,2019.csv,607,UK_E14001025,Wellingborough,Wellingborough,special_all_muni
+UK,2019.csv,608,UK_E14001026,Wells,Wells,special_all_muni
+UK,2019.csv,609,UK_E14001027,Welwyn Hatfield,Welwyn Hatfield,special_all_muni
+UK,2019.csv,610,UK_E14001028,Wentworth and Dearne,Wentworth and Dearne,special_all_muni
+UK,2019.csv,611,UK_S14000058,West Aberdeenshire and Kincardine,West Aberdeenshire and Kincardine,special_all_muni
+UK,2019.csv,612,UK_E14001029,West Bromwich East,West Bromwich East,special_all_muni
+UK,2019.csv,613,UK_E14001030,West Bromwich West,West Bromwich West,special_all_muni
+UK,2019.csv,614,UK_E14001031,West Dorset,West Dorset,special_all_muni
+UK,2019.csv,615,UK_S14000059,West Dunbartonshire,West Dunbartonshire,special_all_muni
+UK,2019.csv,616,UK_E14001032,West Ham,West Ham,special_all_muni
+UK,2019.csv,617,UK_E14001033,West Lancashire,West Lancashire,special_all_muni
+UK,2019.csv,618,UK_E14001036,Westminster North,Westminster North,special_all_muni
+UK,2019.csv,619,UK_E14001037,Westmorland and Lonsdale,Westmorland and Lonsdale,special_all_muni
+UK,2019.csv,620,UK_E14001038,Weston-Super-Mare,Weston-Super-Mare,special_all_muni
+UK,2019.csv,621,UK_E14001034,West Suffolk,West Suffolk,special_all_muni
+UK,2019.csv,622,UK_N06000018,West Tyrone,West Tyrone,special_all_muni
+UK,2019.csv,623,UK_E14001035,West Worcestershire,West Worcestershire,special_all_muni
+UK,2019.csv,624,UK_E14001039,Wigan,Wigan,special_all_muni
+UK,2019.csv,625,UK_E14001040,Wimbledon,Wimbledon,special_all_muni
+UK,2019.csv,626,UK_E14001041,Winchester,Winchester,special_all_muni
+UK,2019.csv,627,UK_E14001042,Windsor,Windsor,special_all_muni
+UK,2019.csv,628,UK_E14001043,Wirral South,Wirral South,special_all_muni
+UK,2019.csv,629,UK_E14001044,Wirral West,Wirral West,special_all_muni
+UK,2019.csv,630,UK_E14001045,Witham,Witham,special_all_muni
+UK,2019.csv,631,UK_E14001046,Witney,Witney,special_all_muni
+UK,2019.csv,632,UK_E14001047,Woking,Woking,special_all_muni
+UK,2019.csv,633,UK_E14001048,Wokingham,Wokingham,special_all_muni
+UK,2019.csv,634,UK_E14001049,Wolverhampton North East,Wolverhampton North East,special_all_muni
+UK,2019.csv,635,UK_E14001050,Wolverhampton South East,Wolverhampton South East,special_all_muni
+UK,2019.csv,636,UK_E14001051,Wolverhampton South West,Wolverhampton South West,special_all_muni
+UK,2019.csv,637,UK_E14001052,Worcester,Worcester,special_all_muni
+UK,2019.csv,638,UK_E14001053,Workington,Workington,special_all_muni
+UK,2019.csv,639,UK_E14001054,Worsley and Eccles South,Worsley and Eccles South,special_all_muni
+UK,2019.csv,640,UK_E14001055,Worthing West,Worthing West,special_all_muni
+UK,2019.csv,641,UK_W07000044,Wrexham,Wrexham,special_all_muni
+UK,2019.csv,642,UK_E14001056,Wycombe,Wycombe,special_all_muni
+UK,2019.csv,643,UK_E14001057,Wyre and Preston North,Wyre and Preston North,special_all_muni
+UK,2019.csv,644,UK_E14001058,Wyre Forest,Wyre Forest,special_all_muni
+UK,2019.csv,645,UK_E14001059,Wythenshawe and Sale East,Wythenshawe and Sale East,special_all_muni
+UK,2019.csv,646,UK_E14001060,Yeovil,Yeovil,special_all_muni
+UK,2019.csv,647,UK_W07000041,Ynys Môn,Ynys Môn,special_all_muni
+UK,2019.csv,648,UK_E14001061,York Central,York Central,special_all_muni
+UK,2019.csv,649,UK_E14001062,York Outer,York Outer,special_all_muni

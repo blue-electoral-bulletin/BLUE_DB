@@ -1,0 +1,20 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RS,2003.csv,36,RS_RSKM35,Витина (Косово),Витина (Косово),special_kosovo_municipality
+RS,2003.csv,46,RS_RSKM36,Вучитрн (Косово),Вучитрн (Косово),special_kosovo_municipality
+RS,2003.csv,51,RS_RSKM07,Гњилане (Косово),Гњилане (Косово),special_kosovo_municipality
+RS,2003.csv,62,RS_RSKM38,Звечан (Косово),Звечан (Косово),special_kosovo_municipality
+RS,2003.csv,65,RS_RSKM37,Зубин Поток (Косово),Зубин Поток (Косово),special_kosovo_municipality
+RS,2003.csv,69,RS_RSKM10,Исток (Косово),Исток (Косово),special_kosovo_municipality
+RS,2003.csv,76,RS_RSKM05,Косово Поље (Косово),Косово Поље (Косово),special_kosovo_municipality
+RS,2003.csv,77,RS_RSKM12,Косовска Каменица (Косово),Косовска Каменица (Косово),special_kosovo_municipality
+RS,2003.csv,78,RS_RSKM20,Косовска Митровица (Косово),Косовска Митровица (Косово),special_kosovo_municipality
+RS,2003.csv,93,RS_RSKM16,Лепосавић (Косово),Лепосавић (Косово),special_kosovo_municipality
+RS,2003.csv,95,RS_RSKM17,Липљан (Косово),Липљан (Косово),special_kosovo_municipality
+RS,2003.csv,116,RS_RSKM22,Ново Брдо (Косово),Ново Брдо (Косово),special_kosovo_municipality
+RS,2003.csv,117,RS_RSKM23,Обилић (Косово),Обилић (Косово),special_kosovo_municipality
+RS,2003.csv,120,RS_RSKM29,Ораховац (Косово),Ораховац (Косово),special_kosovo_municipality
+RS,2003.csv,127,RS_RSKM25,Пећ (Косово),Пећ (Косово),special_kosovo_municipality
+RS,2003.csv,135,RS_RSKM28,Призрен (Косово),Призрен (Косово),special_kosovo_municipality
+RS,2003.csv,136,RS_RSKM27,Приштина (Косово),Приштина (Косово),special_kosovo_municipality
+RS,2003.csv,155,RS_RSKM33,Србица (Косово),Србица (Косово),special_kosovo_municipality
+RS,2003.csv,179,RS_RSKM32,Штрпце (Косово),Штрпце (Косово),special_kosovo_municipality

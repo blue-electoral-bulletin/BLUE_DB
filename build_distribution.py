@@ -53,8 +53,13 @@ ROOT = Path(__file__).parent
 OUTPUT = ROOT / "output"
 RESOURCES = ROOT / "resources"
 DIST = ROOT / "dist"
+META = json.loads((ROOT / "blue_db_meta.json").read_text(encoding="utf-8"))
+# Countries whose results are not under CC BY 4.0: left out of the Zenodo
+# record, hosted on GitHub and fetched on demand by the libraries.
+EXTERNAL = META.get("external", {}).get("countries", {})
 
 COMMUNES_SRC = RESOURCES / "communes.csv"
+EXTRA_COMMUNES_SRC = RESOURCES / "extra_communes.csv"   # non-LAU registry (extra_geo.py)
 SPECIAL_SRC = RESOURCES / "special_raw.csv"
 PARTIES_SRC = ROOT / "parties_final.csv"
 EU_PARTIES_SRC = RESOURCES / "eu_parties.csv"
@@ -257,6 +262,111 @@ _DOM_COUNTRIES = {
 ALL_COUNTRIES = _DOM_COUNTRIES | _EU_COUNTRIES
 
 
+def _prepare_election(csv_path: Path, rel_file: str, year: int,
+                      alias_lookup: dict[tuple[str, str], str],
+                      geo_name_map: dict[str, tuple[str, str]],
+                      missing_party_map: list) -> "pd.DataFrame | None":
+    """One results file in its distributed form: municipal units, normalised
+    codes, canonical names, party columns renamed to party ids (aliases are
+    keyed by *rel_file*).  None if the file cannot be read."""
+    try:
+        election_df = pd.read_csv(csv_path, low_memory=False, dtype={"gisco_id": str}, na_values=[''], keep_default_na=False)
+    except Exception as exc:
+        warnings.warn(f"Could not read {csv_path}: {exc}")
+        return None
+
+    # ── report Bulgaria and Lithuania at municipal level, always ───────
+    # Both countries identify a municipality by a place inside it in some
+    # years — an obshtina by its administrative centre, a savivaldybė by
+    # one of its seniūnijos — and by the municipality itself in others.
+    # The published unit is the municipality in every case, so the
+    # identifier is mapped to it and any rows that then coincide are added
+    # together: Kaišiadorys was reported as town, surroundings and Žasliai
+    # separately, and is one municipality.
+    if "gisco_id" in election_df.columns:
+        election_df = _to_municipal_units(election_df, rel_file)
+
+    # ── normalise abroad host codes so they match the geo typology ─────
+    if "gisco_id" in election_df.columns:
+        orig = election_df["gisco_id"].astype(str)
+        norm = orig.map(_normalize_gisco_id)
+        changed = orig != norm
+        if changed.any():
+            election_df["gisco_id"] = norm
+        # Whether the duplication comes from normalising a host code or was
+        # in the source to begin with, the file must end up with one row per
+        # unit, so the parts are added together here rather than left for
+        # every reader to discover.
+        election_df = _merge_duplicate_units(election_df, rel_file)
+
+    # ── replace name column with canonical geo name for this year ──────
+    # A few sources ship no name column at all (Portugal from 2024,
+    # Denmark's earlier EP files).  Every distributed file is documented as
+    # having one, and the viewer reads unit labels straight from it, so
+    # those elections showed unnamed municipalities.  The typology knows
+    # the names, so the column is created rather than skipped.
+    if "gisco_id" in election_df.columns:
+        if "name" not in election_df.columns:
+            election_df.insert(
+                election_df.columns.get_loc("gisco_id") + 1, "name", "")
+
+        def _resolve_name(row: pd.Series) -> str:
+            gid = str(row["gisco_id"]).strip() if pd.notna(row["gisco_id"]) else ""
+            if gid and gid in geo_name_map:
+                name_or, names_json = geo_name_map[gid]
+                return _name_for_year(name_or, names_json, year)
+            return row["name"]
+        election_df["name"] = election_df.apply(_resolve_name, axis=1)
+
+    # ── rename party columns to party_id keys ─────────────────────────
+    rename_map: dict[str, str] = {}
+    for col in election_df.columns:
+        if col.lower() in _META_COLS:
+            continue
+        pid = alias_lookup.get((rel_file, col))
+        if pid is None:
+            warnings.warn(
+                f"[party_id] No alias match for column '{col}' "
+                f"in {rel_file} — column kept as-is"
+            )
+            missing_party_map.append(pd.Series(
+                {"party_name": col, 
+                 "file": rel_file, 
+                 "country": rel_file.split("/")[0].split("_")[-1],
+                 "corr_party_name": ""}))
+        else:
+            rename_map[col] = pid
+
+    if rename_map:
+        election_df = election_df.rename(columns=rename_map)
+
+    # Sum any party columns that ended up with the same name after renaming
+    # (multiple source columns aliased to the same party_id).
+    party_positions = [
+        i for i, c in enumerate(election_df.columns) if c.lower() not in _META_COLS
+    ]
+    if len(party_positions) != len({election_df.columns[i] for i in party_positions}):
+        meta_part = election_df[
+            [c for c in election_df.columns if c.lower() in _META_COLS]
+        ].copy()
+        merged: dict[str, pd.Series] = {}
+        for i in party_positions:
+            col = election_df.columns[i]
+            vals = pd.to_numeric(election_df.iloc[:, i], errors="coerce").fillna(0)
+            merged[col] = merged[col] + vals if col in merged else vals
+        election_df = pd.concat(
+            [meta_part, pd.DataFrame(merged, index=election_df.index)], axis=1
+        )
+
+    return election_df
+
+
+# Territories whose results belong to another country's election: the Faroe
+# Islands and Greenland elect two members each of the Folketing.  Their units
+# (FO_…, GL_…) are appended to the Danish election of the same year.
+ATTACHED = {"DK": ("DK_FO", "DK_GL")}
+
+
 def _copy_election_files(
     src_folder: Path,
     dest_folder: Path,
@@ -291,94 +401,24 @@ def _copy_election_files(
 
         rel_file = f"{rel_prefix}/{csv_path.name}"  # alias-lookup key
 
-        try:
-            election_df = pd.read_csv(csv_path, low_memory=False, dtype={"gisco_id": str}, na_values=[''], keep_default_na=False)
-        except Exception as exc:
-            warnings.warn(f"Could not read {csv_path}: {exc}")
+        election_df = _prepare_election(csv_path, rel_file, year, alias_lookup,
+                                        geo_name_map, missing_party_map)
+        if election_df is None:
             continue
-
-        # ── report Bulgaria and Lithuania at municipal level, always ───────
-        # Both countries identify a municipality by a place inside it in some
-        # years — an obshtina by its administrative centre, a savivaldybė by
-        # one of its seniūnijos — and by the municipality itself in others.
-        # The published unit is the municipality in every case, so the
-        # identifier is mapped to it and any rows that then coincide are added
-        # together: Kaišiadorys was reported as town, surroundings and Žasliai
-        # separately, and is one municipality.
-        if "gisco_id" in election_df.columns:
-            election_df = _to_municipal_units(election_df, rel_file)
-
-        # ── normalise abroad host codes so they match the geo typology ─────
-        if "gisco_id" in election_df.columns:
-            orig = election_df["gisco_id"].astype(str)
-            norm = orig.map(_normalize_gisco_id)
-            changed = orig != norm
-            if changed.any():
-                election_df["gisco_id"] = norm
-            # Whether the duplication comes from normalising a host code or was
-            # in the source to begin with, the file must end up with one row per
-            # unit, so the parts are added together here rather than left for
-            # every reader to discover.
-            election_df = _merge_duplicate_units(election_df, rel_file)
-
-        # ── replace name column with canonical geo name for this year ──────
-        # A few sources ship no name column at all (Portugal from 2024,
-        # Denmark's earlier EP files).  Every distributed file is documented as
-        # having one, and the viewer reads unit labels straight from it, so
-        # those elections showed unnamed municipalities.  The typology knows
-        # the names, so the column is created rather than skipped.
-        if "gisco_id" in election_df.columns:
-            if "name" not in election_df.columns:
-                election_df.insert(
-                    election_df.columns.get_loc("gisco_id") + 1, "name", "")
-
-            def _resolve_name(row: pd.Series) -> str:
-                gid = str(row["gisco_id"]).strip() if pd.notna(row["gisco_id"]) else ""
-                if gid and gid in geo_name_map:
-                    name_or, names_json = geo_name_map[gid]
-                    return _name_for_year(name_or, names_json, year)
-                return row["name"]
-            election_df["name"] = election_df.apply(_resolve_name, axis=1)
-
-        # ── rename party columns to party_id keys ─────────────────────────
-        rename_map: dict[str, str] = {}
-        for col in election_df.columns:
-            if col.lower() in _META_COLS:
+        for extra in ATTACHED.get(rel_prefix, ()):
+            extra_path = OUTPUT / extra / csv_path.name
+            if not extra_path.exists():
                 continue
-            pid = alias_lookup.get((rel_file, col))
-            if pid is None:
-                warnings.warn(
-                    f"[party_id] No alias match for column '{col}' "
-                    f"in {rel_file} — column kept as-is"
-                )
-                missing_party_map.append(pd.Series(
-                    {"party_name": col, 
-                     "file": rel_file, 
-                     "country": rel_file.split("/")[0].split("_")[-1],
-                     "corr_party_name": ""}))
-            else:
-                rename_map[col] = pid
-
-        if rename_map:
-            election_df = election_df.rename(columns=rename_map)
-
-        # Sum any party columns that ended up with the same name after renaming
-        # (multiple source columns aliased to the same party_id).
-        party_positions = [
-            i for i, c in enumerate(election_df.columns) if c.lower() not in _META_COLS
-        ]
-        if len(party_positions) != len({election_df.columns[i] for i in party_positions}):
-            meta_part = election_df[
-                [c for c in election_df.columns if c.lower() in _META_COLS]
-            ].copy()
-            merged: dict[str, pd.Series] = {}
-            for i in party_positions:
-                col = election_df.columns[i]
-                vals = pd.to_numeric(election_df.iloc[:, i], errors="coerce").fillna(0)
-                merged[col] = merged[col] + vals if col in merged else vals
-            election_df = pd.concat(
-                [meta_part, pd.DataFrame(merged, index=election_df.index)], axis=1
-            )
+            extra_df = _prepare_election(extra_path, f"{extra}/{csv_path.name}", year,
+                                         alias_lookup, geo_name_map, missing_party_map)
+            if extra_df is not None:
+                election_df = pd.concat([election_df, extra_df], ignore_index=True)
+        # parties of one part only are zero, not missing, in the others
+        parties = [c for c in election_df.columns if c.lower() not in _META_COLS]
+        if ATTACHED.get(rel_prefix):
+            filled = election_df[parties].fillna(0)
+            election_df[parties] = filled.round().astype("int64") \
+                if all(pd.api.types.is_numeric_dtype(filled[c]) for c in parties) else filled
 
         election_df.to_csv(dest_folder / dest_name, index=False)
         count += 1
@@ -557,6 +597,10 @@ def write_data_files_reference(file_meta: dict[str, dict]) -> None:
 
     df["file_path"] = df["file_path"].apply(lambda p: transform_path(str(p)))
     df = df.drop(columns=["file_type"], errors="ignore")
+    df["distribution"] = ["external" if c in EXTERNAL else "included"
+                          for c in df["country_code"]]
+    df["licence"] = [EXTERNAL[c]["licence"] if c in EXTERNAL else "CC-BY-4.0"
+                     for c in df["country_code"]]
     df = df.sort_values(by=["election_date", "country_code"]).reset_index(drop=True)
     df.to_csv(DIST / "elections" / "index.csv", index=False)
     print(f"  data_files_reference.csv: {len(df)} rows")
@@ -743,7 +787,15 @@ def build_geo():
 
     for src, name in [(COMMUNES_SRC, "laus.csv"), (SPECIAL_SRC, "special.csv")]:
         if src.exists():
-            df = _dates_to_years(pd.read_csv(src, low_memory=False, na_values=[''], keep_default_na=False))
+            df = pd.read_csv(src, low_memory=False, na_values=[''], keep_default_na=False)
+            # The extra countries' units (outside Eurostat's LAU) are published
+            # in the same file, with the same columns.
+            if name == "laus.csv" and EXTRA_COMMUNES_SRC.exists():
+                extra = pd.read_csv(EXTRA_COMMUNES_SRC, low_memory=False, na_values=[''],
+                                    keep_default_na=False)
+                extra = extra[~extra["gisco_id"].str[:2].isin(["UK"])]   # UK results are by constituency
+                df = pd.concat([df, extra[df.columns.intersection(extra.columns)]], ignore_index=True)
+            df = _dates_to_years(df)
             df.to_csv(out_dir / name, index=False)
             print(f"  geo/{name}: {len(df)} rows")
         else:
@@ -896,6 +948,11 @@ For countries with multiple separate ballots in the same year
 (e.g. Germany: Erststimme / Zweitstimme), files are named
 `{YEAR}_1.csv`, `{YEAR}_2.csv`, etc.
 
+`elections/index.csv` lists every election file. Its `distribution` column is
+`included` for files in this record and `external` for the Jersey and Guernsey
+results, which are not part of it (see *Licence and attribution* below); its
+`licence` column gives the terms each file is under.
+
 ## Geographic files
 
 All geo files share the columns: `gisco_id`, `id`, `name_or`, `level`,
@@ -961,7 +1018,27 @@ The `eu_party` and `ep_group` fields are JSON-encoded lists; the
 `ep_groups.csv` columns: `group_id`, `name`, `abbreviation`, `start_year`,
 `end_year`, `eu_party`, `parties_key`, `colors`, `wikipedia_page`,
 `wikidata_id`.
+
+## Licence and attribution
+
+The dataset is released under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0). It contains data from official sources,
+listed with their required attributions in `ATTRIBUTION.md`. Credit it as:
+
+> @@ATTRIBUTION@@
+
+The Jersey and Guernsey results are not part of this record and are not
+covered by CC BY 4.0: their publishers restrict reuse to research and
+non-commercial purposes. They are kept in the GitHub repository
+(@@GITHUB@@), each folder with a `NOTICE.md`, and the Python and R libraries
+fetch them on demand.
+
+Map geometries are not part of the dataset. The libraries download them from
+Eurostat/GISCO on demand, under Eurostat's licence, which requires attribution
+and restricts commercial reuse.
 """
+    text = (text.replace("@@ATTRIBUTION@@", META["license"]["data"]["attribution"])
+                .replace("@@GITHUB@@", META["github"]))
     (DIST / "README.md").write_text(text, encoding="utf-8")
     print("  README.md written")
 

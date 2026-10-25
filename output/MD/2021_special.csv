@@ -1,0 +1,2 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+MD,2021.csv,30,MD_MDZZ99,Peste hotare,Peste hotare,special_abroad_aggregate

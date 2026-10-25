@@ -6,15 +6,15 @@ RO,2009.csv,3,ROZZAO,ANGOLA,ANGOLA,special_foreign_ro
 RO,2009.csv,4,ROZZSA,ARABIA SAUDITA,ARABIA SAUDITA,special_foreign_ro
 RO,2009.csv,5,ROZZAR,ARGENTINA,ARGENTINA,special_foreign_ro
 RO,2009.csv,6,ROZZAM,ARMENIA,ARMENIA,special_foreign_ro
-RO,2009.csv,7,ROZZAU,Australia,Australia,matched_foreign_country_name
+RO,2009.csv,7,RO_ROZZAU,Australia,Australia,matched_foreign_country_name
 RO,2009.csv,8,ROZZAT,AUSTRIA,AUSTRIA,special_foreign_ro
 RO,2009.csv,9,ROZZAZ,AZERBAIDJAN,AZERBAIDJAN,special_foreign_ro
 RO,2009.csv,10,ROZZBY,BELARUS,BELARUS,special_foreign_ro
 RO,2009.csv,11,ROZZBE,BELGIA,BELGIA,special_foreign_ro
-RO,2009.csv,12,ROZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
+RO,2009.csv,12,RO_ROZZBA,Bosnia and Herzegovina,Bosnia and Herzegovina,matched_foreign_country_name
 RO,2009.csv,13,ROZZBR,BRAZILIA,BRAZILIA,special_foreign_ro
 RO,2009.csv,14,ROZZBG,BULGARIA,BULGARIA,special_foreign_ro
-RO,2009.csv,15,ROZZCA,Canada,Canada,matched_foreign_country_name
+RO,2009.csv,15,RO_ROZZCA,Canada,Canada,matched_foreign_country_name
 RO,2009.csv,16,ROZZCZ,CEHIA,CEHIA,special_foreign_ro
 RO,2009.csv,17,ROZZCL,CHILE,CHILE,special_foreign_ro
 RO,2009.csv,18,ROZZCY,CIPRU,CIPRU,special_foreign_ro
@@ -23,8 +23,8 @@ RO,2009.csv,20,ROZZHR,CROATIA,CROATIA,special_foreign_ro
 RO,2009.csv,21,ROZZCU,CUBA,CUBA,special_foreign_ro
 RO,2009.csv,22,ROZZDK,DANEMARCA,DANEMARCA,special_foreign_ro
 RO,2009.csv,23,ROZZEG,EGIPT,EGIPT,special_foreign_ro
-RO,2009.csv,24,ROZZCH,Switzerland,Switzerland,matched_foreign_country_name
-RO,2009.csv,25,ROZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
+RO,2009.csv,24,RO_ROZZCH,Switzerland,Switzerland,matched_foreign_country_name
+RO,2009.csv,25,RO_ROZZAE,United Arab Emirates,United Arab Emirates,matched_foreign_country_name
 RO,2009.csv,26,ROZZET,ETIOPIA,ETIOPIA,special_foreign_ro
 RO,2009.csv,27,ROZZPH,FILIPINE,FILIPINE,special_foreign_ro
 RO,2009.csv,28,ROZZFI,FINLANDA,FINLANDA,special_foreign_ro
@@ -36,7 +36,7 @@ RO,2009.csv,33,ROZZIN,INDIA,INDIA,special_foreign_ro
 RO,2009.csv,34,ROZZID,INDONEZIA,INDONEZIA,special_foreign_ro
 RO,2009.csv,35,ROZZJO,IORDANIA,IORDANIA,special_foreign_ro
 RO,2009.csv,36,ROZZIQ,IRAK,IRAK,special_foreign_ro
-RO,2009.csv,37,ROZZIQ,IQ,IQ,matched_foreign_country_name
+RO,2009.csv,37,RO_ROZZIQ,IQ,IQ,matched_foreign_country_name
 RO,2009.csv,38,ROZZIR,IRAN,IRAN,special_foreign_ro
 RO,2009.csv,39,ROZZIE,IRLANDA,IRLANDA,special_foreign_ro
 RO,2009.csv,40,ROZZIL,ISRAEL,ISRAEL,special_foreign_ro
@@ -63,17 +63,17 @@ RO,2009.csv,60,ROZZPE,PERU,PERU,special_foreign_ro
 RO,2009.csv,61,ROZZPL,POLONIA,POLONIA,special_foreign_ro
 RO,2009.csv,62,ROZZPT,PORTUGALIA,PORTUGALIA,special_foreign_ro
 RO,2009.csv,63,ROZZQA,QATAR,QATAR,special_foreign_ro
-RO,2009.csv,64,ROZZKR,South Korea,South Korea,matched_foreign_country_name
+RO,2009.csv,64,RO_ROZZKR,South Korea,South Korea,matched_foreign_country_name
 RO,2009.csv,65,ROZZMD,REP. MOLDOVA,REP. MOLDOVA,special_foreign_ro
-RO,2009.csv,66,ROZZCN,China,China,matched_foreign_country_name
-RO,2009.csv,67,ROZZKP,North Korea,North Korea,matched_foreign_country_name
+RO,2009.csv,66,RO_ROZZCN,China,China,matched_foreign_country_name
+RO,2009.csv,67,RO_ROZZKP,North Korea,North Korea,matched_foreign_country_name
 RO,2009.csv,68,ROZZRU,RUSIA,RUSIA,special_foreign_ro
 RO,2009.csv,69,ROZZSM,SAN MARINO,SAN MARINO,special_foreign_ro
 RO,2009.csv,70,ROZZUS,S.U.A.,S.U.A.,special_foreign_ro
 RO,2009.csv,71,ROZZSN,SENEGAL,SENEGAL,special_foreign_ro
 RO,2009.csv,72,ROZZRS,SERBIA,SERBIA,special_foreign_ro
 RO,2009.csv,73,ROZZSG,SINGAPORE,SINGAPORE,special_foreign_ro
-RO,2009.csv,74,ROZZSY,Syria,Syria,matched_foreign_country_name
+RO,2009.csv,74,RO_ROZZSY,Syria,Syria,matched_foreign_country_name
 RO,2009.csv,75,ROZZSK,SLOVACIA,SLOVACIA,special_foreign_ro
 RO,2009.csv,76,ROZZSI,SLOVENIA,SLOVENIA,special_foreign_ro
 RO,2009.csv,77,ROZZES,SPANIA,SPANIA,special_foreign_ro
@@ -91,5 +91,5 @@ RO,2009.csv,88,ROZZUZ,UZBEKISTAN,UZBEKISTAN,special_foreign_ro
 RO,2009.csv,89,ROZZVE,VENEZUELA,VENEZUELA,special_foreign_ro
 RO,2009.csv,90,ROZZVN,VIETNAM,VIETNAM,special_foreign_ro
 RO,2009.csv,91,ROZZZW,ZIMBABWE,ZIMBABWE,special_foreign_ro
-RO,2009.csv,92,ROZZXK,Kosovo,Kosovo,matched_foreign_country_name
+RO,2009.csv,92,RO_ROZZXK,Kosovo,Kosovo,matched_foreign_country_name
 RO,2009.csv,93,ROZZAF,AFGANISTAN,AFGANISTAN,special_foreign_ro

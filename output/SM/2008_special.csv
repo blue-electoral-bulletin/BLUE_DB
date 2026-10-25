@@ -1,0 +1,4 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+SM,2008.csv,0,SM_00009,Estero (Serravalle),Estero (Serravalle),special_abroad_region
+SM,2008.csv,1,SM_00006,Estero (Borgo Maggiore),Estero (Borgo Maggiore),special_abroad_region
+SM,2008.csv,2,SM_00007,Estero (Città di San Marino),Estero (Città di San Marino),special_abroad_region

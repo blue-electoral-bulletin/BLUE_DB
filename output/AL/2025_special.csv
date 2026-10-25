@@ -1,0 +1,13 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+AL,2025.csv,61,AL_00001,Voters abroad (Berat),Voters abroad (Berat),special_abroad_region
+AL,2025.csv,62,AL_00009,Voters abroad (Dibër),Voters abroad (Dibër),special_abroad_region
+AL,2025.csv,63,AL_00002,Voters abroad (Durrës),Voters abroad (Durrës),special_abroad_region
+AL,2025.csv,64,AL_00003,Voters abroad (Elbasan),Voters abroad (Elbasan),special_abroad_region
+AL,2025.csv,65,AL_00004,Voters abroad (Fier),Voters abroad (Fier),special_abroad_region
+AL,2025.csv,66,AL_00005,Voters abroad (Gjirokastër),Voters abroad (Gjirokastër),special_abroad_region
+AL,2025.csv,67,AL_00006,Voters abroad (Korçë),Voters abroad (Korçë),special_abroad_region
+AL,2025.csv,68,AL_00007,Voters abroad (Kukës),Voters abroad (Kukës),special_abroad_region
+AL,2025.csv,69,AL_00008,Voters abroad (Lezhë),Voters abroad (Lezhë),special_abroad_region
+AL,2025.csv,70,AL_00010,Voters abroad (Shkodër),Voters abroad (Shkodër),special_abroad_region
+AL,2025.csv,71,AL_00011,Voters abroad (Tiranë),Voters abroad (Tiranë),special_abroad_region
+AL,2025.csv,72,AL_00012,Voters abroad (Vlorë),Voters abroad (Vlorë),special_abroad_region

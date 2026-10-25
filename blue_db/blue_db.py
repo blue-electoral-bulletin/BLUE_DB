@@ -34,8 +34,10 @@ from typing import Any
 import pandas as pd
 
 try:  # installed as a package
+    from . import _external
     from ._paths import dist_dir
 except ImportError:  # run straight from lib/ (sys.path hack, see demo/)
+    import _external  # type: ignore[no-redef]
     from _paths import dist_dir  # type: ignore[no-redef]
 
 # Columns in every election CSV that are not party vote columns
@@ -51,7 +53,8 @@ class BlueDB:
     # Construction
     # ------------------------------------------------------------------
 
-    def __init__(self, dist: str | Path | None = None) -> None:
+    def __init__(self, dist: str | Path | None = None,
+                 external: bool = True) -> None:
         """
         Parameters
         ----------
@@ -59,8 +62,14 @@ class BlueDB:
                described in :mod:`blue_db._paths` (``BLUE_DB_DIST``,
                ``BLUE_DB_HOME``, the source checkout, the working directory,
                or the per-user data directory).
+        external : include the Jersey and Guernsey results, which are not under
+               CC BY 4.0 (see :mod:`blue_db._external`).  When they are not in
+               *dist* they are downloaded from the GitHub repository on first
+               use, and their publishers' terms are shown once per session.
+               ``False`` leaves them out of :attr:`index` altogether.
         """
         self.dist = dist_dir(dist)
+        self.external = external
 
         self._index_df: pd.DataFrame | None = None
         self._parties_df: pd.DataFrame | None = None
@@ -96,6 +105,16 @@ class BlueDB:
                 lambda p: "european" if "/EU_" in str(p) else "national"
             )
             df["year"] = df["year"].astype("Int64")
+            # Indexes built before the column existed: derive it.
+            if "distribution" not in df.columns:
+                df["distribution"] = ["external" if c in _external.COUNTRIES
+                                      else "included" for c in df["country_code"]]
+            if "licence" not in df.columns:
+                df["licence"] = [_external.COUNTRIES[c]["licence"]
+                                 if c in _external.COUNTRIES else "CC-BY-4.0"
+                                 for c in df["country_code"]]
+            if not self.external:
+                df = df[df["distribution"] != "external"].reset_index(drop=True)
             self._index_df = df
         return self._index_df
 
@@ -103,7 +122,7 @@ class BlueDB:
     def parties(self) -> pd.DataFrame:
         """Party catalogue (parties.csv)."""
         if self._parties_df is None:
-            self._parties_df = pd.read_csv(self.dist / "parties" / "parties.csv")
+            self._parties_df = pd.read_csv(self.dist / "parties" / "parties.csv", keep_default_na=False, na_values=[""])
         return self._parties_df
 
     @property
@@ -117,7 +136,7 @@ class BlueDB:
     def eu_parties(self) -> pd.DataFrame:
         """EU party reference table."""
         if self._eu_parties_df is None:
-            self._eu_parties_df = pd.read_csv(self.dist / "parties" / "eu_parties.csv")
+            self._eu_parties_df = pd.read_csv(self.dist / "parties" / "eu_parties.csv", keep_default_na=False, na_values=[""])
         return self._eu_parties_df
 
     @property
@@ -161,6 +180,9 @@ class BlueDB:
         # Index NUTS nodes: gisco_id → (int_level, parent_gisco_id | None)
         nuts_level: dict[str, int] = {}
         nuts_parent: dict[str, str] = {}
+        # A parent may be given as a versioned row id ("HR02(2021)") rather
+        # than a NUTS code; translate it, or the chain stops there.
+        id_to_gid = dict(zip(self.nuts["id"].astype(str), self.nuts["gisco_id"].astype(str)))
 
         for _, row in self.nuts.iterrows():
             gid = str(row["gisco_id"])
@@ -171,7 +193,7 @@ class BlueDB:
             nuts_level[gid] = lvl
             p = row.get("parent")
             if pd.notna(p) and str(p):
-                nuts_parent[gid] = str(p)
+                nuts_parent[gid] = id_to_gid.get(str(p), str(p))
 
         # Recursive chain builder with memoisation
         def _nuts_chain(gid: str) -> dict[str, str]:
@@ -329,9 +351,15 @@ class BlueDB:
         float("nan"):    0,   # NaN → pure PR election, best
         "Zweitstimme":   1,   # DE second vote (list)
         "party":         1,   # HU party list
+        "national":      1,   # AD national list
         "Erststimme":    9,   # DE first vote (constituency)
         "single_member": 9,   # HU/FR single-member
+        "parish":        9,   # AD parish (district) seats
     }
+
+    # A contest is one (country, date, type): national and EP elections held
+    # on the same day (BE 2014, LU 2009, …) are two contests, not two ballots.
+    _CONTEST = ["country_code", "election_date", "election_type"]
 
     def _vote_type_rank(self, vt: Any) -> int:
         if pd.isna(vt) or vt == "":
@@ -354,6 +382,7 @@ class BlueDB:
         - Prefer ``vote_type=NaN`` (pure PR) over constituency votes.
         - Prefer ``Zweitstimme`` over ``Erststimme`` for Germany.
         - Prefer ``party`` over ``single_member`` for Hungary.
+        - Prefer ``national`` over ``parish`` for Andorra.
         - For two-round systems: prefer round 1 over round 2.
         """
         df = self.elections(countries=countries, election_type=election_type, years=years)
@@ -361,8 +390,8 @@ class BlueDB:
         df["_vt_rank"] = df["vote_type"].apply(self._vote_type_rank)
         # round 1 preferred; NaN rounds treated as best
         df["_round_rank"] = df["round"].apply(lambda r: 0 if pd.isna(r) else int(r))
-        df = df.sort_values(["_vt_rank", "_round_rank"])
-        df = df.groupby(["country_code", "election_date"], as_index=False).first()
+        df = df.sort_values(["_vt_rank", "_round_rank"], kind="stable")
+        df = df.groupby(self._CONTEST, as_index=False).head(1).sort_values(self._CONTEST)
         df.drop(columns=["_vt_rank", "_round_rank"], inplace=True)
         return df.reset_index(drop=True)
 
@@ -382,9 +411,10 @@ class BlueDB:
             df = df[df["round"].isna() | (df["round"] <= 1)]
         if pick_vote_type and "vote_type" in df.columns:
             df["_vt_rank"] = df["vote_type"].apply(self._vote_type_rank)
-            df = (df.sort_values("_vt_rank")
-                    .groupby(["country_code", "election_date"], as_index=False)
-                    .first()
+            df = (df.sort_values("_vt_rank", kind="stable")
+                    .groupby(self._CONTEST, as_index=False)
+                    .head(1)
+                    .sort_values(self._CONTEST)
                     .drop(columns="_vt_rank"))
         return df.reset_index(drop=True)
 
@@ -588,15 +618,17 @@ class BlueDB:
 
         if latest_per_country_year:
             elecs = (
-                elecs.sort_values("election_date")
+                elecs.sort_values("election_date", kind="stable")
                 .groupby(["country_code", "year"], as_index=False)
-                .last()
+                .tail(1)
+                .sort_values(["country_code", "year"], kind="stable")
             )
         elif latest_per_country:
             elecs = (
-                elecs.sort_values("election_date")
+                elecs.sort_values("election_date", kind="stable")
                 .groupby("country_code", as_index=False)
-                .last()
+                .tail(1)
+                .sort_values("country_code", kind="stable")
             )
 
         parts: list[pd.DataFrame] = []
@@ -620,7 +652,7 @@ class BlueDB:
         geo_level: str,
         aggregate_by: str | None,
     ) -> pd.DataFrame:
-        path = self.dist / row["file_path"]
+        path = self._election_file(row)
         df = pd.read_csv(path, dtype={"gisco_id": str}, low_memory=False)
 
         party_cols = [c for c in df.columns if c not in _META]
@@ -703,6 +735,14 @@ class BlueDB:
                  "geo_id", "geo_name", "geo_level"] + stat_cols
         rest = [c for c in df.columns if c not in front]
         return df[front + rest]
+
+    def _election_file(self, row: pd.Series) -> Path:
+        """Local path of an election file, fetching external ones if needed."""
+        path = self.dist / row["file_path"]
+        if row.get("distribution") != "external":
+            return path
+        _external.notice(str(row["country_code"]))
+        return path if path.exists() else _external.fetch(str(row["file_path"]))
 
     # ------------------------------------------------------------------
     # Convenience helpers

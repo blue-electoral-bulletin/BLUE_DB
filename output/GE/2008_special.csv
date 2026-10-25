@@ -1,0 +1,4 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+GE,2008.csv,74,GE_GEYY85,ლიახვი (Liakhvi),ლიახვი (Liakhvi),special_electoral_district
+GE,2008.csv,75,GE_GEYY86,ზემო აფხაზეთი (Upper Abkhazia),ზემო აფხაზეთი (Upper Abkhazia),special_electoral_district
+GE,2008.csv,76,GE_GEZZ99,Abroad,Abroad,special_abroad_aggregate

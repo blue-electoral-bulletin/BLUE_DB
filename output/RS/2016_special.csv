@@ -1,0 +1,41 @@
+country,file,row_index,municipality_code,municipality_name,canonical_name,reason
+RS,2016.csv,1,RS_RSZZZA,Јужноафричка Република,Јужноафричка Република,matched_foreign_country_name
+RS,2016.csv,13,RS_RSZZAT,Аустрија,Аустрија,matched_foreign_country_name
+RS,2016.csv,24,RS_RSZZBE,Белгија,Белгија,matched_foreign_country_name
+RS,2016.csv,31,RS_RSZZBA,Босна и Херцеговина,Босна и Херцеговина,matched_foreign_country_name
+RS,2016.csv,38,RS_RSZZGB,Велика Британија,Велика Британија,matched_foreign_country_name
+RS,2016.csv,41,RS_RSKM35,Витина (Косово),Витина (Косово),special_kosovo_municipality
+RS,2016.csv,51,RS_RSKM36,Вучитрн (Косово),Вучитрн (Косово),special_kosovo_municipality
+RS,2016.csv,54,RS_RSKM02,Гора (Косово),Гора (Косово),special_kosovo_municipality
+RS,2016.csv,57,RS_RSKM07,Гњилане (Косово),Гњилане (Косово),special_kosovo_municipality
+RS,2016.csv,66,RS_RSYY99,Заводи за извршење заводских санкција,Заводи за извршење заводских санкција,special_outside_municipality
+RS,2016.csv,69,RS_RSKM38,Звечан (Косово),Звечан (Косово),special_kosovo_municipality
+RS,2016.csv,72,RS_RSKM37,Зубин Поток (Косово),Зубин Поток (Косово),special_kosovo_municipality
+RS,2016.csv,76,RS_RSZZIT,Италија,Италија,matched_foreign_country_name
+RS,2016.csv,77,RS_RSZZCA,Канада,Канада,matched_foreign_country_name
+RS,2016.csv,84,RS_RSKM05,Косово Поље (Косово),Косово Поље (Косово),special_kosovo_municipality
+RS,2016.csv,85,RS_RSKM12,Косовска Каменица (Косово),Косовска Каменица (Косово),special_kosovo_municipality
+RS,2016.csv,86,RS_RSKM20,Косовска Митровица (Косово),Косовска Митровица (Косово),special_kosovo_municipality
+RS,2016.csv,102,RS_RSKM16,Лепосавић (Косово),Лепосавић (Косово),special_kosovo_municipality
+RS,2016.csv,104,RS_RSKM17,Липљан (Косово),Липљан (Косово),special_kosovo_municipality
+RS,2016.csv,107,RS_RSZZMK,Македонија,Македонија,matched_foreign_country_name
+RS,2016.csv,129,RS_RSKM22,Ново Брдо (Косово),Ново Брдо (Косово),special_kosovo_municipality
+RS,2016.csv,130,RS_RSKM23,Обилић (Косово),Обилић (Косово),special_kosovo_municipality
+RS,2016.csv,133,RS_RSKM29,Ораховац (Косово),Ораховац (Косово),special_kosovo_municipality
+RS,2016.csv,140,RS_RSKM25,Пећ (Косово),Пећ (Косово),special_kosovo_municipality
+RS,2016.csv,148,RS_RSKM27,Приштина (Косово),Приштина (Косово),special_kosovo_municipality
+RS,2016.csv,157,RS_RSZZRO,Румунија,Румунија,matched_foreign_country_name
+RS,2016.csv,158,RS_RSZZRU,Руска Федерација,Руска Федерација,matched_foreign_country_name
+RS,2016.csv,159,RS_RSZZDE,Савезна Република Немачка,Савезна Република Немачка,matched_foreign_country_name
+RS,2016.csv,165,RS_RSZZSK,Словачка Република,Словачка Република,matched_foreign_country_name
+RS,2016.csv,166,RS_RSZZSI,Словенија,Словенија,matched_foreign_country_name
+RS,2016.csv,180,RS_RSZZUS,Сједињене Америчке Државе,Сједињене Америчке Државе,matched_foreign_country_name
+RS,2016.csv,187,RS_RSZZTR,Турска,Турска,matched_foreign_country_name
+RS,2016.csv,191,RS_RSZZAE,Уједињени Арапски Емирати,Уједињени Арапски Емирати,matched_foreign_country_name
+RS,2016.csv,192,RS_RSZZFR,Француска,Француска,matched_foreign_country_name
+RS,2016.csv,193,RS_RSZZNL,Холандија,Холандија,matched_foreign_country_name
+RS,2016.csv,194,RS_RSZZHR,Хрватска,Хрватска,matched_foreign_country_name
+RS,2016.csv,195,RS_RSZZME,Црна Гора,Црна Гора,matched_foreign_country_name
+RS,2016.csv,199,RS_RSZZCZ,Чешка Република,Чешка Република,matched_foreign_country_name
+RS,2016.csv,203,RS_RSZZCH,Швајцарска,Швајцарска,matched_foreign_country_name
+RS,2016.csv,205,RS_RSKM32,Штрпце (Косово),Штрпце (Косово),special_kosovo_municipality

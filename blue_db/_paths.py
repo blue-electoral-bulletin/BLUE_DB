@@ -3,8 +3,8 @@ _paths.py
 =========
 Location of the BLUE_DB data directories for an installed copy of the library.
 
-The published distribution (``dist/``, ~150 MB) and the constituency shapefiles
-(``maps/``, ~420 MB) are far too large to ship inside a wheel, so the installed
+The published distribution (``dist/``) and the constituency shapefiles
+(``maps/``) are far too large to ship inside a wheel, so the installed
 package locates them at run time.  Search order, first hit wins:
 
 1. an explicit path passed to :class:`BlueDB` / :class:`BlueGeo`;
@@ -28,6 +28,7 @@ __all__ = [
     "BlueDataNotFound",
     "cache_dir",
     "dist_dir",
+    "external_dir",
     "maps_dir",
     "user_data_dir",
 ]
@@ -169,3 +170,15 @@ def cache_dir(explicit: str | Path | None = None) -> Path:
     if (_CHECKOUT / ".cache" / "geo").is_dir():
         return _CHECKOUT / ".cache" / "geo"
     return _user_cache_dir() / "geo"
+
+
+def external_dir(explicit: str | Path | None = None) -> Path:
+    """Resolve the download cache for the Jersey and Guernsey results.
+
+    These are not part of the Zenodo record and are fetched from the GitHub
+    repository on demand (see :mod:`blue_db._external`); they are cached next
+    to the GISCO tiles, in a sibling ``external/`` folder.
+    """
+    if explicit is not None:
+        return Path(explicit).expanduser()
+    return cache_dir().parent / "external"
